@@ -17,6 +17,7 @@ permissions:
   - -essentials.protect.damage.fall
   - ch.alias.carryplayer
   - ch.alias.dropplayer
+  - powers.onepunch
 powers:
 - /effects
 - /items
@@ -24,5 +25,6 @@ powers:
 - /disguise player <player>
 - /carryplayer <player>
 - /dropplayer
+- Anything you attack, dies
 speech: I am death
 trail: portal
