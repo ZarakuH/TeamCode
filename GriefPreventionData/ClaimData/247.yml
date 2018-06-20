@@ -14,6 +14,7 @@ Builders:
 Containers: []
 Accessors:
 - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
-Managers: []
+Managers:
+- 4082517f-c021-411b-b302-ccb2d61c84c1
 Parent Claim ID: -1
 inheritNothing: false

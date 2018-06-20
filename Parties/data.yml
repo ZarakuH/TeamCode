@@ -194,12 +194,6 @@ players:
       timestamp: 1522405539
       name: Guitar_Hero
     rank: 5
-  fbfcb190-4cdb-400e-a8aa-fc30cc822caf:
-    party: TheJL
-    name:
-      timestamp: 1522405562
-      name: simon2008
-    rank: 5
   ead1c0c7-8608-446c-bf5e-05b64c9fa236:
     rank: 20
     party: meme
@@ -362,12 +356,6 @@ players:
     name:
       name: Aang__
       timestamp: 1526717886
-  0e88e52e-2945-464e-b4ba-e1e162c6786d:
-    rank: 20
-    name:
-      timestamp: 1526770175
-      name: Miner_Myles
-    party: Myles
   cb1a7a9b-e719-42c4-a35a-ad0b081488ec:
     name:
       name: DodiThunder
@@ -380,12 +368,12 @@ players:
       timestamp: 1526918587
     party: BloodSkull
     rank: 5
-  e72c4081-efce-4940-819e-94bdb23b72e6:
-    rank: 5
+  0e88e52e-2945-464e-b4ba-e1e162c6786d:
+    rank: 20
     name:
-      name: Luxurielle
-      timestamp: 1527207549
-    party: Myles
+      timestamp: 1529014613
+      name: Miner_Myles
+    party: MinerMyles
 parties:
   TheTitans:
     members:
@@ -453,7 +441,6 @@ parties:
     - d1fbaab7-bde3-4405-8282-9fc15d90209d
     - 3e36ae61-810a-44bc-8041-fd70a20b92aa
     - b6fcbf5e-dd83-4d9e-93f7-0b1ff3465857
-    - fbfcb190-4cdb-400e-a8aa-fc30cc822caf
     - fc3bf70e-2dda-441d-9c19-8d682a2b0183
     leader: d1fbaab7-bde3-4405-8282-9fc15d90209d
     desc: Justice League
@@ -520,13 +507,12 @@ parties:
     leader: 9b575e7a-e514-458f-910e-992fc9359bc0
     members:
     - 9b575e7a-e514-458f-910e-992fc9359bc0
-  Myles:
-    members:
-    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
-    - e72c4081-efce-4940-819e-94bdb23b72e6
-    leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
   BloodSkull:
     members:
     - cb1a7a9b-e719-42c4-a35a-ad0b081488ec
     - 8debd337-17db-4543-91ed-c4d9068cd2f6
     leader: cb1a7a9b-e719-42c4-a35a-ad0b081488ec
+  MinerMyles:
+    leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    members:
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
