@@ -11471,7 +11471,8 @@ users:
     permissions:
     - is.police
   e6de8cf0-af45-44e4-882f-d98446f4b31b:
-    group: []
+    group:
+    - mortal
     options:
       name: Thosification
     permissions: []
