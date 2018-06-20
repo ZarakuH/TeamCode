@@ -14,9 +14,9 @@ permissions:
 powers:
 - /effects
 - /items
-- /run 0-9
+- /run 0-8
 - /haste 0-3
-run: 9
+run: 8
 speech: I'm Going For Second!
 trail: [
   ]
