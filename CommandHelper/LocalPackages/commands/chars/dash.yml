@@ -1,0 +1,22 @@
+
+class: dash
+costumes:
+- chatcolor: '&c'
+  name: §4D§0a§4sh
+  sig: iDn479brRvCNbAst3A49/fS3kCLE95iVZdQJNYtnXDO+fbbEy+7Z8GnGgsBmmjb/gzVEN6f6Qisb6kUoaZX72syvGSjxwwwPaxLEkUiT7vXoXm6pCI+7pHXuw6KlqSU02QTswq5y28af4S3XxaCwFLp7T7ZJKu3iq9gcmrK3UT5P/Xi0skhdwfuUHdlBZms2is/4vSP5iHEBwKUSSo3EtLSGUis+KNMPp9JXiJbRGqrHUF6DFhtcawinrLvO38W4Q5cUvRj9czDlI54k5XdziGnx/CdyFoO4EKbC3KZ0wQuqsS4oeWfXXXf6XkW33fsxSIokcNjjcQhocU3PxSG9pcEy5PdGiRC9eWL3jjq+HtuBv0XSIXZpuoqWF7445+Wn1tUxw3+zLqejqiHVHVz26+ah6bH45+/kz4YqbAuUi6Ah1Lhzqr58caAWLireVbebTbxR8rbGP4WwBOqMRmcr/NyT6KLqNVa+h/3Z54anyOShJ0ahbzo04c9Tzssu91h64DlFVRTM0m9kPgGGVT3zCshsFEcyc0tj/jMhnHp0CVn7kyIUw21SktVaWVt2r+QDGez6q/sR2e4hmgrToTOlqVWEplwOHJQfhxwYeRzzt4sorqBJR29xI4E+pIeA59Yow5zRosb4v+ofJ+DceFzqrDXjU8CV8A6Y3GK7seJlka0=
+  val: eyJ0aW1lc3RhbXAiOjE1MjkzNTQ4MDAyOTgsInByb2ZpbGVJZCI6ImViZWI2ZGE3YmM1NzQxMWNhMzVhZjQ4ZjYyODRjZmYwIiwicHJvZmlsZU5hbWUiOiJjb29sX2xpa2VfaWNlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YjdjMzNiYzg3NmQxOTAxMjBkMWNiOTNkNjM5YjdmMmQwY2IwMGZmMjE2NThiZDY3ZjA5NTIyZWE3OTlmY2Q5In19fQ==
+effects:
+haste: 4
+items:
+- /give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
+permissions:
+  superherocity:
+powers:
+- /effects
+- /items
+- /run 0-8
+- /haste 0-3
+run: 8
+speech: I'm Going For Second!
+trail: [
+  ]
