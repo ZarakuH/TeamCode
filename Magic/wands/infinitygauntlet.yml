@@ -36,7 +36,7 @@ infinitygauntlet:
   - realitystoneblast
   - soulstonetrap
   - soulstoneblast
-  bound: false
+  bound: true
   keep: false
   invulnerable: true
   immortal: true
