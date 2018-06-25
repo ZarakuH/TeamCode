@@ -18,10 +18,8 @@ powers:
 - /effects
 - /items
 - /jump 0-3
-- /run 0-1
 - /carryplayer <player>
 - /dropplayer
-run: 1
 speech: 'Did you get a sitter?'
 trail: [
   ]
