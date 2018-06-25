@@ -1,0 +1,28 @@
+class: mr_incredibe
+costumes:
+- chatcolor: '&c'
+  name: §4Mr. I§0n§4cred§0i§4ble
+  sig: kfDTJcLeg0FsnFhns8FA73vITibQlUOBzHXzLlddBsS1KKgL9LVa/bNqlE1g/3bQji1CDUXfFFZTQWyx+oknSddVNV9wsTFCmTGxgOqsqZ2/svrmAeLJMHtDhFPq/apbtV0ZEjBktR01Z/BckMSth+TEU/FlNQyGV0y3PLdilA6TDzT9FJDiI8l0sjvAEPBFrHtwJuLyp6KOblxpjeiptfVNS2BAgq9oTk57lHO11+UgF2G65j48OfJeW+116XGgpjMhFXrbo/jmSlFdE/+jqNiscyy414lqZPeptPkpfB2JJ3sAP0unuBaljdyaX7IQjDPS9XRaLnH7tdMMx0kSvIY/QQvAluzgNVGhtxTCthGyJhFK8/31wBZG8xa9NBKwL0zxxU8mV0j9c2ukMNjhRHYiyJqFNYi/90+B5mZjbVvDBRVoc2fCeag4adTXvRHlIDlYFAxoTGWLlseabg/G0NWmoXmcq46yBjp20kJWm3Yb3WZIIKN5Hv1653vE/2KhCETnObWapadhBdA0buMlfWeivKdHaUOqqKR46kvFtqUoG8YLphmbOhtexx1+5WXAJ0GUi6amkAaRfpmg73CV75YEYJGtEme3NoyZM+UkmuGfEVFwMPIgGIa3leX4sPmOCtPL+JOjsQr151A+jPF0YHp/ygr5VzhLGccRBxDR7Do=
+  val: eyJ0aW1lc3RhbXAiOjE1Mjk0NTA3MzA5MzMsInByb2ZpbGVJZCI6ImViZWI2ZGE3YmM1NzQxMWNhMzVhZjQ4ZjYyODRjZmYwIiwicHJvZmlsZU5hbWUiOiJjb29sX2xpa2VfaWNlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTQ5ZmE5NjQzNTAzMTExN2I4MGQzNWZjOWNhYjY2NzlkNzk4NzI2ZTZlMzU4MGVlYjBkOWI3OTM1NmZmN2RmIn19fQ==
+effects:
+- /effect <plr> 5 9999 20 true
+haste: 3
+items:
+jump: 3
+maxHearts: 20
+permissions:
+  superherocity:
+  - ch.alias.carryplayer
+  - ch.alias.dropplayer
+powers:
+- /effects
+- /items
+- /jump 0-3
+- /run 0-1
+- /haste 0-3
+- /carryplayer <player>
+- /dropplayer
+run: 1
+speech: I'll be fine with the kids honey!
+trail: [
+  ]
