@@ -1441,6 +1441,14 @@ groups:
     - ch.alias.timeout
     - essentials.warps.police
     - essentials.warps.jail
+  infinity:
+    inheritance:
+    - commonherotraits
+    options:
+      prefix: '&4&lI&6&ln&e&lf&2&li&b&ln&d&li&9&lt&c&ly&a&l/'
+      suffix: ''
+    permissions:
+    - magic.create.infinitygauntlet
   judge:
     inheritance:
     - commonherotraits
