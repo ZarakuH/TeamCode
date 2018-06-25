@@ -13,8 +13,8 @@ players:
       timestamp: 1519635597
   8cb79cd3-1e48-4087-9137-a37e164f1494:
     name:
-      name: GenjiShimada_
-      timestamp: 1524515649
+      name: TheBlueWolf_
+      timestamp: 1529720042
     party: Overwatch
     rank: 20
   72fe3fc6-3df2-49ee-b836-38459deae8cd:
@@ -47,12 +47,6 @@ players:
       timestamp: 1520413405
     party: TheTitans
     rank: 5
-  e6de8cf0-af45-44e4-882f-d98446f4b31b:
-    rank: 20
-    party: oof
-    name:
-      timestamp: 1522179696
-      name: Thosification
   a15f051c-1473-4f90-88f3-bad6e6b9dce2:
     party: TheTitans
     name:
@@ -61,8 +55,8 @@ players:
     rank: 10
   b06401f9-844e-4fb8-80e3-55fa795b4eb3:
     name:
-      name: Bethlagon
-      timestamp: 1521840095
+      name: markerthemark
+      timestamp: 1529951297
     rank: 20
     party: JSA
   e17d8de4-9fa8-474a-a6c1-54d28c9a5591:
@@ -146,18 +140,6 @@ players:
       timestamp: 1522010093
       name: BBonless
     party: LostHEROES
-  fbb8c072-4c4b-49c8-948b-26e8ad73099e:
-    rank: 20
-    name:
-      timestamp: 1522023785
-      name: Eiilonwy
-    party: omfg
-  28556dea-667d-409f-b2ff-fb4177a20ff2:
-    name:
-      name: Marielia
-      timestamp: 1522023798
-    rank: 5
-    party: omfg
   748c7d68-79e5-4194-9bc8-e446d948ee8a:
     party: LostHEROES
     name:
@@ -344,12 +326,6 @@ players:
     name:
       name: AntiSepticEye1
       timestamp: 1526176838
-  cc41c2d9-5ef0-4a02-953d-cfb7c0b155be:
-    rank: 5
-    name:
-      timestamp: 1526176865
-      name: darkstumper
-    party: mix
   9b575e7a-e514-458f-910e-992fc9359bc0:
     party: TheSupers
     rank: 20
@@ -371,9 +347,33 @@ players:
   0e88e52e-2945-464e-b4ba-e1e162c6786d:
     rank: 20
     name:
-      timestamp: 1529014613
+      timestamp: 1529593198
       name: Miner_Myles
-    party: MinerMyles
+    party: Miner
+  ebeb6da7-bc57-411c-a35a-f48f6284cff0:
+    name:
+      name: cool_like_ice
+      timestamp: 1529593209
+    party: Miner
+    rank: 5
+  28556dea-667d-409f-b2ff-fb4177a20ff2:
+    name:
+      name: Marielia
+      timestamp: 1529697108
+    rank: 20
+    party: leor
+  fbb8c072-4c4b-49c8-948b-26e8ad73099e:
+    rank: 5
+    name:
+      timestamp: 1529697118
+      name: Eiilonwy
+    party: leor
+  dbb47887-bfbd-40e6-bfec-3d1053ea3aff:
+    name:
+      name: AlohqLulu
+      timestamp: 1529697121
+    party: leor
+    rank: 5
 parties:
   TheTitans:
     members:
@@ -397,10 +397,6 @@ parties:
     members:
     - 8cb79cd3-1e48-4087-9137-a37e164f1494
     leader: 8cb79cd3-1e48-4087-9137-a37e164f1494
-  oof:
-    members:
-    - e6de8cf0-af45-44e4-882f-d98446f4b31b
-    leader: e6de8cf0-af45-44e4-882f-d98446f4b31b
   JSA:
     leader: b06401f9-844e-4fb8-80e3-55fa795b4eb3
     members:
@@ -452,11 +448,6 @@ parties:
     - 748c7d68-79e5-4194-9bc8-e446d948ee8a
     leader: d1ad3f3c-2a47-4921-81bb-68a9f2862c34
     motd: ThatCraftLifeMCU
-  omfg:
-    members:
-    - fbb8c072-4c4b-49c8-948b-26e8ad73099e
-    - 28556dea-667d-409f-b2ff-fb4177a20ff2
-    leader: fbb8c072-4c4b-49c8-948b-26e8ad73099e
   TheFlash:
     leader: 575e16ba-7021-4677-82b3-f97f15e9ef3e
     members:
@@ -501,7 +492,6 @@ parties:
   mix:
     members:
     - 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
-    - cc41c2d9-5ef0-4a02-953d-cfb7c0b155be
     leader: 433a0d8e-aa8a-42ae-bc54-f4456bf366c0
   TheSupers:
     leader: 9b575e7a-e514-458f-910e-992fc9359bc0
@@ -512,7 +502,14 @@ parties:
     - cb1a7a9b-e719-42c4-a35a-ad0b081488ec
     - 8debd337-17db-4543-91ed-c4d9068cd2f6
     leader: cb1a7a9b-e719-42c4-a35a-ad0b081488ec
-  MinerMyles:
+  Miner:
     leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
     members:
     - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - ebeb6da7-bc57-411c-a35a-f48f6284cff0
+  leor:
+    members:
+    - 28556dea-667d-409f-b2ff-fb4177a20ff2
+    - fbb8c072-4c4b-49c8-948b-26e8ad73099e
+    - dbb47887-bfbd-40e6-bfec-3d1053ea3aff
+    leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
