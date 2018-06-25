@@ -53,6 +53,11 @@ proc('_checkJobs',@player,
     //    msg(color('RED').'That player is already a Co-Owner')
     //    return(false)
     //}
+    
+    //if(has_permission(@player,'is.infinity')){
+    //    msg(color('RED').'That player is already the Infinity Champion')
+    //    return(false)
+    //}   
 
     return(true)
 )
