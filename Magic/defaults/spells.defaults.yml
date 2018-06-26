@@ -27330,6 +27330,66 @@ symbiotestretch:
     cooldown: 1000
     hitbox: true
     damage: 10
+sonicwave:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  category: combat
+  worth: 150
+  earns_sp: 7
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+      - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.sonic
+      location: origin
+      color_override: color
+      effectlib:
+        class: ConeEffect
+        iterations: 45
+        particle: redstone
+        color: aaaaaa
+        lengthGrow: 0.1
+        radiusGrow: 0.05
+        updateLocations: false
+        updateDirections: false
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: fireworks_spark
+      particle_count: 10
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: magic.zap
+      sound_volume: 0.3
+      particle_data: 0.1
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 24
+    hitbox: true
+    target_type: Damageable
+    damage: 6
+    target_breakables: 1
+    duration: 5000
+    effect_confusion: 5
+    cooldown: 7000
+    reorient: false
+    destructible: solid
+    destructible_durability: 50
+    break_durability: 2
+    undo: 10000
+  costs:
+    mana: 15
 forcefield:
   icon: diamond_axe:23
   icon_disabled: diamond_hoe:23
@@ -27473,6 +27533,81 @@ tekcajtiarts:
     instant_block_effects: true
   costs:
     mana: 70
+lucarioball:
+  icon: diamond_axe:170
+  icon_disabled: diamond_hoe:170
+  icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
+  example_thumbnail: https://thumbs.gfycat.com/IllCloudyAfricancivet-size_restricted.gif
+  example_link: https://thumbs.gfycat.com/IllCloudyAfricancivet
+  category: master
+  tags: noduel
+  worth: 5000
+  earns_sp: 13
+  upgrade_required_path: master
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Delay
+    - class: PlayEffects
+      effect: launch
+      ignore_result: true
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.electrify
+      sound_volume: 5
+      sound_pitch: -0.25
+      location: origin
+      effectlib:
+        class: AtomEffect
+        particle_nucleus: spell_mob
+        colorNucleus: 00ddff
+        particle_orbital: redstone
+        colorOrbital: 00ddff
+        iterations: 16
+        radius: 2
+    launch:
+    - class: EffectSingle
+      custom_sound: magic.zap_big
+      sound_volume: 1
+      location: origin
+    tick:
+    - location: target
+      particle: smoke_large
+      particle_count: 20
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    projectile:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: 00ffff
+        iterations: 100
+        radius: 0.3
+    hit:
+    - class: EffectSingle
+      location: target
+      color: 00eeff
+      firework: ball_large
+  parameters:
+    target: none
+    target_type: Damageable
+    cooldown: 7000
+    cooldown_mage: 10000
+    target_breakables: 5
+    bypass_backfire: true
+    damage: 20
+    hitbox_size: 1
+    velocity: 40
+    interval: 250
+    warmup: 3000
+  costs:
+    mana: 150
 electricfloor:
   icon: diamond_axe:160
   icon_disabled: diamond_hoe:160
