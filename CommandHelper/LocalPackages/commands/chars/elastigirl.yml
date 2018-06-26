@@ -1,0 +1,25 @@
+class: elastigirl
+costumes:
+- chatcolor: '&4'
+  name: §4E§0l§4astig§0i§4rl
+  sig: Nu1x4p8qOWx/hsp1dK+ivXFAw8TN1PoAdzymbVLBM6WYzTxvMBlLPO/+b3PtKN6YnHeAhf77C6Mw+TDIiNKDjMq1kzMjaylr4RZNljaYFw32UlwQwpEO79WdY9/hQnEIKg60UfLS4e1uWoV7XKyZxj23MkuIFuV8emJYngNQrxC59QPdKACeFs7rvSWbaDfx3UZpoEjY9sGZTaNZldArzi9kZANPyyIU8uNp+irdLmJ5OvqxNUOFpwF0OTWkdrVv1Awkw2+FnfIKJlXFVLmGxgAOte7foUR81iRawiuYhXylQuYdDVlFUXEOXbYoGPMdUqHbwfaJI2Lt/6Xq5yrabvZXcwhXnG/HWn9zw1cTUHsqIOsVVWmYPETC2REAFIIQFL0I0GHef7TdL2CoT6Eh6jlkdEmq195HEmwQkIXpYS5lNHntfakKXGiuBX4gyimOK0656SM5VzwDFGthBquk586t0XZKUs0fLtD5rdKvxv8v9KgQB9iDyVAOAppReaFrhmgM4BVmq6ks3fVwp7FXOKFmg+p9VO/VayjqEy5yQ0akiqNKX1HpwQEmkDpcTekZw78NHFU3NFBS5EUMvbLe866QNKq9PAkGVCWXFIOePf/8wg/cxAZcKmXCIsqO7XlAt2QiBgQvLuhDYcvVXADJV00VQt0WQlR+T+8TdMCyZXQ=
+  val: http://eyJ0aW1lc3RhbXAiOjE1MjkzNjYyMDg3MTEsInByb2ZpbGVJZCI6ImViZWI2ZGE3YmM1NzQxMWNhMzVhZjQ4ZjYyODRjZmYwIiwicHJvZmlsZU5hbWUiOiJjb29sX2xpa2VfaWNlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kOWUyYjNhM2E4MTJjYmE2Mjg5NTM1MzNiZTAzZGY3Y2U2YzY5ZTYxYTk5NmVjMjI4ZTUxYmQ0MjhmNjQ2YjcwIn19fQ==
+effects:
+items:
+- /give <plr> minecraft:fishing_rod 1 34:10 name:&1Ar&0m_&1St&0re&1tch
+- /give <plr> minecraft:elytra 1 34:10 name:&1Glide
+- /mgive <plr> longpunchwand
+jump: 3
+permissions:
+  superherocity:
+  - ch.alias.carryplayer
+  - ch.alias.dropplayer
+powers:
+- /effects
+- /items
+- /jump 0-3
+- /carryplayer <player>
+- /dropplayer
+speech: 'Did you get a sitter?'
+trail: [
+  ]
