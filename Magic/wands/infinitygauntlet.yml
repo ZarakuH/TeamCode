@@ -14,6 +14,10 @@ infinitygauntlet:
     realitystoneblast: 28
     soulstonetrap: 29
     soulstoneblast: 30
+    meteorshower: 31
+    telekinesis: 32
+    time: 33
+    bubbleshield: 34
   active_spell: freezetime
   spell_levels: {}
   mana: 300.0
@@ -36,6 +40,9 @@ infinitygauntlet:
   - realitystoneblast
   - soulstonetrap
   - soulstoneblast
+  - meteorshower
+  - time
+  - bubbleshield
   bound: true
   keep: false
   invulnerable: true
