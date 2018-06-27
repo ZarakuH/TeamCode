@@ -8,7 +8,6 @@ effects:
 - /effect <plr> 5 9999 20 true
 - /effect <plr> 11 9999 4 true
 items:
-- /give <plr> minecraft:iron_hoe 1 16:255 34:255 name:&5De&dath's_&5S&dcy&5th&de
 permissions:
   superherocity:
   - libsdisguises.disguise
