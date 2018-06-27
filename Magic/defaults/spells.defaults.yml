@@ -15237,8 +15237,8 @@ throwsword:
   costs:
     mana: 30
 time:
-  icon: diamond_axe:86
-  icon_disabled: diamond_hoe:86
+  icon: ink_sack:10
+  icon_disabled: ink_sack:10
   hidden: true
   icon_url: http://textures.minecraft.net/texture/1b5c8c12faec6646fd9cd8c610f138f51fbaaee1182baff8fa4f32d683b25eb
   category: master
@@ -23637,8 +23637,8 @@ waterscooter:
   active_costs:
     mana: 10
 telekinesis:
-  icon: diamond_axe:181
-  icon_disabled: diamond_hoe:181
+  icon: ink_sack:12
+  icon_disabled: ink_sack:12
   icon_url: http://textures.minecraft.net/texture/111de372969a39e34c3af5e6d2392e7876a1f13cf7a37d7513ad60c168bfd7b9
   category: utility
   worth: 150
@@ -24569,8 +24569,8 @@ destroyerblast:
   costs:
     mana: 10
 meteorshower:
-  icon: diamond_axe:56
-  icon_disabled: diamond_hoe:56
+  icon: ink_sack:12
+  icon_disabled: ink_sack:12
   icon_url: http://textures.minecraft.net/texture/f554672caf6e5335954614fb185acb15148e71423d97d0d5ff6023c247d5eb21
   category: combat
   worth: 1500
@@ -25074,6 +25074,67 @@ rhinodash:
     delay: 100
   costs:
     mana: 40
+bubbleshield:
+  icon: ink_sack:12
+  icon_disabled: ink_sack:12
+  icon_url: http://textures.minecraft.net/texture/3dbb78853b526f9b712b4e431fb332eae0e6cd3dea9a610e9ecf54c31f7c6d
+  alias: dome
+  category: combat
+  worth: 150
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Sphere
+        actions:
+        - class: ModifyBlock
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.shield
+    tick:
+    - location: target
+      particle: block_crack
+      particle_count: 20
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    hit:
+    - location: target
+      effectlib:
+        class: SphereEffect
+        particle: block_crack
+        particle_count: 15
+        particles: 20
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+        radius: $radius
+        duration: 2000
+  parameters:
+    target: self
+    allow_max_range: false
+    velocity: 50
+    target_type: LivingEntity
+    range: 32
+    thickness: 1
+    radius: 3
+    type: sphere
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    undo: 7000
+    brush: stained_glass:3
+    brushcolor: true
+    cooldown: 5000
+    breakable: 4
+    reflect_chance: 0.25
+    miss_effects: hit
+    miss: actions
+mana: 75
 darkpound:
   icon: diamond_axe:178
   icon_disabled: diamond_hoe:178

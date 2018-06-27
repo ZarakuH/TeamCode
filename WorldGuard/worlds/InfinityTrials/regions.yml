@@ -55,7 +55,7 @@ regions:
         min: {x: 2081.0, y: 3.0, z: -1045.0}
         max: {x: 2118.0, y: 27.0, z: -1008.0}
         members: {}
-        flags: {creeper-explosion: deny, mob-spawning: deny}
+        flags: {creeper-explosion: deny, use: allow, mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0
