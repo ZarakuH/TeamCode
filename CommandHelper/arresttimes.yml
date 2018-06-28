@@ -24,7 +24,7 @@ storage:
     391762eb24f64d9584d6bfac682d575a: {duration: '"86400"', time: '1521084391513'}
     61e6e18c17664af385b8ac9589a56ef3: {duration: '"84600"', time: '1522700283846'}
     115b0be3a9cf474382c59c97235fc797: {duration: '"1800"', time: '1520469873390'}
-    28556dea667d409fb2fffb4177a20ff2: {duration: '"1200"', time: '1530044299490'}
+    28556dea667d409fb2fffb4177a20ff2: {duration: '"600"', time: '1530147241492'}
     cca2ff812c4d4e128e21f23a501e0207: {duration: '"30"', time: '1523193557437'}
     2c792fc808b341d28ed0af7b5b883dd9: {duration: '"1000"', time: '1525470475698'}
     7e2b5ebc3ea142788ca91109067f00f4: {duration: '"1000"', time: '1525725282946'}
@@ -37,7 +37,7 @@ storage:
     2205c9f9009a456ca661a542a858bd24: {duration: '"1000"', time: '1525012453115'}
     ItzBoss: {duration: '"300"', time: '1520390894063'}
     1eed253edf954405bd22e9ebb43e931c: {duration: '"400"', time: '1520726031729'}
-    cc41c2d95ef04a02953dcfb7c0b155be: {duration: '"1200"', time: '1523839757736'}
+    cc41c2d95ef04a02953dcfb7c0b155be: {duration: '"86400"', time: '1530200629727'}
     f621586e8ef8448d926486b61375052e: {duration: '"120"', time: '1521506689222'}
     861da66b8eef414393f1dbab33665595: {duration: '"180"', time: '1521506128111'}
     f3077e679cf84b48b4884a5fd899d697: {duration: '"1800"', time: '1520469866808'}

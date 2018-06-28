@@ -284,12 +284,6 @@ players:
       timestamp: 1524603362
     party: Royal
     rank: 20
-  2a63e405-eecf-480a-9fcf-1e22b996d998:
-    party: The
-    name:
-      timestamp: 1527107629
-      name: SpiralSanta
-    rank: 5
   0889f21e-b82c-49a0-ab3c-6e5b0232d093:
     name:
       timestamp: 1525468572
@@ -374,6 +368,18 @@ players:
       timestamp: 1529697121
     party: leor
     rank: 5
+  18c70f2f-c175-4f54-9800-ff7390003d7b:
+    rank: 5
+    name:
+      name: _Rossi_
+      timestamp: 1530203227
+    party: TheTitans
+  2a63e405-eecf-480a-9fcf-1e22b996d998:
+    party: TheTitans
+    name:
+      timestamp: 1530203289
+      name: SpiralSanta
+    rank: 5
 parties:
   TheTitans:
     members:
@@ -390,6 +396,8 @@ parties:
     - 8cd908e9-a758-41fa-99b9-1a8f8ffc5297
     - 524eb61e-b329-4b65-8cd2-8f6d0e9b1919
     - 972d3bcd-87bc-4e35-a334-ad792dc8e260
+    - 18c70f2f-c175-4f54-9800-ff7390003d7b
+    - 2a63e405-eecf-480a-9fcf-1e22b996d998
     leader: 8ca7fc56-614b-482a-91df-bf8580ba273d
     motd: Hey
     desc: Were The Titans
@@ -469,7 +477,6 @@ parties:
     - 2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303
     - cca2ff81-2c4d-4e12-8e21-f23a501e0207
     - 57b29f1f-dc6b-4d30-80ac-cf64c4df3428
-    - 2a63e405-eecf-480a-9fcf-1e22b996d998
     - 0889f21e-b82c-49a0-ab3c-6e5b0232d093
   XFORCE:
     members:
