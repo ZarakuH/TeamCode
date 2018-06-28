@@ -482,9 +482,6 @@ Players:
   _kingmag311_:
     Channels:
       Global: write
-  Romanova:
-    Channels:
-      Global: write
   Jemboa:
     Channels:
       Global: write
@@ -623,9 +620,6 @@ Players:
   azwald12:
     Channels:
       Global: write
-  zNasu:
-    Channels:
-      Global: write
   StarWarp:
     Channels:
       Global: write
@@ -669,9 +663,6 @@ Players:
     Channels:
       Global: write
   TheSilverLord:
-    Channels:
-      Global: write
-  Astromitte:
     Channels:
       Global: write
   Ninjaslayer947:
