@@ -1,6 +1,6 @@
 infinityblast:
-    icon: diamond_axe:171
-    icon_disabled: diamond_hoe:171
+    icon: nether_star
+    icon_disabled: nether_star
     icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
     actions:
       cast:
