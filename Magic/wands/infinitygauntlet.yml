@@ -19,6 +19,8 @@ infinitygauntlet:
     time: 33
     bubbleshield: 34
     infinityblast: 17
+    changereality: 18
+    quake: 19
   active_spell: infinityblast
   spell_levels: {}
   mana: 300.0
@@ -46,6 +48,8 @@ infinitygauntlet:
   - time
   - bubbleshield
   - infinityblast
+  - changereality
+  - quake
   bound: true
   keep: false
   invulnerable: true
