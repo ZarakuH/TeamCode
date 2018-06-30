@@ -368,12 +368,6 @@ players:
       timestamp: 1529697121
     party: leor
     rank: 5
-  18c70f2f-c175-4f54-9800-ff7390003d7b:
-    rank: 5
-    name:
-      name: _Rossi_
-      timestamp: 1530203227
-    party: TheTitans
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     party: TheTitans
     name:
@@ -396,7 +390,6 @@ parties:
     - 8cd908e9-a758-41fa-99b9-1a8f8ffc5297
     - 524eb61e-b329-4b65-8cd2-8f6d0e9b1919
     - 972d3bcd-87bc-4e35-a334-ad792dc8e260
-    - 18c70f2f-c175-4f54-9800-ff7390003d7b
     - 2a63e405-eecf-480a-9fcf-1e22b996d998
     leader: 8ca7fc56-614b-482a-91df-bf8580ba273d
     motd: Hey

@@ -4400,7 +4400,7 @@ sonicwavewand:
   icon: wood_hoe:1
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
-creator: President_Myth
+  creator: President_Myth
 electrictpwand:
   version: 5
   spell_inventory:
@@ -5243,6 +5243,7 @@ lucarioballwand:
   icon: wood_hoe:1
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
 turnghostwand:
   version: 5
   spell_inventory:

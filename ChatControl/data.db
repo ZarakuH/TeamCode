@@ -1055,9 +1055,6 @@ Players:
   monster1954:
     Channels:
       Global: write
-  OfficialReV:
-    Channels:
-      Global: write
   Megadethh:
     Channels:
       Global: write
@@ -1368,5 +1365,68 @@ Players:
     Channels:
       Global: write
   Gator_Bot:
+    Channels:
+      Global: write
+  Viosient:
+    Channels:
+      Global: write
+  DiamondJacks:
+    Channels:
+      Global: write
+  Royal_Pandas:
+    Channels:
+      Global: write
+  minecraft882001:
+    Channels:
+      Global: write
+  Tomachy:
+    Channels:
+      Global: write
+  Bsidab97:
+    Channels:
+      Global: write
+  cynergyou:
+    Channels:
+      Global: write
+  tylerdagamer:
+    Channels:
+      Global: write
+  MTFire20:
+    Channels:
+      Global: write
+  FeelingAutin:
+    Channels:
+      Global: write
+  Avenger0222:
+    Channels:
+      Global: write
+  SwaggerBoss91:
+    Channels:
+      Global: write
+  Shanethepain2018:
+    Channels:
+      Global: write
+  scottwdennis:
+    Channels:
+      Global: write
+  Proto373:
+    Channels:
+      Global: write
+  SuperBongerGo:
+    Channels:
+      Global: write
+  pixeldigital:
+    Channels:
+      Global: write
+  Axenixis:
+    Channels:
+      Global: write
+  DoNotSmash:
+    Channels:
+      Global: write
+  Satokech:
+    Channels:
+      Global: write
+  MinecraftKingEST:
     Channels:
       Global: write
