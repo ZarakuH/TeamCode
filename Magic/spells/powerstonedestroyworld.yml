@@ -11,11 +11,18 @@ powerstonedestroyworld:
            sound: entity_irongolem_death
            effectlib:
              class: HelixEffect
+             source_location: feet
              iterations: 2
              particle: redstone
              color: a100ff
              radius: 5
              loaction: self  
+        -  class: EffectSingle
+           effectlib:
+             class: AnimatedBall
+             duration: 5000
+             particle: redstone
+             color: a100ff
     parameters:
         commands:
         - destroyworld 
