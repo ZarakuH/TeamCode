@@ -18,11 +18,21 @@ freezetime:
         cast:
         -  class: EffectSingle
            effectlib:
-             class: HelixEffect
+             class: ShieldEffect
              iterations: 15
              radius: 5
              particle: redstone
              color: 00d114
+        - class: EffectRing
+          particle: redstone
+          color: 00d114
+          source_location: feet
+          period: 4
+          particle_count: 80
+          radius: 5
+          particle_offset_x: 0.9
+          particle_offset_z: 0.9
+          particle_offset_y: 0.1
     parameters:
         allow_max_range: true
         target: other
