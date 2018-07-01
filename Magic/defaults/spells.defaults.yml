@@ -23040,11 +23040,18 @@ powerstonedestroyworld:
       sound: entity_irongolem_death
       effectlib:
         class: HelixEffect
+        source_location: feet
         iterations: 2
         particle: redstone
         color: a100ff
         radius: 5
         loaction: self
+    - class: EffectSingle
+      effectlib:
+        class: AnimatedBall
+        duration: 5000
+        particle: redstone
+        color: a100ff
   parameters:
     commands:
     - destroyworld
@@ -26447,6 +26454,49 @@ healingfield:
     cooldown: 10000
     effect_regeneration: 4
     hitbox: true
+infinityblast:
+  icon: nether_star
+  icon_disabled: nether_star
+  icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
+  actions:
+    cast:
+    - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.electrify
+      sound_volume: 5
+      sound_pitch: -0.25
+      location: origin
+      effectlib:
+        class: ShieldEffect
+        particle: spell_mob
+        speed: 2
+        iterations: 16
+        radius: 5
+    - class: EffectSingle
+      sound: magic.zap_big
+      sound_volume: 1
+      location: origin
+      effectlib:
+        class: ConeEffect
+        iterations: 16
+        particle: spell_mob
+        speed: 2
+        lengthGrow: 0.4
+    - class: EffectSingle
+      location: targets
+      color: ffffff
+      firework: ball_large
+  parameters:
+    target: other
+    target_type: Damageable
+    cooldown: 10000
+    target_breakables: 5
+    bypass_backfire: true
+    bypass_pvp: false
+    range: 64
+    damage: 9999
 ravenrush:
   icon: diamond_axe:178
   icon_disabled: diamond_hoe:178
@@ -28090,11 +28140,21 @@ freezetime:
     cast:
     - class: EffectSingle
       effectlib:
-        class: HelixEffect
+        class: ShieldEffect
         iterations: 15
         radius: 5
         particle: redstone
         color: 00d114
+    - class: EffectRing
+      particle: redstone
+      color: 00d114
+      source_location: feet
+      period: 4
+      particle_count: 80
+      radius: 5
+      particle_offset_x: 0.9
+      particle_offset_z: 0.9
+      particle_offset_y: 0.1
   parameters:
     allow_max_range: true
     target: other

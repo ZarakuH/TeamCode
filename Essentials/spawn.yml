@@ -1,15 +1,15 @@
 spawns: 
   default: 
-    world: survival112
-    x: 649.5
-    y: 66.0
-    z: 994.5
-    yaw: -90.31897
-    pitch: 16.472181
+    world: arcade
+    x: 23.535481711159598
+    y: 102.0
+    z: 3.4690983953142616
+    yaw: 1.5012207
+    pitch: 6.2999673
   newbies: 
-    world: mainmenu
-    x: 0.5
-    y: 100.0
-    z: 0.5
-    yaw: -179.89792
-    pitch: 5.6707516
+    world: arcade
+    x: 23.535481711159598
+    y: 102.0
+    z: 3.4690983953142616
+    yaw: 1.5012207
+    pitch: 6.2999673

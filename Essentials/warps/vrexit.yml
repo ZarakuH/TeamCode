@@ -1,7 +1,7 @@
-world: mainmenu
-x: 0.5
-y: 100.0
-z: 0.5
-yaw: -179.89792
-pitch: 5.6707516
+world: arcade
+x: 25.487590468086925
+y: 102.0
+z: -6.457807746890183
+yaw: 270.45154
+pitch: 3.1499362
 name: vrexit
