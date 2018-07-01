@@ -1,0 +1,28 @@
+class: captainamericahydra
+costumes:
+- chatcolor: '&c'
+  name: §cC§8apt§cain §cA§8mer§cica§7(Hydra)
+  sig: iFg9uPUkCPxivCTrH0N0Mv6dMUPmJaNcxDwEr1KxGIQRaIlN7God8mSFcla57UJK12vGLc5dIxIPtS+288CVF3qM+MEyuPGd+ZD46aUqTekJKoVSEOVFKmjwS1srxRXgOeAKa3TugZ5IT8naip+ZKZOOGZu093jOPPbTva/jjq1fblj+9ZNoKCsj3Zs7RNkFD2h3j4gZZIghFPFN9AOIkvrVBhiBN7+RPhWv2lbuPaqFiMdyVo9xEymySIDrVYUQQTl+TIISJpvA7WbkV2DAAS/GyGDD16JGap3uvmnKODDnrufpegqjxUb8bbXalS3DmRNMTEKlmiHuKvC4DmPR4nkcqTqNDvg7z3xrMk/EL9Ib48MR1Wjew+cWMJRZ7MLAvlPLqvhwR9l+pI32rDO4zjqhLVjbl/pjm7e7pFJIAMKk7J8W5zUZpaV8IhJX3pKgAg5g1Gdk7REpOwocX2pH8Ne/ByhtuRY80i4TUOBTaNYFQoky4Ai76pLFUPsFUVbZfS+KH+AvyFLJBTjdxSmwsVG5rOw25nsaSrSRAHnL8MIY8xFos07uLeVTKcTG0vVB2bmkqvTZNJm90pVoSNnIzfT3rjiTV5U0x3YsmAEQXXmd86jPWzU3irKz5iyH8TjMxMApoWDk4dIfuVGg0YO/YqIm386daHHNNsBu9dTP238=
+  val: eyJ0aW1lc3RhbXAiOjE1MzAxOTU3ODM1MjMsInByb2ZpbGVJZCI6IjJhNjNlNDA1ZWVjZjQ4MGE5ZmNmMWUyMmI5OTZkOTk4IiwicHJvZmlsZU5hbWUiOiJTcGlyYWxTYW50YSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJiMWFhODI5ZmUzYjAwOWQyNzkyNjgyNTllMWU0ODVjZjFjYmI1MDY3MWVlMjQ2MTIxZGEzOWRmMDYzYmRhZCJ9fX0=
+effects:
+- /effect <plr> 5 9999 5 true
+haste: 4
+items:
+- /shot give <plr> pistol
+- /give <plr> minecraft:shield 1 0 {display:{Name:"§cC§8apt§cain §cA§8mer§cica's
+  Shield"}, BlockEntityTag:{Base:0,Patterns:[{Color:1,Pattern:"flo"},{Color:1,Pattern:"bts"},{Color:1,Pattern:"tts"}]}}
+jump: 5
+maxHearts: 20
+permissions:
+  superherocity:
+  - ch.alias.captainamerica
+powers:
+- /effects
+- /items
+- /jump 0-5
+- /run 0-4
+- /haste 0-4
+run: 4
+speech: Hail Hydra, Hail the Red Skull!
+trail: [
+  ]
