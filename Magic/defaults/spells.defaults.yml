@@ -27138,7 +27138,11 @@ startspleef:
       commands:
       - /pos1 0,0,63
       - /pos2 66,0,0
-      - /replace air tnt
+    - class: Delay
+      delay: 1000
+    - class: Command
+      op: true
+      command: /replace air tnt
     - class: Message
       message_type: chat
       message: '&cSpleef Will Start in 5 Seconds!'
@@ -27149,7 +27153,11 @@ startspleef:
       commands:
       - /pos1 -1,1,64
       - /pos2 67,6,-1
-      - /replace barrier air
+    - class: Delay
+      delay: 1000
+    - class: Command
+      op: true
+      command: /replace barrier air
     - class: Message
       message_type: chat
       message: '&cSpleef Has Started!'

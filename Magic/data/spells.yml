@@ -775,6 +775,9 @@ freezetime:
 glasstouch:
   cast_count: 599
   last_cast: 0
+startspleef:
+  cast_count: 2
+  last_cast: 0
 airscooter:
   cast_count: 0
   last_cast: 0
