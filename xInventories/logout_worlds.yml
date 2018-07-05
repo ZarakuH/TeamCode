@@ -4770,3 +4770,6 @@ v2-logout:
   f4644f9e-6d53-4634-aad8-1273da45c25f:
     group: mainmenu
     world: mainmenu
+  e6e29b4f-53a8-4806-8a35-693423cb384a:
+    group: arcade
+    world: arcade
