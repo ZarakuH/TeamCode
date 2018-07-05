@@ -1103,6 +1103,54 @@ worlds:
     generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
+  Spleef:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Spleef
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 35.452646838677246
+      y: 20.0
+      z: 42.54816433117214
+      pitch: -2.0999992
+      yaw: 180.29884
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-3998479241752111124'
+    generator: CleanroomGenerator:,
+    playerLimit: '-1'
+    allowFlight: 'true'
   jail:
     ==: MVWorld
     hidden: 'false'
@@ -1450,7 +1498,7 @@ worlds:
     respawnWorld: survival112
     allowWeather: 'true'
     difficulty: EASY
-    spawning: &id013
+    spawning: &id028
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
@@ -1462,7 +1510,7 @@ worlds:
         spawn: 'true'
         spawnrate: '-1'
         exceptions: []
-    entryfee: &id014
+    entryfee: &id029
       ==: MVEntryFee
       amount: '0.0'
       currency: '-1'
@@ -1481,7 +1529,7 @@ worlds:
       yaw: -270.15033
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: &id015 []
+    worldBlacklist: &id030 []
     environment: NORMAL
     seed: '-6827399460918381634'
     generator: CleanroomGenerator:.
@@ -1583,6 +1631,54 @@ worlds:
     generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
+  SpleefLobby:
+    ==: MVWorld
+    hidden: 'false'
+    alias: SpleefLobby
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 1.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-3717571407552071495'
+    generator: CleanroomGenerator:,
+    playerLimit: '-1'
+    allowFlight: 'true'
   soulstone:
     ==: MVWorld
     hidden: 'false'
@@ -1594,8 +1690,8 @@ worlds:
     respawnWorld: survival112
     allowWeather: 'true'
     difficulty: EASY
-    spawning: *id013
-    entryfee: *id014
+    spawning: *id028
+    entryfee: *id029
     hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'
@@ -1611,7 +1707,7 @@ worlds:
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: *id015
+    worldBlacklist: *id030
     environment: NORMAL
     seed: '-6827399460918381634'
     generator: CleanroomGenerator:.

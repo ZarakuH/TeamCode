@@ -23165,8 +23165,8 @@ almightypush:
   costs:
     mana: 5
 quake:
-  icon: diamond_axe:109
-  icon_disabled: diamond_hoe:109
+  icon: nether_star
+  icon_disabled: nether_star
   icon_url: http://textures.minecraft.net/texture/64764ad7b991afd8886d847f439b3d1753bc2632a7dbc047a9a040aa1ff98
   category: combat
   worth: 450
@@ -25837,6 +25837,213 @@ homingmissile:
     use_target_location: false
   costs:
     mana: 100
+changereality:
+  icon: ink_sack:1
+  icon_disabled: ink_sack:1
+  icon_url: http://textures.minecraft.net/texture/4e693cf3b7bf83248527aacc2714638b55587cde593963d1f861884f5be1638
+  category: engineering
+  tags: noduel
+  cancellable: false
+  worth: 1500
+  earns_sp: 12
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Disc
+        actions:
+        - class: Cover
+          actions:
+          - class: CycleBlock
+          - class: CycleEntity
+          - class: Velocity
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: entity_enderdragon_hurt
+      location: origin
+    - class: EffectSingle
+      sound: entity_generic_explode
+      sound_pitch: 2
+      location: origin
+    tick:
+    - particle: redstone
+      color: ff0000
+      location: target
+    - location: target
+      particle: redstone
+      color: ff0000
+      particle_count: 6
+      particle_offset_x: 0.5
+      particle_offset_y: 0.5
+      particle_offset_z: 0.5
+    hit:
+    - class: EffectSingle
+      custom_sound: magic.shield_boom
+      sound_pitch: 2
+      location: both
+    - class: EffectSingle
+      location: target
+      color: ff0000
+      firework: burst
+    - class: EffectSingle
+      location: target
+      particle: block_crack
+      particle_count: 10
+    - class: EffectSingle
+      target_offset: 0,0.5,0
+      location: target
+      color: ff0000
+      firework: burst
+  parameters:
+    target_type: LivingEntity
+    target: other
+    hitbox: true
+    allow_max_range: false
+    cooldown: 5000
+    range: 32
+    bypass_build: true
+    velocity: 100
+    radius: 2
+    undo: 5000
+    transparent: transparent_to_construction
+    materials:
+    - - dirt
+      - stone
+    - - grass
+      - stone
+    - - bedrock
+      - cobble
+    - - log
+      - sand
+    - - log:1
+      - sand
+    - - log:2
+      - sand
+    - - log:3
+      - sand
+    - - log:4
+      - sand
+    - - log:5
+      - sand
+    - - wool
+      - iron_block
+    - - wool:1
+      - iron_block
+    - - wool:2
+      - iron_block
+    - - wool:3
+      - iron_block
+    - - wool:4
+      - iron_block
+    - - wool:5
+      - iron_block
+    - - wool:6
+      - iron_block
+    - - wool:7
+      - iron_block
+    - - wool:7
+      - iron_block
+    - - wool:8
+      - iron_block
+    - - wool:9
+      - iron_block
+    - - wool:10
+      - iron_block
+    - - wool:11
+      - iron_block
+    - - wool:12
+      - iron_block
+    - - wool:13
+      - iron_block
+    - - wool:14
+      - iron_block
+    - - wool:15
+      - iron_block
+    - - concrete
+      - obsidian
+    - - concrete:1
+      - obsidian
+    - - concrete:2
+      - obsidian
+    - - concrete:3
+      - obsidian
+    - - concrete:4
+      - obsidian
+    - - concrete:5
+      - obsidian
+    - - concrete:6
+      - obsidian
+    - - concrete:7
+      - obsidian
+    - - concrete:8
+      - obsidian
+    - - concrete:9
+      - obsidian
+    - - concrete:10
+      - obsidian
+    - - concrete:11
+      - obsidian
+    - - concrete:12
+      - obsidian
+    - - concrete:13
+      - obsidian
+    - - concrete:14
+      - obsidian
+    - - concrete:15
+      - obsidian
+    - - stained_clay
+      - smooth_brick
+    - - stained_clay:1
+      - smooth_brick
+    - - stained_clay:2
+      - smooth_brick
+    - - stained_clay:3
+      - smooth_brick
+    - - stained_clay:4
+      - smooth_brick
+    - - stained_clay:5
+      - smooth_brick
+    - - stained_clay:6
+      - smooth_brick
+    - - stained_clay:7
+      - smooth_brick
+    - - stained_clay:8
+      - smooth_brick
+    - - stained_clay:9
+      - smooth_brick
+    - - stained_clay:10
+      - smooth_brick
+    - - stained_clay:11
+      - smooth_brick
+    - - stained_clay:12
+      - smooth_brick
+    - - stained_clay:13
+      - smooth_brick
+    - - stained_clay:14
+      - smooth_brick
+    - - stained_clay:15
+      - smooth_brick
+    - - netherrack
+      - soul_sand
+    - - glowstone
+      - sea_lantern
+    - - packed_ice
+      - ice
+    - - sandstone
+      - gold_block
+    - - coal_block
+      - diamond_block
+    - - sponge
+      - ender_stone
+    - - quartz_block
+      - emerald
+    - - brick
+      - nether_brick
+    - - bedrock
+      - glass
+  costs:
+    mana: 10
 solidify:
   icon: diamond_axe:125
   icon_disabled: diamond_hoe:125
