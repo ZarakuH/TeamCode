@@ -27127,6 +27127,40 @@ kryptonianlaservision:
     destructible: solid
     destructible_durability: 100
     break_durability: 4
+startspleef:
+  icon: ink_sack:5
+  category: staff
+  hidden: true
+  actions:
+    cast:
+    - class: Command
+      op: true
+      commands:
+      - /pos1 0,0,63
+      - /pos2 66,0,0
+      - /replace air tnt
+    - class: Message
+      message_type: chat
+      message: '&cSpleef Will Start in 5 Seconds!'
+    - class: Delay
+      delay: 5000
+    - class: Command
+      op: true
+      commands:
+      - /pos1 -1,1,64
+      - /pos2 67,6,-1
+      - /replace barrier air
+    - class: Message
+      message_type: chat
+      message: '&cSpleef Has Started!'
+    - class: Delay
+      delay: 5000
+    - class: Command
+      op: true
+      command: undo
+  parameters:
+    target_type: Player
+    target: self
 sandwall:
   icon: diamond_axe:130
   icon_disabled: diamond_hoe:130
