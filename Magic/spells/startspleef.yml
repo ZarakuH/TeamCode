@@ -6,13 +6,10 @@ startspleef:
       cast: 
       - class: Command
       op: true
-      command: /pos1 0,0,63
-      - class: Command
-      op: true
-      command: /pos2 66,0,0
-      - class: Command
-      op: true
-      command: /replace air tnt
+      commands: 
+      - /pos1 0,0,63
+      - /pos2 66,0,0
+      - /replace air tnt
       - class: Message
       message_type: chat
       message: "&cSpleef Will Start in 5 Seconds!"
@@ -20,13 +17,10 @@ startspleef:
       delay: 5000
       - class: Command
       op: true
-      command: /pos1 -1,1,64
-      - class: Command
-      op: true
-      command: /pos2 67,6,-1
-      - class: Command
-      op: true
-      command: /replace barrier air
+      commands: 
+      - /pos1 -1,1,64
+      - /pos2 67,6,-1
+      - /replace barrier air
       - class: Message
       message_type: chat
       message: "&cSpleef Has Started!"
