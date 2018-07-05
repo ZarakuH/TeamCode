@@ -62,10 +62,10 @@ set_interval(5000,closure(
             }
         }
     }
-    #@it = import('it')
-    #@score = get_pscore('ReverseTag',@it)
-    #@score += 1
-    #set_pscore('ReverseTag',@it,@score)
+    //@it = import('it')
+    //@score = get_pscore('ReverseTag',@it)
+    //@score += 1
+    //set_pscore('ReverseTag',@it,@score)
 
 ))
 @players = all_players()
