@@ -27130,7 +27130,6 @@ kryptonianlaservision:
 startspleef:
   icon: ink_sack:5
   category: staff
-  hidden: true
   actions:
     cast:
     - class: Command
@@ -27169,6 +27168,7 @@ startspleef:
   parameters:
     target_type: Player
     target: self
+    op: true
 sandwall:
   icon: diamond_axe:130
   icon_disabled: diamond_hoe:130

@@ -1,7 +1,7 @@
-world: mainmenu
-x: 0.5
-y: 100.0
-z: 0.5
-yaw: -179.89792
-pitch: 5.6707516
+world: arcade
+x: -114.46509088273942
+y: 71.0
+z: -40.45754824450705
+yaw: 178.20044
+pitch: 7.05003
 name: infiniteparkourexit
