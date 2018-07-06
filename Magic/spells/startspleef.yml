@@ -1,7 +1,6 @@
 startspleef:
     icon: ink_sack:5
     category: staff
-    hidden: true
     actions: 
       cast: 
       - class: Command
@@ -40,3 +39,4 @@ startspleef:
     parameters:
         target_type: Player
         target: self
+        op: true
