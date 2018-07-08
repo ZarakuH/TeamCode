@@ -350,30 +350,24 @@ players:
       timestamp: 1529593209
     party: Miner
     rank: 5
-  28556dea-667d-409f-b2ff-fb4177a20ff2:
-    name:
-      name: Marielia
-      timestamp: 1529697108
-    rank: 20
-    party: leor
-  fbb8c072-4c4b-49c8-948b-26e8ad73099e:
-    rank: 5
-    name:
-      timestamp: 1529697118
-      name: Eiilonwy
-    party: leor
-  dbb47887-bfbd-40e6-bfec-3d1053ea3aff:
-    name:
-      name: AlohqLulu
-      timestamp: 1529697121
-    party: leor
-    rank: 5
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     party: TheTitans
     name:
       timestamp: 1530808343
       name: SpiralSanta
     rank: 5
+  28556dea-667d-409f-b2ff-fb4177a20ff2:
+    name:
+      name: Marielia
+      timestamp: 1531014359
+    rank: 20
+    party: LOVIES
+  e6de8cf0-af45-44e4-882f-d98446f4b31b:
+    rank: 5
+    party: LOVIES
+    name:
+      timestamp: 1531014365
+      name: Thosification
 parties:
   TheTitans:
     members:
@@ -507,9 +501,8 @@ parties:
     members:
     - 0e88e52e-2945-464e-b4ba-e1e162c6786d
     - ebeb6da7-bc57-411c-a35a-f48f6284cff0
-  leor:
+  LOVIES:
+    leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
     members:
     - 28556dea-667d-409f-b2ff-fb4177a20ff2
-    - fbb8c072-4c4b-49c8-948b-26e8ad73099e
-    - dbb47887-bfbd-40e6-bfec-3d1053ea3aff
-    leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
+    - e6de8cf0-af45-44e4-882f-d98446f4b31b

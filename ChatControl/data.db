@@ -199,7 +199,7 @@ Players:
       Global: write
   SpiralSanta:
     Channels:
-      Global: write
+      Local: write
   WirelessPotato:
     Channels:
       Global: write
@@ -1361,5 +1361,131 @@ Players:
     Channels:
       Global: write
   Yechan_10:
+    Channels:
+      Global: write
+  Pugs0:
+    Channels:
+      Global: write
+  AdlerAuge300:
+    Channels:
+      Global: write
+  Razornoid06:
+    Channels:
+      Global: write
+  NJadaka:
+    Channels:
+      Global: write
+  drpepper7474:
+    Channels:
+      Global: write
+  HelloImSteven:
+    Channels:
+      Global: write
+  MysticalUmby:
+    Channels:
+      Global: write
+  _Communism:
+    Channels:
+      Global: write
+  HER08RINE:
+    Channels:
+      Global: write
+  Deathcore01:
+    Channels:
+      Global: write
+  BlackFury21:
+    Channels:
+      Global: write
+  KingChameleon:
+    Channels:
+      Global: write
+  KingClock:
+    Channels:
+      Global: write
+  Goteku:
+    Channels:
+      Global: write
+  LionGoldKey:
+    Channels:
+      Global: write
+  r4pture_:
+    Channels:
+      Global: write
+  MacLightning:
+    Channels:
+      Global: write
+  Roproman:
+    Channels:
+      Global: write
+  CoolAlex2008:
+    Channels:
+      Global: write
+  VxCrytek:
+    Channels:
+      Global: write
+  Joypizza:
+    Channels:
+      Global: write
+  Noahfoxy:
+    Channels:
+      Global: write
+  Nickelt62012:
+    Channels:
+      Global: write
+  Guardian2234:
+    Channels:
+      Global: write
+  crazybanana400:
+    Channels:
+      Global: write
+  Minecraft71904:
+    Channels:
+      Global: write
+  12cheese34:
+    Channels:
+      Global: write
+  LacLightning:
+    Channels:
+      Global: write
+  SamTDE:
+    Channels:
+      Global: write
+  Dancetalespoon:
+    Channels:
+      Global: write
+  benJAMin1810:
+    Channels:
+      Global: write
+  thebossatron7000:
+    Channels:
+      Global: write
+  Nelotss:
+    Channels:
+      Global: write
+  Azura_Weeb:
+    Channels:
+      Global: write
+  xebo101:
+    Channels:
+      Global: write
+  KrispyMemeDonuts:
+    Channels:
+      Global: write
+  SalemtheWicca:
+    Channels:
+      Global: write
+  PopeOnWeeb:
+    Channels:
+      Global: write
+  ging3rbreadboy:
+    Channels:
+      Global: write
+  msandman:
+    Channels:
+      Global: write
+  BellaSmithHoran:
+    Channels:
+      Global: write
+  raseraa:
     Channels:
       Global: write
