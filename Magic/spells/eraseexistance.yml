@@ -1,0 +1,36 @@
+eraseexistance:
+    icon: diamond_axe:171
+    icon_disabled: diamond_hoe:171
+    icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
+    actions:
+      cast:
+      - class: PotionEffect
+      - class: Deactivate
+      - class: Delay
+        delay: 5000
+      - class: Damage
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: magic.zap_big
+          sound_volume: 1
+          location: origin
+          effectlib:
+             class: ConeEffect
+             iterations: 16
+             particle: end_rod
+             lengthGrow: 0.4
+        - class: EffectSingle
+          location: targets
+          particle: fireworks_spark
+    parameters:
+        target: other
+        target_type: Damageable
+        cooldown: 10000
+        target_breakables: 5
+        bypass_backfire: true
+        bypass_pvp: false
+        range: 64
+        damage: 9999
+        effect_invisibility: 1
+        duration: 5000
