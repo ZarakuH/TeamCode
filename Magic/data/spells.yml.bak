@@ -203,7 +203,7 @@ engineershop:
   cast_count: 0
   last_cast: 0
 spearofdestinyknockback:
-  cast_count: 13
+  cast_count: 14
   last_cast: 0
 debugger:
   cast_count: 0
@@ -245,7 +245,7 @@ arrow_blink:
   cast_count: 0
   last_cast: 0
 iceshield:
-  cast_count: 320
+  cast_count: 322
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -692,7 +692,7 @@ potterappearanceshop:
   cast_count: 0
   last_cast: 0
 warbeam:
-  cast_count: 867
+  cast_count: 916
   last_cast: 0
 raise:
   cast_count: 0
@@ -752,7 +752,7 @@ terrainshop:
   cast_count: 0
   last_cast: 0
 freezeray:
-  cast_count: 364
+  cast_count: 365
   last_cast: 0
 stungrenade:
   cast_count: 309
@@ -773,7 +773,7 @@ abratrap:
   cast_count: 416
   last_cast: 0
 freezetime:
-  cast_count: 1121
+  cast_count: 1125
   last_cast: 0
 glasstouch:
   cast_count: 599
@@ -848,7 +848,7 @@ rhinodash:
   cast_count: 23
   last_cast: 0
 soulshock:
-  cast_count: 6
+  cast_count: 16
   last_cast: 0
 flash_bang:
   cast_count: 0
@@ -1010,7 +1010,7 @@ redtornado:
   cast_count: 35
   last_cast: 0
 eraseexistance:
-  cast_count: 7
+  cast_count: 9
   last_cast: 0
 addspell:
   cast_count: 0
@@ -1055,7 +1055,7 @@ lassoregen:
   cast_count: 269
   last_cast: 0
 darkpound:
-  cast_count: 5
+  cast_count: 7
   last_cast: 0
 iterate:
   cast_count: 0
@@ -1109,7 +1109,7 @@ superlaser:
   cast_count: 0
   last_cast: 0
 changereality:
-  cast_count: 119
+  cast_count: 120
   last_cast: 0
 glide:
   cast_count: 0
@@ -1349,7 +1349,7 @@ powerstonedestroyworld:
   cast_count: 66
   last_cast: 0
 kryptonianlaservision:
-  cast_count: 56406
+  cast_count: 57016
   last_cast: 0
 symbiotetendril:
   cast_count: 16
@@ -1442,7 +1442,7 @@ architectshop:
   cast_count: 0
   last_cast: 0
 frost:
-  cast_count: 86
+  cast_count: 89
   last_cast: 0
 confringo:
   cast_count: 117
@@ -1481,7 +1481,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 3768
+  cast_count: 3804
   last_cast: 0
 ravenfield:
   cast_count: 292
@@ -1514,7 +1514,7 @@ regenerate:
   cast_count: 1
   last_cast: 0
 spearofdestinythrow:
-  cast_count: 11
+  cast_count: 12
   last_cast: 0
 light:
   cast_count: 0
@@ -1961,7 +1961,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1680
+  cast_count: 1685
   last_cast: 0
 mach5punch:
   cast_count: 197

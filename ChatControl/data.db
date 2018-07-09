@@ -89,6 +89,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   ZwaagGirls:
     Channels:
       Global: write
@@ -1544,5 +1545,11 @@ Players:
     Channels:
       Global: write
   Stiz9490:
+    Channels:
+      Global: write
+  roadripper05:
+    Channels:
+      Global: write
+  Deadly___:
     Channels:
       Global: write
