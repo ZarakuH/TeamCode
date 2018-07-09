@@ -199,7 +199,7 @@ Players:
       Global: write
   SpiralSanta:
     Channels:
-      Local: write
+      Global: write
   WirelessPotato:
     Channels:
       Global: write
@@ -1487,5 +1487,62 @@ Players:
     Channels:
       Global: write
   raseraa:
+    Channels:
+      Global: write
+  __Dr_Strange__:
+    Channels:
+      Global: write
+  KodiakBear:
+    Channels:
+      Global: write
+  sunny_flower:
+    Channels:
+      Global: write
+  ShparklyShishter:
+    Channels:
+      Global: write
+  ShookShishter:
+    Channels:
+      Global: write
+  Zombie108787:
+    Channels:
+      Global: write
+  SerenaStarz:
+    Channels:
+      Global: write
+  Chrizz:
+    Channels:
+      Global: write
+  ItsNoah04:
+    Channels:
+      Global: write
+  Bluestoneman2:
+    Channels:
+      Global: write
+  TheSharkTooth:
+    Channels:
+      Global: write
+  Pet_Lover101:
+    Channels:
+      Global: write
+  EnderCraftHero:
+    Channels:
+      Global: write
+  oceaneyes_:
+    Channels:
+      Global: write
+  QualitySpooks:
+    Channels:
+      Global: write
+  SkeletonHealer:
+    Channels:
+      Global: write
+  Rafb2GamingYT:
+    Channels:
+      Global: write
+  Grim__:
+    Channels:
+      Global: write
+  Stiz9490:
     Channels:
       Global: write

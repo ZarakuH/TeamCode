@@ -530,7 +530,7 @@ worlds:
   QuestForDestiny:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: '&8Q&7u&4e&cs&8t&0F&4o&7r&8D&ce&7s&8t&4i&7n&0y'
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -1594,7 +1594,7 @@ worlds:
     respawnWorld: survival112
     allowWeather: 'true'
     difficulty: EASY
-    spawning: &id019
+    spawning: &id022
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
@@ -1606,7 +1606,7 @@ worlds:
         spawn: 'true'
         spawnrate: '-1'
         exceptions: []
-    entryfee: &id020
+    entryfee: &id023
       ==: MVEntryFee
       amount: '0.0'
       currency: '-1'
@@ -1625,7 +1625,7 @@ worlds:
       yaw: -270.15033
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: &id021 []
+    worldBlacklist: &id024 []
     environment: NORMAL
     seed: '-6827399460918381634'
     generator: CleanroomGenerator:.
@@ -1786,8 +1786,8 @@ worlds:
     respawnWorld: survival112
     allowWeather: 'true'
     difficulty: EASY
-    spawning: *id019
-    entryfee: *id020
+    spawning: *id022
+    entryfee: *id023
     hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'
@@ -1803,7 +1803,7 @@ worlds:
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'false'
-    worldBlacklist: *id021
+    worldBlacklist: *id024
     environment: NORMAL
     seed: '-6827399460918381634'
     generator: CleanroomGenerator:.

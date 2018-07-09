@@ -1,27 +1,27 @@
 register_command('timer',
     array(
         'description': 'A Timer',
-        'usage': '/timer <gameName> <single/group> [secs] [player]',
+        'usage': '/timer <gameName> <single/group> <start/stop> [secs] [player]',
         'permission': 'command.timer',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
 
         'executor': closure(@alias, @sender, @args) {
 
             switch (array_size(@args)) {
-                case 2:
+                case 3:
                     @secs = 10
                     @player = ''
                     break ()
-                case 3:
-                    @secs = @args[2]
+                case 4:
+                    @secs = @args[3]
                     @player = ''
                     break ()
-                case 4:
-                    @secs = @args[2]
-                    @player = @args[3]
+                case 5:
+                    @secs = @args[3]
+                    @player = @args[4]
                     break ()
                 default:
-                    msg('Usage: /timer <gameName> <single/group> [secs] [player]')
+                    msg('Usage: /timer <gameName> <single/group> <start/stop> [secs] [player]')
                     return ()
             }
 
@@ -32,13 +32,14 @@ register_command('timer',
 
             @gameName = @args[0]
             @timerType = @args[1]
+            @startStop = @args[2]
 
 
 
 
             if (@timerType == 'single') {
-                @prevTime = import('timer'.@gameName.@player)
-                if (@prevTime != null) {
+                if (@startStop == 'stop') {
+		    @prevTime = import('timer'.@gameName.@player)
                     @curTime = time()
                     @elapsedTime = ((@curTime - @prevTime) / 1000)
                     broadcast(@player.' finished '.@gameName.' in '.@elapsedTime.' seconds!')
@@ -67,8 +68,8 @@ register_command('timer',
                     export(@gameName.@player.'countDown',@id)
                 }
             } else {
-                @prevTime = import('timer'.@gameName)
-                if (@prevTime != null) {
+                if (@startStop == 'stop') {
+                    @prevTime = import('timer'.@gameName)
                     @curTime = time()
                     @elapsedTime = ((@curTime - @prevTime) / 1000)
                     broadcast(@player.' finished '.@gameName.' in '.@elapsedTime.' seconds!')
