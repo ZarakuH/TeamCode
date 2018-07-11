@@ -68,7 +68,7 @@ reload_hawk_shotgun:
   cast_count: 0
   last_cast: 0
 odinlightning:
-  cast_count: 1283
+  cast_count: 1285
   last_cast: 0
 fourpoint:
   cast_count: 0
@@ -203,7 +203,7 @@ engineershop:
   cast_count: 0
   last_cast: 0
 spearofdestinyknockback:
-  cast_count: 14
+  cast_count: 21
   last_cast: 0
 debugger:
   cast_count: 0
@@ -236,7 +236,7 @@ disillusion:
   cast_count: 0
   last_cast: 0
 forcepull:
-  cast_count: 170
+  cast_count: 175
   last_cast: 0
 randomtp:
   cast_count: 0
@@ -266,7 +266,7 @@ vanish:
   cast_count: 0
   last_cast: 0
 rictusempra:
-  cast_count: 95
+  cast_count: 99
   last_cast: 0
 enchantwand:
   cast_count: 0
@@ -308,13 +308,13 @@ reparomaxima:
   cast_count: 0
   last_cast: 0
 electricfloor:
-  cast_count: 58
+  cast_count: 63
   last_cast: 0
 shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 521
+  cast_count: 531
   last_cast: 0
 realitystoneblast:
   cast_count: 49
@@ -332,7 +332,7 @@ hydroshield:
   cast_count: 0
   last_cast: 0
 crystaltrap:
-  cast_count: 520
+  cast_count: 553
   last_cast: 0
 emp:
   cast_count: 0
@@ -440,7 +440,7 @@ tunnel:
   cast_count: 0
   last_cast: 0
 ascendio:
-  cast_count: 460
+  cast_count: 461
   last_cast: 0
 erifnrubnordlaucelbbub:
   cast_count: 389
@@ -503,7 +503,7 @@ fishshop:
   cast_count: 0
   last_cast: 0
 forcespeed:
-  cast_count: 49
+  cast_count: 51
   last_cast: 0
 manipulate:
   cast_count: 122
@@ -542,7 +542,7 @@ curse:
   cast_count: 0
   last_cast: 0
 embiggenpunch:
-  cast_count: 6
+  cast_count: 11
   last_cast: 0
 expulsion:
   cast_count: 0
@@ -722,7 +722,7 @@ grenade:
   cast_count: 0
   last_cast: 0
 fiendfyre:
-  cast_count: 263
+  cast_count: 268
   last_cast: 0
 superbackup:
   cast_count: 0
@@ -752,10 +752,10 @@ terrainshop:
   cast_count: 0
   last_cast: 0
 freezeray:
-  cast_count: 365
+  cast_count: 368
   last_cast: 0
 stungrenade:
-  cast_count: 309
+  cast_count: 333
   last_cast: 0
 deposits:
   cast_count: 0
@@ -773,19 +773,19 @@ abratrap:
   cast_count: 416
   last_cast: 0
 freezetime:
-  cast_count: 1125
+  cast_count: 1136
   last_cast: 0
 glasstouch:
   cast_count: 599
   last_cast: 0
 startspleef:
-  cast_count: 35
+  cast_count: 37
   last_cast: 0
 airscooter:
   cast_count: 0
   last_cast: 0
 stupefy:
-  cast_count: 189
+  cast_count: 191
   last_cast: 0
 tweakshop:
   cast_count: 0
@@ -1010,7 +1010,7 @@ redtornado:
   cast_count: 35
   last_cast: 0
 eraseexistance:
-  cast_count: 9
+  cast_count: 12
   last_cast: 0
 addspell:
   cast_count: 0
@@ -1025,7 +1025,7 @@ salviohexia:
   cast_count: 0
   last_cast: 0
 crucio:
-  cast_count: 112
+  cast_count: 114
   last_cast: 0
 tsunami:
   cast_count: 105
@@ -1109,7 +1109,7 @@ superlaser:
   cast_count: 0
   last_cast: 0
 changereality:
-  cast_count: 120
+  cast_count: 137
   last_cast: 0
 glide:
   cast_count: 0
@@ -1145,7 +1145,7 @@ secure:
   cast_count: 0
   last_cast: 0
 rocketlauncher:
-  cast_count: 378
+  cast_count: 379
   last_cast: 0
 extinguish:
   cast_count: 0
@@ -1304,7 +1304,7 @@ lava:
   cast_count: 0
   last_cast: 0
 protego:
-  cast_count: 748
+  cast_count: 766
   last_cast: 0
 icbm:
   cast_count: 0
@@ -1322,13 +1322,13 @@ nox:
   cast_count: 0
   last_cast: 0
 incendio:
-  cast_count: 270
+  cast_count: 273
   last_cast: 0
 vulnera:
   cast_count: 0
   last_cast: 0
 avadakedavra:
-  cast_count: 150
+  cast_count: 156
   last_cast: 0
 arrow_light:
   cast_count: 0
@@ -1349,7 +1349,7 @@ powerstonedestroyworld:
   cast_count: 66
   last_cast: 0
 kryptonianlaservision:
-  cast_count: 57074
+  cast_count: 57304
   last_cast: 0
 symbiotetendril:
   cast_count: 16
@@ -1436,7 +1436,7 @@ gills:
   cast_count: 0
   last_cast: 0
 incarcerous:
-  cast_count: 78
+  cast_count: 79
   last_cast: 0
 architectshop:
   cast_count: 0
@@ -1445,7 +1445,7 @@ frost:
   cast_count: 89
   last_cast: 0
 confringo:
-  cast_count: 117
+  cast_count: 119
   last_cast: 0
 weather:
   cast_count: 0
@@ -1481,7 +1481,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 3809
+  cast_count: 3844
   last_cast: 0
 ravenfield:
   cast_count: 292
@@ -1514,7 +1514,7 @@ regenerate:
   cast_count: 1
   last_cast: 0
 spearofdestinythrow:
-  cast_count: 12
+  cast_count: 15
   last_cast: 0
 light:
   cast_count: 0
@@ -1619,7 +1619,7 @@ tornado:
   cast_count: 0
   last_cast: 0
 crystalshield:
-  cast_count: 384
+  cast_count: 410
   last_cast: 0
 fury:
   cast_count: 0
@@ -1655,7 +1655,7 @@ note01:
   cast_count: 0
   last_cast: 0
 electrictp:
-  cast_count: 532
+  cast_count: 574
   last_cast: 0
 soulstoneblast:
   cast_count: 118
@@ -1796,7 +1796,7 @@ stonegrasp:
   cast_count: 12
   last_cast: 0
 forcepush:
-  cast_count: 528
+  cast_count: 536
   last_cast: 0
 backflip:
   cast_count: 0
@@ -1961,7 +1961,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1685
+  cast_count: 1689
   last_cast: 0
 mach5punch:
   cast_count: 197

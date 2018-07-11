@@ -338,18 +338,6 @@ players:
       timestamp: 1526918587
     party: BloodSkull
     rank: 5
-  0e88e52e-2945-464e-b4ba-e1e162c6786d:
-    rank: 20
-    name:
-      timestamp: 1529593198
-      name: Miner_Myles
-    party: Miner
-  ebeb6da7-bc57-411c-a35a-f48f6284cff0:
-    name:
-      name: cool_like_ice
-      timestamp: 1529593209
-    party: Miner
-    rank: 5
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     party: TheTitans
     name:
@@ -368,6 +356,42 @@ players:
     name:
       timestamp: 1531014365
       name: Thosification
+  fbfcb190-4cdb-400e-a8aa-fc30cc822caf:
+    party: Bedrockers
+    name:
+      timestamp: 1531237301
+      name: simon2008
+    rank: 20
+  7e439f5f-a493-478a-a4f0-b4de30e6148c:
+    party: Bedrockers
+    name:
+      timestamp: 1531324751
+      name: Shanethepain2018
+    rank: 5
+  360d2105-e364-49ee-8028-0572c738eb9c:
+    party: Bedrockers
+    name:
+      name: Tolis133
+      timestamp: 1531326307
+    rank: 5
+  0e88e52e-2945-464e-b4ba-e1e162c6786d:
+    rank: 20
+    name:
+      timestamp: 1531328619
+      name: Miner_Myles
+    party: Bros
+  18c70f2f-c175-4f54-9800-ff7390003d7b:
+    rank: 5
+    name:
+      name: _Rossi_
+      timestamp: 1531328756
+    party: Bros
+  9b0a6462-f69e-4662-8014-65d1440588e7:
+    party: Bros
+    name:
+      timestamp: 1531330092
+      name: SydneyMurphy6
+    rank: 5
 parties:
   TheTitans:
     members:
@@ -496,13 +520,22 @@ parties:
     - cb1a7a9b-e719-42c4-a35a-ad0b081488ec
     - 8debd337-17db-4543-91ed-c4d9068cd2f6
     leader: cb1a7a9b-e719-42c4-a35a-ad0b081488ec
-  Miner:
-    leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
-    members:
-    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
-    - ebeb6da7-bc57-411c-a35a-f48f6284cff0
   LOVIES:
     leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
     members:
     - 28556dea-667d-409f-b2ff-fb4177a20ff2
     - e6de8cf0-af45-44e4-882f-d98446f4b31b
+  Bedrockers:
+    leader: fbfcb190-4cdb-400e-a8aa-fc30cc822caf
+    members:
+    - fbfcb190-4cdb-400e-a8aa-fc30cc822caf
+    - 7e439f5f-a493-478a-a4f0-b4de30e6148c
+    - 360d2105-e364-49ee-8028-0572c738eb9c
+    desc: Such adventure.
+    motd: simon2008
+  Bros:
+    leader: 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    members:
+    - 0e88e52e-2945-464e-b4ba-e1e162c6786d
+    - 18c70f2f-c175-4f54-9800-ff7390003d7b
+    - 9b0a6462-f69e-4662-8014-65d1440588e7

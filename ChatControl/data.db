@@ -89,7 +89,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   ZwaagGirls:
     Channels:
       Global: write
@@ -1551,5 +1550,89 @@ Players:
     Channels:
       Global: write
   Deadly___:
+    Channels:
+      Global: write
+  dirtblock101:
+    Channels:
+      Global: write
+  DV132:
+    Channels:
+      Global: write
+  jefferunfaster:
+    Channels:
+      Global: write
+  Superrcrazygamer:
+    Channels:
+      Global: write
+  bpeif:
+    Channels:
+      Global: write
+  Herobinary:
+    Channels:
+      Global: write
+  bimbo68:
+    Channels:
+      Global: write
+  GamingFalke:
+    Channels:
+      Global: write
+  CodeZekrom:
+    Channels:
+      Global: write
+  Courtney99:
+    Channels:
+      Global: write
+  letBabyKraken:
+    Channels:
+      Global: write
+  Xiumbra:
+    Channels:
+      Global: write
+  TiRed_:
+    Channels:
+      Global: write
+  RoseRad:
+    Channels:
+      Global: write
+  Clqyz:
+    Channels:
+      Global: write
+  Niwasi:
+    Channels:
+      Global: write
+  CatGaming06:
+    Channels:
+      Global: write
+  Loaos:
+    Channels:
+      Global: write
+  MichaelJackson03:
+    Channels:
+      Global: write
+  HiBuddy91402:
+    Channels:
+      Global: write
+  SydneyMurphy6:
+    Channels:
+      Global: write
+  SteveS:
+    Channels:
+      Global: write
+  tclowe:
+    Channels:
+      Global: write
+  Thor_Odinson_MCU:
+    Channels:
+      Global: write
+  iFrodoFezbear:
+    Channels:
+      Global: write
+  SLadouman:
+    Channels:
+      Global: write
+  SanPug1:
+    Channels:
+      Global: write
+  Da_Sharpshooter:
     Channels:
       Global: write

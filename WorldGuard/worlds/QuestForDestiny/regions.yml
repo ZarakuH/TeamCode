@@ -19,10 +19,11 @@ regions:
         type: cuboid
         priority: 0
     qfdarena:
-        min: {x: 1689.0, y: 5.0, z: -646.0}
-        max: {x: 1775.0, y: 11.0, z: -560.0}
+        min: {x: 1689.0, y: 4.0, z: -647.0}
+        max: {x: 1776.0, y: 16.0, z: -560.0}
         members: {}
-        flags: {use: allow, block-break: allow, chest-access: allow, pvp: allow}
+        flags: {use: allow, block-break: allow, interact: allow, chest-access: allow,
+            pvp: allow}
         owners: {}
         type: cuboid
         priority: 0
@@ -30,7 +31,8 @@ regions:
         min: {x: 1687.0, y: 3.0, z: -648.0}
         max: {x: 1777.0, y: 22.0, z: -558.0}
         members: {}
-        flags: {use: allow, chest-access: allow, pvp: allow, mob-spawning: deny}
+        flags: {fall-damage: deny, use: allow, block-break: allow, chest-access: allow,
+            pvp: allow, mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0
