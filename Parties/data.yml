@@ -392,6 +392,12 @@ players:
       timestamp: 1531330092
       name: SydneyMurphy6
     rank: 5
+  9b360fca-56bb-44a7-9cb0-da1bf8a90b12:
+    rank: 5
+    name:
+      name: SerenaStarz
+      timestamp: 1531418698
+    party: Bros
 parties:
   TheTitans:
     members:
@@ -539,3 +545,4 @@ parties:
     - 0e88e52e-2945-464e-b4ba-e1e162c6786d
     - 18c70f2f-c175-4f54-9800-ff7390003d7b
     - 9b0a6462-f69e-4662-8014-65d1440588e7
+    - 9b360fca-56bb-44a7-9cb0-da1bf8a90b12

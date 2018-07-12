@@ -254,12 +254,13 @@ v2-logout:
     group: superherocities
     world: gotham
   28556dea-667d-409f-b2ff-fb4177a20ff2:
-    world: InfinityTrials
+    world: arcade
+    group: arcade
   fba04af8-dffb-47e6-94c6-b60622133afa:
     group: superherocities
     world: survival112
   e6de8cf0-af45-44e4-882f-d98446f4b31b:
-    world: InfinityTrials
+    world: arenapvp
   02608c84-25c3-4d49-9940-9ba7b6730816:
     group: superherocities
     world: survival112
@@ -267,7 +268,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   f621586e-8ef8-448d-9264-86b61375052e:
-    world: InfinityTrials
+    world: arenapvp
   65a49faf-1ac9-49a0-998f-aa42e8d7f054:
     group: mainmenu
     world: mainmenu
@@ -750,7 +751,7 @@ v2-logout:
     world: helicarrier
   fbfcb190-4cdb-400e-a8aa-fc30cc822caf:
     group: superherocities
-    world: survival112_nether
+    world: survival112
   eca9177a-9ef2-4e69-b1fc-804d9d848303:
     group: mainmenu
     world: mainmenu
@@ -794,7 +795,7 @@ v2-logout:
     group: superherocities
     world: survival112
   8354ed0d-09cb-4682-bf62-5df3f0e2b412:
-    world: InfinityTrials
+    world: arenapvp
   dbe7df28-f1c7-407e-ac72-6543f68e817d:
     world: waynemanor
     group: superherocities
@@ -806,7 +807,7 @@ v2-logout:
     world: survival112
   6ae33e07-ca4b-4820-ac96-8ea2037ac021:
     group: superherocities
-    world: titanstower
+    world: hogwarts
   0ee191cf-f2f8-4b00-b69a-7e9c34c7dfae:
     group: superherocities
     world: nyc
@@ -1173,8 +1174,8 @@ v2-logout:
   f475c2cf-ebbe-4314-8c6a-7211b32e55ae:
     world: jail
   6370f519-07ce-4448-9666-8e3ba64e85e1:
-    world: mainmenu
-    group: mainmenu
+    world: nyc
+    group: superherocities
   dc53ea09-b70d-4c2c-87f1-51481c81b944:
     group: superherocities
     world: nyc
@@ -1230,7 +1231,7 @@ v2-logout:
     group: superherocities
     world: helicarrier
   0e88e52e-2945-464e-b4ba-e1e162c6786d:
-    world: infinitycity
+    world: survival112
     group: superherocities
   38f076fd-f211-4dec-af63-fa5bde0d7ca3:
     group: superherocities
@@ -1679,7 +1680,8 @@ v2-logout:
     group: superherocities
     world: waynemanor
   84021862-52aa-47f0-8e08-6eacf021f0ef:
-    world: InfinityTrials
+    world: arcade
+    group: arcade
   65dc8272-fc24-4f45-adee-3afc5c277f36:
     group: superherocities
     world: nyc
@@ -4606,7 +4608,7 @@ v2-logout:
     group: superherocities
     world: waynemanor
   7e439f5f-a493-478a-a4f0-b4de30e6148c:
-    world: nyc
+    world: survival112
     group: superherocities
   533dd520-9492-49bf-87e2-07f36035c54c:
     group: superherocities
@@ -4908,7 +4910,7 @@ v2-logout:
     world: nyc
   da45ed4e-da80-4494-aec9-06cfff3c49d4:
     group: superherocities
-    world: starlabs
+    world: survival112
   5533cd91-be6a-44fb-bc68-43d2bbc1039b:
     group: superherocities
     world: helicarrier
@@ -4979,3 +4981,15 @@ v2-logout:
     world: InfinityTrials
   bc566d87-c312-4524-b89c-a3f59263bec6:
     world: QuestForDestiny
+  96f15b1a-0bd9-4109-98f7-a24781b5c4e8:
+    group: superherocities
+    world: waynemanor
+  9cd530f2-960b-4dda-89bd-66d11e634449:
+    group: superherocities
+    world: hogwarts
+  39175ddd-9dbc-498e-ad55-3354a8bd9b5f:
+    group: superherocities
+    world: helicarrier
+  9f372395-ab58-4067-856b-fb564551b028:
+    group: mainmenu
+    world: mainmenu
