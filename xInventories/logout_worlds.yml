@@ -18,8 +18,8 @@ v2-logout:
     group: superherocities
     world: greenfield
   a8e159ea-deeb-4f73-a246-591b589adcf4:
-    world: waynemanor
-    group: superherocities
+    world: mainmenu
+    group: mainmenu
   f012a423-c018-4c9e-aab8-3a414d1a24c0:
     group: superherocities
     world: survival112
@@ -55,9 +55,9 @@ v2-logout:
     group: superherocities
   524eb61e-b329-4b65-8cd2-8f6d0e9b1919:
     group: superherocities
-    world: nyc
+    world: infinitycity
   3639172b-aa0f-498d-9322-18addf094675:
-    world: gotham
+    world: survival112
     group: superherocities
   d1a0318e-b9f4-4951-a7d5-92d17836306c:
     group: superherocities
@@ -90,8 +90,8 @@ v2-logout:
     world: survival112
     group: superherocities
   fa2821a9-27ed-43e0-99f6-e22aec572a35:
-    group: superherocities
-    world: survival112
+    group: mainmenu
+    world: mainmenu
   0880eccc-feed-4a2f-9e22-d8f721f3913e:
     world: mainmenu
     group: mainmenu
@@ -102,10 +102,10 @@ v2-logout:
     group: superherocities
     world: infinitycity
   4082517f-c021-411b-b302-ccb2d61c84c1:
-    world: mainmenu
-    group: mainmenu
+    world: survival112
+    group: superherocities
   52b6e861-9b1b-4e74-9fe9-85e81a7e6472:
-    world: starlabs
+    world: infinitycity
     group: superherocities
   f9e418bf-9c4f-47af-a963-310bff20bc36:
     group: mainmenu
@@ -123,7 +123,8 @@ v2-logout:
     group: superherocities
     world: nyc
   869b4227-b51e-452e-adbd-48759a6848dd:
-    world: QuestForDestiny
+    world: survival112
+    group: superherocities
   e0870764-dcc8-49a5-ad33-6ec20d0be001:
     group: mainmenu
     world: mainmenu
@@ -224,7 +225,7 @@ v2-logout:
     group: superherocities
     world: survival112
   f9e3d8f3-f579-478f-a458-a7efaaf7bcdd:
-    world: survival112
+    world: waynemanor
     group: superherocities
   f7f12b7c-ea49-4011-96cc-12f7dce4be2d:
     group: superherocities
@@ -254,8 +255,8 @@ v2-logout:
     group: superherocities
     world: gotham
   28556dea-667d-409f-b2ff-fb4177a20ff2:
-    world: arcade
-    group: arcade
+    world: mainmenu
+    group: mainmenu
   fba04af8-dffb-47e6-94c6-b60622133afa:
     group: superherocities
     world: survival112
@@ -268,7 +269,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   f621586e-8ef8-448d-9264-86b61375052e:
-    world: arenapvp
+    world: InfinityTrials
   65a49faf-1ac9-49a0-998f-aa42e8d7f054:
     group: mainmenu
     world: mainmenu
@@ -420,8 +421,8 @@ v2-logout:
     group: superherocities
     world: starlabs
   09594d5f-8ef4-486e-8f1d-ab5d88fc42f1:
-    world: mainmenu
-    group: mainmenu
+    world: survival112
+    group: superherocities
   df772262-b004-43a6-ab1d-862d3dfa9973:
     group: mainmenu
     world: mainmenu
@@ -447,8 +448,7 @@ v2-logout:
     group: superherocities
     world: survival112
   748c7d68-79e5-4194-9bc8-e446d948ee8a:
-    group: superherocities
-    world: chicago
+    world: jail
   d5a5adaf-8965-4fed-90a8-a60847b806a7:
     group: mainmenu
     world: mainmenu
@@ -483,8 +483,8 @@ v2-logout:
     group: superherocities
     world: survival112
   34a87619-4b40-4ae8-b759-3efa25bbbffd:
-    world: mainmenu
-    group: mainmenu
+    world: survival112
+    group: superherocities
   00364a56-fe25-4fdd-a60d-42f3660a00db:
     group: mainmenu
     world: mainmenu
@@ -513,8 +513,8 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   ed038e46-f44d-4e18-8c76-fcaa06a4ae4a:
-    group: mainmenu
-    world: mainmenu
+    group: superherocities
+    world: fortressofsolitude
   73d1f657-3ff2-4dce-b9de-1631369b3ce9:
     group: superherocities
     world: starktower
@@ -654,8 +654,8 @@ v2-logout:
     group: superherocities
     world: survival112
   057e6a01-1f9e-427a-bc81-f67ffe47fdb6:
-    group: superherocities
-    world: waynemanor
+    group: arcade
+    world: arcade
   09b476be-0544-43b7-8205-6a86fc3e2b89:
     group: mainmenu
     world: mainmenu
@@ -795,7 +795,7 @@ v2-logout:
     group: superherocities
     world: survival112
   8354ed0d-09cb-4682-bf62-5df3f0e2b412:
-    world: arenapvp
+    world: InfinityTrials
   dbe7df28-f1c7-407e-ac72-6543f68e817d:
     world: waynemanor
     group: superherocities
@@ -984,10 +984,10 @@ v2-logout:
     world: broville
   8fbdeabb-5118-4fba-a29f-c58ab223cd8c:
     group: superherocities
-    world: titanstower
+    world: survival112
   afa8bc4d-69aa-4be3-83ed-578ac3dae052:
     group: superherocities
-    world: hallofjustice
+    world: survival112
   23d440b1-e76c-4ba6-8cee-a8abb351c5cc:
     group: superherocities
     world: titanstower
@@ -1055,8 +1055,7 @@ v2-logout:
     group: superherocities
     world: nyc
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
-    world: survival112
-    group: superherocities
+    world: jail
   ed624832-feca-405a-ba65-95281a8e4479:
     group: superherocities
     world: survival112
@@ -1136,8 +1135,8 @@ v2-logout:
     group: superherocities
     world: hogwarts
   c23c6679-b9ff-4249-a1f1-51c4c04ad098:
-    group: superherocities
-    world: chicago
+    group: mainmenu
+    world: mainmenu
   85e75cca-b062-4eff-9d30-b6e66457ed69:
     group: superherocities
     world: survival112
@@ -1157,8 +1156,8 @@ v2-logout:
     group: superherocities
     world: survival112
   ca7e8de8-30f0-43c5-9701-982c10ea9459:
-    group: mainmenu
-    world: mainmenu
+    group: superherocities
+    world: waynemanor
   d9e73a5b-013b-4589-b92a-969f0f88f694:
     group: mainmenu
     world: mainmenu
@@ -1174,7 +1173,7 @@ v2-logout:
   f475c2cf-ebbe-4314-8c6a-7211b32e55ae:
     world: jail
   6370f519-07ce-4448-9666-8e3ba64e85e1:
-    world: nyc
+    world: pokemon
     group: superherocities
   dc53ea09-b70d-4c2c-87f1-51481c81b944:
     group: superherocities
@@ -1325,7 +1324,7 @@ v2-logout:
     world: gotham
   6cb6a9c3-0c6a-412a-87a7-fcc8ccba63e4:
     group: superherocities
-    world: gotham
+    world: survival112
   86cd982c-eaad-48ae-a9ba-d4cab542126a:
     group: superherocities
     world: survival112
@@ -1348,7 +1347,7 @@ v2-logout:
     group: superherocities
     world: starlabs
   76afdb2a-a1ab-45a2-83da-b8396a513a89:
-    world: survival112
+    world: survival112_the_end
     group: superherocities
   b9651c64-9177-4f61-86cf-5636f315ac78:
     group: superherocities
@@ -1435,7 +1434,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   deb20342-389e-4b5f-808f-24bd22d88aa4:
-    world: nyc
+    world: starlabs
     group: superherocities
   2759e574-85bf-4b91-a079-15d316e419af:
     group: superherocities
@@ -1639,7 +1638,7 @@ v2-logout:
     world: mainmenu
   fc3bf70e-2dda-441d-9c19-8d682a2b0183:
     group: superherocities
-    world: starlabs
+    world: survival112
   b7342943-d209-4e29-bf49-880bb39afdc8:
     group: superherocities
     world: starlabs
@@ -1680,8 +1679,8 @@ v2-logout:
     group: superherocities
     world: waynemanor
   84021862-52aa-47f0-8e08-6eacf021f0ef:
-    world: arcade
-    group: arcade
+    world: lavahop
+    group: lavahop
   65dc8272-fc24-4f45-adee-3afc5c277f36:
     group: superherocities
     world: nyc
@@ -1732,7 +1731,7 @@ v2-logout:
     world: gotham
   53b05c82-b6c8-4393-aa3c-d8fbf5bfa5d7:
     group: superherocities
-    world: fortressofsolitude
+    world: chicago
   172c60cf-544b-4ae3-8b62-590562a5d490:
     group: mainmenu
     world: mainmenu
@@ -1864,7 +1863,7 @@ v2-logout:
     world: mainmenu
   52dc0add-9405-4e92-b30f-d096a3b32046:
     group: superherocities
-    world: nyc
+    world: survival112
   dc58b5a3-55eb-4ae7-8b21-7815bb63093b:
     group: mainmenu
     world: mainmenu
@@ -2511,7 +2510,7 @@ v2-logout:
     world: mainmenu
   204227c2-4f81-4a2b-9723-d9c3773c3e9b:
     group: superherocities
-    world: survival112
+    world: survival112_nether
   cb47d7f4-042a-45d4-b646-9e3a6dbcbb81:
     group: superherocities
     world: nyc
@@ -2631,7 +2630,7 @@ v2-logout:
     world: nyc
   9b360fca-56bb-44a7-9cb0-da1bf8a90b12:
     group: superherocities
-    world: survival112
+    world: infinitycity
   0130299a-4489-429d-b4eb-68643a4c6ac8:
     group: mainmenu
     world: mainmenu
@@ -2767,8 +2766,8 @@ v2-logout:
     group: superherocities
     world: survival112
   04ffdb79-cb41-4fea-9635-f76043053eeb:
-    group: superherocities
-    world: ooo
+    group: mainmenu
+    world: mainmenu
   60d68efc-d8b1-4635-8321-b8cd9e60f35e:
     group: superherocities
     world: pokemon
@@ -3043,7 +3042,7 @@ v2-logout:
     world: nyc
   e3fc0e88-5c5d-47b8-a99b-fb6ef7ef0405:
     group: superherocities
-    world: gotham
+    world: survival112
   55f78ea3-2f65-4bc2-b90b-7fd43c4bbf8c:
     group: superherocities
     world: nyc
@@ -3313,7 +3312,7 @@ v2-logout:
     world: mainmenu
   1845fb2d-d527-4067-9b05-f4b3f9829958:
     group: superherocities
-    world: waynemanor
+    world: survival112_nether
   8546a0a6-dca9-4be6-81fb-bdeffc15ef07:
     group: superherocities
     world: nyc
@@ -3396,8 +3395,7 @@ v2-logout:
     group: superherocities
     world: infinitycity
   ebeb6da7-bc57-411c-a35a-f48f6284cff0:
-    group: mainmenu
-    world: mainmenu
+    world: jail
   57dc6d9c-58fe-48a2-8213-c7cddc7b9ed5:
     group: superherocities
     world: survival112
@@ -3738,8 +3736,8 @@ v2-logout:
     group: superherocities
     world: nyc
   18c70f2f-c175-4f54-9800-ff7390003d7b:
-    world: mainmenu
-    group: mainmenu
+    world: survival112
+    group: superherocities
   f67dbe94-b42c-47a2-bc3e-8978b650c54b:
     group: superherocities
     world: greenfield
@@ -4264,7 +4262,7 @@ v2-logout:
     world: nyc
   c23a6f0c-f5f6-483f-bc4f-b42e817bbc80:
     group: superherocities
-    world: hogwarts
+    world: ooo
   968dc2fc-749c-4bcf-a1d5-9205d230a172:
     group: superherocities
     world: titanstower
@@ -4411,7 +4409,7 @@ v2-logout:
     world: greenfield
   f8b9e708-00cb-4af3-b1da-d80f799d23b1:
     group: superherocities
-    world: starlabs
+    world: survival112
   f1d80950-371f-4683-9ce7-508646bdc661:
     group: superherocities
     world: infinitycity
@@ -4525,7 +4523,7 @@ v2-logout:
     world: mainmenu
   7f210337-407c-47e9-a529-e6899faa9c74:
     group: superherocities
-    world: greenfield
+    world: nyc
   8ccd710f-260f-4e81-a27d-eb97d627eb5c:
     group: superherocities
     world: gotham
@@ -4777,8 +4775,8 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   9abf9b5f-80cb-4349-b87c-6f15c44a4ea8:
-    group: superherocities
-    world: starlabs
+    group: mainmenu
+    world: mainmenu
   45cae6ba-13a6-44b9-86d8-e3156d7df119:
     group: superherocities
     world: hallofjustice
@@ -4804,8 +4802,8 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   0cd952fd-7f87-4aae-8659-1762e034f9aa:
-    group: mainmenu
-    world: mainmenu
+    group: superherocities
+    world: helicarrier
   b9b08053-f397-4385-aa9a-07426160928d:
     group: superherocities
     world: survival112
@@ -4939,8 +4937,8 @@ v2-logout:
     group: superherocities
     world: infinitycity
   73e0a800-8df6-4eda-8c47-20433540c375:
-    group: superherocities
-    world: pokemon
+    group: mainmenu
+    world: mainmenu
   befd0845-021c-4408-a01d-d16d2b14ef10:
     group: superherocities
     world: pokemon
@@ -4993,3 +4991,60 @@ v2-logout:
   9f372395-ab58-4067-856b-fb564551b028:
     group: mainmenu
     world: mainmenu
+  3632718c-7b59-4aec-a326-a20d177dee5d:
+    group: superherocities
+    world: infinitycity
+  0e42e474-1348-4fa8-97c6-cb39a9c0988f:
+    group: superherocities
+    world: nyc
+  92c04444-1040-4d08-8f11-2e869f5fdbc2:
+    group: superherocities
+    world: infinitycity
+  23f19bc6-0808-44a7-b0a4-e2cb9ad20b3d:
+    group: superherocities
+    world: fortressofsolitude
+  62b4b260-0642-435a-b5d1-03204567a6c0:
+    group: superherocities
+    world: fortressofsolitude
+  c79c4ba6-3a87-4e2f-af30-5390b3e2f249:
+    group: superherocities
+    world: survival112_the_end
+  822d9906-daaa-4448-987d-e7838f4b9ad3:
+    group: mainmenu
+    world: mainmenu
+  50a07636-cc45-4af2-ba24-e49aba6fec11:
+    group: superherocities
+    world: nyc
+  a9ef03af-b18b-4047-9695-8f50cc4f8e23:
+    group: superherocities
+    world: nyc
+  4681c60e-1da2-4f7d-80be-5947e1d7497e:
+    group: superherocities
+    world: infinitycity
+  c783605b-da49-4970-9e9b-e9e4f7749c47:
+    group: mainmenu
+    world: mainmenu
+  5049601c-8ad6-46ce-b37c-107a646817b7:
+    group: superherocities
+    world: nyc
+  6c28fd40-c02c-496c-9503-702ef6ffc7f9:
+    group: superherocities
+    world: fortressofsolitude
+  0af49ad5-9c4a-45d7-9ca7-34c6db17e6cd:
+    group: mainmenu
+    world: mainmenu
+  dd603531-acd8-49ab-8acc-72cde851fdfd:
+    group: superherocities
+    world: survival112
+  fcd596dc-4f80-421e-9ee8-49ea582396d3:
+    group: superherocities
+    world: hallofjustice
+  2a55c528-17c7-4ef7-9333-fdcae0a9f3ca:
+    group: superherocities
+    world: infinitycity
+  489b16fe-62f7-43ca-a87a-e3713ad2e05c:
+    group: superherocities
+    world: fortressofsolitude
+  bbc5a7e3-2edc-4428-afb6-46655e33b1b4:
+    group: superherocities
+    world: survival112
