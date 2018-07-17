@@ -36,7 +36,9 @@ startspleef:
       - class: Command
         op: true
         command: undo
+      - class: Command
+        op: true
+        command: pex user @p remove fawe.bypass
     parameters:
         target_type: Player
         target: self
-        op: true
