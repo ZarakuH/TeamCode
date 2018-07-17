@@ -18,6 +18,22 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    arenapvpgravitychoose:
+        min: {x: 1023.0, y: 3.0, z: -1276.0}
+        max: {x: 1039.0, y: 15.0, z: -1248.0}
+        members: {}
+        flags: {use: allow, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    arenapvpgravity:
+        min: {x: 1047.0, y: 3.0, z: -1305.0}
+        max: {x: 1147.0, y: 38.0, z: -1215.0}
+        members: {}
+        flags: {fall-damage: deny, use: allow, interact: allow, pvp: allow, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     arenapvpvanillachoose:
         min: {x: 984.0, y: 3.0, z: -1232.0}
         max: {x: 1008.0, y: 14.0, z: -1217.0}
