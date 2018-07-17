@@ -806,8 +806,8 @@ v2-logout:
     group: superherocities
     world: survival112
   6ae33e07-ca4b-4820-ac96-8ea2037ac021:
-    group: superherocities
-    world: hogwarts
+    group: mainmenu
+    world: mainmenu
   0ee191cf-f2f8-4b00-b69a-7e9c34c7dfae:
     group: superherocities
     world: nyc

@@ -218,7 +218,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 2722
+  cast_count: 2724
   last_cast: 0
 glider:
   cast_count: 0
@@ -344,7 +344,7 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 3979
+  cast_count: 3980
   last_cast: 0
 ride:
   cast_count: 0
@@ -653,7 +653,7 @@ peek:
   cast_count: 0
   last_cast: 0
 ravenrush:
-  cast_count: 283
+  cast_count: 284
   last_cast: 0
 redstoneshop:
   cast_count: 0
@@ -779,7 +779,7 @@ glasstouch:
   cast_count: 599
   last_cast: 0
 startspleef:
-  cast_count: 72
+  cast_count: 77
   last_cast: 0
 airscooter:
   cast_count: 0
@@ -1481,10 +1481,10 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 3895
+  cast_count: 3896
   last_cast: 0
 ravenfield:
-  cast_count: 303
+  cast_count: 304
   last_cast: 0
 universalpull:
   cast_count: 33
@@ -1688,7 +1688,7 @@ woodshop:
   cast_count: 0
   last_cast: 0
 phoenixforce:
-  cast_count: 87
+  cast_count: 89
   last_cast: 0
 increaseage:
   cast_count: 103
@@ -1802,7 +1802,7 @@ backflip:
   cast_count: 0
   last_cast: 0
 firebolt:
-  cast_count: 1057
+  cast_count: 1058
   last_cast: 0
 tree:
   cast_count: 0

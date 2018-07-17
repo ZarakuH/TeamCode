@@ -1,0 +1,40 @@
+#alias gitgo='git add -A && git commit -m "update" && git push origin master'
+#alias gitadd='git add -A'
+#alias gitpull='git add -A && git pull origin master'
+#alias ssheval='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_rsa'
+
+
+
+gitadd:/gitadd = >>>
+  
+  msg('git add -A')
+  msg(shell('git add -A', array('workingDir': '/home/minecraft/server/plugins/')))
+
+<<<
+
+
+
+gitpull:/gitpull = >>>
+
+  msg('git add -A')
+  msg(shell('git add -A', array('workingDir': '/home/minecraft/server/plugins/')))
+
+  msg('git pull origin master')
+  msg(shell('git pull origin master', array('workingDir': '/home/minecraft/server/plugins/')))
+
+<<<
+
+
+
+gitgo:/gitgo = >>>
+
+  msg('git add -A')
+  msg(shell('git add -A', array('workingDir': '/home/minecraft/server/plugins/')))
+
+  msg('git commit -m "command update"')
+  msg(shell('git commit -m "command update"', array('workingDir': '/home/minecraft/server/plugins/')))
+
+  msg('git push origin master')
+  msg(shell('git push origin master', array('workingDir': '/home/minecraft/server/plugins/')))
+
+<<<
