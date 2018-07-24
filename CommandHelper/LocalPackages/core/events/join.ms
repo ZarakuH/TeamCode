@@ -19,12 +19,12 @@ bind('player_join',null,null,@event){
             array_remove(@plrs,@slot)
         }
     }
-    @randName = array_rand(@plrs)
-    @randName = @plrs[@randName[0]]
+    //@randName = array_rand(@plrs)
+    //@randName = @plrs[@randName[0]]
     //@it = array(@plrs[@randName[0]],time())
-    export('it',@randName)
-    broadcast(color('GRAY').color('ITALIC').@randName.' is IT! Don\'t get tagged! You get points for being IT!')
-    broadcast(color('GRAY').color('ITALIC').'Do '.color('GREEN').'/whosit'.color('GRAY').color('ITALIC').' to find them!')
+    //export('it',@randName)
+    //broadcast(color('GRAY').color('ITALIC').@randName.' is IT! Don\'t get tagged! You get points for being IT!')
+    //broadcast(color('GRAY').color('ITALIC').'Do '.color('GREEN').'/whosit'.color('GRAY').color('ITALIC').' to find them!')
 
 
     if(has_permission(@plr,'is.criminal')){
