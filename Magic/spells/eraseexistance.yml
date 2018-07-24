@@ -4,6 +4,10 @@ eraseexistance:
     icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
     actions:
       cast:
+      - class: PotionEffect
+      - class: Deactivate
+      - class: Delay
+        delay: 5000
       - class: Command
     effects:
         cast:
@@ -29,3 +33,5 @@ eraseexistance:
         range: 64
         console: true
         command: kill @t
+        effect_invisibility: 1
+        duration 5000
