@@ -74,9 +74,9 @@ foreach(@slot:@player in @players){
         array_remove(@players,@slot)
     }
 }
-@randName = array_rand(@players)
-@randName = @players[@randName[0]]
+//@randName = array_rand(@players)
+//@randName = @players[@randName[0]]
 //@it = array(@players[@randName[0]],time())
-export('it',@randName)
-broadcast(color('GRAY').color('ITALIC').@randName.' is IT! Don\'t get tagged! You get points for being IT! ')
-broadcast(color('GRAY').color('ITALIC').'Do '.color('GREEN').'/whosit'.color('GRAY').color('ITALIC').' to find them!')
+//export('it',@randName)
+//broadcast(color('GRAY').color('ITALIC').@randName.' is IT! Don\'t get tagged! You get points for being IT! ')
+//broadcast(color('GRAY').color('ITALIC').'Do '.color('GREEN').'/whosit'.color('GRAY').color('ITALIC').' to find them!')
