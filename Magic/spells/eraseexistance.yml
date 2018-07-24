@@ -4,11 +4,7 @@ eraseexistance:
     icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
     actions:
       cast:
-      - class: PotionEffect
-      - class: Deactivate
-      - class: Delay
-        delay: 5000
-      - class: Damage
+      - class: Command
     effects:
         cast:
         - class: EffectSingle
@@ -31,6 +27,5 @@ eraseexistance:
         bypass_backfire: true
         bypass_pvp: false
         range: 64
-        damage: 9999
-        effect_invisibility: 1
-        duration: 5000
+        console: true
+        command: kill @t
