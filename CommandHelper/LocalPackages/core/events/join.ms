@@ -100,12 +100,12 @@ bind('player_join',null,null,@event){
         runas('~console','/pex user '.@plr.' remove arrest.onjoin')
     }
 
-    sudo('/ch set '.@plr.' global')
-    set_timeout(5000, closure(
-        if(@class == 'mortal' && has_permission(@plr,'is.ingame')){
-            sudo('/mainmenu')
-            die()
-        }
+    //sudo('/ch set '.@plr.' global')
+    //set_timeout(5000, closure(
+        //if(@class == 'mortal' && has_permission(@plr,'is.ingame')){
+            //sudo('/mainmenu')
+            //die()
+        //}
     ))
     set_timeout(5000, closure(
         _changeSkin(@plr,@hero['costumes'][0]['sig'],@hero['costumes'][0]['val'],@hero['costumes'][0]['name'])
