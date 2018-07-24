@@ -106,7 +106,7 @@ bind('player_join',null,null,@event){
             //sudo('/mainmenu')
             //die()
         //}
-    ))
+    //))
     set_timeout(5000, closure(
         _changeSkin(@plr,@hero['costumes'][0]['sig'],@hero['costumes'][0]['val'],@hero['costumes'][0]['name'])
         _changeTrail(@plr, @hero['trail'])
