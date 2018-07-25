@@ -56,10 +56,10 @@ bind('vehicle_destroy',null,null,@e){
     }
 }
 
-bind('block_dispense',null,null,@e){
-    if(@e['item'] == null){
-        die()
-    }
+//bind('block_dispense',null,null,@e){
+    //if(@e['item'] == null){
+        //die()
+    //}
     cancel()
 
     @itemType = @e['item']['type']
