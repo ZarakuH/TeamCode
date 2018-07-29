@@ -6,4 +6,4 @@ skullshop:
   parameters:
     cost_type: xp
     items:
-      skull_cheese: 500
+      skull:0: 500
