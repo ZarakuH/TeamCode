@@ -1,0 +1,12 @@
+potionshop:
+  icon: emerald
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    cost_type: xp
+    items:
+      potion:2: 100
+      potion:6: 100
+      potion:11: 100
+      potion:14: 100
