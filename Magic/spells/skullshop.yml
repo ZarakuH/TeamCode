@@ -1,0 +1,8 @@
+skullshop:
+  icon: emerald
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    items:
+skull:0: 500
