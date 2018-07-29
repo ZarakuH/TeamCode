@@ -5,4 +5,4 @@ skullshop:
   inherit: buyshop
   parameters:
     items:
-skull:0: 500
+  skull: 500
