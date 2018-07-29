@@ -4,6 +4,6 @@ skullshop:
   hidden: true
   inherit: buyshop
   parameters:
-  cost_type: xp
-  items:
-    skull_cheese: 500
+    cost_type: xp
+    items:
+      skull_cheese: 500
