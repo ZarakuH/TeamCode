@@ -903,13 +903,14 @@ Players:
     Channels:
       Global: write
   xSp4rkz:
+    Spying: true
     Channels:
       Global: write
-    Spying: true
   StrikerMax:
     Spying: true
     Channels:
       Global: write
+      Local: write
   LolItzCrusty:
     Channels:
       Global: write
@@ -1448,5 +1449,251 @@ Players:
     Channels:
       Global: write
   Phillipily:
+    Channels:
+      Global: write
+  NotRisk:
+    Channels:
+      Global: write
+  Lucy_Keys:
+    Channels:
+      Global: write
+  Newt_Scamander1:
+    Channels:
+      Global: write
+  _Tvou_KoT_:
+    Channels:
+      Global: write
+  Timmieozo:
+    Channels:
+      Global: write
+  PurpiFox:
+    Channels:
+      Global: write
+  govanni:
+    Channels:
+      Global: write
+  koottek:
+    Channels:
+      Global: write
+  babybird911:
+    Channels:
+      Global: write
+  Alex_playz7:
+    Channels:
+      Global: write
+  Bubbly3779:
+    Channels:
+      Global: write
+  pacmanny:
+    Channels:
+      Global: write
+  EbenPyroclastic:
+    Channels:
+      Global: write
+  Covellite:
+    Channels:
+      Global: write
+  Symmery:
+    Channels:
+      Global: write
+  TheLastCraft_xX:
+    Channels:
+      Global: write
+  piglord1618:
+    Channels:
+      Global: write
+  MaferOH:
+    Channels:
+      Global: write
+  SaltyBear04:
+    Channels:
+      Global: write
+  King_Creepers:
+    Channels:
+      Global: write
+  Memeixis:
+    Channels:
+      Global: write
+  CentralNerd:
+    Channels:
+      Global: write
+  THAN0S_:
+    Channels:
+      Global: write
+  99enitaplaPliL:
+    Channels:
+      Global: write
+  BA_baracasaurus:
+    Channels:
+      Global: write
+  XxTAT_GameConxX:
+    Channels:
+      Global: write
+  cidafalous:
+    Channels:
+      Global: write
+  xRepeating:
+    Channels:
+      Global: write
+  Mavly:
+    Channels:
+      Global: write
+  Jack_N_Heffner:
+    Channels:
+      Global: write
+  Dalek010:
+    Channels:
+      Global: write
+  Guitar_Hero:
+    Channels:
+      Global: write
+  Dqnk_Memes:
+    Channels:
+      Global: write
+  creeperingreen:
+    Channels:
+      Global: write
+  Riddlestyx:
+    Channels:
+      Global: write
+  Shadows_studios:
+    Channels:
+      Global: write
+  VoidCryptid:
+    Channels:
+      Global: write
+  SuperGorl:
+    Channels:
+      Global: write
+  Inverse_Asmodai:
+    Channels:
+      Global: write
+  Parzival32474:
+    Channels:
+      Global: write
+  BlueFoxGam3r:
+    Channels:
+      Global: write
+  xRichBoyzx:
+    Channels:
+      Global: write
+  Cioxen:
+    Channels:
+      Global: write
+  TheFriky:
+    Channels:
+      Global: write
+  PORTALPRO1738:
+    Channels:
+      Global: write
+  takiaya:
+    Channels:
+      Global: write
+  GriffinVaris:
+    Channels:
+      Global: write
+  BTL_2_or_Bob:
+    Channels:
+      Global: write
+  xB1sh:
+    Channels:
+      Global: write
+  BurnedPotato:
+    Channels:
+      Global: write
+  Mr_Momentum:
+    Channels:
+      Global: write
+  ShadedGuardianYT:
+    Channels:
+      Global: write
+  ActualSpiderman:
+    Channels:
+      Global: write
+  theCaptain1025:
+    Channels:
+      Global: write
+  LostNightfury:
+    Channels:
+      Global: write
+  PisForPoise:
+    Channels:
+      Global: write
+  nerd_nation_:
+    Channels:
+      Global: write
+  TrommelKoekje:
+    Channels:
+      Global: write
+  MommyApproves:
+    Channels:
+      Global: write
+  ScarletWorlock:
+    Channels:
+      Global: write
+  Saiyan677:
+    Channels:
+      Global: write
+  BreifOblivion:
+    Channels:
+      Global: write
+  ICanLeftClickU:
+    Channels:
+      Global: write
+  Caibradj1:
+    Channels:
+      Global: write
+  xXDogeEnricoXx:
+    Channels:
+      Global: write
+  Eddy2006:
+    Channels:
+      Global: write
+  MythicalSword18:
+    Channels:
+      Global: write
+  Hannah_The_G:
+    Channels:
+      Global: write
+  Infold:
+    Channels:
+      Global: write
+  Buehl34:
+    Channels:
+      Global: write
+  Woofwoof2015:
+    Channels:
+      Global: write
+  Timichi:
+    Channels:
+      Global: write
+  Dracorealm:
+    Channels:
+      Global: write
+  Sam_thing:
+    Channels:
+      Global: write
+  Bear_Boy_12:
+    Channels:
+      Global: write
+  Howie79:
+    Channels:
+      Global: write
+  ToasterMan510:
+    Channels:
+      Global: write
+  x_MasterBlock_x:
+    Channels:
+      Global: write
+  REAL_TONY_STARK:
+    Channels:
+      Global: write
+  oxxNarwhalsxxo:
+    Channels:
+      Global: write
+  marar0111:
+    Channels:
+      Global: write
+  supermurphy:
     Channels:
       Global: write

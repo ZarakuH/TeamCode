@@ -338,12 +338,6 @@ players:
       timestamp: 1526918587
     party: BloodSkull
     rank: 5
-  2a63e405-eecf-480a-9fcf-1e22b996d998:
-    party: TheTitans
-    name:
-      timestamp: 1530808343
-      name: SpiralSanta
-    rank: 5
   28556dea-667d-409f-b2ff-fb4177a20ff2:
     name:
       name: Marielia
@@ -398,6 +392,18 @@ players:
       name: SerenaStarz
       timestamp: 1531418698
     party: Bros
+  2a63e405-eecf-480a-9fcf-1e22b996d998:
+    party: Bros
+    name:
+      timestamp: 1532793603
+      name: ToasterMan510
+    rank: 5
+  24a234d7-e652-4a24-af9a-da143b05acc0:
+    name:
+      name: BA_baracasaurus
+      timestamp: 1532218641
+    party: TheKIngs
+    rank: 20
 parties:
   TheTitans:
     members:
@@ -414,7 +420,6 @@ parties:
     - 8cd908e9-a758-41fa-99b9-1a8f8ffc5297
     - 524eb61e-b329-4b65-8cd2-8f6d0e9b1919
     - 972d3bcd-87bc-4e35-a334-ad792dc8e260
-    - 2a63e405-eecf-480a-9fcf-1e22b996d998
     leader: 8ca7fc56-614b-482a-91df-bf8580ba273d
     motd: Hey
     desc: Were The Titans
@@ -546,3 +551,8 @@ parties:
     - 18c70f2f-c175-4f54-9800-ff7390003d7b
     - 9b0a6462-f69e-4662-8014-65d1440588e7
     - 9b360fca-56bb-44a7-9cb0-da1bf8a90b12
+    - 2a63e405-eecf-480a-9fcf-1e22b996d998
+  TheKIngs:
+    leader: 24a234d7-e652-4a24-af9a-da143b05acc0
+    members:
+    - 24a234d7-e652-4a24-af9a-da143b05acc0

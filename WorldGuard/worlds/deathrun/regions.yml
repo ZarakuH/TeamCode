@@ -11,10 +11,10 @@
 #
 regions:
     deathrun:
-        min: {x: -66.0, y: 40.0, z: -42.0}
-        max: {x: 67.0, y: 108.0, z: 43.0}
+        min: {x: -818.0, y: 0.0, z: 1684.0}
+        max: {x: -740.0, y: 31.0, z: 1763.0}
         members: {}
-        flags: {invincible: allow, use: allow}
+        flags: {use: allow, invincible: allow}
         owners:
             unique-ids: [fbb8c072-4c4b-49c8-948b-26e8ad73099e]
         type: cuboid

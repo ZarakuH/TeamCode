@@ -27292,10 +27292,12 @@ startspleef:
     - class: Command
       op: true
       command: undo
+    - class: Command
+      op: true
+      command: pex user @p remove fawe.bypass
   parameters:
     target_type: Player
     target: self
-    op: true
 sandwall:
   icon: diamond_axe:130
   icon_disabled: diamond_hoe:130
@@ -27827,7 +27829,7 @@ eraseexistance:
     - class: Deactivate
     - class: Delay
       delay: 5000
-    - class: Damage
+    - class: Command
   effects:
     cast:
     - class: EffectSingle
@@ -27850,7 +27852,8 @@ eraseexistance:
     bypass_backfire: true
     bypass_pvp: false
     range: 64
-    damage: 9999
+    console: true
+    command: kill @t
     effect_invisibility: 1
     duration: 5000
 sonicwave:

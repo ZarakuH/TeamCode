@@ -14,7 +14,8 @@ regions:
         min: {x: 268.0, y: 3.0, z: 132.0}
         max: {x: 404.0, y: 30.0, z: 247.0}
         members: {}
-        flags: {use: allow, block-break: deny, interact: allow, pvp: deny, block-place: deny}
+        flags: {use: allow, block-break: deny, interact: allow, pvp: deny, block-place: deny,
+            mob-spawning: deny}
         owners:
             unique-ids: [c7f35ddb-e2a1-4665-97c0-5e89bcd68501]
         type: cuboid

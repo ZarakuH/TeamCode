@@ -46,7 +46,8 @@ regions:
         min: {x: -11.0, y: 0.0, z: -6.0}
         max: {x: 72.0, y: 31.0, z: 73.0}
         members: {}
-        flags: {use: allow, block-break: allow, tnt: allow, mob-spawning: deny}
+        flags: {use: allow, feed-delay: 5, feed-amount: 2, block-break: allow, interact: allow,
+            tnt: allow, mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0
