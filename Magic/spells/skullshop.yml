@@ -7,3 +7,7 @@ skullshop:
     cost_type: xp
     items:
       skull:0: 500
+      skull:1: 500
+      skull:2: 500
+      skull:4: 500
+      skull:5: 1000
