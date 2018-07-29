@@ -5,5 +5,5 @@ skullshop:
   inherit: buyshop
   parameters:
   cost_type: xp
-    items:
-  skull: 500
+  items:
+    skull: 500
