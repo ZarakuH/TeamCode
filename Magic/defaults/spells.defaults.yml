@@ -13114,14 +13114,18 @@ pickaxeshop:
     - felicis_pickaxe
     - dwarven_felicis_pickaxe
 potionshop:
-  icon: potion
-  category: shop
+  icon: emerald
+  category: npc
   hidden: true
   inherit: buyshop
   parameters:
     confirm: true
     items:
-    - potion_splash_swiftness_long
+      potion:2: 100
+      potion:6: 100
+      potion:11: 100
+      potion:14: 100
+    cost_type: xp
 brushshop:
   inherit: buyshop
   parameters:
@@ -24276,6 +24280,15 @@ wingardiumleviosa:
     duration: 5000
   costs:
     mana: 40
+miscshop:
+  icon: emerald
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    cost_type: xp
+    items:
+      elytra: 300
 wwbracers:
   icon: diamond_axe:192
   icon_disabled: diamond_hoe:192
@@ -27062,6 +27075,19 @@ sunbeam:
     bypass_build: true
   costs:
     mana: 35
+skullshop:
+  icon: emerald
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    cost_type: xp
+    items:
+      skull:0: 500
+      skull:1: 500
+      skull:2: 500
+      skull:4: 500
+      skull:5: 1000
 dlocdniwwolb:
   icon: diamond_axe:37
   icon_disabled: diamond_hoe:37

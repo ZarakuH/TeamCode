@@ -23,7 +23,7 @@ music:
   cast_count: 0
   last_cast: 0
 abrawarp:
-  cast_count: 491
+  cast_count: 492
   last_cast: 0
 projector:
   cast_count: 0
@@ -344,7 +344,7 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 4061
+  cast_count: 4064
   last_cast: 0
 ride:
   cast_count: 0
@@ -653,7 +653,7 @@ peek:
   cast_count: 0
   last_cast: 0
 ravenrush:
-  cast_count: 302
+  cast_count: 303
   last_cast: 0
 redstoneshop:
   cast_count: 0
@@ -755,7 +755,7 @@ freezeray:
   cast_count: 373
   last_cast: 0
 stungrenade:
-  cast_count: 340
+  cast_count: 341
   last_cast: 0
 deposits:
   cast_count: 0
@@ -770,7 +770,7 @@ superblob:
   cast_count: 0
   last_cast: 0
 abratrap:
-  cast_count: 420
+  cast_count: 421
   last_cast: 0
 freezetime:
   cast_count: 1181
@@ -1039,6 +1039,9 @@ effectshop:
 forcecollapse:
   cast_count: 0
   last_cast: 0
+skullshop:
+  cast_count: 1
+  last_cast: 0
 starclass:
   cast_count: 0
   last_cast: 0
@@ -1127,7 +1130,7 @@ airglider:
   cast_count: 0
   last_cast: 0
 jokerfloweracid:
-  cast_count: 145
+  cast_count: 146
   last_cast: 0
 smite:
   cast_count: 0
@@ -1145,7 +1148,7 @@ secure:
   cast_count: 0
   last_cast: 0
 rocketlauncher:
-  cast_count: 382
+  cast_count: 383
   last_cast: 0
 extinguish:
   cast_count: 0
@@ -1321,6 +1324,9 @@ bookshop:
 nox:
   cast_count: 0
   last_cast: 0
+miscshop:
+  cast_count: 0
+  last_cast: 0
 incendio:
   cast_count: 296
   last_cast: 0
@@ -1457,7 +1463,7 @@ simulate:
   cast_count: 0
   last_cast: 0
 emeraldshop:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 phase:
   cast_count: 2
@@ -1481,10 +1487,10 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 3979
+  cast_count: 3988
   last_cast: 0
 ravenfield:
-  cast_count: 328
+  cast_count: 329
   last_cast: 0
 universalpull:
   cast_count: 33
@@ -1961,7 +1967,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1759
+  cast_count: 1761
   last_cast: 0
 mach5punch:
   cast_count: 225

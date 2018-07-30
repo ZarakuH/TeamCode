@@ -68,6 +68,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   ZwaagGirls:
     Channels:
       Global: write
@@ -1695,5 +1696,38 @@ Players:
     Channels:
       Global: write
   supermurphy:
+    Channels:
+      Global: write
+  WolfangYT:
+    Channels:
+      Global: write
+  XxTrolbroPDxX:
+    Channels:
+      Global: write
+  owen_grady1:
+    Channels:
+      Global: write
+  CrazyEnderman_64:
+    Channels:
+      Global: write
+  kayaaaatje:
+    Channels:
+      Global: write
+  bloodred2002:
+    Channels:
+      Global: write
+  FriTexwarfare:
+    Channels:
+      Global: write
+  AkaneNoAkane:
+    Channels:
+      Global: write
+  Godlymax767:
+    Channels:
+      Global: write
+  austik46:
+    Channels:
+      Global: write
+  TimePirate:
     Channels:
       Global: write
