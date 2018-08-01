@@ -38,11 +38,11 @@ unrelentingforce:
           particles_base: 0
           particles_helix: 7
           particle_helix: spell_mob
-          color: bfd7ff
+          color_helix: "bfd7ff"
           particle_base1: spell_mob
-          color: bfd7ff
+          color_base1: "bfd7ff"
           particle_base2: spell_mob
-          color: bfd7ff
+          color_base2: "bfd7ff"
     - location: target
       effectlib:
         class: Sphere
@@ -69,11 +69,11 @@ unrelentingforce:
           particles_base: 0
           particles_helix: 7
           particle_helix: spell_mob
-          color: bfd7ff
+          color_helix: "bfd7ff"
           particle_base1: spell
-          color: bfd7ff
+          color_base1: "bfd7ff"
           particle_base2: spell
-          color: bfd7ff
+          color_base2: "bfd7ff"
     - location: target
       effectlib:
         class: Sphere
