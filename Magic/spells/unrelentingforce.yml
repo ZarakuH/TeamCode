@@ -10,13 +10,13 @@ unrelentingforce:
   actions:
     cast:
     - class: Message
-      message: &bFUS
+      message: "&bFUS"
       message_type: chat
     - class: Message
-      message: &bRO
+      message: "&bRO"
       message_type: chat
     - class: Message
-      message: &bDAH
+      message: "&bDAH"
       message_type: chat
     - class: Damage
     - class: VelocityAction
