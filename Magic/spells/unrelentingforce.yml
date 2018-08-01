@@ -9,6 +9,15 @@ unrelentingforce:
   upgrade_required_casts: 40
   actions:
     cast:
+    - class: Message
+      message: &bFUS
+      message_type: chat
+    - class: Message
+      message: &bRO
+      message_type: chat
+    - class: Message
+      message: &bDAH
+      message_type: chat
     - class: Damage
     - class: VelocityAction
       y_offset: 1
