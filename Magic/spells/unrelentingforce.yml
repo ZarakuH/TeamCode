@@ -93,7 +93,7 @@ unrelentingforce:
     fov: 1
     target_count: 2
     item_speed: 0.1
-    living_entity_speed: 3.0
+    living_entity_speed: 2.5
     repeat: 3
     delay: 250
     y_offset: 0.75
