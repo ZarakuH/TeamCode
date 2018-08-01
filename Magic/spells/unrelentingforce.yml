@@ -16,7 +16,7 @@ unrelentingforce:
       message: "&bRO"
       message_type: chat
     - class: Message
-      message: "&bDAH"
+      message: "&bDAH!"
       message_type: chat
     - class: Damage
     - class: VelocityAction
@@ -47,16 +47,16 @@ unrelentingforce:
           particles_base: 0
           particles_helix: 7
           particle_helix: spell_mob
-          color_helix: "bfd7ff"
+          color_helix: "3582ff"
           particle_base1: spell_mob
-          color_base1: "bfd7ff"
+          color_base1: "3582ff"
           particle_base2: spell_mob
-          color_base2: "bfd7ff"
+          color_base2: "3582ff"
     - location: target
       effectlib:
         class: Sphere
         particle: spell_mob
-        color: bfd7ff
+        color: 3582ff
         particles: 2
         period: 4
         duration: 500
@@ -78,16 +78,16 @@ unrelentingforce:
           particles_base: 0
           particles_helix: 7
           particle_helix: spell_mob
-          color_helix: "bfd7ff"
+          color_helix: "3582ff"
           particle_base1: spell
-          color_base1: "bfd7ff"
+          color_base1: "3582ff"
           particle_base2: spell
-          color_base2: "bfd7ff"
+          color_base2: "3582ff"
     - location: target
       effectlib:
         class: Sphere
         particle: spell_mob
-        color: bfd7ff
+        color: 3582ff
         particles: 2
         period: 4
         duration: 500
@@ -102,7 +102,7 @@ unrelentingforce:
     fov: 1
     target_count: 2
     item_speed: 0.1
-    living_entity_speed: 2.5
+    living_entity_speed: 2.0
     repeat: 3
     delay: 250
     y_offset: 0.75
