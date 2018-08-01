@@ -93,11 +93,11 @@ unrelentingforce:
     fov: 1
     target_count: 2
     item_speed: 0.1
-    living_entity_speed: 1.5
+    living_entity_speed: 3.0
     repeat: 3
     delay: 250
     y_offset: 0.75
-    damage: 10
-    cooldown: 5000
+    damage: 5
+    cooldown: 15000
   costs:
     mana: 20
