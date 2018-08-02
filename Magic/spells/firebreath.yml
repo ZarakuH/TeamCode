@@ -15,6 +15,8 @@ firebreath:
         actions:
         - class: Burn
       - class: Delay
+      - class: Ignite
+      - class: Damage
   effects:
     cast:
     - class: EffectSingle
@@ -40,8 +42,9 @@ firebreath:
     reverse: false
     require_blocks: true
     undo: 5000
-    cooldown: 2000
+    cooldown: 15000
     destructible: destructible_replace
     delay: 100
+    damage: 5
   costs:
     mana: 100
