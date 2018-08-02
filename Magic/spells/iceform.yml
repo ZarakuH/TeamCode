@@ -45,10 +45,12 @@ iceform:
     transparent: transparent_to_construction
     destructible: destructible_replace
     check_destructible: true
-    undo: 4000
+    undo: 5000
     brush: packed_ice
     brushcolor: true
-    cooldown: 5000
+    cooldown: 15000
+    effect_slow: 50
+    duration: 5000
     breakable: 4
     reflect_chance: 0.25
     miss_effects: hit
