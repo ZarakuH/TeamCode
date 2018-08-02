@@ -5,6 +5,7 @@ dovahkiinshouts:
     firebreath: 1
     whirlwindsprint: 2
     frostbreath: 3
+    iceform: 4
   active_spell: unrelentingforce
   spell_levels: {}
   mana: 300.0
@@ -18,6 +19,7 @@ dovahkiinshouts:
   - firebreath
   - whirlwindsprint
   - frostbreath
+  - iceform
   bound: true
   keep: false
   invulnerable: true
