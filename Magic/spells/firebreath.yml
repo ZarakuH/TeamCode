@@ -1,0 +1,47 @@
+firebreath:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Line
+      actions:
+      - class: Cover
+        actions:
+        - class: Burn
+      - class: Delay
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: "ff952b"
+        particle_base1: spell_mob
+        color_base1: "ff952b"
+        particle_base2: spell_mob
+        color_base2: "ff952b"
+        iterations: 10
+  parameters:
+    target_type: LivingEntity
+    transparent: transparent_to_construction
+    allow_max_range: true
+    range: 32
+    size: 6
+    reverse: false
+    require_blocks: true
+    undo: 5000
+    cooldown: 2000
+    destructible: destructible_replace
+    delay: 100
+  costs:
+    mana: 100
