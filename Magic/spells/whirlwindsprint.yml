@@ -30,10 +30,12 @@ whirlwindsprint:
   effects:
     cast:
     - class: EffectSingle
-      sound: magic.shimmer_crack
-      sound_volume: 1
-      particle: redstone
-      color: 777777
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: 999999
+        iterations: 100
+        radius: 0.3
   parameters:
     target: none
     target_type: Damageable
