@@ -9,6 +9,15 @@ firebreath:
   upgrade_required_casts: 50
   actions:
     cast:
+    - class: Message
+      message: "&bYOL"
+      message_type: chat
+    - class: Message
+      message: "&bTOOR"
+      message_type: chat
+    - class: Message
+      message: "&bSHUL!"
+      message_type: chat
     - class: Line
       actions:
       - class: Cover
