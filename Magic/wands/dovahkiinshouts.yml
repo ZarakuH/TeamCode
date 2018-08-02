@@ -3,6 +3,7 @@ dovahkiinshouts:
   spell_inventory:
     unrelentingforce: 0
     firebreath: 1
+    whirlwindsprint: 2
   active_spell: unrelentingforce
   spell_levels: {}
   mana: 300.0
@@ -14,6 +15,7 @@ dovahkiinshouts:
   spells:
   - unrelentingforce
   - firebreath
+  - whirlwindsprint
   bound: true
   keep: false
   invulnerable: true
