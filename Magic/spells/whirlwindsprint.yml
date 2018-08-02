@@ -51,7 +51,7 @@ whirlwindsprint:
     range: 3
     hitbox: false
     fov: 0.4
-    velocity: 2.0
+    velocity: 10
     source_pitch_min: 0
     source_pitch_max: 0
     damage: 0
