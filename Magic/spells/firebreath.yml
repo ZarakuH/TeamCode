@@ -54,6 +54,6 @@ firebreath:
     cooldown: 15000
     destructible: destructible_replace
     delay: 100
-    damage: 5
+    damage: 12
   costs:
     mana: 100
