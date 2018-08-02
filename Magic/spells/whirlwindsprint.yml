@@ -7,6 +7,15 @@ whirlwindsprint:
   earns_sp: 8
   actions:
     cast:
+    - class: Message
+      message: "&bWULD"
+      message_type: chat
+    - class: Message
+      message: "&bNAH"
+      message_type: chat
+    - class: Message
+      message: "&bKEST!"
+      message_type: chat
     - class: Repeat
       actions:
       - class: Retarget
