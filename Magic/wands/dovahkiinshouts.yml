@@ -2,6 +2,7 @@ dovahkiinshouts:
   version: 5
   spell_inventory:
     unrelentingforce: 0
+    firebreath: 1
   active_spell: unrelentingforce
   spell_levels: {}
   mana: 300.0
@@ -12,6 +13,7 @@ dovahkiinshouts:
   page: 0
   spells:
   - unrelentingforce
+  - firebreath
   bound: true
   keep: false
   invulnerable: true
