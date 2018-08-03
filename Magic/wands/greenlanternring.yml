@@ -2,6 +2,7 @@ greenlanternring:
   version: 5
   spell_inventory:
     lanternshield: 0
+    lanternblast: 1
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -12,6 +13,7 @@ greenlanternring:
   page: 0
   spells:
   - lanternshield
+  - lanternblast
   bound: true
   keep: false
   invulnerable: true
