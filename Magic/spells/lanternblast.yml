@@ -27,7 +27,7 @@ lanternblast:
       sound_pitch: -0.25
       location: origin
       effectlib:
-        class: AtomEffect
+        class: SphereEffect
         particle: spell_mob
         iterations: 16
         radius: 1
