@@ -76,6 +76,6 @@ nordcompanion:
   boots: leather_boots
   health: 40
   default_drops: false
-  cast_interval: 5000
+  cast_interval: 10000
   cast:
-    none: 100
+    unrelentingforce: 100
