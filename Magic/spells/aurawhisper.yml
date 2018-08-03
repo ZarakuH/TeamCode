@@ -41,7 +41,7 @@ aurawhisper:
         range: 8
         hitbox: true
         target_type: Damageable
-        target_count: 5
+        target_count: 15
         radius: 50
         effect_glowing: 1
         duration: 7000
