@@ -18,8 +18,9 @@ elementalfury:
     - class: Message
       message: "&bDUN!"
       message_type: chat
-    - class: PotionEffect
-    - class: Deactivate
+    - class: Command
+      command: effect @p haste 20 10
+      op: true
   effects:
     cast:
     - class: EffectSingle
@@ -33,8 +34,6 @@ elementalfury:
     target_type: LivingEntity
     range: 32
     cooldown: 15000
-    effect_efficiency: 10
-    duration: 20000
     target: self
   costs:
     mana: 100
