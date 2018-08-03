@@ -7,6 +7,7 @@ dovahkiinshouts:
     frostbreath: 3
     iceform: 4
     markedfordeath: 5
+    becomeethereal: 6
   active_spell: unrelentingforce
   spell_levels: {}
   mana: 300.0
@@ -22,6 +23,7 @@ dovahkiinshouts:
   - frostbreath
   - iceform
   - markedfordeath
+  - becomeethereal
   bound: true
   keep: false
   invulnerable: true
