@@ -23,7 +23,7 @@ lanternsmight:
       sound: magic.zap_crack
       location: origin
     tick:
-    - particle: redstone
+    - particle: spell_mob
       particle_count: 5
       particle_offset_x: 0.05
       particle_offset_y: 0.05
