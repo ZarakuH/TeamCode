@@ -55,7 +55,7 @@ frostbreath:
     cooldown: 15000
     destructible: destructible_replace
     delay: 100
-    potion_slow: 5
+    effect_slow: 5
     duration: 5000
     damage: 5
   costs:
