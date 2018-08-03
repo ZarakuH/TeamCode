@@ -33,7 +33,7 @@ elementalfury:
     target_type: LivingEntity
     range: 32
     cooldown: 15000
-    effect_attack_speed: 10
+    effect_efficiency: 10
     duration: 20000
     target: self
   costs:
