@@ -4,6 +4,7 @@ yellowlanternring:
     lanternshield: 0
     lanternblast: 1
     lanternsmight: 2
+    lanternsingularity: 3
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -16,6 +17,7 @@ yellowlanternring:
   - lanternshield
   - lanternblast
   - lanternsmight
+  - lanternsingularity
   bound: true
   keep: false
   invulnerable: true
