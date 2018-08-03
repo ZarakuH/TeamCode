@@ -18,15 +18,13 @@ soultear:
     - class: Message
       message: "&bAUS!"
       message_type: chat
-    - class: Line
-      actions:
-      - class: Command
-        command: kill @t
-        op: true
-      - class: Delay
-        delay: 2000
-      - class: Command
-        command: mmob spawn reanimation
+    - class: Command
+      command: kill @t
+      op: true
+    - class: Delay
+      delay: 2000
+    - class: Command
+      command: mmob spawn reanimation
   effects:
     cast:
     - class: EffectSingle
@@ -70,4 +68,4 @@ soultear:
     destructible: destructible_replace
     hitbox: true
   costs:
-mana: 100
+    mana: 100
