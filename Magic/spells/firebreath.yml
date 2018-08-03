@@ -42,6 +42,13 @@ firebreath:
         particle_base2: spell_mob
         color_base2: "ff952b"
         iterations: 10
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: VortexEffect
+        particle: flame
+        iterations: 10
   parameters:
     target_type: LivingEntity
     transparent: transparent_to_construction
