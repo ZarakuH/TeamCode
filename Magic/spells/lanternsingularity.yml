@@ -46,7 +46,7 @@ lanternsingularity:
       particle_offset_z: 0.4
     - location: target
       particle: block_crack
-      material: stained_glass
+      material: sealantern
       particle_count: 30
       particle_offset_x: 0.6
       particle_offset_y: 0.6
@@ -63,7 +63,7 @@ lanternsingularity:
         radius: 1
         particles: 20
     - location: target
-      material: stained_glass
+      material: sealantern
       effectlib:
         class: Modified
         duration: 2500
@@ -72,6 +72,7 @@ lanternsingularity:
         effect:
           class: Sphere
           particle: block_crack
+          material: sealantern
           color: 4161
           particles: 100
           particle_count: 20
