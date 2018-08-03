@@ -59,7 +59,6 @@ lanternsingularity:
         class: SphereEffect
         duration: 2500
         particle: redstone
-        color: 4161
         radius: 1
         particles: 20
     - location: target
