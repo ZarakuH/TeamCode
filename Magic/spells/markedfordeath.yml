@@ -40,15 +40,17 @@ markedfordeath:
         color_base2: "6700c1"
         iterations: 10
     hit:
-    - class: EffectSingle
-      sound: magic.zap_big
-      location: target
-      effectlib:
-        class: SphereEffect
-        particle: redstone
-        color: 6700c1
-        iterations: 10
-        radius: 1
+    -  class: EffectSingle
+           location: target
+           requires_entity_target: true
+           effectlib:
+             class: SphereEffect
+             iterations: 60
+             period: .1
+             particle: redstone
+             color: 6700c1
+             radius: 1
+             particles: 20
   parameters:
     target_type: LivingEntity
     transparent: transparent_to_construction
