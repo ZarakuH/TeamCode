@@ -20,7 +20,7 @@ callofvalor:
           message: "&bZOOR!"
           message_type: chat
         - class: Command
-          command: mmob spawn nordcompanion ~ ~ ~
+          command: mmob spawn nordcompanion ~ ~ ~+2
           op: true
     effects:
         cast:
