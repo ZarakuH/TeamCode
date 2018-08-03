@@ -28,8 +28,7 @@ lanternblast:
       location: origin
       effectlib:
         class: AtomEffect
-        particle_nucleus: spell_mob
-        particle_orbital: spell_mob
+        particle: spell_mob
         iterations: 16
         radius: 1
     launch:
