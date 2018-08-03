@@ -79,3 +79,11 @@ nordcompanion:
   cast_interval: 10000
   cast:
     unrelentingforce: 100
+reanimation:
+  name: Reanimation
+  type: husk
+  health: 20
+  default_drops: false
+  cast_interval: 5000
+  cast:
+    none: 100
