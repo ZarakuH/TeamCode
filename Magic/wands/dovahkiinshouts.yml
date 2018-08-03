@@ -9,6 +9,11 @@ dovahkiinshouts:
     markedfordeath: 5
     becomeethereal: 6
     aurawhisper: 7
+    callofvalor: 26
+    disarmshout: 27
+    elementalfury: 28
+    soultear: 29
+    slowtimeshout: 30
   active_spell: unrelentingforce
   spell_levels: {}
   mana: 300.0
@@ -26,6 +31,11 @@ dovahkiinshouts:
   - markedfordeath
   - becomeethereal
   - aurawhisper
+  - callofvalor
+  - disarmshout
+  - elementalfury
+  - soultear
+  - slowtimeshout
   bound: true
   keep: false
   invulnerable: true
