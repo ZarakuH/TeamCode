@@ -26,11 +26,6 @@ lanternblast:
       sound_volume: 5
       sound_pitch: -0.25
       location: origin
-      effectlib:
-        class: SphereEffect
-        particle: spell_mob
-        iterations: 16
-        radius: 1
     launch:
     - class: EffectSingle
       custom_sound: magic.zap_big
@@ -49,11 +44,11 @@ lanternblast:
         class: SphereEffect
         particle: spell_mob
         iterations: 100
-        radius: 0.3
+        radius: 1
     hit:
     - class: EffectSingle
       location: target
-      particle: spell_mob
+      particle: spell
   parameters:
     target: none
     target_type: Damageable
