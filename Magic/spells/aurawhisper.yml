@@ -12,14 +12,10 @@ aurawhisper:
         cast:
         - class: CustomProjectile
           actions:
-          - class: Repeat
-            actions:
-            - class: AreaOfEffect
-              actions:
-              - class: PotionEffect
-              - class: Deactivate
-              - class: Delay
-                delay: 1000
+        - class: AreaOfEffect
+          actions:
+          - class: PotionEffect
+          - class: Deactivate
     effects:
         cast:
         - class: EffectSingle
@@ -36,6 +32,9 @@ aurawhisper:
             particle_base2: spell_mob
             color_base2: "ff0000"
             iterations: 10
+        tick:
+        - class: EffectSingle
+          particle: redstone
     parameters:
         allow_max_range: true
         velocity: 200
