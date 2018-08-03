@@ -11,16 +11,11 @@ lanternsingularity:
   actions:
     cast:
     - class: CustomProjectile
-      - class: Sphere
-        radius: 2
-        actions:
-        - class: ModifyBlock
       actions:
       - class: Repeat
         actions:
         - class: Delay
         - class: AreaOfEffect
-          radius: 5
           actions:
           - class: Velocity
             ignore_result: true
@@ -29,7 +24,6 @@ lanternsingularity:
           - class: Damage
         - class: Delay
         - class: AreaOfEffect
-          radius: 5
           actions:
           - class: Velocity
             ignore_result: true
@@ -52,7 +46,7 @@ lanternsingularity:
       particle_offset_z: 0.4
     - location: target
       particle: block_crack
-      material: sealantern
+      material: sea_lantern
       particle_count: 30
       particle_offset_x: 0.6
       particle_offset_y: 0.6
@@ -68,7 +62,7 @@ lanternsingularity:
         radius: 1
         particles: 20
     - location: target
-      material: sealantern
+      material: sea_lantern
       effectlib:
         class: Modified
         duration: 2500
@@ -77,7 +71,7 @@ lanternsingularity:
         effect:
           class: Sphere
           particle: block_crack
-          material: sealantern
+          material: sea_lantern
           particles: 100
           particle_count: 20
           particle_offset_x: 1
@@ -88,14 +82,7 @@ lanternsingularity:
     velocity: 10
     gravity: 0.02
     hitbox_size: 2
-    undo: 5000
-    thickness: 1
-    type: sphere
-    brush: stained_glass
-    transparent: transparent_to_construction
-    destructible: destructible_replace
-    check_destructible: true
-    brushcolor: true
+    undo: 15000
     repeat: 10
     delay: 250
     damage: 5
