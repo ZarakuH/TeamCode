@@ -45,7 +45,7 @@ aurawhisper:
         radius: 50
         effect_glowing: 1
         duration: 7000
-        y_radius: 2
+        y_radius: 20
         repeat: 1
         target_breakables: 1
         cooldown: 15000
