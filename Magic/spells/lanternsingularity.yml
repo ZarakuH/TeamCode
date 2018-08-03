@@ -1,0 +1,107 @@
+lanternsingularity:
+  icon: diamond_axe:190
+  icon_disabled: diamond_hoe:190
+  icon_url: http://textures.minecraft.net/texture/ac60643368ba49652b36989878bf296e25d5b3d7526f283ef8cd7470a7a51e8
+  category: master
+  pvp_restricted: true
+  worth: 1000
+  earns_sp: 15
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Brush
+        ignore_result: true
+        brush: erase
+        actions:
+        - class: Sphere
+          actions:
+          - class: ModifyBlock
+            direction: 0,0,0
+      - class: Repeat
+        actions:
+        - class: Delay
+        - class: AreaOfEffect
+          actions:
+          - class: Velocity
+            ignore_result: true
+            push: -1
+            entity_speed: 0.7
+          - class: Damage
+        - class: Delay
+        - class: AreaOfEffect
+          actions:
+          - class: Velocity
+            ignore_result: true
+            push: 1
+            entity_speed: 0.1
+          - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.bonk
+      sound_pitch: 0.2
+      sound_volume: 0.3
+      location: origin
+    tick:
+    - location: target
+      particle: redstone
+      particle_count: 15
+      particle_offset_x: 0.4
+      particle_offset_y: 0.4
+      particle_offset_z: 0.4
+    - location: target
+      particle: block_crack
+      material: stained_glass
+      particle_count: 30
+      particle_offset_x: 0.6
+      particle_offset_y: 0.6
+      particle_offset_z: 0.6
+    hit:
+    - class: EffectSingle
+      location: target
+      sound: magic.hit
+      effectlib:
+        class: SphereEffect
+        duration: 2500
+        particle: redstone
+        color: 4161
+        radius: 1
+        particles: 20
+    - location: target
+      material: stained_glass
+      effectlib:
+        class: Modified
+        duration: 2500
+        parameters:
+          radius: sin(t/50)*5
+        effect:
+          class: Sphere
+          particle: block_crack
+          color: 4161
+          particles: 100
+          particle_count: 20
+          particle_offset_x: 1
+          particle_offset_y: 1
+          particle_offset_z: 1
+  parameters:
+    target_type: Entity
+    velocity: 10
+    gravity: 0.02
+    hitbox_size: 2
+    undo: 15000
+    repeat: 10
+    delay: 250
+    damage: 5
+    target_self_timeout: 2000
+    speed: 0.5
+    item_speed: 0.5
+    entity_speed: 0.5
+    radius: 5
+    destructible: destructible,destructible2,destructible3
+    destructible_override: true
+    cooldown: 30000
+  costs:
+    mana: 50
