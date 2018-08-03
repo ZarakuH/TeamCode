@@ -39,7 +39,7 @@ callofvalor:
         target_type: any
         y_radius: 20
         target_breakables: 1
-        cooldown: 15000
+        cooldown: 30000
         reorient: false
         destructible: solid
         bypass_build: true
