@@ -1,0 +1,49 @@
+callofvalor:
+    icon: diamond_axe:160
+    icon_disabled: diamond_hoe:160
+    icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+    upgrade_required_path: beginner
+    upgrade_required_casts: 40
+    category: combat
+    worth: 150
+    earns_sp: 0
+    earns_cooldown: 10000
+    actions:
+        cast:
+        - class: Message
+          message: "&bHUN"
+          message_type: chat
+        - class: Message
+          message: "&bKAAL"
+          message_type: chat
+        - class: Message
+          message: "&bZOOR!"
+          message_type: chat
+        - class: Command
+          command: mmob spawn nordcompanion ~ ~ ~
+          op: true
+    effects:
+        cast:
+        - class: EffectSingle
+          effectlib:
+            class: SphereEffect
+            particle: spell_mob
+            color: 47e6ff
+            iterations: 75
+            radius: 2.0
+    parameters:
+        allow_max_range: true
+        velocity: 200
+        range: 8
+        hitbox: true
+        target_type: any
+        y_radius: 20
+        target_breakables: 1
+        cooldown: 15000
+        reorient: false
+        destructible: solid
+        bypass_build: true
+        destructible_durability: 50
+        break_durability: 2
+    costs:
+        mana: 15
