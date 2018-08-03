@@ -11,11 +11,16 @@ lanternsingularity:
   actions:
     cast:
     - class: CustomProjectile
+      - class: Sphere
+        radius: 2
+        actions:
+        - class: ModifyBlock
       actions:
       - class: Repeat
         actions:
         - class: Delay
         - class: AreaOfEffect
+          radius: 5
           actions:
           - class: Velocity
             ignore_result: true
@@ -24,6 +29,7 @@ lanternsingularity:
           - class: Damage
         - class: Delay
         - class: AreaOfEffect
+          radius: 5
           actions:
           - class: Velocity
             ignore_result: true
@@ -82,7 +88,14 @@ lanternsingularity:
     velocity: 10
     gravity: 0.02
     hitbox_size: 2
-    undo: 15000
+    undo: 5000
+    thickness: 1
+    type: sphere
+    brush: stained_glass
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    brushcolor: true
     repeat: 10
     delay: 250
     damage: 5
@@ -90,9 +103,6 @@ lanternsingularity:
     speed: 0.5
     item_speed: 0.5
     entity_speed: 0.5
-    radius: 5
-    destructible: destructible,destructible2,destructible3
-    destructible_override: true
     cooldown: 30000
   costs:
     mana: 50
