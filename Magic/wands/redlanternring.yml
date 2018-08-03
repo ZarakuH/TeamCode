@@ -3,6 +3,7 @@ redlanternring:
   spell_inventory:
     lanternshield: 0
     lanternblast: 1
+    lanternsmight: 2
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -14,6 +15,7 @@ redlanternring:
   spells:
   - lanternshield
   - lanternblast
+  - lanternsmight
   bound: true
   keep: false
   invulnerable: true
