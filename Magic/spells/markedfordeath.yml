@@ -42,13 +42,13 @@ markedfordeath:
     hit:
     - class: EffectSingle
       sound: magic.zap_big
-      location: origin
+      location: target
       effectlib:
         class: SphereEffect
         particle: redstone
         color: 6700c1
-        location: target
         iterations: 10
+        radius: 1
   parameters:
     target_type: LivingEntity
     transparent: transparent_to_construction
