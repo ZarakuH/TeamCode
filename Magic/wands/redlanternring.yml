@@ -8,7 +8,7 @@ redlanternring:
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: ff0000
-  name: GreenLanternRing
+  name: RedLanternRing
   mana_max: 300.0
   page: 0
   spells:
