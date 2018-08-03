@@ -64,5 +64,6 @@ markedfordeath:
     delay: 100
     effect_health_boost: -9
     duration: 10000
+    hitbox: true
   costs:
     mana: 100
