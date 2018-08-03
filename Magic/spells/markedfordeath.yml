@@ -58,7 +58,7 @@ markedfordeath:
     range: 32
     size: 6
     reverse: false
-    require_blocks: true
+    require_blocks: false
     cooldown: 15000
     destructible: destructible_replace
     delay: 100
