@@ -1,0 +1,40 @@
+elementalfury:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: "&bSU"
+      message_type: chat
+    - class: Message
+      message: "&bGRAH"
+      message_type: chat
+    - class: Message
+      message: "&bDUN!"
+      message_type: chat
+    - class: PotionEffect
+    - class: Deactivate
+  effects:
+    cast:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: aaaaaa
+        iterations: 75
+        radius: 1.0
+  parameters:
+    target_type: LivingEntity
+    range: 32
+    cooldown: 15000
+    effect_haste: 10
+    duration: 20000
+    target: self
+  costs:
+    mana: 100
