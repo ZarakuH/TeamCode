@@ -1,4 +1,4 @@
-greenlanternsmight:
+lanternsmight:
   icon: diamond_axe:162
   icon_disabled: diamond_hoe:162
   icon_url: http://textures.minecraft.net/texture/c64f6eeb78485e49b219f40a9d6a8131c539fef932f1cbb5f379adfebdd8c31
@@ -26,11 +26,11 @@ greenlanternsmight:
       effectlib:
         class: SphereEffect
         duration: 100
-        particle: green
+        particle: redstone
         radius: 0.5
         offset: 0,0.5,0
     tick:
-    - particle: smoke_normal
+    - particle: redstone
       particle_count: 5
       particle_offset_x: 0.05
       particle_offset_y: 0.05
@@ -41,14 +41,13 @@ greenlanternsmight:
       sound: magic.zap
       sound_volume: 0.3
       location: target
-      color2: 00ff00
       firework: burst
     target:
     - class: EffectSingle
       sound: entity_firework_launch
       sound_volume: 0.5
       location: source
-      particle: green
+      particle: redstone
       particle_count: 30
       particle_offset_x: 2
       particle_offset_y: 2
@@ -57,7 +56,7 @@ greenlanternsmight:
         class: LineEffect
         length: 3
         duration: 5000
-        particle: green
+        particle: redstone
         particles: 5
         particle_count: 5
         particle_offset_x: 0.5
@@ -72,8 +71,7 @@ greenlanternsmight:
     tick_size: 0.2
     target_count: 3
     target_type: Damageable
-    player_damage: 10
-    entity_damage: 16
+    damage: 10
     target_breakables: 1
     cooldown: 30000
     lifetime: 10000
