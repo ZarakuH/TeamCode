@@ -23168,6 +23168,75 @@ almightypush:
     cooldown: 2000
   costs:
     mana: 5
+markedfordeath:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: '&bKRII'
+      message_type: chat
+    - class: Message
+      message: '&bLUN'
+      message_type: chat
+    - class: Message
+      message: '&bAUS!'
+      message_type: chat
+    - class: Line
+      actions:
+      - class: Delay
+      - class: PotionEffect
+      - class: Deactivate
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: 6700c1
+        particle_base1: spell_mob
+        color_base1: 6700c1
+        particle_base2: spell_mob
+        color_base2: 6700c1
+        iterations: 10
+    hit:
+    - class: EffectSingle
+      location: target
+      requires_entity_target: true
+      effectlib:
+        class: SphereEffect
+        iterations: 60
+        period: 0.1
+        particle: redstone
+        color: 6700c1
+        radius: 1
+        particles: 20
+  parameters:
+    target_type: LivingEntity
+    transparent: transparent_to_construction
+    allow_max_range: true
+    range: 32
+    size: 6
+    reverse: false
+    require_blocks: false
+    cooldown: 15000
+    destructible: destructible_replace
+    delay: 100
+    effect_health_boost: -100
+    duration: 10000
+    hitbox: true
+  costs:
+    mana: 100
 quake:
   icon: nether_star
   icon_disabled: nether_star
@@ -23931,6 +24000,73 @@ demon_firebolt:
     bypass_build: true
   costs:
     mana: 35
+aurawhisper:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 40
+  category: combat
+  worth: 150
+  earns_sp: 0
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: Message
+      message: '&bLAAS'
+      message_type: chat
+    - class: Message
+      message: '&bYAH'
+      message_type: chat
+    - class: Message
+      message: '&bNIR!'
+      message_type: chat
+    - class: CustomProjectile
+      actions: null
+    - class: AreaOfEffect
+      actions:
+      - class: PotionEffect
+      - class: Deactivate
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: ff0000
+        particle_base1: spell_mob
+        color_base1: ff0000
+        particle_base2: spell_mob
+        color_base2: ff0000
+        iterations: 10
+    tick:
+    - class: EffectSingle
+      particle: redstone
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 8
+    hitbox: true
+    target_type: Damageable
+    target_count: 15
+    radius: 50
+    effect_glowing: 1
+    duration: 7000
+    y_radius: 20
+    repeat: 1
+    target_breakables: 1
+    cooldown: 15000
+    reorient: false
+    destructible: solid
+    bypass_build: true
+    destructible_durability: 50
+    break_durability: 2
+  costs:
+    mana: 15
 stonegrasp:
   icon: ink_sack:1
   icon_disabled: ink_sack:1
@@ -24280,6 +24416,55 @@ wingardiumleviosa:
     duration: 5000
   costs:
     mana: 40
+callofvalor:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 40
+  category: combat
+  worth: 150
+  earns_sp: 0
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: Message
+      message: '&bHUN'
+      message_type: chat
+    - class: Message
+      message: '&bKAAL'
+      message_type: chat
+    - class: Message
+      message: '&bZOOR!'
+      message_type: chat
+    - class: Command
+      command: mmob spawn nordcompanion ~ ~ ~+2
+      op: true
+  effects:
+    cast:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: spell_mob
+        color: 47e6ff
+        iterations: 75
+        radius: 2.0
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 8
+    hitbox: true
+    target_type: any
+    y_radius: 20
+    target_breakables: 1
+    cooldown: 15000
+    reorient: false
+    destructible: solid
+    bypass_build: true
+    destructible_durability: 50
+    break_durability: 2
+  costs:
+    mana: 15
 miscshop:
   icon: emerald
   category: npc
@@ -24289,6 +24474,46 @@ miscshop:
     cost_type: xp
     items:
       elytra: 300
+becomeethereal:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: '&bFEIM'
+      message_type: chat
+    - class: Message
+      message: '&bZII'
+      message_type: chat
+    - class: Message
+      message: '&bGRON!'
+      message_type: chat
+    - class: PotionEffect
+    - class: Deactivate
+  effects:
+    cast:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: 9bf6ff
+        iterations: 75
+        radius: 1.0
+  parameters:
+    target_type: LivingEntity
+    range: 32
+    cooldown: 15000
+    effect_damage_resistance: 5
+    duration: 20000
+    target: self
+  costs:
+    mana: 100
 wwbracers:
   icon: diamond_axe:192
   icon_disabled: diamond_hoe:192
@@ -25169,6 +25394,118 @@ rhinodash:
     delay: 100
   costs:
     mana: 40
+unrelentingforce:
+  icon: diamond_axe:32
+  icon_disabled: diamond_hoe:32
+  icon_url: http://textures.minecraft.net/texture/44a760e06345bd9edd2475d6469dfb952278ca3ec7634aa334e1d7bfcc8644f
+  category: elemental
+  worth: 50
+  earns_sp: 3
+  upgrade_required_path: beginner
+  upgrade_required_casts: 40
+  actions:
+    cast:
+    - class: Message
+      message: '&bFUS'
+      message_type: chat
+    - class: Message
+      message: '&bRO'
+      message_type: chat
+    - class: Message
+      message: '&bDAH!'
+      message_type: chat
+    - class: Damage
+    - class: VelocityAction
+      y_offset: 1
+    - class: Repeat
+      actions:
+      - class: Delay
+      - class: PlayEffects
+        effects: iterate
+        ignore_result: true
+      - class: ConeOfEffectAction
+        actions:
+        - class: VelocityAction
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: block_fire_extinguish
+      sound_volume: 1
+      sound_pitch: -0.1
+      location: origin
+      effectlib:
+        class: Modified
+        iterations: 20
+        parameters:
+          radius: (t/i) * 4 + 0.2
+        effect:
+          class: DnaEffect
+          particles_base: 0
+          particles_helix: 7
+          particle_helix: spell_mob
+          color_helix: 3582ff
+          particle_base1: spell_mob
+          color_base1: 3582ff
+          particle_base2: spell_mob
+          color_base2: 3582ff
+    - location: target
+      effectlib:
+        class: Sphere
+        particle: spell_mob
+        color: 3582ff
+        particles: 2
+        period: 4
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+        radius: 1.5
+    iterate:
+    - class: EffectSingle
+      location: origin
+      effectlib:
+        class: Modified
+        iterations: 10
+        parameters:
+          radius: (t/i) * 4 + 0.2
+        effect:
+          class: DnaEffect
+          particles_base: 0
+          particles_helix: 7
+          particle_helix: spell_mob
+          color_helix: 3582ff
+          particle_base1: spell
+          color_base1: 3582ff
+          particle_base2: spell
+          color_base2: 3582ff
+    - location: target
+      effectlib:
+        class: Sphere
+        particle: spell_mob
+        color: 3582ff
+        particles: 2
+        period: 4
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+        radius: 1.5
+  parameters:
+    target_type: Entity
+    range: 8
+    fov: 1
+    target_count: 2
+    item_speed: 0.1
+    living_entity_speed: 1.0
+    repeat: 3
+    delay: 250
+    y_offset: 0.75
+    damage: 5
+    cooldown: 15000
+  costs:
+    mana: 20
 bubbleshield:
   icon: ink_sack:12
   icon_disabled: ink_sack:12
@@ -26792,6 +27129,62 @@ infinityblast:
     bypass_pvp: false
     range: 64
     damage: 9999
+disarmshout:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 40
+  category: combat
+  worth: 150
+  earns_sp: 0
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: Message
+      message: '&bZUN'
+      message_type: chat
+    - class: Message
+      message: '&bHAAL'
+      message_type: chat
+    - class: Message
+      message: '&bVIIK!'
+      message_type: chat
+    - class: Disarm
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: 47a9ff
+        particle_base1: spell_mob
+        color_base1: 47a9ff
+        particle_base2: spell_mob
+        color_base2: 47a9ff
+        iterations: 10
+    tick:
+    - class: EffectSingle
+      particle: redstone
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 8
+    hitbox: true
+    target_type: Damageable
+    target_breakables: 1
+    cooldown: 15000
+    reorient: false
+    destructible: solid
+    bypass_build: true
+    destructible_durability: 50
+    break_durability: 2
+  costs:
+    mana: 15
 ravenrush:
   icon: diamond_axe:178
   icon_disabled: diamond_hoe:178
@@ -27981,6 +28374,134 @@ forcefield:
     bypass_backfire: true
   costs:
     mana: 0
+frostbreath:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: '&bFO'
+      message_type: chat
+    - class: Message
+      message: '&bKRAH'
+      message_type: chat
+    - class: Message
+      message: '&bDIIN!'
+      message_type: chat
+    - class: Line
+      actions:
+      - class: Cover
+        actions:
+        - class: Freeze
+      - class: Delay
+      - class: PotionEffect
+      - class: Deactivate
+      - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: 56c9dd
+        particle_base1: spell_mob
+        color_base1: 56c9dd
+        particle_base2: spell_mob
+        color_base2: 56c9dd
+        iterations: 10
+  parameters:
+    target_type: LivingEntity
+    transparent: transparent_to_construction
+    allow_max_range: true
+    range: 32
+    size: 6
+    reverse: false
+    require_blocks: true
+    undo: 5000
+    cooldown: 15000
+    destructible: destructible_replace
+    delay: 100
+    effect_slow: 5
+    duration: 5000
+    damage: 5
+  costs:
+    mana: 100
+firebreath:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: '&bYOL'
+      message_type: chat
+    - class: Message
+      message: '&bTOOR'
+      message_type: chat
+    - class: Message
+      message: '&bSHUL!'
+      message_type: chat
+    - class: Line
+      actions:
+      - class: Cover
+        actions:
+        - class: Burn
+      - class: Delay
+      - class: Ignite
+      - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: ff952b
+        particle_base1: spell_mob
+        color_base1: ff952b
+        particle_base2: spell_mob
+        color_base2: ff952b
+        iterations: 10
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: VortexEffect
+        particle: flame
+        iterations: 50
+  parameters:
+    target_type: LivingEntity
+    transparent: transparent_to_construction
+    allow_max_range: true
+    range: 32
+    size: 6
+    reverse: false
+    require_blocks: true
+    undo: 5000
+    cooldown: 15000
+    destructible: destructible_replace
+    delay: 100
+    damage: 12
+  costs:
+    mana: 100
 stungrenade:
   icon: diamond_axe:58
   icon_disabled: diamond_hoe:58
@@ -28085,6 +28606,65 @@ tekcajtiarts:
     instant_block_effects: true
   costs:
     mana: 70
+iceform:
+  icon: diamond_axe:22
+  icon_disabled: diamond_hoe:22
+  icon_url: http://textures.minecraft.net/texture/3dbb78853b526f9b712b4e431fb332eae0e6cd3dea9a610e9ecf54c31f7c6d
+  alias: dome
+  category: combat
+  worth: 150
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: PotionEffect
+    - class: Deactivate
+    - class: CustomProjectile
+      actions:
+      - class: Sphere
+        actions:
+        - class: ModifyBlock
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_big
+      location: origin
+      effectlib:
+        class: DnaEffect
+        particles_base: 0
+        particles_helix: 7
+        particle_helix: spell_mob
+        color_helix: 56c9dd
+        particle_base1: spell_mob
+        color_base1: 56c9dd
+        particle_base2: spell_mob
+        color_base2: 56c9dd
+        iterations: 10
+  parameters:
+    target: other
+    allow_max_range: false
+    velocity: 50
+    target_type: LivingEntity
+    range: 32
+    thickness: 1
+    radius: 1
+    type: sphere
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    undo: 5000
+    brush: packed_ice
+    brushcolor: true
+    cooldown: 15000
+    effect_slow: 50
+    duration: 5000
+    breakable: 4
+    reflect_chance: 0.25
+    miss_effects: hit
+    miss: actions
+  costs:
+    mana: 75
 lucarioball:
   icon: diamond_axe:170
   icon_disabled: diamond_hoe:170
@@ -28889,6 +29469,46 @@ realitystoneblast:
     hitbox: true
     push: 1
     damage: 5
+elementalfury:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: '&bSU'
+      message_type: chat
+    - class: Message
+      message: '&bGRAH'
+      message_type: chat
+    - class: Message
+      message: '&bDUN!'
+      message_type: chat
+    - class: PotionEffect
+    - class: Deactivate
+  effects:
+    cast:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: aaaaaa
+        iterations: 75
+        radius: 1.0
+  parameters:
+    target_type: LivingEntity
+    range: 32
+    cooldown: 15000
+    effect_haste: 10
+    duration: 20000
+    target: self
+  costs:
+    mana: 100
 technokinesis:
   icon: diamond_axe:140
   icon_disabled: diamond_hoe:140
@@ -29192,3 +29812,69 @@ embiggenpunch:
     cooldown: 1000
     hitbox: true
     damage: 5
+whirlwindsprint:
+  icon: diamond_axe:178
+  icon_disabled: diamond_hoe:178
+  icon_url: http://textures.minecraft.net/texture/df4396a2bc47bc4dd545fc787a3ad8a0a75b8783cb5d81482c2016fab9cd2a
+  category: combat
+  worth: 100
+  earns_sp: 8
+  actions:
+    cast:
+    - class: Message
+      message: '&bWULD'
+      message_type: chat
+    - class: Message
+      message: '&bNAH'
+      message_type: chat
+    - class: Message
+      message: '&bKEST!'
+      message_type: chat
+    - class: Repeat
+      actions:
+      - class: Retarget
+        range: 1
+        actions:
+        - class: CheckBlock
+          allowed: solid
+          actions:
+          - class: ChangeContext
+            target_caster: true
+            actions:
+            - class: Damage
+      - class: ConeOfEffect
+        actions:
+        - class: Damage
+      - class: ChangeContext
+        target_caster: true
+        actions:
+        - class: Velocity
+      - class: Delay
+  effects:
+    cast:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: 999999
+        iterations: 75
+        radius: 1.0
+  parameters:
+    target: none
+    target_type: Damageable
+    range: 3
+    hitbox: false
+    fov: 0.4
+    velocity: 10
+    living_entity_speed: 2.0
+    source_pitch_min: 0
+    source_pitch_max: 0
+    damage: 0
+    target_breakables: 1
+    cooldown: 5000
+    magic_damage: false
+    instant_block_effects: true
+    repeat: 10
+    delay: 100
+  costs:
+    mana: 40

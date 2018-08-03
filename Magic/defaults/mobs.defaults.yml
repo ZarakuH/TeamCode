@@ -561,3 +561,15 @@ tarzultrig:
     demon_firebolt: 50
   drops:
   - nether_brick@1
+nordcompanion:
+  name: Companion
+  type: stray
+  item: iron_sword
+  chestplate: iron_chestplate
+  helmet: leather_helmet
+  boots: leather_boots
+  health: 40
+  default_drops: false
+  cast_interval: 10000
+  cast:
+    unrelentingforce: 100

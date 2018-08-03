@@ -1,11 +1,11 @@
 spawns: 
   default: 
-    world: tutorial
-    x: 292.4715401126929
-    y: 109.0
-    z: -8.398936909218904
-    yaw: -268.8691
-    pitch: -8.2850454E-7
+    world: arcade
+    x: -108.70139960286477
+    y: 68.0
+    z: 18.006676030259726
+    yaw: 269.1012
+    pitch: -7.2000017
   newbies: 
     world: tutorial
     x: 292.4715401126929

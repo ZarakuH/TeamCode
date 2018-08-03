@@ -3778,6 +3778,55 @@ universalpullwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
+dovahkiinshouts:
+  version: 5
+  spell_inventory:
+    unrelentingforce: 0
+    firebreath: 1
+    whirlwindsprint: 2
+    frostbreath: 3
+    iceform: 4
+    markedfordeath: 5
+    becomeethereal: 6
+    aurawhisper: 7
+  active_spell: unrelentingforce
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ff0000
+  name: DovahkiinShouts
+  mana_max: 300.0
+  page: 0
+  spells:
+  - unrelentingforce
+  - firebreath
+  - whirlwindsprint
+  - frostbreath
+  - iceform
+  - markedfordeath
+  - becomeethereal
+  - aurawhisper
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: iron_barding
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
 healingfieldwand:
   version: 5
   spell_inventory:
