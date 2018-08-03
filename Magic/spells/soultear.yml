@@ -1,0 +1,73 @@
+soultear:
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  category: combat
+  worth: 250
+  earns_sp: 4
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Message
+      message: "&bKRII"
+      message_type: chat
+    - class: Message
+      message: "&bLUN"
+      message_type: chat
+    - class: Message
+      message: "&bAUS!"
+      message_type: chat
+    - class: Line
+      actions:
+      - class: Command
+        command: kill @t
+        op: true
+      - class: Delay
+        delay: 2000
+      - class: Command
+        command: mmob spawn reanimation
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      location: origin
+      color_override: color
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: 8a23ff
+        lengthGrow: 0.1
+        radiusGrow: 0.03
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - particle: redstone
+      color: 8a23ff
+      location: target
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: spell_mob
+      color: 8a23ff
+      particle_count: 100
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: magic.zap
+      sound_volume: 0.3
+      particle_data: 0.1
+  parameters:
+    target_type: LivingEntity
+    transparent: transparent_to_construction
+    allow_max_range: true
+    range: 32
+    size: 6
+    reverse: false
+    require_blocks: false
+    cooldown: 15000
+    destructible: destructible_replace
+    hitbox: true
+  costs:
+mana: 100
