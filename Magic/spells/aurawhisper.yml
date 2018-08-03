@@ -10,6 +10,15 @@ aurawhisper:
     earns_cooldown: 10000
     actions:
         cast:
+        - class: Message
+          message: "&bLAAS"
+          message_type: chat
+        - class: Message
+          message: "&bYAH"
+          message_type: chat
+        - class: Message
+          message: "&bNIR!"
+          message_type: chat
         - class: CustomProjectile
           actions:
         - class: AreaOfEffect
