@@ -8,7 +8,7 @@ yellowlanternring:
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: ffff00
-  name: GreenLanternRing
+  name: YellowLanternRing
   mana_max: 300.0
   page: 0
   spells:
