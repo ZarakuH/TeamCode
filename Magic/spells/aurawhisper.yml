@@ -43,7 +43,7 @@ aurawhisper:
         target_type: Damageable
         target_count: 5
         radius: 50
-        effect_glow: 1
+        effect_glowing: 1
         duration: 7000
         y_radius: 2
         repeat: 1
