@@ -48,7 +48,7 @@ lanternblast:
     hit:
     - class: EffectSingle
       location: target
-      particle: spell
+      particle: redstone
   parameters:
     target: none
     target_type: Damageable
