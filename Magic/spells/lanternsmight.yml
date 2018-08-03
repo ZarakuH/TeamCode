@@ -10,6 +10,7 @@ lanternsmight:
   actions:
     cast:
     - class: AreaOfEffect
+      radius: 24
       actions:
       - class: Asynchronous
         actions:
@@ -17,6 +18,10 @@ lanternsmight:
           target: other
           actions:
           - class: Damage
+          - class: Sphere
+            radius: 3
+            actions:
+            - class: ModifyBlock
   effects:
     cast:
     - class: EffectSingle
@@ -40,7 +45,14 @@ lanternsmight:
     target_self: false
     range: 64
     velocity: 8
-    radius: 24
+    thickness: 1
+    type: sphere
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    undo: 4000
+    brush: stained_glass
+    brushcolor: true
     tick_size: 0.2
     target_count: 3
     target_type: Damageable
