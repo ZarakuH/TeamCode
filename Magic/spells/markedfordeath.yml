@@ -62,7 +62,7 @@ markedfordeath:
     cooldown: 15000
     destructible: destructible_replace
     delay: 100
-    effect_health_boost: -9
+    effect_health_boost: -100
     duration: 10000
     hitbox: true
   costs:
