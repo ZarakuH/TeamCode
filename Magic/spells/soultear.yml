@@ -10,13 +10,13 @@ soultear:
   actions:
     cast:
     - class: Message
-      message: "&bKRII"
+      message: "&bRII"
       message_type: chat
     - class: Message
-      message: "&bLUN"
+      message: "&bVAAZ"
       message_type: chat
     - class: Message
-      message: "&bAUS!"
+      message: "&bZOL!"
       message_type: chat
     - class: Command
       command: kill @t
