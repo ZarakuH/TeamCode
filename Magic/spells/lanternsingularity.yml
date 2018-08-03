@@ -14,7 +14,6 @@ lanternsingularity:
       actions:
       - class: Brush
         ignore_result: true
-        brush: erase
         actions:
         - class: Sphere
           actions:
