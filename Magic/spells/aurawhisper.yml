@@ -1,0 +1,59 @@
+aurawhisper:
+    icon: diamond_axe:160
+    icon_disabled: diamond_hoe:160
+    icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+    upgrade_required_path: beginner
+    upgrade_required_casts: 40
+    category: combat
+    worth: 150
+    earns_sp: 0
+    earns_cooldown: 10000
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: Repeat
+            actions:
+            - class: AreaOfEffect
+              actions:
+              - class: PotionEffect
+              - class: Deactivate
+              - class: Delay
+                delay: 1000
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: magic.zap_big
+          location: origin
+          effectlib:
+            class: DnaEffect
+            particles_base: 0
+            particles_helix: 7
+            particle_helix: spell_mob
+            color_helix: "ff0000"
+            particle_base1: spell_mob
+            color_base1: "ff0000"
+            particle_base2: spell_mob
+            color_base2: "ff0000"
+            iterations: 10
+    parameters:
+        allow_max_range: true
+        velocity: 200
+        range: 8
+        hitbox: true
+        target_type: Damageable
+        target_count: 5
+        radius: 50
+        effect_glow: 1
+        duration: 7000
+        y_radius: 2
+        repeat: 1
+        target_breakables: 1
+        cooldown: 15000
+        reorient: false
+        destructible: solid
+        bypass_build: true
+        destructible_durability: 50
+        break_durability: 2
+    costs:
+        mana: 15
