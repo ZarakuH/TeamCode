@@ -58,7 +58,7 @@ lanternsingularity:
       effectlib:
         class: HelixEffect
         duration: 2500
-        particle: redstone
+        particle: block_crack
         radius: 1
         particles: 20
     - location: target
