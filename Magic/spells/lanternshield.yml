@@ -20,7 +20,7 @@ lanternshield:
      parameters: 
          allow_max_range: true 
          range: 3 
-         radius: 1.5 
+         radius: 3 
          axis: z 
          brush: stained_glass 
          orient: true 
