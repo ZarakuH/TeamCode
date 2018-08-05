@@ -39,6 +39,7 @@ lanternlift:
         iterations: 48
         period: 2
         particle: spell_mob
+        color_override: color
         radius: 0.8
     float:
     - class: EffectSingle
@@ -50,6 +51,7 @@ lanternlift:
         iterations: 4
         period: 2
         particle: spell_mob
+        color_override: color
         radius: 0.8
     cast:
     - class: EffectSingle
@@ -61,6 +63,7 @@ lanternlift:
         iterations: 8
         particles: 2
         particle: spell_mob
+        color_override: color
         lengthGrow: 0.4
     - class: EffectSingle
       location: target
@@ -70,6 +73,7 @@ lanternlift:
         class: ConeEffect
         iterations: 8
         particle: spell_mob
+        color_override: color
         autoOrient: false
     no_target:
     - class: EffectSingle
@@ -81,6 +85,7 @@ lanternlift:
         iterations: 8
         particles: 2
         particle: spell_mob
+        color_override: color
         lengthGrow: 0.4
   parameters:
     hitbox: true
