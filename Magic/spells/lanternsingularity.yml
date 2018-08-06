@@ -64,6 +64,7 @@ lanternsingularity:
     - location: target
       color_override: color
       effectlib:
+        color_override: color
         class: Modified
         duration: 2500
         parameters:
