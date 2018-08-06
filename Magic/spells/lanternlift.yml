@@ -99,8 +99,8 @@ lanternlift:
     bypass_backfire: false
     offset: 0,1,0
     delay: 100
-    direction: 0,1,0
-    living_entity_speed: 0.1
+    direction: 0,3,0
+    living_entity_speed: 0.3
     item_speed: 0.05
     repeat: 50
     instant_block_effects: true
