@@ -45,8 +45,7 @@ lanternsingularity:
       particle_offset_y: 0.4
       particle_offset_z: 0.4
     - location: target
-      particle: block_crack
-      material: concrete:15
+      particle: redstone
       particle_count: 30
       particle_offset_x: 0.6
       particle_offset_y: 0.6
@@ -55,14 +54,15 @@ lanternsingularity:
     - class: EffectSingle
       location: target
       sound: magic.hit
+      color_override: color
       effectlib:
-        class: HelixEffect
+        class: SphereEffect
         duration: 2500
-        particle: block_crack
+        particle: redstone
         radius: 1
         particles: 20
     - location: target
-      material: concrete:15
+      color_override: color
       effectlib:
         class: Modified
         duration: 2500
@@ -70,8 +70,7 @@ lanternsingularity:
           radius: sin(t/50)*5
         effect:
           class: Sphere
-          particle: block_crack
-          material: concrete:15
+          particle: redstone
           particles: 100
           particle_count: 20
           particle_offset_x: 1
