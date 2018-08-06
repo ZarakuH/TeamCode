@@ -68,10 +68,10 @@ lanternsingularity:
         duration: 2500
         parameters:
           radius: sin(t/50)*5
-        color_override: color
         effect:
           class: Sphere
           particle: redstone
+          color_override: color
           particles: 100
           particle_count: 20
           particle_offset_x: 1
