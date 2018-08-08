@@ -38,3 +38,9 @@ gitgo:/gitgo = >>>
   msg(shell('git push origin master', array('workingDir': '/home/minecraft/server/plugins/')))
 
 <<<
+
+restart:/restart = >>>
+
+  msg(shell('./restart2.sh', array('workingDir': '/home/minecraft/')))
+
+<<<
