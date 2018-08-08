@@ -272,9 +272,6 @@ Players:
   oceaneyes_:
     Channels:
       Global: write
-  Rafb2GamingYT:
-    Channels:
-      Global: write
   Grim__:
     Channels:
       Global: write
@@ -984,5 +981,8 @@ Players:
     Channels:
       Global: write
   ARPgamerpt:
+    Channels:
+      Global: write
+  CrazyGamerR2kt:
     Channels:
       Global: write
