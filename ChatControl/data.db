@@ -4,9 +4,6 @@
 #   FILE IS MACHINE GENERATED. DO NOT EDIT!
 #  !----------------------------------------------------!
 Players:
-  TheLightShadow_:
-    Channels:
-      Global: write
   MasterofDevil:
     Channels:
       Global: write
@@ -229,10 +226,10 @@ Players:
     Channels:
       Global: write
   StrikerMax:
+    Spying: true
     Channels:
       Global: write
       Local: write
-    Spying: true
   Lucb232:
     Channels:
       Global: write
@@ -333,9 +330,6 @@ Players:
     Channels:
       Global: write
   Clqyz:
-    Channels:
-      Global: write
-  Niwasi:
     Channels:
       Global: write
   CatGaming06:
