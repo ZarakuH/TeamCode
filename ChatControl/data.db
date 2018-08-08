@@ -229,6 +229,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Lucb232:
     Channels:
       Global: write
@@ -644,9 +645,6 @@ Players:
     Channels:
       Global: write
   ShadedGuardianYT:
-    Channels:
-      Global: write
-  ActualSpiderman:
     Channels:
       Global: write
   theCaptain1025:
