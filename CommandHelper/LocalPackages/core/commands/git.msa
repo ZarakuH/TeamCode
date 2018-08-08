@@ -41,6 +41,6 @@ gitgo:/gitgo = >>>
 
 restart:/restart = >>>
   broadcast('SERVER GOING DOWN FOR IMMEDIATE RESTART!')
-  msg(shell('./restart2.sh', array('workingDir': '/home/minecraft/')))
+  shell('./restart2.sh', array('workingDir': '/home/minecraft/'))
 
 <<<

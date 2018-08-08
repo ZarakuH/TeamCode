@@ -95,8 +95,8 @@ v2-logout:
     world: mainmenu
     group: mainmenu
   2a63e405-eecf-480a-9fcf-1e22b996d998:
-    world: survival112
-    group: superherocities
+    world: mainmenu
+    group: mainmenu
   902ff43f-7561-4447-a884-2cf54ce8c1f1:
     group: superherocities
     world: infinitycity
@@ -5430,4 +5430,6 @@ v2-logout:
     group: infiniteparkour
     world: infiniteparkour
   01a1e27b-d04c-4dbf-abd8-da3c2dd43607:
+    world: tutorial
+  52c8456f-377e-488d-a9ba-660577eb80b3:
     world: tutorial

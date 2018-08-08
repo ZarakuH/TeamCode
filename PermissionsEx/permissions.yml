@@ -11410,7 +11410,7 @@ users:
         permissions: []
   2a63e405-eecf-480a-9fcf-1e22b996d998:
     group:
-    - fanfic2a63e405eecf480a9fcf1e22b996d998
+    - mortal
     permissions:
     - is.coowner
     - is.builder
