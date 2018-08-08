@@ -212,9 +212,6 @@ Players:
   Sleepy_Person:
     Channels:
       Global: write
-  LONEwalker_:
-    Channels:
-      Global: write
   soccersuperstars:
     Channels:
       Global: write
@@ -234,6 +231,8 @@ Players:
   StrikerMax:
     Channels:
       Global: write
+      Local: write
+    Spying: true
   Lucb232:
     Channels:
       Global: write
@@ -466,9 +465,6 @@ Players:
     Channels:
       Global: write
   Soniikz_:
-    Channels:
-      Global: write
-  Flowerstorm1654:
     Channels:
       Global: write
   AdventureRiley:
