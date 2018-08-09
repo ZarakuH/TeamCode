@@ -4988,8 +4988,8 @@ v2-logout:
     group: superherocities
     world: hogwarts
   39175ddd-9dbc-498e-ad55-3354a8bd9b5f:
-    group: mainmenu
-    world: mainmenu
+    group: superherocities
+    world: survival112_nether
   9f372395-ab58-4067-856b-fb564551b028:
     group: mainmenu
     world: mainmenu

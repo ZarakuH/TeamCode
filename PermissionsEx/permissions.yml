@@ -10593,24 +10593,6 @@ groups:
         - ch.alias.create
         - ch.alias.tphere
         - ch.alias.mutate
-  mewtwo:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&d'
-      prefix: '&fM&de&fwt&dw&fo'
-    worlds:
-      superherocity:
-        permissions:
-        - essentials.fly
-        - -essentials.protect.damage.fall
-        - essentials.speed
-        - essentials.speed.fly
-        - ch.alias.tp
-        - ch.alias.unconfuse
-        - ch.alias.confuse
-        - ch.alias.speak
-        - powers.mindcontrol
   flashwallywest:
     inheritance:
     - commonherotraits
@@ -11008,6 +10990,24 @@ groups:
         - ch.alias.normalform
         - ch.alias.grow
         - ch.alias.tp
+  mewtwo:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&d'
+      prefix: '&fM&de&fwt&dw&fo'
+    worlds:
+      superherocity:
+        permissions:
+        - essentials.fly
+        - -essentials.protect.damage.fall
+        - essentials.speed
+        - essentials.speed.fly
+        - ch.alias.tp
+        - ch.alias.unconfuse
+        - ch.alias.confuse
+        - ch.alias.speak
+        - powers.mindcontrol
 schema-version: 1
 worlds:
   checkers:
@@ -16873,7 +16873,7 @@ users:
       name: AF_Ciberboy
   6873b276-45d1-4dbe-acf8-5968e4c2eb08:
     group:
-    - mortal
+    - mewtwo
     options:
       name: Keiichi23
     worlds:

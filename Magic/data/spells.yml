@@ -71,7 +71,7 @@ reload_hawk_shotgun:
   cast_count: 0
   last_cast: 0
 odinlightning:
-  cast_count: 1322
+  cast_count: 1323
   last_cast: 0
 fourpoint:
   cast_count: 0
@@ -668,7 +668,7 @@ superdome:
   cast_count: 0
   last_cast: 0
 meteorshower:
-  cast_count: 1239
+  cast_count: 1240
   last_cast: 0
 peek:
   cast_count: 0
@@ -800,7 +800,7 @@ abratrap:
   cast_count: 426
   last_cast: 0
 freezetime:
-  cast_count: 1215
+  cast_count: 1216
   last_cast: 0
 glasstouch:
   cast_count: 613
@@ -1439,7 +1439,7 @@ colorshop:
   cast_count: 0
   last_cast: 0
 cosmicbolt:
-  cast_count: 4480
+  cast_count: 4482
   last_cast: 0
 potionshop:
   cast_count: 0
