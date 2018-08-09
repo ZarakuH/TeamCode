@@ -278,9 +278,6 @@ Players:
   Stiz9490:
     Channels:
       Global: write
-  dirtblock101:
-    Channels:
-      Global: write
   DV132:
     Channels:
       Global: write
