@@ -878,9 +878,6 @@ Players:
   _SecretGadren_:
     Channels:
       Global: write
-  _AVIAN:
-    Channels:
-      Global: write
   UchihaSlayer97:
     Channels:
       Global: write
