@@ -4370,18 +4370,6 @@ groups:
       superherocity:
         permissions:
         - essentials.fly
-  redhulk:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&4Red &lH&c&lU&4&lLK'
-    worlds:
-      superherocity:
-        permissions:
-        - -essentials.protect.damage.fall
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   inertiathaddeusthawneii:
     inheritance:
     - commonherotraits
@@ -5022,12 +5010,6 @@ groups:
     options:
       suffix: '&7'
       prefix: '&8Death&6stroke'
-  blackpanther:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&8'
-      prefix: '&0Black Panther'
   finnthehuman:
     inheritance:
     - commonherotraits
@@ -5611,12 +5593,6 @@ groups:
         - essentials.fly
         - essentials.weather
         - ch.alias.wind
-  alexabliss:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&A'
-      prefix: '&AAlexa &CBliss'
   thewardoctor:
     inheritance:
     - commonherotraits
@@ -5903,17 +5879,6 @@ groups:
         - ch.alias.normalform
         - ch.alias.grow
         - ch.alias.tp
-  abomination:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&2'
-      prefix: '&2Abo&amin&8at&2ion'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   abrakadabra:
     inheritance:
     - commonherotraits
@@ -8636,23 +8601,6 @@ groups:
         - ch.alias.dropplayer
         - powers.herotransform
         - ch.alias.grouptp
-  gokusupersaiyanblue:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&bG&1o&6ku&8(&bSSB&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - essentials.speed
-        - essentials.speed.fly
-        - essentials.fly
-        - ch.alias.tp
-        - ch.alias.carryplayer
-        - ch.alias.dropplayer
-        - powers.herotransform
-        - ch.alias.grouptp
   gokusupersaiyanbluekaioken:
     inheritance:
     - commonherotraits
@@ -9559,22 +9507,6 @@ groups:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
         - -essentials.protect.damage.fall
-  antman:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&4A&0n&4t-M&0a&4n'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.carryplayer
-        - ch.alias.dropplayer
-        - -essentials.protect.damage.fall
-        - libsdisguises.undisguise
-        - ch.alias.normalsize
-        - ch.alias.shrink
-        - ch.alias.grow
   blacklanternmartianmanhunter:
     inheritance:
     - commonherotraits
@@ -10237,22 +10169,6 @@ groups:
         - essentials.fly
         - ch.alias.dropplayer
         - ch.alias.carryplayer
-  agentvenom:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&8'
-      prefix: '&8Ag&0ent &8Ve&0nom'
-    worlds:
-      superherocity:
-        permissions:
-        - weakto.antivenom
-        - -essentials.protect.damage.fall
-        - ch.alias.websling
-        - powers.wallclimb
-        - ch.alias.web
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   thelivingtribunal:
     inheritance:
     - commonherotraits
@@ -10831,33 +10747,6 @@ groups:
         permissions:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
-  narutorikudosenninmode:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&6Na&0r&6uto Ri&0ku&6do Se&0nn&6in M&0o&6de'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - powers.wallrun
-        - -essentials.protect.damage.fall
-  naruto:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&eN&6aruto'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.cloneself
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - -essentials.protect.damage.fall
-        - ch.alias.rasengan
   thehumantorch:
     inheritance:
     - commonherotraits
@@ -11008,6 +10897,117 @@ groups:
         - ch.alias.normalform
         - ch.alias.grow
         - ch.alias.tp
+  abomination:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&2'
+      prefix: '&2Abo&amin&8at&2ion'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  gokusupersaiyanblue:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&bG&1o&6ku&8(&bSSB&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.tp
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - powers.herotransform
+        - ch.alias.grouptp
+  narutorikudosenninmode:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&6Na&0r&6uto Ri&0ku&6do Se&0nn&6in M&0o&6de'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - powers.wallrun
+        - -essentials.protect.damage.fall
+  agentvenom:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&8'
+      prefix: '&8Ag&0ent &8Ve&0nom'
+    worlds:
+      superherocity:
+        permissions:
+        - weakto.antivenom
+        - -essentials.protect.damage.fall
+        - ch.alias.websling
+        - powers.wallclimb
+        - ch.alias.web
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  alexabliss:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&A'
+      prefix: '&AAlexa &CBliss'
+  naruto:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&eN&6aruto'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.cloneself
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - ch.alias.rasengan
+  redhulk:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4Red &lH&c&lU&4&lLK'
+    worlds:
+      superherocity:
+        permissions:
+        - -essentials.protect.damage.fall
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  antman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4A&0n&4t-M&0a&4n'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - -essentials.protect.damage.fall
+        - libsdisguises.undisguise
+        - ch.alias.normalsize
+        - ch.alias.shrink
+        - ch.alias.grow
+  blackpanther:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&8'
+      prefix: '&0Black Panther'
 schema-version: 1
 worlds:
   checkers:
@@ -18472,8 +18472,7 @@ users:
     options:
       name: CUTEIBOX
   1bd4aa25-a0d2-4289-9a32-1ac2067e4a2b:
-    group:
-    - agentvenom
+    group: []
     options:
       name: CheesyBuritto
   2769d8ad-601f-4d20-9aaf-1f61e19157cb:
@@ -18491,3 +18490,13 @@ users:
     - mortal
     options:
       name: ARPgamerpt
+  62402385-b7c5-4559-a223-b87c6ca12cdc:
+    group:
+    - blackpanther
+    options:
+      name: TJNinjaDragon
+  62e5e33f-881e-465b-add4-86b30c833577:
+    group:
+    - antman
+    options:
+      name: unreadypath68

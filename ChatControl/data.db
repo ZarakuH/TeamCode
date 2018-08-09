@@ -977,3 +977,9 @@ Players:
   bdubwylde:
     Channels:
       Global: write
+  BAG1027:
+    Channels:
+      Global: write
+  unreadypath68:
+    Channels:
+      Global: write

@@ -23,7 +23,7 @@ music:
   cast_count: 0
   last_cast: 0
 abrawarp:
-  cast_count: 497
+  cast_count: 498
   last_cast: 0
 projector:
   cast_count: 0
@@ -323,7 +323,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 592
+  cast_count: 594
   last_cast: 0
 realitystoneblast:
   cast_count: 52
@@ -797,7 +797,7 @@ superblob:
   cast_count: 0
   last_cast: 0
 abratrap:
-  cast_count: 426
+  cast_count: 427
   last_cast: 0
 freezetime:
   cast_count: 1216

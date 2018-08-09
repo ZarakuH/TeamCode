@@ -5362,7 +5362,8 @@ v2-logout:
   e8a94823-b5f7-4aed-8627-7012791bbe94:
     world: tutorial
   62402385-b7c5-4559-a223-b87c6ca12cdc:
-    world: tutorial
+    world: ooo
+    group: superherocities
   22d1e27d-68ca-40f3-9aec-c9eaab4a023c:
     world: arenapvp
   0aaee853-9640-4db1-8de3-5ae30c06d4c7:
@@ -5435,3 +5436,6 @@ v2-logout:
     world: tutorial
   dc5780bd-089a-4aab-b9c0-4803bc7e4133:
     world: tutorial
+  62e5e33f-881e-465b-add4-86b30c833577:
+    group: superherocities
+    world: chicago
