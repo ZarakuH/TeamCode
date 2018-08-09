@@ -48,3 +48,7 @@ restart:/restart = >>>
   shell('./restart2.sh '.@usr, array('workingDir': '/home/minecraft/'))
 
 <<<
+restarttest:/restarttest = >>>
+  @usr = user()
+  shell('./restartTest.sh '.@usr, array('workingDir': '/home/minecraft/'))
+<<<
