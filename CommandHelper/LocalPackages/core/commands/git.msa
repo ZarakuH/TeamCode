@@ -43,7 +43,7 @@ restart:/restart = >>>
   @usr = user()
   broadcast('SERVER GOING DOWN FOR IMMEDIATE RESTART!')
   x_new_thread('myThread',closure(
-    shell('./restart2.sh '.@usr, array('workingDir': '/home/minecraft/'))
+    shell('tmux new-session -d -s "shutdown" ./restart2.sh '.@usr, array('workingDir': '/home/minecraft/'))
   ))
 
 <<<
