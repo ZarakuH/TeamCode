@@ -668,7 +668,7 @@ superdome:
   cast_count: 0
   last_cast: 0
 meteorshower:
-  cast_count: 1240
+  cast_count: 1243
   last_cast: 0
 peek:
   cast_count: 0
@@ -1439,7 +1439,7 @@ colorshop:
   cast_count: 0
   last_cast: 0
 cosmicbolt:
-  cast_count: 4482
+  cast_count: 4484
   last_cast: 0
 potionshop:
   cast_count: 0
