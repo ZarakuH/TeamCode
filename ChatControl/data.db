@@ -229,7 +229,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Lucb232:
     Channels:
       Global: write
