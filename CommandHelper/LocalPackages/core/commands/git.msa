@@ -50,5 +50,7 @@ restart:/restart = >>>
 <<<
 restarttest:/restarttest = >>>
   @usr = user()
-  shell('./restartTest.sh '.@usr, array('workingDir': '/home/minecraft/'))
+  x_new_thread('myThread',closure(
+    shell('./restartTest.sh '.@usr, array('workingDir': '/home/minecraft/'))
+  ))
 <<<

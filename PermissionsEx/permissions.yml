@@ -7839,12 +7839,6 @@ groups:
         - -essentials.protect.damage.fall
         - powers.wallrun
         - weakto.kryptonite
-  colossus:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&7'
-      prefix: '&7C&8o&4l&7o&ess&7u&4s'
   jackfrostmarvel:
     inheritance:
     - commonherotraits
@@ -10966,6 +10960,30 @@ groups:
         - ch.alias.dropplayer
         - powers.herotransform
         - ch.alias.grouptp
+  mewtwo:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&d'
+      prefix: '&fM&de&fwt&dw&fo'
+    worlds:
+      superherocity:
+        permissions:
+        - essentials.fly
+        - -essentials.protect.damage.fall
+        - essentials.speed
+        - essentials.speed.fly
+        - ch.alias.tp
+        - ch.alias.unconfuse
+        - ch.alias.confuse
+        - ch.alias.speak
+        - powers.mindcontrol
+  colossus:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&7'
+      prefix: '&7C&8o&4l&7o&ess&7u&4s'
   odin:
     inheritance:
     - commonherotraits
@@ -10990,24 +11008,6 @@ groups:
         - ch.alias.normalform
         - ch.alias.grow
         - ch.alias.tp
-  mewtwo:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&d'
-      prefix: '&fM&de&fwt&dw&fo'
-    worlds:
-      superherocity:
-        permissions:
-        - essentials.fly
-        - -essentials.protect.damage.fall
-        - essentials.speed
-        - essentials.speed.fly
-        - ch.alias.tp
-        - ch.alias.unconfuse
-        - ch.alias.confuse
-        - ch.alias.speak
-        - powers.mindcontrol
 schema-version: 1
 worlds:
   checkers:
@@ -17899,7 +17899,7 @@ users:
       name: parnova12345
   39175ddd-9dbc-498e-ad55-3354a8bd9b5f:
     group:
-    - mortal
+    - odin
     options:
       name: Jason4704
     worlds:
