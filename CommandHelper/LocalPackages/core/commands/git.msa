@@ -42,14 +42,14 @@ gitgo:/gitgo = >>>
 restart:/restart = >>>
   @usr = user()
   broadcast('SERVER GOING DOWN FOR IMMEDIATE RESTART!')
-  x_new_thread('myThread',closure(
+  x_run_on_main_thread_later(closure(
     shell('./restart2.sh '.@usr, array('workingDir': '/home/minecraft/'))
   ))
 
 <<<
 restarttest:/restarttest = >>>
   @usr = user()
-  x_run_on_main_thread_later('myThread',closure(
+  x_run_on_main_thread_later(closure(
     shell('./restartTest.sh '.@usr, array('workingDir': '/home/minecraft/'))
   ))
 <<<
