@@ -155,9 +155,6 @@ Players:
   Han_Shot_First_:
     Channels:
       Global: write
-  Naterrss:
-    Channels:
-      Global: write
   OctINk:
     Channels:
       Global: write
@@ -229,7 +226,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Lucb232:
     Channels:
       Global: write
@@ -276,15 +272,6 @@ Players:
     Channels:
       Global: write
   Stiz9490:
-    Channels:
-      Global: write
-  DV132:
-    Channels:
-      Global: write
-  jefferunfaster:
-    Channels:
-      Global: write
-  Superrcrazygamer:
     Channels:
       Global: write
   bpeif:
@@ -981,5 +968,20 @@ Players:
     Channels:
       Global: write
   unreadypath68:
+    Channels:
+      Global: write
+  Sarius2304:
+    Channels:
+      Global: write
+  PrismUA:
+    Channels:
+      Global: write
+  CapsuleFlyer2:
+    Channels:
+      Global: write
+  ImPTSD:
+    Channels:
+      Global: write
+  Noba_Wolf:
     Channels:
       Global: write
