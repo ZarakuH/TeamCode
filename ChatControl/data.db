@@ -98,13 +98,7 @@ Players:
   spongebran:
     Channels:
       Global: write
-  joaquinbridges:
-    Channels:
-      Global: write
   SeanPlayz:
-    Channels:
-      Global: write
-  Darkknight0208:
     Channels:
       Global: write
   firestorm7092:
@@ -120,9 +114,6 @@ Players:
     Channels:
       Global: write
   Keiichi23:
-    Channels:
-      Global: write
-  TheRedRobin__:
     Channels:
       Global: write
   _Ballistic_8:
@@ -164,9 +155,6 @@ Players:
   X1RAY:
     Channels:
       Global: write
-  Oranges_are_glad:
-    Channels:
-      Global: write
   DJSplatter:
     Channels:
       Global: write
@@ -177,9 +165,6 @@ Players:
     Channels:
       Global: write
   Scarywizardfire:
-    Channels:
-      Global: write
-  Tolis133:
     Channels:
       Global: write
   DominickVine:
@@ -214,9 +199,7 @@ Players:
     Spying: true
     Channels:
       Global: write
-  Lucb232:
-    Channels:
-      Global: write
+      Local: write
   Kurieita:
     Channels:
       Global: write
@@ -247,58 +230,19 @@ Players:
   SerenaStarz:
     Channels:
       Global: write
-  Chrizz:
-    Channels:
-      Global: write
   TheSharkTooth:
     Channels:
       Global: write
   Grim__:
     Channels:
       Global: write
-  Stiz9490:
-    Channels:
-      Global: write
   bimbo68:
-    Channels:
-      Global: write
-  letBabyKraken:
-    Channels:
-      Global: write
-  Xiumbra:
-    Channels:
-      Global: write
-  CatGaming06:
-    Channels:
-      Global: write
-  Loaos:
-    Channels:
-      Global: write
-  MichaelJackson03:
-    Channels:
-      Global: write
-  HiBuddy91402:
-    Channels:
-      Global: write
-  SydneyMurphy6:
-    Channels:
-      Global: write
-  SteveS:
     Channels:
       Global: write
   tclowe:
     Channels:
       Global: write
   iFrodoFezbear:
-    Channels:
-      Global: write
-  SanPug1:
-    Channels:
-      Global: write
-  XxRandomDudexX:
-    Channels:
-      Global: write
-  parnova12345:
     Channels:
       Global: write
   Jason4704:
@@ -995,5 +939,41 @@ Players:
     Channels:
       Global: write
   KekronPles:
+    Channels:
+      Global: write
+  DodiThunder:
+    Channels:
+      Global: write
+  ioncannon101:
+    Channels:
+      Global: write
+  Sebush2006:
+    Channels:
+      Global: write
+  Steve_Pi:
+    Channels:
+      Global: write
+  Rooban:
+    Channels:
+      Global: write
+  QueenDanniSeven:
+    Channels:
+      Global: write
+  MusicalPug:
+    Channels:
+      Global: write
+  DarkLight08:
+    Channels:
+      Global: write
+  KingJamesNine:
+    Channels:
+      Global: write
+  GTGamer776:
+    Channels:
+      Global: write
+  crimsonrapier:
+    Channels:
+      Global: write
+  BlowingBlockz:
     Channels:
       Global: write
