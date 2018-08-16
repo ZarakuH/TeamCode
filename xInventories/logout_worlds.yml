@@ -1056,7 +1056,7 @@ v2-logout:
     group: superherocities
     world: nyc
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
-    world: survival112
+    world: survival112_nether
     group: superherocities
   ed624832-feca-405a-ba65-95281a8e4479:
     group: superherocities
@@ -2288,7 +2288,7 @@ v2-logout:
     world: titanstower
   3e886f37-7d3c-41bf-9d19-eaedba03627f:
     group: superherocities
-    world: survival112
+    world: helicarrier
   47e68d9b-5165-4c80-aeb2-6c6e0bb3246d:
     group: superherocities
     world: titanstower
@@ -3397,8 +3397,8 @@ v2-logout:
     group: superherocities
     world: infinitycity
   ebeb6da7-bc57-411c-a35a-f48f6284cff0:
-    world: survival112
-    group: superherocities
+    world: mainmenu
+    group: mainmenu
   57dc6d9c-58fe-48a2-8213-c7cddc7b9ed5:
     group: superherocities
     world: survival112
@@ -3739,7 +3739,7 @@ v2-logout:
     group: superherocities
     world: nyc
   18c70f2f-c175-4f54-9800-ff7390003d7b:
-    world: survival112
+    world: waynemanor
     group: superherocities
   f67dbe94-b42c-47a2-bc3e-8978b650c54b:
     group: superherocities
@@ -5023,7 +5023,7 @@ v2-logout:
     world: nyc
   4681c60e-1da2-4f7d-80be-5947e1d7497e:
     group: superherocities
-    world: titanstower
+    world: survival112
   c783605b-da49-4970-9e9b-e9e4f7749c47:
     group: mainmenu
     world: mainmenu
@@ -5091,8 +5091,8 @@ v2-logout:
     group: superherocities
     world: hallofjustice
   337995bf-982e-45d4-8e9d-1d11ac97c116:
-    group: superherocities
-    world: hogwarts
+    group: mainmenu
+    world: mainmenu
   4a536756-b806-45bf-9c25-2c5f9af2d593:
     group: mainmenu
     world: mainmenu
@@ -5122,7 +5122,7 @@ v2-logout:
     group: superherocities
   f89e3dc0-33ed-489e-9174-38c8142a58bb:
     group: superherocities
-    world: survival112
+    world: waynemanor
   ad09245f-fa9f-4526-b47e-18a208bba969:
     group: superherocities
     world: hogwarts
@@ -5167,7 +5167,7 @@ v2-logout:
     world: starlabs
   3ee059a9-6c64-4204-9240-9bedd6ff8606:
     group: superherocities
-    world: starlabs
+    world: waynemanor
   602b13b5-895e-42e4-a4ce-78dcee9e7f7a:
     group: superherocities
     world: survival112
@@ -5301,8 +5301,8 @@ v2-logout:
     group: deathrun
     world: deathrun
   70e18550-4267-47c7-9c43-bc30d2254957:
-    world: arcade
-    group: arcade
+    world: nyc
+    group: superherocities
   d0f9a8dd-4050-416a-a5f5-3750269f92f6:
     world: survival112
     group: superherocities
@@ -5526,3 +5526,9 @@ v2-logout:
   ae41eaff-75f6-46db-bb1c-cc7157bf0bc2:
     group: superherocities
     world: greenfield
+  ac21b790-e89d-4070-bb61-c0a0ef33a9bb:
+    world: tutorial
+  c6ee31ff-2c1c-4a5f-9ae3-43270cab79e8:
+    world: tutorial
+  022586b5-2fa1-467b-b4da-ed682fc4cc30:
+    world: tutorial
