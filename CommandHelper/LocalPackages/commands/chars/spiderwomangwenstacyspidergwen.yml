@@ -23,6 +23,7 @@ permissions:
   - ch.alias.slingweb
   - -essentials.protect.damage.fall
   - ch.alias.web
+  - powers.spidersense
 powers:
 - /effects
 - /items
