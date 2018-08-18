@@ -32,6 +32,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Sparkyscool101:
     Channels:
       Global: write
@@ -39,9 +40,6 @@ Players:
     Channels:
       Global: write
   darkstumper:
-    Channels:
-      Global: write
-  _C0LE:
     Channels:
       Global: write
   MightyCyclops:
@@ -95,9 +93,6 @@ Players:
   carolinacub:
     Channels:
       Global: write
-  Patrickplayz004:
-    Channels:
-      Global: write
   Keiichi23:
     Channels:
       Global: write
@@ -114,9 +109,6 @@ Players:
     Channels:
       Global: write
   Megadethh:
-    Channels:
-      Global: write
-  PenguiniP:
     Channels:
       Global: write
   Han_Shot_First_:
@@ -149,9 +141,6 @@ Players:
   America2076:
     Channels:
       Global: write
-  Shanethepain2018:
-    Channels:
-      Global: write
   BatmanAKnight:
     Channels:
       Global: write
@@ -175,7 +164,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Kurieita:
     Channels:
       Global: write
@@ -197,9 +185,6 @@ Players:
   crazybanana400:
     Channels:
       Global: write
-  SerenaStarz:
-    Channels:
-      Global: write
   Grim__:
     Channels:
       Global: write
@@ -216,9 +201,6 @@ Players:
     Channels:
       Global: write
   HerpaDerp10000:
-    Channels:
-      Global: write
-  luckylefty:
     Channels:
       Global: write
   GamebroDutchman:
@@ -243,12 +225,6 @@ Players:
     Channels:
       Global: write
   NotSatixfied:
-    Channels:
-      Global: write
-  NotRisk:
-    Channels:
-      Global: write
-  Lucy_Keys:
     Channels:
       Global: write
   Newt_Scamander1:
@@ -366,9 +342,6 @@ Players:
     Channels:
       Global: write
   PORTALPRO1738:
-    Channels:
-      Global: write
-  GriffinVaris:
     Channels:
       Global: write
   BTL_2_or_Bob:
@@ -927,5 +900,29 @@ Players:
     Channels:
       Global: write
   southclub:
+    Channels:
+      Global: write
+  Zaheri:
+    Channels:
+      Global: write
+  Bliss44:
+    Channels:
+      Global: write
+  Loeke14:
+    Channels:
+      Global: write
+  6Waffle9:
+    Channels:
+      Global: write
+  MilanGolub:
+    Channels:
+      Global: write
+  TheFlamingJelly:
+    Channels:
+      Global: write
+  AwesomeInformed:
+    Channels:
+      Global: write
+  Fisherbear9:
     Channels:
       Global: write
