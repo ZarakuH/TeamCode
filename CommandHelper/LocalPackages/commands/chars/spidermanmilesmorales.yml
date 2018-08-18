@@ -25,6 +25,7 @@ permissions:
   - ch.alias.web
   - ch.alias.invis
   - ch.alias.vis
+  - powers.spidersense
 powers:
 - /effects
 - /items
