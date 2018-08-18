@@ -21,6 +21,7 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   - ch.alias.web
+  - powers.spidersense
 powers:
 - /effects
 - /items
