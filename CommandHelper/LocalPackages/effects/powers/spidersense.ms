@@ -6,7 +6,7 @@ bind('entity_damage', null, array('type':'/PLAYER/', 'cause': '/ENTITY_ATTACK|MA
     if(has_permission(@e['player'], "powers.spidersense") && import(@e['player'].'isDepowered') != true && pmode(@e['player']) == 'SURVIVAL' && @num < 5)
     {
         cancel()
-        tmsg(@e['player'], color('RED').'Your Ultra Instinct saves you from damage!')
+        tmsg(@e['player'], color('RED').'Your Spider Sense is Tingling!')
         @ploc = ploc(@e['player'])
         
         for(@i = 0, @i < 10, @i++){
