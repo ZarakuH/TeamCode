@@ -1,9 +1,14 @@
 class: spiderman2099
 costumes:
-- chatcolor: '&4'
-  name: §4Sp§fi§4d§0e§4r-M§0a§4n 2099
-  sig: PgbiaiR5ECzObP+EM6uPwImUdWcoUSCY/N3+ZvSG/tZyEsVrCTvvxFmhra99C2sOPLbkRxLJh4YvJXpTRWe49Ow3NhoQnYaHJn5PI/iqx2ksvdIkJJ+UEB4zCrtMK2MUd0s9CjWwcnZof3gdXy/uUabALCujtH1QhH4CYAWqnk+WXaHJ1W1U2khGUDtGxMZGce5dTJnUxlPCH/oqHOeMFPZbb2rE41fsrqB2MoSa03LRwUz48D7i9s/6S4iCHYGedId9BGuOuLDnzqIrO1HH6vtM16+xshMoxxeJqu3azRG6V6fxmfTuPRyK/o08czBdVorBCiDDHCYZSuyleNlqh+QV2Rq84O4QKEdbn02mMgPHh/UrZ3EaVn1lLyLpPC7lOKCwWosQg3aAKZA/6QKvL+2/+pRlNeYII3F5TXwYb7UPmDPnvvy4HQ01ZiWxakOFFxRhctrdoMxyb4S5c2BwQ3f5RfnxkPPKvxjdL7LU5migNRxduIIAFgTiGlBxVkEyG7/eh3M4Q2XWefhLHzspaspUqwSWwo1l3AMACHhgO3tk+e0F4Rc4x4iTRP45C/x1PLGDxlPz1lIeGxIMdqCXyghY3AdyYfU2nd3/Cbgq7dahsQqYCJ076AMuj+AkaXV6j+sF0BCUvOQtKrmggFv7qKnZRLUl4TINtA8WXNF8HjM=
-  val: eyJ0aW1lc3RhbXAiOjE0ODU3MTM0NTA4NTcsInByb2ZpbGVJZCI6IjBlNDJlNDc0MTM0ODRmYTg5N2M2Y2IzOWE5YzA5ODhmIiwicHJvZmlsZU5hbWUiOiJjYXJkaGFkeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFkZjIzM2U0MTI2ZTU4NjZmZmUyYzZlNmRkMGUxNjU0NmM5OWY1NTdjZDM4YjY0MWNiNTgwM2M1OWFlMTYxYSJ9fX0=
+- chatcolor: '&9'
+  name: §1S§9p§4i§cd§1e§9r§4-§cm§ba§9n §12§90§49§b9
+  sig: pU4zcTNwCV2bIaV2KrWCEc6Z+njyh3SjacUGKsXyP4Ga+6sRpO5N1qho/2Gr5p/tfU4tRMzYOX0IZj/eO+zc38ypXnSyXC3kJjAUGLcQQI82d6LULC/lS7iRQBum/yyb7DSfWlfBD5HT7GUqbTD9GfCgtOJ/gFZ4F22J6he6DYaMaJpIfP+ztVL632OJN3LtPHOvKnzfU9RmoP5uXA2/+WwfcMkcvBlMQMeXliOOTjDSe2Z4LrY2v208vfIZjDxF1BngxG+2u73RPXk4vbue9zxNuSWjvUHjUVilpGwOZm3IXEBL21Uuji5jHw2T76H1DknhWLctTnqN8SvhDhQQrWVJXvtfc68T6DbPTDJ3fV0f1qX95TpRpR48z6l7tRfj8ZXl6VMO4f53mDIQLjtDkAd4rv2gE8x4Cok4LFucRgKj6DOfES/kKBir+2MN7/YFhIPrxDqH3IfVHfEE6RxoRrl++2bVbpZUwvqZ57BTjUkF27NjLQPvWj58VdzteNCKmL9VR9+540OJorPwpFx+x+zm6ENG07V2LQxh0aKN2G8+s59VbIzN7orhUXmfWb6DTppPdk6RNrRGgb18tQpmV6l3hxywdnqCK9n0MtyHrKaDY/hnnpfQDwD2nyk1+Pnyn4RkJlNN+U+7LVyd0T+1Yv+Ry/ma06eSTt/Kj5TBE90=
+  val: eyJ0aW1lc3RhbXAiOjE1MzQ2MzA4NDQ1MTMsInByb2ZpbGVJZCI6IjgzNTRlZDBkMDljYjQ2ODJiZjYyNWRmM2YwZTJiNDEyIiwicHJvZmlsZU5hbWUiOiJ4VmFsZW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4MTA0MzI5Zjg0MDI0NTAwNzFmMGRkMGQzN2Y3YzA4ODQ0MzkyMTdkOTE4ZDU3OWI0NTA1MzFhNTAxYzdhOWQiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+- chatcolor: '&c'
+  info: All-New 2099
+  name: §fS§4p§8i§fd§4e§8r§f-§4M§8a§fn §f2§40§89§f9
+  sig: lb1qAAcXtuX+twYI5xqtG2KXOYgeGotsQiKQCh2iO0LNwmdUVaBaHGvMBI8Ed/XQRwdWKsKqprUKEaBMi9PEozKPyWSL0DZvJH3ZQQx7svewj+SIu88rgtkXeIL8Vic4nmy741+51Jp2N2vvp2TQxoHb2+g8jB1DHNfBIppdQob44qLy5u3oFuezJK9lTviqIvpiguxlzrviEsmnXRmJ3cdpEuERte3LJv6WyKjX6wDWtT5KBrf3AM5JqFVxZ3ZiMBNrVoz5VD8BUeDcwDikWR/cYqDvkVrOcfmxf+5O2c+2l6053HVZBfZSogg97YsKHZ0+GHkffU4cUm2QFGc2s9hFx6c3yTg5cLSTcujP3HgobVAOjxe1i001wP+bNbfqI3MAnuDwRoGNetCo2yhU/hoSugRGa+jEJwoK42TXp2LfR3q6ACkW0xlt/z3TAO0cPDGNwDAUoyflkbHqWEzWyDlEJ/BzHXGaBxUN0vDAtih+qHu3fRjd6o0PrWgQZVSyZutcZIlcp39p2fq6PlqbF/1OENpIUOKxYqvolnLsd5ROJ4IqnzOfbJWqfRAn63Y/RfWRXzWSI7X/rVHnOi450cE2B8jYdxYGgeiR8YJUeRurmpz2htusFyUVt5Q4yh9RVNbbpYGDRAJTBAjuFztARZjbejOx88x5nLeTSGFyEUc=
+  val: eyJ0aW1lc3RhbXAiOjE1MzQ2MzMwMTQxOTAsInByb2ZpbGVJZCI6IjgzNTRlZDBkMDljYjQ2ODJiZjYyNWRmM2YwZTJiNDEyIiwicHJvZmlsZU5hbWUiOiJ4VmFsZW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M2NmFiZDgzMzgyNmUwMjA0MDQ2MjhhYzc3MTZmOWU1ZmIxYjllMjYzODNiOGY1MzlmNTBkZDQ1Mjc5MmI2NzYiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
 effects:
 - /effect <plr> 5 9999 5 true
 - /effect <plr> 10 9999 1 true
@@ -13,6 +18,8 @@ haste: 3
 items:
 - /give <plr> minecraft:web 64
 - /shot give <plr> webshot
+- /give <plr> minecraft:iron_bars 2 16:10 name:&1S&9p&4i&cd&1e&9r&4-&cm&ba&9n&0_&12&90&49&b9&1'&9s&0_&1T&9a&4l&bo&1n&cs
+- /give <plr> minecraft:iron_bars 2 16:10 name:&fS&4p&8i&fd&4e&8r&f-&4m&8a&fn&0_&f2&40&89&f9&4'&8s&0_&fT&4a&8l&fo&4n&8s
 jump: 7
 maxHearts: 30
 permissions:
@@ -24,7 +31,6 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   - ch.alias.web
-  - powers.spidersense
 powers:
 - /effects
 - /items
