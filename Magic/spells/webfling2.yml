@@ -21,4 +21,4 @@ webfling2:
     bypass_confusion: true
     cooldown: 1000
   costs:
-    mana: 50
+    mana: 0
