@@ -84,5 +84,7 @@ beginner:
   upgrade_item: test_upgrade
   inherit: default
   spell_count: 1
+  extra_spells:
+  - none
   spells:
   - none
