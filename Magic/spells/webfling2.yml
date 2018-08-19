@@ -1,0 +1,24 @@
+webfling2:
+  icon: diamond_axe:60
+  icon_disabled: diamond_hoe:60
+  icon_url: http://textures.minecraft.net/texture/7cc2fb583d1762a16a50fa5ac37bc09b46def63e68205116d650391f9233ed
+  alias: leap
+  category: utility
+  tags: nojail
+  worth: 400
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Velocity
+    - class: FallProtection
+  parameters:
+    duration: 20000
+    target: self
+    min_speed: 3.5
+    max_speed: 5.0
+    bypass_confusion: true
+    cooldown: 30000
+  costs:
+    mana: 50
