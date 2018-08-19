@@ -77,3 +77,12 @@
 #  upgrade_commands:
 #    - broadcast &6@pd &3has graduated to &b$path&3!
 
+beginner:
+  icon: wood_hoe:1
+  migrate_icon: wood_hoe
+  upgrade: student
+  upgrade_item: student_upgrade
+  inherit: default
+  spell_count: 1
+  spells:
+  - none
