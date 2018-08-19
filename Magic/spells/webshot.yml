@@ -25,18 +25,6 @@ webshot:
       particle: redstone
       particle_count: 100
       color: ffffff
-    hit:
-    - location: target
-      effectlib:
-        class: SphereEffect
-        particle: block_crack
-        particle_count: 15
-        particles: 20
-        particle_offset_x: 0.3
-        particle_offset_y: 0.3
-        particle_offset_z: 0.3
-        radius: $radius
-        duration: 2000
   parameters:
     target: other
     allow_max_range: false
