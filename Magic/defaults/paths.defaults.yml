@@ -375,7 +375,7 @@ knight:
   - tendril
   - force
   - railgun
-beginner:
+beginners:
   icon: wood_hoe:1
   migrate_icon: wood_hoe
   upgrade: student
