@@ -42,7 +42,7 @@ webpull:
         mana: 50
     parameters:
         speed: 5
-        range: 8
+        range: 20
         target_type: LivingEntity
         target_breakables: 1
         target: other
