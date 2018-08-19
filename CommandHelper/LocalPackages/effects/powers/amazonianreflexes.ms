@@ -3,7 +3,7 @@ bind('entity_damage', null, array('type':'/PLAYER/', 'cause': '/ENTITY_ATTACK|MA
         die()
     }
     @num = rand(1, 10)
-    if(has_permission(@e['player'], "powers.amazonianreflexes") && import(@e['player'].'isDepowered') != true && pmode(@e['player']) == 'SURVIVAL' && @num < 5)
+    if(has_permission(@e['player'], "powers.amazonianreflexes") && import(@e['player'].'isDepowered') != true && pmode(@e['player']) == 'SURVIVAL' && @num < 6)
     {
         cancel()
         tmsg(@e['player'], color('RED').'Your Fast Reflexes allow you to dodge the attack!')
