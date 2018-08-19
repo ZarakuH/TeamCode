@@ -7333,12 +7333,6 @@ groups:
         permissions:
         - powers.immunity.poison
         - ch.alias.hyenas
-  dumbledore:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&d'
-      prefix: '&5Dum&dbl&5edo&dre'
   newtscamander:
     inheritance:
     - commonherotraits
@@ -8159,19 +8153,6 @@ groups:
         - libsdisguises.undisguise
         - libsdisguises.disguise
         - ch.alias.healing
-  raven:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&5'
-      prefix: '&5R&0a&5v&0e&5n'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.portaltp
-        - essentials.speed
-        - essentials.speed.fly
-        - essentials.fly
   mew:
     inheritance:
     - commonherotraits
@@ -8881,20 +8862,6 @@ groups:
         - ch.alias.carryplayer
         - essentials.fly
         - -essentials.protect.damage.fall
-  zatanna:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&f'
-      prefix: '&fZ&0a&ft&0a&fn&0n&fa'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.mrasid
-        - essentials.enchant
-        - -essentials.enchantments.allowunsafe
-        - essentials.enchantments.*
-        - powers.float
   batmanbatsuit:
     inheritance:
     - commonherotraits
@@ -11034,6 +11001,39 @@ groups:
     options:
       suffix: '&a'
       prefix: '&8L&fo&7r&8d &8V&ao&7l&8d&7e&fm&ao&8r&7t'
+  dumbledore:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&d'
+      prefix: '&5Dum&dbl&5edo&dre'
+  zatanna:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&f'
+      prefix: '&fZ&0a&ft&0a&fn&0n&fa'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.mrasid
+        - essentials.enchant
+        - -essentials.enchantments.allowunsafe
+        - essentials.enchantments.*
+        - powers.float
+  raven:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&5'
+      prefix: '&5R&0a&5v&0e&5n'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.portaltp
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
 schema-version: 1
 worlds:
   checkers:
@@ -16290,7 +16290,7 @@ users:
       name: Scamper2006
   18c70f2f-c175-4f54-9800-ff7390003d7b:
     group:
-    - harrypotter
+    - zatanna
     options:
       name: _Rossi_
     worlds:
@@ -18362,7 +18362,7 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - lordvoldemort
+    - raven
     options:
       name: adamdotshaw
     worlds:

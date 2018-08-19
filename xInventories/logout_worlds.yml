@@ -1055,8 +1055,8 @@ v2-logout:
     group: superherocities
     world: nyc
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
-    world: mainmenu
-    group: mainmenu
+    world: arcade
+    group: arcade
   ed624832-feca-405a-ba65-95281a8e4479:
     group: superherocities
     world: survival112
