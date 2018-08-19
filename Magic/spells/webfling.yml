@@ -41,7 +41,7 @@ webfling:
     vertical_range: 20
     cooldown: 2000
     age_items: 3000
-    speed: 5
+    speed: 3
     yaw_max: 30
     pitch_max: 4
     uses_brush: false
