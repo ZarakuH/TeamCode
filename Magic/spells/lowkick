@@ -17,7 +17,7 @@ lowkick:
     effects:
         cast:
         -  class: EffectSingle
-           sound: entity.player.big_fall
+           sound: entity.player.attack.sweep
            effectlib:
              class: LineEffect
              iterations: 1
