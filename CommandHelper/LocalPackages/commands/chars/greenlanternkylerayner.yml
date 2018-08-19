@@ -8,7 +8,7 @@ effects:
 items:
 - /shot give <plr> greenenergybeam
 - /give <plr> 95:5 64
-- /mgive <plr> greenlanternring
+- /mgive <plr> greenlanternrings
 class: greenlanternkylerayner
 maxHearts: 30
 permissions:
