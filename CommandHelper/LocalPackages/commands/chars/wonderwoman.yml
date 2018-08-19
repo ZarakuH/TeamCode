@@ -45,6 +45,7 @@ permissions:
   - essentials.speed
   - powers.lightningpunch
   - powers.mindcontrol
+  - powers.amazonianreflexes
   #- ch.alias.stopmindcontrol
 powers:
 - /effects
