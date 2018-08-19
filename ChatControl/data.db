@@ -906,3 +906,9 @@ Players:
   SpiderFooties:
     Channels:
       Global: write
+  Caledhia:
+    Channels:
+      Global: write
+  DGVTimo:
+    Channels:
+      Global: write
