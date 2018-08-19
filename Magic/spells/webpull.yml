@@ -47,6 +47,6 @@ webpull:
         target_breakables: 1
         target: other
         living_entity_speed: 1
-        push: -3
-        cooldown: 1000
+        push: -4
+        cooldown: 3000
         hitbox: true
