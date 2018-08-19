@@ -5512,23 +5512,6 @@ groups:
     options:
       suffix: '&7'
       prefix: '&7G&8u&fa&7r&8d&fi&7a&8n'
-  onslaught:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&5O&4nsl&5au&4g&5ht'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.r
-        - ch.alias.msg
-        - ch.alias.speak
-        - ch.alias.mindlock
-        - powers.mindcontrol
-        - ch.alias.fly
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   ultramanearththree:
     inheritance:
     - commonherotraits
@@ -9207,37 +9190,6 @@ groups:
         - essentials.tppos
         - powers.wallrun
         - powers.splitself
-  flashbarryallen:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&e'
-      prefix: '&4Fl&ea&4sh&8(BarryA&8)'
-    worlds:
-      speedforce:
-        permissions:
-        - essentials.back
-        - ch.alias.powers
-        - ch.alias.tp
-        - ch.alias.speedforceteleport
-        - ch.alias.speedforcebuffs
-      superherocity:
-        permissions:
-        - powers.herotransform
-        - powers.timeremnant
-        - ch.alias.vis
-        - ch.alias.invis
-        - powers.cloneself
-        - ch.alias.speedforcewhirlwind
-        - essentials.warps.speedforce
-        - essentials.tppos
-        - ch.alias.carryplayer
-        - ch.alias.dropplayer
-        - ch.alias.speedforceteleport
-        - powers.wallrun
-        - powers.lightningpunch
-        - worldedit.navigation.thru.command
-        - needsto.eat
   abomination:
     inheritance:
     - commonherotraits
@@ -11042,6 +10994,54 @@ groups:
         - headdb.category.*
         - headdb.open
         - ch.alias.create
+  onslaught:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&5O&4nsl&5au&4g&5ht'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.r
+        - ch.alias.msg
+        - ch.alias.speak
+        - ch.alias.mindlock
+        - powers.mindcontrol
+        - ch.alias.fly
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  flashbarryallen:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&e'
+      prefix: '&4Fl&ea&4sh&8(BarryA&8)'
+    worlds:
+      speedforce:
+        permissions:
+        - essentials.back
+        - ch.alias.powers
+        - ch.alias.tp
+        - ch.alias.speedforceteleport
+        - ch.alias.speedforcebuffs
+      superherocity:
+        permissions:
+        - powers.herotransform
+        - powers.timeremnant
+        - ch.alias.vis
+        - ch.alias.invis
+        - powers.cloneself
+        - ch.alias.speedforcewhirlwind
+        - essentials.warps.speedforce
+        - essentials.tppos
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - ch.alias.speedforceteleport
+        - powers.wallrun
+        - powers.lightningpunch
+        - worldedit.navigation.thru.command
+        - needsto.eat
 schema-version: 1
 worlds:
   checkers:
@@ -16294,7 +16294,7 @@ users:
       name: Scamper2006
   18c70f2f-c175-4f54-9800-ff7390003d7b:
     group:
-    - greenlanternhaljordan
+    - flashbarryallen
     options:
       name: _Rossi_
     worlds:
@@ -17195,7 +17195,7 @@ users:
       name: MoltenMayor
   2da70f38-7ec0-4819-b82f-a2a5141a9126:
     group:
-    - mortal
+    - onslaught
     options:
       name: roders321
     worlds:
