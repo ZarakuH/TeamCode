@@ -17,10 +17,12 @@ webfling:
         - class: Spread
           actions:
           - class: ThrowItem
+            target: none
       - class: Delay
     - class: Brush
       actions:
       - class: Velocity
+        target: self
   effects:
     cast:
     - class: EffectSingle
@@ -46,7 +48,6 @@ webfling:
         particles: 10
         iterations: 60
   parameters:
-    target: self
     center_probability: 0.9
     outer_probability: 0.5
     vertical_range: 8
