@@ -8789,22 +8789,6 @@ groups:
     options:
       suffix: '&7'
       prefix: '&fDe&cad&8sh&co&8t'
-  spiderwomangwenstacyspidergwen:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&7'
-      prefix: '&5S&0p&fid&0e&fr-&5W&f&8o&fm&ba&fn&8(&fG&7S&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.web
-        - -essentials.protect.damage.fall
-        - ch.alias.slingweb
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - ch.alias.websling
-        - powers.wallclimb
   hybrid:
     inheritance:
     - commonherotraits
@@ -10346,22 +10330,6 @@ groups:
         - ch.alias.intangible
         - essentials.fly
         - ch.alias.magicpush
-  spidermanpeterparker:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&4Sp&fi&4d&0e&4r-M&0a&4n&8(PP)'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.spidersense
-        - ch.alias.web
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - -essentials.protect.damage.fall
-        - ch.alias.websling
-        - powers.wallclimb
   krypto:
     inheritance:
     - commonherotraits
@@ -11034,6 +11002,43 @@ groups:
         - ch.alias.create
         - ch.alias.tphere
         - ch.alias.mutate
+  spidermanpeterparker:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4Sp&fi&4d&0e&4r-M&0a&4n&8(PP)'
+    worlds:
+      superherocity:
+        permissions:
+        - magic.cast.webfling2
+        - magic.commands.cast
+        - powers.spidersense
+        - ch.alias.web
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - ch.alias.websling
+        - powers.wallclimb
+  spiderwomangwenstacyspidergwen:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&7'
+      prefix: '&5S&0p&fid&0e&fr-&5W&f&8o&fm&ba&fn&8(&fG&7S&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - magic.cast.webfling2
+        - magic.commands.cast
+        - powers.spidersense
+        - ch.alias.web
+        - -essentials.protect.damage.fall
+        - ch.alias.slingweb
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - ch.alias.websling
+        - powers.wallclimb
 schema-version: 1
 worlds:
   checkers:
@@ -16290,7 +16295,7 @@ users:
       name: Scamper2006
   18c70f2f-c175-4f54-9800-ff7390003d7b:
     group:
-    - zatanna
+    - spidermanpeterparker
     options:
       name: _Rossi_
     worlds:
@@ -18361,7 +18366,7 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - starbutterfly
+    - spiderwomangwenstacyspidergwen
     options:
       name: adamdotshaw
     worlds:
