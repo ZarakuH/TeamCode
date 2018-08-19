@@ -52,7 +52,7 @@ webshot:
     undo: 4000
     brush: web
     brushcolor: true
-    cooldown: 5000
+    cooldown: 1500
     breakable: 4
     miss_effects: hit
     miss: actions
