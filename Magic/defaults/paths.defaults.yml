@@ -378,12 +378,30 @@ knight:
 beginners:
   icon: wood_hoe:1
   migrate_icon: wood_hoe
-  upgrade: test
-  upgrade_item: test_upgrade
+  upgrade: student
+  upgrade_item: student_upgrade
   inherit: default
   spell_count: 1
   spells:
-  - none
+  - missile
+  - arrow
+  - blast
+  - boon
+  - cloak
+  - collapse
+  - cure
+  - bubble
+  - fireball
+  - torch
+  - push
+  - pull
+  - peek
+  - recall
+  - blind
+  - reflect
+  - poison
+  - fire
+  - frost
 broom:
   hidden: true
   inherit: default
