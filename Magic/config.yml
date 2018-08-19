@@ -87,6 +87,6 @@ add_examples:
 # url_icons_enabled: true
 
 show_messages: false
-enable_enchanting: false
+enable_enchanting: true
 wand_undroppable: true
 wand_unstashable: true
