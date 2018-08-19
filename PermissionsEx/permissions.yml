@@ -8330,22 +8330,6 @@ groups:
         - ch.alias.speedforceteleport
         - -essentials.protect.entitytarget.bypass
         - kill.immune
-  antivenom:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&f'
-      prefix: '&fA&7n&0t&7i-&fV&7e&0n&7o&fm'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.web
-        - -essentials.protect.damage.fall
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - ch.alias.websling
-        - powers.wallclimb
-        - powers.antivenomattack
   darthvader:
     inheritance:
     - commonherotraits
@@ -8486,18 +8470,6 @@ groups:
       superherocity:
         permissions:
         - ch.alias.psypush
-  subzero:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&9'
-      prefix: '&1S&9u&bb&8-&8Z&7e&fro'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.freezewater
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   xlr8:
     inheritance:
     - commonherotraits
@@ -10779,8 +10751,8 @@ groups:
     inheritance:
     - commonherotraits
     options:
-      suffix: '&c'
-      prefix: '&fS&4p&8i&fd&4e&8r&f-&4M&8a&fn &f2&40&89&f9'
+      suffix: '&9'
+      prefix: '&1S&9p&4i&cd&1e&9r&4-&cm&ba&9n &12&90&49&b9'
     worlds:
       superherocity:
         permissions:
@@ -11040,6 +11012,34 @@ groups:
         - essentials.speed.fly
         - essentials.fly
         - powers.wallrun
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  antivenom:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&f'
+      prefix: '&fA&7n&0t&7i-&fV&7e&0n&7o&fm'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.web
+        - -essentials.protect.damage.fall
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - ch.alias.websling
+        - powers.wallclimb
+        - powers.antivenomattack
+  subzero:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&9'
+      prefix: '&1S&9u&bb&8-&8Z&7e&fro'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.freezewater
         - ch.alias.dropplayer
         - ch.alias.carryplayer
 schema-version: 1
@@ -11444,7 +11444,8 @@ users:
       superherocity:
         permissions: []
   2a63e405-eecf-480a-9fcf-1e22b996d998:
-    group: []
+    group:
+    - mortal
     permissions:
     - is.coowner
     - is.builder
@@ -18368,7 +18369,7 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - mortal
+    - subzero
     options:
       name: adamdotshaw
     worlds:
@@ -18684,4 +18685,4 @@ users:
       name: Red1
   7ff691cf-486c-4650-8f2a-5f1cd3c8fc12:
     group:
-    - beerus
+    - antivenom
