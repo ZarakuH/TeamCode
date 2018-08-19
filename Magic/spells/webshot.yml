@@ -58,4 +58,4 @@ webshot:
     miss: actions
     damage: 5
   costs:
-    mana: 75
+    mana: 0
