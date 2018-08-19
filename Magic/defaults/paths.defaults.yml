@@ -382,6 +382,10 @@ beginners:
   upgrade_item: student_upgrade
   inherit: default
   spell_count: 1
+  extra_spells:
+  - flare
+  - stun
+  - workbench
   spells:
   - missile
   - arrow
