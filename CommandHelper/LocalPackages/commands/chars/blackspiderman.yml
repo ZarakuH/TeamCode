@@ -11,6 +11,7 @@ haste: 4
 items:
 - /give <plr> minecraft:web 64
 - /shot give <plr> webshot
+- /mgive <plr> webshooter
 jump: 7
 maxHearts: 30
 permissions:
@@ -23,6 +24,8 @@ permissions:
   - ch.alias.web
   - weakto.antivenom
   - powers.spidersense
+  - magic.commands.cast
+  - magic.cast.webfling2
 powers:
 - /effects
 - /items
