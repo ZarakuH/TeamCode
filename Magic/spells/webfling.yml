@@ -46,14 +46,14 @@ webfling:
         particles: 10
         iterations: 60
   parameters:
-    target: none
+    target: self
     center_probability: 0.9
     outer_probability: 0.5
     vertical_range: 8
     cooldown: 2000
     age_items: 3000
-    item_speed_min: 0.75
-    item_speed_max: 1.1
+    item_speed_min: 2.0
+    item_speed_max: 3.0
     min_speed: 1.5
     max_speed: 2.0
     yaw_max: 30
