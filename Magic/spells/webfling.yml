@@ -28,6 +28,12 @@ webfling:
     - class: EffectSingle
       sound: magic.shimmer
       location: source
+      effectlib:
+        class: LineEffect
+        particle: redstone
+        color: ffffff
+        particles: 100
+        iterations: 60
     projectile:
     - location: origin
       effectlib:
