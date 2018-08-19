@@ -80,8 +80,8 @@
 beginner:
   icon: wood_hoe:1
   migrate_icon: wood_hoe
-  upgrade: student
-  upgrade_item: student_upgrade
+  upgrade: null
+  upgrade_item: null_upgrade
   inherit: default
   spell_count: 1
   spells:
