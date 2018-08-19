@@ -32,7 +32,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Sparkyscool101:
     Channels:
       Global: write
@@ -132,9 +131,6 @@ Players:
   Spiderman1109:
     Channels:
       Global: write
-  Scarywizardfire:
-    Channels:
-      Global: write
   DominickVine:
     Channels:
       Global: write
@@ -154,10 +150,6 @@ Players:
     Channels:
       Global: write
   GaySparkelz:
-    Channels:
-      Global: write
-  xSp4rkz:
-    Spying: true
     Channels:
       Global: write
   StrikerMax:
@@ -209,12 +201,6 @@ Players:
   TheoreticalGame:
     Channels:
       Global: write
-  MaddoxArt:
-    Channels:
-      Global: write
-  Superdodo2004:
-    Channels:
-      Global: write
   Soniikz_:
     Channels:
       Global: write
@@ -228,24 +214,6 @@ Players:
     Channels:
       Global: write
   Newt_Scamander1:
-    Channels:
-      Global: write
-  Timmieozo:
-    Channels:
-      Global: write
-  govanni:
-    Channels:
-      Global: write
-  koottek:
-    Channels:
-      Global: write
-  babybird911:
-    Channels:
-      Global: write
-  Alex_playz7:
-    Channels:
-      Global: write
-  Bubbly3779:
     Channels:
       Global: write
   pacmanny:
@@ -924,5 +892,23 @@ Players:
     Channels:
       Global: write
   Fisherbear9:
+    Channels:
+      Global: write
+  PreyRez:
+    Channels:
+      Global: write
+  EvilRileyson:
+    Channels:
+      Global: write
+  Panda6amer:
+    Channels:
+      Global: write
+  YoshiKatsura:
+    Channels:
+      Global: write
+  creepyoldwoman:
+    Channels:
+      Global: write
+  Red1:
     Channels:
       Global: write

@@ -24016,6 +24016,82 @@ lightray:
     bypass_build: false
   costs:
     mana: 45
+webfling2:
+  icon: diamond_axe:60
+  icon_disabled: diamond_hoe:60
+  icon_url: http://textures.minecraft.net/texture/7cc2fb583d1762a16a50fa5ac37bc09b46def63e68205116d650391f9233ed
+  alias: leap
+  category: utility
+  tags: nojail
+  worth: 400
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: Velocity
+    - class: FallProtection
+  parameters:
+    duration: 20000
+    target: self
+    min_speed: 3.5
+    max_speed: 5.0
+    bypass_confusion: true
+    cooldown: 1000
+  costs:
+    mana: 0
+webpull:
+  icon: diamond_axe:9
+  icon_disabled: diamond_hoe:9
+  icon_url: http://textures.minecraft.net/texture/1adaf6e6e387bc18567671bb82e948488bbacff97763ee5985442814989f5d
+  category: dark
+  worth: 80
+  earns_sp: 6
+  upgrade_required_path: apprentice
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: PotionEffect
+      - class: Deactivate
+      - class: Damage
+      - class: Velocity
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: entity_irongolem_death
+      effectlib:
+        class: LineEffect
+        iterations: 1
+        particle: redstone
+        color: ffffff
+        radius: 2
+        lengthGrow: 0.1
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - particle: redstone
+      color: ffffff
+      location: target
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: redstone
+      color: ffffff
+      particle_count: 10
+  costs:
+    mana: 0
+  parameters:
+    speed: 5
+    range: 20
+    target_type: LivingEntity
+    target_breakables: 1
+    target: other
+    living_entity_speed: 1
+    push: -4
+    cooldown: 3000
+    hitbox: true
 soultear:
   icon: diamond_axe:144
   icon_disabled: diamond_hoe:144
@@ -24534,6 +24610,64 @@ lanternblast:
     interval: 250
   costs:
     mana: 150
+webfling:
+  icon: diamond_axe:167
+  icon_disabled: diamond_hoe:167
+  icon_url: http://textures.minecraft.net/texture/b6d7a7f167e24d166ab1d8dedd79311481d4e1ebddbaba8ec6cb394713fb
+  category: engineering
+  tags: noduel
+  worth: 1200
+  earns_sp: 3
+  actions:
+    cast:
+    - class: Repeat
+      repeat: 8
+      ignore_result: true
+      actions:
+      - class: Brush
+        actions:
+        - class: Spread
+          actions:
+          - class: ThrowItem
+      - class: Delay
+    - class: Brush
+      actions:
+      - class: Command
+        console: true
+        command: sudo @p cast webfling2
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.shimmer
+      location: source
+      effectlib:
+        class: LineEffect
+        particle: redstone
+        color: ffffff
+        particles: 100
+        iterations: 60
+    projectile:
+    - location: origin
+      effectlib:
+        class: Sphere
+        particle: item_crack
+        particles: 10
+        iterations: 60
+  parameters:
+    center_probability: 0.9
+    outer_probability: 0.5
+    vertical_range: 20
+    cooldown: 2000
+    age_items: 3000
+    speed: 3
+    yaw_max: 30
+    pitch_max: 4
+    uses_brush: false
+    delay: 100
+    brushes:
+    - web
+  costs:
+    mana: 0
 wingardiumleviosa:
   icon: diamond_axe:181
   icon_disabled: diamond_hoe:181
@@ -27465,6 +27599,59 @@ glasstouch:
       - glass
   costs:
     mana: 10
+lanternbubble:
+  icon: diamond_axe:22
+  icon_disabled: diamond_hoe:22
+  icon_url: http://textures.minecraft.net/texture/3dbb78853b526f9b712b4e431fb332eae0e6cd3dea9a610e9ecf54c31f7c6d
+  alias: dome
+  category: combat
+  worth: 150
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Sphere
+        actions:
+        - class: ModifyBlock
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.shield
+    tick:
+    - location: target
+      particle: block_crack
+    hit:
+    - location: target
+      effectlib:
+        class: SphereEffect
+        particle: block_crack
+        radius: $radius
+        duration: 2000
+  parameters:
+    target: self
+    allow_max_range: false
+    velocity: 50
+    target_type: LivingEntity
+    range: 32
+    thickness: 1
+    radius: 3
+    type: sphere
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    undo: 4000
+    brush: stained_glass:15
+    brushcolor: true
+    cooldown: 5000
+    breakable: 4
+    reflect_chance: 0.25
+    miss_effects: hit
+    miss: actions
+  costs:
+    mana: 75
 healingfield:
   icon: diamond_axe:9
   icon_disabled: diamond_hoe:9
@@ -28132,28 +28319,66 @@ spearofdestinyknockback:
     hitbox: true
     damage: 20
 webshot:
-  icon: diamond_axe:171
+  icon: diamond_axe:22
+  icon_disabled: diamond_hoe:22
+  icon_url: http://textures.minecraft.net/texture/3dbb78853b526f9b712b4e431fb332eae0e6cd3dea9a610e9ecf54c31f7c6d
+  alias: dome
+  category: combat
+  worth: 150
+  earns_sp: 2
+  upgrade_required_path: student
+  upgrade_required_casts: 50
   actions:
     cast:
-    - class: PlayEffects
-      effects: laser
     - class: Damage
-    - class: PotionEffect
+    - class: CustomProjectile
+      actions:
+      - class: Sphere
+        actions:
+        - class: ModifyBlock
   effects:
-    laser:
+    cast:
     - class: EffectSingle
+      sound: magic.shield
+    tick:
+    - location: target
+      particle: redstone
+      particle_count: 100
+      color: ffffff
+    hit:
+    - location: target
       effectlib:
-        class: LineEffect
-        particle: redstone
-        color: ffffff
-        particles: 10
+        class: SphereEffect
+        particle: block_crack
+        particle_count: 15
+        particles: 20
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+        radius: $radius
+        duration: 2000
   parameters:
-    cooldown: 8000
-    range: 50
-    allow_max_range: true
-    damage: 1
-    duration: 7000
-    effect_slow: 100
+    target: other
+    allow_max_range: false
+    velocity: 50
+    target_type: LivingEntity
+    range: 32
+    thickness: 1
+    radius: 1
+    type: sphere
+    transparent: transparent_to_construction
+    destructible: destructible_replace
+    check_destructible: true
+    undo: 4000
+    brush: web
+    brushcolor: true
+    cooldown: 1500
+    breakable: 4
+    miss_effects: hit
+    miss: actions
+    damage: 5
+  costs:
+    mana: 0
 kryptonianlaservision:
   icon: diamond_axe:171
   actions:

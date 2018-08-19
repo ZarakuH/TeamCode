@@ -3402,6 +3402,45 @@ forcepushwand:
   path: beginner
   creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
   creator: xHqrkie
+webshooter:
+  version: 5
+  spell_inventory:
+    webshot: 0
+    webfling: 1
+    webpull: 2
+  active_spell: webshot
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ffffff
+  name: WebShooter
+  mana_max: 300.0
+  page: 0
+  spells:
+  - webshot
+  - webfling
+  - webpull
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: iron_barding
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
 waterspearwand:
   version: 5
   spell_inventory:
@@ -4209,6 +4248,8 @@ yellowlanternring:
     lanternblast: 1
     lanternsmight: 2
     lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -4222,6 +4263,8 @@ yellowlanternring:
   - lanternblast
   - lanternsmight
   - lanternsingularity
+  - lanternlift
+  - lanternbubble
   bound: true
   keep: false
   invulnerable: true
@@ -4243,6 +4286,51 @@ yellowlanternring:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
+greenlanternrings:
+  version: 5
+  spell_inventory:
+    lanternshield: 0
+    lanternblast: 1
+    lanternsmight: 2
+    lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
+  active_spell: lanternshield
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ff00
+  name: GreenLanternRing
+  mana_max: 300.0
+  page: 0
+  spells:
+  - lanternshield
+  - lanternblast
+  - lanternsmight
+  - lanternsingularity
+  - lanternlift
+  - lanternbubble
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: emerald
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+creator: President_Myth
 jokerfloweracidwand:
   spell_inventory:
     jokerfloweracid: 0
@@ -5688,6 +5776,8 @@ redlanternring:
     lanternblast: 1
     lanternsmight: 2
     lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -5701,6 +5791,8 @@ redlanternring:
   - lanternblast
   - lanternsmight
   - lanternsingularity
+  - lanternlift
+  - lanternbubble
   bound: true
   keep: false
   invulnerable: true
@@ -5862,6 +5954,50 @@ crystalshieldwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
+blacklanternring:
+  version: 5
+  spell_inventory:
+    lanternshield: 0
+    lanternblast: 1
+    lanternsmight: 2
+    lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
+  active_spell: lanternshield
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 0
+  name: BlackLanternRing
+  mana_max: 300.0
+  page: 0
+  spells:
+  - lanternshield
+  - lanternblast
+  - lanternsmight
+  - lanternsingularity
+  - lanternlift
+  - lanternbubble
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: coal
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
 freezetimewand:
   version: 5
   spell_inventory:
@@ -6525,47 +6661,6 @@ erifnrubnordlaucelbbubwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-greenlanternring:
-  version: 5
-  spell_inventory:
-    lanternshield: 0
-    lanternblast: 1
-    lanternsmight: 2
-    lanternsingularity: 3
-  active_spell: lanternshield
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ff00
-  name: GreenLanternRing
-  mana_max: 300.0
-  page: 0
-  spells:
-  - lanternshield
-  - lanternblast
-  - lanternsmight
-  - lanternsingularity
-  bound: true
-  keep: false
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: emerald
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
 ravenfieldwand:
   version: 5
   spell_inventory:
