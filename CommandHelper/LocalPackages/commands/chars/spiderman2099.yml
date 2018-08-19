@@ -21,6 +21,7 @@ items:
 - /shot give <plr> webshot
 - /give <plr> minecraft:iron_bars 2 16:10 name:&1S&9p&4i&cd&1e&9r&4-&cm&ba&9n&0_&12&90&49&b9&1'&9s&0_&1T&9a&4l&bo&1n&cs
 - /give <plr> minecraft:iron_bars 2 16:10 name:&fS&4p&8i&fd&4e&8r&f-&4m&8a&fn&0_&f2&40&89&f9&4'&8s&0_&fT&4a&8l&fo&4n&8s
+- /mgive <plr> webshooter
 jump: 7
 maxHearts: 30
 permissions:
@@ -33,6 +34,8 @@ permissions:
   - ch.alias.dropplayer
   - ch.alias.web
   - powers.spidersense
+  - magic.commands.cast
+  - magic.cast.webfling2
 powers:
 - /effects
 - /items
