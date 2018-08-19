@@ -7812,21 +7812,6 @@ groups:
       superherocity:
         permissions:
         - powers.joybuzzer
-  venom:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&8'
-      prefix: '&0V&8e&fn&8o&0m'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.web
-        - -essentials.protect.damage.fall
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - powers.wallclimb
-        - ch.alias.websling
   elongatedman:
     inheritance:
     - commonherotraits
@@ -8569,12 +8554,6 @@ groups:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
         - -essentials.protect.damage.fall
-  deadshot:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&7'
-      prefix: '&fDe&cad&8sh&co&8t'
   hybrid:
     inheritance:
     - commonherotraits
@@ -9582,17 +9561,6 @@ groups:
         permissions:
         - command.rewind
         - worldedit.navigation.jumpto.command
-  deadpool:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&4D&0ea&4dp&0oo&4l'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.bodyslide
-        - ch.alias.tpradius
   carnage:
     inheritance:
     - commonherotraits
@@ -10610,25 +10578,6 @@ groups:
         - ch.alias.create
         - ch.alias.tphere
         - ch.alias.mutate
-  spiderwomangwenstacyspidergwen:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&7'
-      prefix: '&5S&0p&fid&0e&fr-&5W&f&8o&fm&ba&fn&8(&fG&7S&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - magic.cast.webfling2
-        - magic.commands.cast
-        - powers.spidersense
-        - ch.alias.web
-        - -essentials.protect.damage.fall
-        - ch.alias.slingweb
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - ch.alias.websling
-        - powers.wallclimb
   flashwallywest:
     inheritance:
     - commonherotraits
@@ -11042,6 +10991,57 @@ groups:
         - ch.alias.freezewater
         - ch.alias.dropplayer
         - ch.alias.carryplayer
+  venom:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&8'
+      prefix: '&0V&8e&fn&8o&0m'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.web
+        - -essentials.protect.damage.fall
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - powers.wallclimb
+        - ch.alias.websling
+  spiderwomangwenstacyspidergwen:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&7'
+      prefix: '&5S&0p&fid&0e&fr-&5W&f&8o&fm&ba&fn&8(&fG&7S&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - magic.cast.webfling2
+        - magic.commands.cast
+        - powers.spidersense
+        - ch.alias.web
+        - -essentials.protect.damage.fall
+        - ch.alias.slingweb
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - ch.alias.websling
+        - powers.wallclimb
+  deadshot:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&7'
+      prefix: '&fDe&cad&8sh&co&8t'
+  deadpool:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4D&0ea&4dp&0oo&4l'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.bodyslide
+        - ch.alias.tpradius
 schema-version: 1
 worlds:
   checkers:
@@ -18369,7 +18369,7 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - subzero
+    - spiderwomangwenstacyspidergwen
     options:
       name: adamdotshaw
     worlds:
@@ -18685,4 +18685,4 @@ users:
       name: Red1
   7ff691cf-486c-4650-8f2a-5f1cd3c8fc12:
     group:
-    - antivenom
+    - deadpool
