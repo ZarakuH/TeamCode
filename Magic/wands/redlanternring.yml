@@ -5,6 +5,8 @@ redlanternring:
     lanternblast: 1
     lanternsmight: 2
     lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
   active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
@@ -18,6 +20,8 @@ redlanternring:
   - lanternblast
   - lanternsmight
   - lanternsingularity
+  - lanternlift
+  - lanternbubble
   bound: true
   keep: false
   invulnerable: true
