@@ -10673,12 +10673,6 @@ groups:
         - ch.alias.vis
         - ch.alias.shadowhide
         - worldedit.navigation.jumpto.command
-  squirrelgirl:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&7'
-      prefix: '&6Squ&7irr&6el &7Gi&6rl'
   arkhamknight:
     inheritance:
     - commonherotraits
@@ -11034,6 +11028,12 @@ groups:
         - powers.fireballpunch
         - powers.wallrun
         - ch.alias.flame
+  squirrelgirl:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&7'
+      prefix: '&6Squ&7irr&6el &7Gi&6rl'
 schema-version: 1
 worlds:
   checkers:
@@ -12858,7 +12858,7 @@ users:
       name: gabriel_hicks
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
     group:
-    - gorillagrodd
+    - mortal
     options:
       name: TheoreticalGame
     permissions:
@@ -18362,12 +18362,13 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - mortal
+    - squirrelgirl
     options:
       name: adamdotshaw
     worlds:
       superherocity:
         permissions: []
+    permissions: []
   d6b72eb7-a2b9-4bcc-9702-dc1d177f4493:
     group:
     - mortal

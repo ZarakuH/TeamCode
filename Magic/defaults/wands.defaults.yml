@@ -4330,7 +4330,7 @@ greenlanternrings:
   icon: emerald
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
-creator: President_Myth
+  creator: President_Myth
 jokerfloweracidwand:
   spell_inventory:
     jokerfloweracid: 0
@@ -5998,6 +5998,7 @@ blacklanternring:
   icon: coal
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
+creator: President_Myth
 freezetimewand:
   version: 5
   spell_inventory:

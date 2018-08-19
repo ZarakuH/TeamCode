@@ -1055,8 +1055,8 @@ v2-logout:
     group: superherocities
     world: nyc
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
-    world: waynemanor
-    group: superherocities
+    world: mainmenu
+    group: mainmenu
   ed624832-feca-405a-ba65-95281a8e4479:
     group: superherocities
     world: survival112
@@ -5300,8 +5300,8 @@ v2-logout:
     group: deathrun
     world: deathrun
   70e18550-4267-47c7-9c43-bc30d2254957:
-    world: infiniteparkour
-    group: infiniteparkour
+    world: survival112
+    group: superherocities
   d0f9a8dd-4050-416a-a5f5-3750269f92f6:
     world: survival112
     group: superherocities
