@@ -219,12 +219,6 @@ Players:
   pacmanny:
     Channels:
       Global: write
-  EbenPyroclastic:
-    Channels:
-      Global: write
-  Covellite:
-    Channels:
-      Global: write
   Symmery:
     Channels:
       Global: write
@@ -247,9 +241,6 @@ Players:
     Channels:
       Global: write
   THAN0S_:
-    Channels:
-      Global: write
-  99enitaplaPliL:
     Channels:
       Global: write
   BA_baracasaurus:
@@ -292,9 +283,6 @@ Players:
     Channels:
       Global: write
   SuperGorl:
-    Channels:
-      Global: write
-  Inverse_Asmodai:
     Channels:
       Global: write
   BlueFoxGam3r:
@@ -910,5 +898,14 @@ Players:
     Channels:
       Global: write
   Red1:
+    Channels:
+      Global: write
+  roytayoodway:
+    Channels:
+      Global: write
+  BlauwePeer:
+    Channels:
+      Global: write
+  SpiderFooties:
     Channels:
       Global: write
