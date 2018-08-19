@@ -43,7 +43,7 @@ gutshot:
         target: other
         living_entity_speed: 1
         effect_slow: 2
-        effect_nausea: 10
+        effect_confusion: 10
         effect_weakness: 10
         effect_hunger: 5
         effect_poison: 10
