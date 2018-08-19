@@ -14,7 +14,6 @@ punchtemplate:
           - class: PotionEffect
           - class: Deactivate
           - class: Damage
-          - class: Velocity
     effects:
         cast:
         -  class: EffectSingle
@@ -40,7 +39,6 @@ punchtemplate:
     costs:
         mana: 50
     parameters:
-        speed: 5
         range: 3
         target_type: LivingEntity
         target_breakables: 1
