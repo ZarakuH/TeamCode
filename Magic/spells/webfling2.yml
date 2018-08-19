@@ -19,6 +19,6 @@ webfling2:
     min_speed: 3.5
     max_speed: 5.0
     bypass_confusion: true
-    cooldown: 30000
+    cooldown: 1000
   costs:
     mana: 50
