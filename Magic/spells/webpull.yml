@@ -39,7 +39,7 @@ webpull:
            color: ffffff
            particle_count: 10
     costs:
-        mana: 50
+        mana: 0
     parameters:
         speed: 5
         range: 20
