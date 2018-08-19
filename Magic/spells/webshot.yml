@@ -56,6 +56,6 @@ webshot:
     breakable: 4
     miss_effects: hit
     miss: actions
-    damage: 10
+    damage: 5
   costs:
     mana: 75
