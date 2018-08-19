@@ -5906,12 +5906,6 @@ groups:
         - ch.alias.earth
         - ch.alias.carryplayer
         - ch.alias.dropplayer
-  santaclaus:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&c'
-      prefix: '&4S&fa&0n&4t&0a &4C&0l&fa&4u&fs'
   killerfrostcaitlinsnow:
     inheritance:
     - commonherotraits
@@ -9267,24 +9261,6 @@ groups:
         - ch.alias.tangible
         - ch.alias.intangible
         - powers.tkchoke
-  starbutterfly:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&6St&da&3r &3Butte&5rfly'
-    worlds:
-      superherocity:
-        permissions:
-        - essentials.tppos
-        - ch.alias.tp
-        - -esssentials.warps.*
-        - headdb.free.*
-        - headdb.category.*
-        - headdb.open
-        - ch.alias.create
-        - ch.alias.tphere
-        - ch.alias.mutate
   fanfic70e18550426747c79c43bc30d2254957:
     inheritance:
     - commonherotraits
@@ -11034,6 +11010,30 @@ groups:
         - essentials.speed
         - essentials.speed.fly
         - essentials.fly
+  santaclaus:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&c'
+      prefix: '&4S&fa&0n&4t&0a &4C&0l&fa&4u&fs'
+  starbutterfly:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&6St&da&3r &3Butte&5rfly'
+    worlds:
+      superherocity:
+        permissions:
+        - essentials.tppos
+        - ch.alias.tp
+        - -esssentials.warps.*
+        - headdb.free.*
+        - headdb.category.*
+        - headdb.open
+        - ch.alias.create
+        - ch.alias.tphere
+        - ch.alias.mutate
 schema-version: 1
 worlds:
   checkers:
@@ -16912,8 +16912,7 @@ users:
     options:
       name: AF_Ciberboy
   6873b276-45d1-4dbe-acf8-5968e4c2eb08:
-    group:
-    - starbutterfly
+    group: []
     options:
       name: Keiichi23
     worlds:
@@ -18362,7 +18361,7 @@ users:
       name: TheFlash15
   70e18550-4267-47c7-9c43-bc30d2254957:
     group:
-    - raven
+    - starbutterfly
     options:
       name: adamdotshaw
     worlds:
