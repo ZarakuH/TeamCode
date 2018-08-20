@@ -313,6 +313,9 @@ magictorch:
 donatorshop:
   cast_count: 0
   last_cast: 0
+blindinghit:
+  cast_count: 9
+  last_cast: 0
 reparomaxima:
   cast_count: 0
   last_cast: 0
@@ -323,7 +326,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 986
+  cast_count: 1000
   last_cast: 0
 realitystoneblast:
   cast_count: 53
@@ -544,6 +547,9 @@ tekcajtiarts:
 chop:
   cast_count: 0
   last_cast: 0
+rapidpunch:
+  cast_count: 86
+  last_cast: 0
 finiteincantatem:
   cast_count: 0
   last_cast: 0
@@ -602,7 +608,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 459
+  cast_count: 500
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -690,6 +696,9 @@ wwbracers:
   last_cast: 0
 stonetouch:
   cast_count: 40
+  last_cast: 0
+highkick:
+  cast_count: 7
   last_cast: 0
 brushselect:
   cast_count: 0
@@ -924,6 +933,9 @@ hawk_shotgun:
   last_cast: 0
 waterwhip:
   cast_count: 0
+  last_cast: 0
+criticalpunch:
+  cast_count: 5
   last_cast: 0
 rocket:
   cast_count: 0
@@ -1331,7 +1343,7 @@ blink:
   cast_count: 3
   last_cast: 0
 liftmetal:
-  cast_count: 0
+  cast_count: 8
   last_cast: 0
 lanternlift:
   cast_count: 38
@@ -1347,6 +1359,9 @@ lanternsmight:
   last_cast: 0
 stoneshop:
   cast_count: 0
+  last_cast: 0
+lowkick:
+  cast_count: 10
   last_cast: 0
 defender_death:
   cast_count: 0
@@ -1472,7 +1487,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 467
+  cast_count: 515
   last_cast: 0
 powerstoneblast:
   cast_count: 46
@@ -1676,7 +1691,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 83
+  cast_count: 91
   last_cast: 0
 fiantoduri:
   cast_count: 0
@@ -1861,6 +1876,9 @@ nobabies:
 forcegrip:
   cast_count: 101
   last_cast: 0
+gutshot:
+  cast_count: 8
+  last_cast: 0
 ollivander:
   cast_count: 0
   last_cast: 0
@@ -2006,7 +2024,7 @@ watershot:
   cast_count: 445
   last_cast: 0
 progressmenu:
-  cast_count: 223
+  cast_count: 224
   last_cast: 0
 ghast:
   cast_count: 0

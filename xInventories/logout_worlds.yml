@@ -268,8 +268,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   f621586e-8ef8-448d-9264-86b61375052e:
-    world: buildworld
-    group: buildworld
+    world: sakaar
   65a49faf-1ac9-49a0-998f-aa42e8d7f054:
     group: mainmenu
     world: mainmenu
@@ -795,8 +794,7 @@ v2-logout:
     group: superherocities
     world: survival112
   8354ed0d-09cb-4682-bf62-5df3f0e2b412:
-    world: buildworld
-    group: buildworld
+    world: sakaar
   dbe7df28-f1c7-407e-ac72-6543f68e817d:
     world: infinitycity
     group: superherocities

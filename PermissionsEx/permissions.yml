@@ -9318,25 +9318,6 @@ groups:
         permissions:
         - ch.alias.glowoff
         - ch.alias.glowon
-  spiderman2099:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&c'
-      prefix: '&fS&4p&8i&fd&4e&8r&f-&4M&8a&fn &f2&40&89&f9'
-    worlds:
-      superherocity:
-        permissions:
-        - magic.cast.webfling2
-        - magic.commands.cast
-        - powers.spidersense
-        - ch.alias.web
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - -essentials.protect.damage.fall
-        - ch.alias.slingweb
-        - powers.wallclimb
-        - ch.alias.websling
   thethinker:
     inheritance:
     - commonherotraits
@@ -11045,6 +11026,25 @@ groups:
         - headdb.open
         - ch.alias.create
         - powers.cantdie
+  spiderman2099:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&c'
+      prefix: '&fS&4p&8i&fd&4e&8r&f-&4M&8a&fn &f2&40&89&f9'
+    worlds:
+      superherocity:
+        permissions:
+        - magic.cast.webfling2
+        - magic.commands.cast
+        - powers.spidersense
+        - ch.alias.web
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - ch.alias.slingweb
+        - powers.wallclimb
+        - ch.alias.websling
 schema-version: 1
 worlds:
   checkers:
@@ -11217,6 +11217,9 @@ worlds:
     inheritance:
     - superherocity
   tutorial:
+    inheritance:
+    - superherocity
+  sakaar:
     inheritance:
     - superherocity
 users:
@@ -12491,7 +12494,6 @@ users:
       name: _Blaidake_
   8354ed0d-09cb-4682-bf62-5df3f0e2b412:
     group:
-    - headbuilder
     - spiderman2099
     options:
       name: xValen
