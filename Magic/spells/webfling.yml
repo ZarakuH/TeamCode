@@ -21,8 +21,7 @@ webfling:
     - class: Brush
       actions:
       - class: Command
-        console: true
-        command: sudo @p cast webfling2
+        command: cast webfling2
   effects:
     cast:
     - class: EffectSingle
