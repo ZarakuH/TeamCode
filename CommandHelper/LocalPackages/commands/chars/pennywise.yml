@@ -64,7 +64,7 @@ permissions:
   - libsdisguises.disguise.illusioner.-setinvisible
   - libsdisguises.disguise.killerbunny.-setinvisible
   - libsdisguises.disguise.zombiehorse.-setinvisible
-  - libsdisguises.disguise.play
+  - libsdisguises.disguise.player
   - ch.alias.invis
   - ch.alias.vis
 powers:
