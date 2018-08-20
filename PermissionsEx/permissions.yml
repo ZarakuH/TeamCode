@@ -18702,3 +18702,8 @@ users:
     - lordvoldemort
     options:
       name: drakegames
+  8082c481-306c-4a78-8c5b-2cb539f9892f:
+    group:
+    - mortal
+    options:
+      name: CassNovak

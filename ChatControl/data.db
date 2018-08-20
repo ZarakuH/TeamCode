@@ -98,9 +98,6 @@ Players:
   _Ballistic_8:
     Channels:
       Global: write
-  KrynosTM:
-    Channels:
-      Global: write
   Thosification:
     Channels:
       Global: write
@@ -120,9 +117,6 @@ Players:
     Channels:
       Global: write
   bluebolt2135:
-    Channels:
-      Global: write
-  X1RAY:
     Channels:
       Global: write
   DJSplatter:
@@ -166,9 +160,6 @@ Players:
     Channels:
       Global: write
   Omega_18:
-    Channels:
-      Global: write
-  Zebra22:
     Channels:
       Global: write
   Yechan_10:
@@ -582,9 +573,6 @@ Players:
   PainttheN1ght:
     Channels:
       Global: write
-  NexusTalon:
-    Channels:
-      Global: write
   KennyKKoala:
     Channels:
       Global: write
@@ -925,5 +913,8 @@ Players:
     Channels:
       Global: write
   drakegames:
+    Channels:
+      Global: write
+  CassNovak:
     Channels:
       Global: write

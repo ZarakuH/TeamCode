@@ -5611,3 +5611,6 @@ v2-logout:
   7cab9ff7-20c3-4d61-a8fb-ddb55ecaaf8f:
     group: superherocities
     world: survival112
+  8082c481-306c-4a78-8c5b-2cb539f9892f:
+    group: mainmenu
+    world: mainmenu
