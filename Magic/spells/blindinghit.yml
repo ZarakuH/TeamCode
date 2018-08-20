@@ -43,7 +43,7 @@ blindinghit:
         target: other
         living_entity_speed: 1
         effect_slow: 2
-        effect_blind 10
+        effect_blind: 10
         cooldown: 4000
         hitbox: true
         damage: 10
