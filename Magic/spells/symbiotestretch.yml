@@ -30,7 +30,7 @@ symbiotestretch:
              updateDirections: false
         tick:
         - particle: redstone
-          color: af0000
+          color: 000000
           location: target
         hit:
         -  class: EffectSingle
