@@ -23,7 +23,7 @@ webpull:
              class: LineEffect
              iterations: 1
              particle: redstone
-             color: ffffff
+             color_override: color
              radius: 2
              lengthGrow: 0.1
              updateLocations: false
