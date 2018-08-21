@@ -23,7 +23,7 @@ symbiotestretch:
              class: LineEffect
              iterations: 1
              particle: redstone
-             color: af0000
+             color: 000000
              radius: 2
              lengthGrow: 0.1
              updateLocations: false
