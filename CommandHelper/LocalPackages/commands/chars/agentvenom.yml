@@ -10,7 +10,7 @@ effects:
 haste: 4
 items:
 - /give <plr> minecraft:web 64
-- /mgive <plr> webshotwand
+- /mgive <plr> symbiotepowers
 jump: 7
 maxHearts: 30
 permissions:
@@ -22,6 +22,8 @@ permissions:
   - ch.alias.websling
   - -essentials.protect.damage.fall
   - weakto.antivenom
+  - magic.commands.cast
+  - magic.cast.webfling2
 powers:
 - /effects
 - /items
