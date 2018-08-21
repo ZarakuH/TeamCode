@@ -10,7 +10,7 @@ effects:
 haste: 4
 items:
 - /give <plr> minecraft:web 64
-- /shot give <plr> webshot
+- /mgive <plr> symbiotepowers
 jump: 7
 permissions:
   superherocity:
@@ -21,6 +21,8 @@ permissions:
   - powers.wallclimb
   - ch.alias.websling
   - weakto.antivenom
+  - magic.commands.cast
+  - magic.cast.webfling2
 powers:
 - /effects
 - /items
