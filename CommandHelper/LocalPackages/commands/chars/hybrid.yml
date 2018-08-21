@@ -11,7 +11,7 @@ haste: 5
 items:
 - /give <plr> minecraft:web 64
 - /give <plr> minecraft:elytra 1 70:1 34:3 name:&cHy&4br&cid's_&4Glide_Wings
-- /shot give <plr> webshot
+- /mgive <plr> symbiotepowers
 jump: 8
 maxHearts: 40
 permissions:
@@ -24,6 +24,8 @@ permissions:
   - ch.alias.invis
   - ch.alias.vis
   - weakto.antivenom
+  - magic.commands.cast
+  - magic.cast.webfling2
 powers:
 - /effects
 - /items
