@@ -13,7 +13,7 @@ symbioteaxe:
           actions:
           - class: Command
             console: true
-            command: give @p iron_axe 1 0 {ench:[{id:16,lvl:20}]}
+            command: give @p iron_axe 1 0 {ench:[{id:16,lvl:10}]}
     effects:
         cast:
         -  class: EffectSingle
