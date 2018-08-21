@@ -32,6 +32,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Sparkyscool101:
     Channels:
       Global: write
@@ -214,9 +215,6 @@ Players:
     Channels:
       Global: write
   piglord1618:
-    Channels:
-      Global: write
-  MaferOH:
     Channels:
       Global: write
   SaltyBear04:
@@ -913,5 +911,20 @@ Players:
     Channels:
       Global: write
   CassNovak:
+    Channels:
+      Global: write
+  F4Jaxk:
+    Channels:
+      Global: write
+  madmonkey290:
+    Channels:
+      Global: write
+  hibra1201:
+    Channels:
+      Global: write
+  Bonafide_Beta:
+    Channels:
+      Global: write
+  Rexcx:
     Channels:
       Global: write
