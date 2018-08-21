@@ -19,7 +19,7 @@ symbiotetendril:
         tick:
         - location: target
           particle: redstone
-          color: af0000
+          color: 000000
           particle_count: 20
           particle_offset_x: 0.05
           particle_offset_y: 0.05
@@ -30,7 +30,7 @@ symbiotetendril:
            sound_volume: .3
            location: target
            particle: redstone
-           color: af0000
+           color: 000000
     parameters:
         target: other
         hitbox: true
