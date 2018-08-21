@@ -30,13 +30,13 @@ webpull:
              updateDirections: false
         tick:
         - particle: redstone
-          color: ffffff
+          color_override: color
           location: target
         hit:
         -  class: EffectSingle
            location: target
            particle: redstone
-           color: ffffff
+           color_override: color
            particle_count: 10
     costs:
         mana: 0
