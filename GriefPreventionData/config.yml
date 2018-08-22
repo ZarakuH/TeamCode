@@ -11,37 +11,37 @@ GriefPrevention:
     dreamworld: -1
     mainmenu: -1
     sakaar: -1
-    speedforce: -1
     titanstower: -1
-    QuestForDestiny: -1
+    speedforce: -1
     fortressofsolitude: -1
+    QuestForDestiny: -1
     helicarrier: -1
     tutorial: -1
     infiniteparkour: -1
-    chicago: -1
     gotham: -1
+    chicago: -1
     hurdles: -1
     starlabs: -1
-    buildworld: -1
     greenfield: -1
-    chess: -1
+    buildworld: -1
     waynemanor: -1
-    hallofjustice: -1
+    chess: -1
     pokemon: -1
+    hallofjustice: -1
     metropolis: -1
-    sandrun: -1
     Spleef: -1
-    jail: -1
+    sandrun: -1
     arcade: -1
-    hogwarts: -1
+    jail: -1
     InfinityTrials: -1
+    hogwarts: -1
     arenapvp: -1
     thephantomzone: -1
     deathrun: -1
     nyc: -1
     lavahop: -1
-    infinitycity: -1
     SpleefLobby: -1
+    infinitycity: -1
     soulstone: -1
   Claims:
     Mode:
@@ -49,8 +49,8 @@ GriefPrevention:
       survival112: Survival
       InfinityTrials: Survival
       metropolis: Disabled
-      sparkour: Survival
       buildworld: Survival
+      sparkour: Survival
       hogwarts: Disabled
       lavahop: Survival
       broville: Disabled
@@ -152,37 +152,37 @@ GriefPrevention:
       dreamworld: true
       mainmenu: true
       sakaar: true
-      speedforce: true
       titanstower: true
-      QuestForDestiny: true
+      speedforce: true
       fortressofsolitude: true
+      QuestForDestiny: true
       helicarrier: true
       tutorial: true
       infiniteparkour: true
-      chicago: true
       gotham: true
+      chicago: true
       hurdles: true
       starlabs: true
-      buildworld: true
       greenfield: true
-      chess: true
+      buildworld: true
       waynemanor: true
-      hallofjustice: true
+      chess: true
       pokemon: true
+      hallofjustice: true
       metropolis: true
-      sandrun: true
       Spleef: true
-      jail: true
+      sandrun: true
       arcade: true
-      hogwarts: true
+      jail: true
       InfinityTrials: true
+      hogwarts: true
       arenapvp: true
       thephantomzone: true
       deathrun: true
       nyc: true
       lavahop: true
-      infinitycity: true
       SpleefLobby: true
+      infinitycity: true
       soulstone: true
     ProtectFreshSpawns: true
     PunishLogout: true
