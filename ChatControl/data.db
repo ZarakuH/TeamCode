@@ -32,7 +32,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Sparkyscool101:
     Channels:
       Global: write
@@ -55,9 +54,6 @@ Players:
     Channels:
       Global: write
   PixelPiCASSO_:
-    Channels:
-      Global: write
-  Bubby5101:
     Channels:
       Global: write
   Livpinkey101:
@@ -151,6 +147,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Kurieita:
     Channels:
       Global: write
@@ -164,9 +161,6 @@ Players:
     Channels:
       Global: write
   Yechan_10:
-    Channels:
-      Global: write
-  crazybanana400:
     Channels:
       Global: write
   Grim__:
@@ -235,9 +229,6 @@ Players:
   cidafalous:
     Channels:
       Global: write
-  Jack_N_Heffner:
-    Channels:
-      Global: write
   Dalek010:
     Channels:
       Global: write
@@ -247,19 +238,10 @@ Players:
   Dqnk_Memes:
     Channels:
       Global: write
-  creeperingreen:
-    Channels:
-      Global: write
   Riddlestyx:
     Channels:
       Global: write
   Shadows_studios:
-    Channels:
-      Global: write
-  VoidCryptid:
-    Channels:
-      Global: write
-  SuperGorl:
     Channels:
       Global: write
   BlueFoxGam3r:
@@ -935,5 +917,53 @@ Players:
     Channels:
       Global: write
   Schmarklin:
+    Channels:
+      Global: write
+  govanni:
+    Channels:
+      Global: write
+  JP_Kirk:
+    Channels:
+      Global: write
+  sam332:
+    Channels:
+      Global: write
+  Anqr:
+    Channels:
+      Global: write
+  Fanawtik:
+    Channels:
+      Global: write
+  XXROBONYANXX1:
+    Channels:
+      Global: write
+  soul_phoenix1:
+    Channels:
+      Global: write
+  Getjet:
+    Channels:
+      Global: write
+  marioadam13274:
+    Channels:
+      Global: write
+  Xx_PsychoBoy_xX:
+    Channels:
+      Global: write
+  SkittleBeast:
+    Channels:
+      Global: write
+  _xXKnunuXx_:
+    Channels:
+      Global: write
+  Perfectiion:
+    Channels:
+      Global: write
+  pvalverde:
+    Channels:
+      Global: write
+  TheRealSkylord:
+    Channels:
+      Global: write
+  EsT_JmT:
     Channels:
       Global: write

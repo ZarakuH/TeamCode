@@ -8,7 +8,7 @@ soulgrip:
   cast_count: 14
   last_cast: 0
 soulstonetrap:
-  cast_count: 300
+  cast_count: 301
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -71,13 +71,13 @@ reload_hawk_shotgun:
   cast_count: 0
   last_cast: 0
 odinlightning:
-  cast_count: 1435
+  cast_count: 1436
   last_cast: 0
 fourpoint:
   cast_count: 0
   last_cast: 0
 symbiotestretch:
-  cast_count: 43
+  cast_count: 44
   last_cast: 0
 c4:
   cast_count: 0
@@ -200,7 +200,7 @@ firestream:
   cast_count: 0
   last_cast: 0
 lightray:
-  cast_count: 303
+  cast_count: 309
   last_cast: 0
 firestorm:
   cast_count: 0
@@ -212,7 +212,7 @@ engineershop:
   cast_count: 0
   last_cast: 0
 spearofdestinyknockback:
-  cast_count: 24
+  cast_count: 25
   last_cast: 0
 debugger:
   cast_count: 0
@@ -227,7 +227,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 2955
+  cast_count: 2956
   last_cast: 0
 glider:
   cast_count: 0
@@ -245,7 +245,7 @@ disillusion:
   cast_count: 0
   last_cast: 0
 forcepull:
-  cast_count: 194
+  cast_count: 195
   last_cast: 0
 randomtp:
   cast_count: 0
@@ -326,10 +326,10 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 1158
+  cast_count: 1194
   last_cast: 0
 realitystoneblast:
-  cast_count: 54
+  cast_count: 55
   last_cast: 0
 rifle:
   cast_count: 0
@@ -344,7 +344,7 @@ hydroshield:
   cast_count: 0
   last_cast: 0
 crystaltrap:
-  cast_count: 848
+  cast_count: 849
   last_cast: 0
 emp:
   cast_count: 9
@@ -356,7 +356,7 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 4229
+  cast_count: 4231
   last_cast: 0
 ride:
   cast_count: 0
@@ -458,7 +458,7 @@ tunnel:
   cast_count: 0
   last_cast: 0
 ascendio:
-  cast_count: 711
+  cast_count: 712
   last_cast: 0
 erifnrubnordlaucelbbub:
   cast_count: 456
@@ -608,7 +608,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 855
+  cast_count: 895
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -677,7 +677,7 @@ superdome:
   cast_count: 0
   last_cast: 0
 meteorshower:
-  cast_count: 1286
+  cast_count: 1292
   last_cast: 0
 peek:
   cast_count: 0
@@ -794,7 +794,7 @@ freezeray:
   cast_count: 380
   last_cast: 0
 stungrenade:
-  cast_count: 366
+  cast_count: 369
   last_cast: 0
 deposits:
   cast_count: 0
@@ -812,7 +812,7 @@ abratrap:
   cast_count: 430
   last_cast: 0
 freezetime:
-  cast_count: 1261
+  cast_count: 1264
   last_cast: 0
 glasstouch:
   cast_count: 614
@@ -1001,7 +1001,7 @@ repairequipment:
   cast_count: 0
   last_cast: 0
 bubbleshield:
-  cast_count: 18
+  cast_count: 19
   last_cast: 0
 night:
   cast_count: 0
@@ -1058,7 +1058,7 @@ redtornado:
   cast_count: 36
   last_cast: 0
 eraseexistance:
-  cast_count: 25
+  cast_count: 27
   last_cast: 0
 addspell:
   cast_count: 0
@@ -1160,7 +1160,7 @@ superlaser:
   cast_count: 0
   last_cast: 0
 changereality:
-  cast_count: 160
+  cast_count: 164
   last_cast: 0
 glide:
   cast_count: 0
@@ -1286,7 +1286,7 @@ spongify:
   cast_count: 0
   last_cast: 0
 quake:
-  cast_count: 271
+  cast_count: 272
   last_cast: 0
 testdummy:
   cast_count: 0
@@ -1301,7 +1301,7 @@ waterjet:
   cast_count: 0
   last_cast: 0
 lanternbubble:
-  cast_count: 38
+  cast_count: 44
   last_cast: 0
 obscuro:
   cast_count: 0
@@ -1346,7 +1346,7 @@ liftmetal:
   cast_count: 8
   last_cast: 0
 lanternlift:
-  cast_count: 43
+  cast_count: 51
   last_cast: 0
 life:
   cast_count: 0
@@ -1355,7 +1355,7 @@ wave:
   cast_count: 0
   last_cast: 0
 lanternsmight:
-  cast_count: 80
+  cast_count: 82
   last_cast: 0
 stoneshop:
   cast_count: 0
@@ -1370,7 +1370,7 @@ lava:
   cast_count: 0
   last_cast: 0
 protego:
-  cast_count: 1188
+  cast_count: 1189
   last_cast: 0
 icbm:
   cast_count: 0
@@ -1415,10 +1415,10 @@ superblast:
   cast_count: 0
   last_cast: 0
 powerstonedestroyworld:
-  cast_count: 76
+  cast_count: 78
   last_cast: 0
 kryptonianlaservision:
-  cast_count: 61900
+  cast_count: 62212
   last_cast: 0
 symbiotetendril:
   cast_count: 31
@@ -1463,13 +1463,13 @@ colorshop:
   cast_count: 5
   last_cast: 0
 cosmicbolt:
-  cast_count: 4611
+  cast_count: 4631
   last_cast: 0
 potionshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 670
+  cast_count: 671
   last_cast: 0
 wither:
   cast_count: 0
@@ -1487,7 +1487,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 870
+  cast_count: 910
   last_cast: 0
 powerstoneblast:
   cast_count: 47
@@ -1508,7 +1508,7 @@ gills:
   cast_count: 0
   last_cast: 0
 lanternshield:
-  cast_count: 104
+  cast_count: 111
   last_cast: 0
 incarcerous:
   cast_count: 204
@@ -1559,7 +1559,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 4142
+  cast_count: 4154
   last_cast: 0
 ravenfield:
   cast_count: 348
@@ -1580,7 +1580,7 @@ breathofwind:
   cast_count: 0
   last_cast: 0
 moltenbolt:
-  cast_count: 173
+  cast_count: 174
   last_cast: 0
 shotgun:
   cast_count: 0
@@ -1592,7 +1592,7 @@ regenerate:
   cast_count: 1
   last_cast: 0
 spearofdestinythrow:
-  cast_count: 19
+  cast_count: 20
   last_cast: 0
 light:
   cast_count: 0
@@ -1691,7 +1691,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 107
+  cast_count: 112
   last_cast: 0
 fiantoduri:
   cast_count: 0
@@ -1703,7 +1703,7 @@ tornado:
   cast_count: 0
   last_cast: 0
 crystalshield:
-  cast_count: 549
+  cast_count: 551
   last_cast: 0
 fury:
   cast_count: 0
@@ -1886,7 +1886,7 @@ ollivander:
   cast_count: 0
   last_cast: 0
 stonegrasp:
-  cast_count: 17
+  cast_count: 18
   last_cast: 0
 forcepush:
   cast_count: 589
@@ -2039,19 +2039,19 @@ breach:
   cast_count: 0
   last_cast: 0
 spacestonewarp:
-  cast_count: 278
+  cast_count: 285
   last_cast: 0
 ferula:
   cast_count: 1
   last_cast: 0
 lanternblast:
-  cast_count: 46
+  cast_count: 51
   last_cast: 0
 supercylinder:
   cast_count: 0
   last_cast: 0
 lanternsingularity:
-  cast_count: 54
+  cast_count: 60
   last_cast: 0
 confundusmaxima:
   cast_count: 0
@@ -2060,7 +2060,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1880
+  cast_count: 1882
   last_cast: 0
 mach5punch:
   cast_count: 249
