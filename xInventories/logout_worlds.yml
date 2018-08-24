@@ -11,7 +11,7 @@ v2-logout:
     group: superherocities
     world: survival112
   8ca7fc56-614b-482a-91df-bf8580ba273d:
-    world: waynemanor
+    world: survival112
     group: superherocities
   6021e905-d3cd-4145-be8a-865928772016:
     group: superherocities
@@ -94,8 +94,8 @@ v2-logout:
     world: mainmenu
     group: mainmenu
   2a63e405-eecf-480a-9fcf-1e22b996d998:
-    world: arcade
-    group: arcade
+    world: nyc
+    group: superherocities
   902ff43f-7561-4447-a884-2cf54ce8c1f1:
     group: superherocities
     world: infinitycity
@@ -268,7 +268,8 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   f621586e-8ef8-448d-9264-86b61375052e:
-    world: tutorial
+    world: nyc
+    group: superherocities
   65a49faf-1ac9-49a0-998f-aa42e8d7f054:
     group: mainmenu
     world: mainmenu
@@ -794,8 +795,7 @@ v2-logout:
     group: superherocities
     world: survival112
   8354ed0d-09cb-4682-bf62-5df3f0e2b412:
-    world: starlabs
-    group: superherocities
+    world: sakaar
   dbe7df28-f1c7-407e-ac72-6543f68e817d:
     world: infinitycity
     group: superherocities
@@ -1274,7 +1274,7 @@ v2-logout:
     world: greenfield
   bc220f87-ddd9-4805-aa20-349870def333:
     group: superherocities
-    world: nyc
+    world: titanstower
   91613b19-13fe-4ae4-b0da-bd6e03c0b2b6:
     group: superherocities
     world: survival112
@@ -2349,8 +2349,8 @@ v2-logout:
     group: superherocities
     world: nyc
   9068e658-a14f-43a3-ad65-04dbac12a5e0:
-    group: mainmenu
-    world: mainmenu
+    group: superherocities
+    world: survival112
   b5186aef-2abf-4e72-b9fb-d64c2d94a0f5:
     group: mainmenu
     world: mainmenu
@@ -3481,7 +3481,7 @@ v2-logout:
     world: survival112
   d2ea0c77-6f4a-4d7b-8514-d809753de291:
     group: superherocities
-    world: hallofjustice
+    world: survival112
   e6d4ed9b-1623-44f4-b1d8-296c00c5e205:
     group: superherocities
     world: survival112
@@ -5299,7 +5299,7 @@ v2-logout:
     group: deathrun
     world: deathrun
   70e18550-4267-47c7-9c43-bc30d2254957:
-    world: nyc
+    world: survival112
     group: superherocities
   d0f9a8dd-4050-416a-a5f5-3750269f92f6:
     world: survival112
@@ -5673,3 +5673,11 @@ v2-logout:
     world: titanstower
   3efff19a-2bcb-4fdf-908d-0e92a68a339e:
     world: tutorial
+  069bf20e-5675-4679-baf6-f4ffcc5da21d:
+    world: tutorial
+  4070748a-2a2c-4b06-a1f2-47b834155d92:
+    group: superherocities
+    world: titanstower
+  d214b69b-118c-4503-9141-d1ff8d36a14f:
+    world: survival112
+    group: superherocities
