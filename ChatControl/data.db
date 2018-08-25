@@ -13,32 +13,16 @@ Players:
   Christina1125:
     Channels:
       Global: write
-  Bcrulez:
-    Channels:
-      Global: write
   alex363:
     Channels:
       Global: write
   simon2008:
     Channels:
       Global: write
-  xValen:
-    Channels:
-      Global: write
   TheFartTrain:
     Channels:
       Global: write
-  Mythification:
-    Spying: true
-    Channels:
-      Global: write
   Sparkyscool101:
-    Channels:
-      Global: write
-  NotAminBZ:
-    Channels:
-      Global: write
-  darkstumper:
     Channels:
       Global: write
   MightyCyclops:
@@ -86,12 +70,6 @@ Players:
   Keiichi23:
     Channels:
       Global: write
-  _Ballistic_8:
-    Channels:
-      Global: write
-  Thosification:
-    Channels:
-      Global: write
   Marielia:
     Channels:
       Global: write
@@ -123,9 +101,6 @@ Players:
     Channels:
       Global: write
   BatmanAKnight:
-    Channels:
-      Global: write
-  Sleepy_Person:
     Channels:
       Global: write
   soccersuperstars:
@@ -223,12 +198,6 @@ Players:
   Riddlestyx:
     Channels:
       Global: write
-  TheFriky:
-    Channels:
-      Global: write
-  PORTALPRO1738:
-    Channels:
-      Global: write
   BTL_2_or_Bob:
     Channels:
       Global: write
@@ -239,9 +208,6 @@ Players:
     Channels:
       Global: write
   Mr_Momentum:
-    Channels:
-      Global: write
-  ShadedGuardianYT:
     Channels:
       Global: write
   theCaptain1025:
@@ -341,9 +307,6 @@ Players:
     Channels:
       Global: write
   FriTexwarfare:
-    Channels:
-      Global: write
-  AkaneNoAkane:
     Channels:
       Global: write
   Godlymax767:
@@ -956,5 +919,26 @@ Players:
     Channels:
       Global: write
   ViggieSkittles:
+    Channels:
+      Global: write
+  OmegaCrafterHD:
+    Channels:
+      Global: write
+  ItzBoss:
+    Channels:
+      Global: write
+  yuan0429:
+    Channels:
+      Global: write
+  AlleyChat:
+    Channels:
+      Global: write
+  GradyGoose:
+    Channels:
+      Global: write
+  CryptoLegend:
+    Channels:
+      Global: write
+  CatPotato1210:
     Channels:
       Global: write
