@@ -40,9 +40,6 @@ Players:
   PixelPiCASSO_:
     Channels:
       Global: write
-  Livpinkey101:
-    Channels:
-      Global: write
   _Rossi_:
     Channels:
       Global: write
@@ -52,16 +49,10 @@ Players:
   _MrFlame_:
     Channels:
       Global: write
-  lemonade007:
-    Channels:
-      Global: write
   killergamerbr:
     Channels:
       Global: write
   KadetheKoala:
-    Channels:
-      Global: write
-  spongebran:
     Channels:
       Global: write
   carolinacub:
@@ -71,9 +62,6 @@ Players:
     Channels:
       Global: write
   Marielia:
-    Channels:
-      Global: write
-  Megadethh:
     Channels:
       Global: write
   Han_Shot_First_:
@@ -177,9 +165,6 @@ Players:
   piglord1618:
     Channels:
       Global: write
-  King_Creepers:
-    Channels:
-      Global: write
   Memeixis:
     Channels:
       Global: write
@@ -210,31 +195,7 @@ Players:
   Mr_Momentum:
     Channels:
       Global: write
-  theCaptain1025:
-    Channels:
-      Global: write
-  LostNightfury:
-    Channels:
-      Global: write
-  PisForPoise:
-    Channels:
-      Global: write
   nerd_nation_:
-    Channels:
-      Global: write
-  TrommelKoekje:
-    Channels:
-      Global: write
-  MommyApproves:
-    Channels:
-      Global: write
-  ScarletWorlock:
-    Channels:
-      Global: write
-  Saiyan677:
-    Channels:
-      Global: write
-  BreifOblivion:
     Channels:
       Global: write
   ICanLeftClickU:
@@ -487,9 +448,6 @@ Players:
     Channels:
       Global: write
   Viztrak:
-    Channels:
-      Global: write
-  Crona_Uchiha:
     Channels:
       Global: write
   UnfilteredPrune:
@@ -825,9 +783,6 @@ Players:
   hibra1201:
     Channels:
       Global: write
-  Bonafide_Beta:
-    Channels:
-      Global: write
   Rexcx:
     Channels:
       Global: write
@@ -940,5 +895,48 @@ Players:
     Channels:
       Global: write
   CatPotato1210:
+    Channels:
+      Global: write
+  PyroMancer101:
+    Channels:
+      Global: write
+  Zhyren:
+    Channels:
+      Global: write
+  vaceJice:
+    Channels:
+      Global: write
+  MadxSeth4:
+    Channels:
+      Global: write
+  JustTimon:
+    Channels:
+      Global: write
+  TheOneSkye:
+    Channels:
+      Global: write
+  MiniCash:
+    Channels:
+      Global: write
+  Trex3002:
+    Channels:
+      Global: write
+  DAminecraftRD:
+    Channels:
+      Global: write
+  MythReeses:
+    Spying: true
+    Channels:
+      Global: write
+  Strelitiza:
+    Channels:
+      Global: write
+  mateorules:
+    Channels:
+      Global: write
+  NJ_Vetanarian:
+    Channels:
+      Global: write
+  Ralfy360:
     Channels:
       Global: write
