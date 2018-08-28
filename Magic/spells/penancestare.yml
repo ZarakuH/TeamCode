@@ -12,7 +12,7 @@ penancestare:
       - class: Damage
         damage: 9999
     effects:
-        cast:
+        laser:
         - class: EffectSingle
           source_location: eyes
           effectlib:
@@ -30,7 +30,7 @@ penancestare:
              relativeOffset: 0.2,0,0.15
              particles: 10
     parameters:
-        target: LivingEntity
+        target: other
         hitbox: true
         range: 2
         allow_max_range: true
