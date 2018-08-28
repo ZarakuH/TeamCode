@@ -9,14 +9,13 @@ penancestare:
           - class: PlayEffects
             effects: laser
           - class: Message
-            message_target: true
             message_type: chat
             message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
           - class: Delay
             delay: 2000
           - class: Damage
     effects:
-        laser:
+        cast:
         - class: EffectSingle
           source_location: eyes
           effectlib:
