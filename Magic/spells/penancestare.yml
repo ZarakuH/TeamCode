@@ -45,8 +45,3 @@ penancestare:
         hitbox_size: 2
         cooldown: 10000
         damage: 9999
-        undo_speed: 1
-        undo: 1000
-        destructible: solid
-        destructible_durability: 100
-        break_durability: 4
