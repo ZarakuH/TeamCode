@@ -42,9 +42,7 @@ penancestare:
         hitbox: true
         range: 2
         hitbox_size: 2
-        cooldown: 50
-        range: 50
-        allow_max_range: true
+        cooldown: 10000
         damage: 9999
         undo_speed: 1
         undo: 1000
