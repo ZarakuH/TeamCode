@@ -9,8 +9,10 @@ penancestare:
         - class: Message
           message_type: chat
           message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
+        - class: PotionEffect
+        - class: Deactivate
         - class: Delay
-          delay: 2000
+          delay: 5000
         - class: Damage
     effects:
         cast:
@@ -44,6 +46,8 @@ penancestare:
         hitbox_size: 2
         cooldown: 50
         range: 50
+        effect_slow: 10
+        duration: 5000
         allow_max_range: true
         damage: 9999
         undo_speed: 1
