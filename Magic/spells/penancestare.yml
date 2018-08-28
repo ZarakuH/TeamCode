@@ -30,10 +30,9 @@ penancestare:
              relativeOffset: 0.2,0,0.15
              particles: 10
     parameters:
-        target: other
+        target: LivingEntity
         hitbox: true
         range: 2
         allow_max_range: true
-        hitbox_size: 2
-        cooldown: 10000
+        cooldown: 1000
         damage: 9999
