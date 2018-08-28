@@ -21,7 +21,6 @@ penancestare:
           effectlib:
              class: LineEffect
              particle: redstone
-             iterations: 2
              color: ff7f00
              relativeOffset: 0.2,0,-0.15
              particles: 10
@@ -30,7 +29,6 @@ penancestare:
           effectlib:
              class: LineEffect
              particle: redstone
-             iterations: 2
              color: ff7f00
              relativeOffset: 0.2,0,0.15
              particles: 10
