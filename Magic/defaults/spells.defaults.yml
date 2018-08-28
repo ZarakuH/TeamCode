@@ -24163,6 +24163,48 @@ soultear:
     hitbox: true
   costs:
     mana: 100
+penancestare:
+  icon: diamond_axe:171
+  actions:
+    cast:
+    - class: Message
+      message_type: chat
+      message: '&cLook into my eyes.. Your Soul is stained.. by the blood of the innocent..
+        feel their pain!'
+    - class: Message
+      message_type: chat
+      message_target: true
+      message: '&cLook into my eyes.. Your Soul is stained.. by the blood of the innocent..
+        feel their pain!'
+    - class: Delay
+      delay: 5000
+    - class: Damage
+      damage: 9999
+  effects:
+    laser:
+    - class: EffectSingle
+      source_location: eyes
+      effectlib:
+        class: LineEffect
+        particle: redstone
+        color: ff7f00
+        relativeOffset: 0.2,0,-0.15
+        particles: 10
+    - class: EffectSingle
+      source_location: eyes
+      effectlib:
+        class: LineEffect
+        particle: redstone
+        color: ff7f00
+        relativeOffset: 0.2,0,0.15
+        particles: 10
+  parameters:
+    target: other
+    hitbox: true
+    range: 2
+    allow_max_range: true
+    cooldown: 60000
+    damage: 9999
 demon_firebolt:
   icon: diamond_axe:75
   icon_disabled: diamond_hoe:75

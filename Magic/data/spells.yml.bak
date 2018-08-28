@@ -326,7 +326,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 2336
+  cast_count: 2502
   last_cast: 0
 realitystoneblast:
   cast_count: 55
@@ -491,7 +491,7 @@ upgradeshop:
   cast_count: 0
   last_cast: 0
 reload_rocketlauncher:
-  cast_count: 356
+  cast_count: 357
   last_cast: 0
 dungbomb:
   cast_count: 0
@@ -608,7 +608,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 1489
+  cast_count: 1559
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -791,10 +791,10 @@ terrainshop:
   cast_count: 0
   last_cast: 0
 freezeray:
-  cast_count: 381
+  cast_count: 383
   last_cast: 0
 stungrenade:
-  cast_count: 403
+  cast_count: 404
   last_cast: 0
 deposits:
   cast_count: 0
@@ -812,7 +812,7 @@ abratrap:
   cast_count: 430
   last_cast: 0
 freezetime:
-  cast_count: 1297
+  cast_count: 1298
   last_cast: 0
 glasstouch:
   cast_count: 702
@@ -1196,7 +1196,7 @@ secure:
   cast_count: 0
   last_cast: 0
 rocketlauncher:
-  cast_count: 411
+  cast_count: 412
   last_cast: 0
 extinguish:
   cast_count: 0
@@ -1418,7 +1418,7 @@ powerstonedestroyworld:
   cast_count: 78
   last_cast: 0
 kryptonianlaservision:
-  cast_count: 63658
+  cast_count: 63963
   last_cast: 0
 symbiotetendril:
   cast_count: 32
@@ -1463,13 +1463,13 @@ colorshop:
   cast_count: 5
   last_cast: 0
 cosmicbolt:
-  cast_count: 4668
+  cast_count: 4669
   last_cast: 0
 potionshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 691
+  cast_count: 692
   last_cast: 0
 wither:
   cast_count: 0
@@ -1487,7 +1487,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 1513
+  cast_count: 1583
   last_cast: 0
 powerstoneblast:
   cast_count: 47
@@ -1499,7 +1499,7 @@ erecto:
   cast_count: 0
   last_cast: 0
 acidshot:
-  cast_count: 73
+  cast_count: 76
   last_cast: 0
 steal_model3:
   cast_count: 0
@@ -1559,7 +1559,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 4233
+  cast_count: 4237
   last_cast: 0
 ravenfield:
   cast_count: 364
@@ -1691,7 +1691,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 274
+  cast_count: 307
   last_cast: 0
 fiantoduri:
   cast_count: 0
@@ -1740,6 +1740,9 @@ note02:
   last_cast: 0
 note01:
   cast_count: 0
+  last_cast: 0
+penancestare:
+  cast_count: 51
   last_cast: 0
 electrictp:
   cast_count: 618
@@ -1943,7 +1946,7 @@ diffindo:
   cast_count: 0
   last_cast: 0
 deadlights:
-  cast_count: 90
+  cast_count: 91
   last_cast: 0
 note21:
   cast_count: 0
@@ -1985,7 +1988,7 @@ permamelt:
   cast_count: 0
   last_cast: 0
 reload_sniper:
-  cast_count: 112
+  cast_count: 113
   last_cast: 0
 magicitemshop:
   cast_count: 0
@@ -2060,7 +2063,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1908
+  cast_count: 1909
   last_cast: 0
 mach5punch:
   cast_count: 259
