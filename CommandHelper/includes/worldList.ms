@@ -21,7 +21,8 @@
     associative_array('hallofjustice','Hall of Justice'),
     associative_array('starktower','Stark Tower'),
     associative_array('atlantis','Atlantis'),
-    associative_array('starlabs','Star Labs')
+    associative_array('starlabs','Star Labs'),
+    associative_array('sakaar','Sakaar')
 
 )
 */
@@ -43,6 +44,7 @@
     associative_array('hogwarts','Hogwarts'),
     associative_array('fortressofsolitude','Fortress of Solitude'),
     associative_array('hallofjustice','Hall of Justice'),
-    associative_array('starlabs','Star Labs')
+    associative_array('starlabs','Star Labs'),
+    associative_array('sakaar','Sakaar')
 
 )
