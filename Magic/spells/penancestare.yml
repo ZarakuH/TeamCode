@@ -10,6 +10,7 @@ penancestare:
         message_target: true
         message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
       - class: Damage
+        damage: 9999
     effects:
         cast:
         - class: EffectSingle
@@ -28,14 +29,6 @@ penancestare:
              color: ff7f00
              relativeOffset: 0.2,0,0.15
              particles: 10
-        hit:
-        - class: EffectSingle
-          location: target
-          effectlib:
-             class: SphereEffect
-             particle: flame
-             iterations: 2
-             particles: 10
     parameters:
         target: other
         hitbox: true
@@ -43,4 +36,4 @@ penancestare:
         allow_max_range: true
         hitbox_size: 2
         cooldown: 10000
-        damage: 100
+        damage: 9999
