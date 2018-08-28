@@ -37,6 +37,7 @@ penancestare:
              iterations: 2
              particles: 10
     parameters:
+        target: other
         hitbox: true
         range: 2
         allow_max_range: true
