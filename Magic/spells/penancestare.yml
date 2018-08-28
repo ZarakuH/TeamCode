@@ -36,5 +36,5 @@ penancestare:
         hitbox: true
         range: 2
         allow_max_range: true
-        cooldown: 1000
+        cooldown: 60000
         damage: 9999
