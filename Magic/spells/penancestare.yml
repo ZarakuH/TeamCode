@@ -17,7 +17,7 @@ penancestare:
           delay: 5000
         - class: Damage
     effects:
-        cast:
+        laser:
         - class: EffectSingle
           source_location: eyes
           effectlib:
