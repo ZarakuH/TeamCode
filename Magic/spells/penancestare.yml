@@ -2,18 +2,16 @@ penancestare:
     icon: diamond_axe:171
     actions:
       cast:
-      - class: Repeat
+      - class: Retarget
         actions:
-        - class: Retarget
-          actions:
-          - class: PlayEffects
-            effects: laser
-          - class: Message
-            message_type: chat
-            message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
-          - class: Delay
-            delay: 2000
-          - class: Damage
+        - class: PlayEffects
+          effects: laser
+        - class: Message
+          message_type: chat
+          message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
+        - class: Delay
+          delay: 2000
+        - class: Damage
     effects:
         cast:
         - class: EffectSingle
