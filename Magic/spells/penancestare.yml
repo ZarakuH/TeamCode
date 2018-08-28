@@ -9,6 +9,8 @@ penancestare:
         message_type: chat
         message_target: true
         message: "&cYour Soul is stained.. by the blood of the innocent.. feel their pain!"
+      - class: Delay
+        delay: 5000
       - class: Damage
         damage: 9999
     effects:
