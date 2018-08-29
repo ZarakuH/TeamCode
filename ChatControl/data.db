@@ -22,12 +22,6 @@ Players:
   TheFartTrain:
     Channels:
       Global: write
-  Sparkyscool101:
-    Channels:
-      Global: write
-  MightyCyclops:
-    Channels:
-      Global: write
   Miner_Myles:
     Channels:
       Global: write
@@ -79,9 +73,6 @@ Players:
   America2076:
     Channels:
       Global: write
-  BatmanAKnight:
-    Channels:
-      Global: write
   soccersuperstars:
     Channels:
       Global: write
@@ -95,7 +86,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Kurieita:
     Channels:
       Global: write
@@ -177,16 +167,10 @@ Players:
   Mr_Momentum:
     Channels:
       Global: write
-  ICanLeftClickU:
-    Channels:
-      Global: write
   Eddy2006:
     Channels:
       Global: write
   Buehl34:
-    Channels:
-      Global: write
-  Woofwoof2015:
     Channels:
       Global: write
   Timichi:
@@ -199,18 +183,6 @@ Players:
     Channels:
       Global: write
   x_MasterBlock_x:
-    Channels:
-      Global: write
-  REAL_TONY_STARK:
-    Channels:
-      Global: write
-  oxxNarwhalsxxo:
-    Channels:
-      Global: write
-  supermurphy:
-    Channels:
-      Global: write
-  XxTrolbroPDxX:
     Channels:
       Global: write
   owen_grady1:
@@ -877,6 +849,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Strelitiza:
     Channels:
       Global: write
@@ -941,5 +914,32 @@ Players:
     Channels:
       Global: write
   XzxMissionxzX:
+    Channels:
+      Global: write
+  Temperflash:
+    Channels:
+      Global: write
+  Nrobed3:
+    Channels:
+      Global: write
+  hoodedmaster:
+    Channels:
+      Global: write
+  YouW0T:
+    Channels:
+      Global: write
+  TerrorDismay:
+    Channels:
+      Global: write
+  kelemor:
+    Channels:
+      Global: write
+  Eiilonwy:
+    Channels:
+      Global: write
+  kylo_gamer:
+    Channels:
+      Global: write
+  magicalfire:
     Channels:
       Global: write
