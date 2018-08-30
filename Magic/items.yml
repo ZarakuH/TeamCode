@@ -73,7 +73,7 @@ infinitygauntlet:
   worth: 10000.0
   item:
     ==: org.bukkit.inventory.ItemStack
-    type: GOLD_HOE
+    type: GOLD_HOE:255
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
