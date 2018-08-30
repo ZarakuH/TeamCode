@@ -67,7 +67,7 @@ gauntlet:
     attributes:
       GENERIC_ATTACK_SPEED: 10
     attribute_slot: mainhand
-    icon: gold_barding
+    icon: infinitygauntlet
     path: beginner
     creator_id: f621586e-8ef8-448d-9264-86b61375052e
     creator: President_Myth
