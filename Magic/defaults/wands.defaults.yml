@@ -4297,7 +4297,7 @@ greenlanternrings:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: emerald
+  icon: gold_hoe:31
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
@@ -4529,7 +4529,7 @@ gauntlet:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: infinitygauntlet
+  icon: gold_hoe:255
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
@@ -5853,7 +5853,7 @@ redlanternring:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: ink_sack:1
+  icon: gold_hoe:30
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth

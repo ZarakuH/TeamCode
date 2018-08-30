@@ -105,7 +105,7 @@ v2-logout:
     world: mainmenu
     group: mainmenu
   52b6e861-9b1b-4e74-9fe9-85e81a7e6472:
-    world: survival112
+    world: survival112_the_end
     group: superherocities
   f9e418bf-9c4f-47af-a963-310bff20bc36:
     group: mainmenu
@@ -733,7 +733,7 @@ v2-logout:
     world: mainmenu
   78ee8566-79ea-4ffe-8e0f-5e14fba68e25:
     group: superherocities
-    world: metropolis
+    world: nyc
   bd5c1e39-005e-4393-bcae-1dcad6766f3e:
     group: superherocities
     world: starktower
@@ -2349,8 +2349,8 @@ v2-logout:
     group: superherocities
     world: nyc
   9068e658-a14f-43a3-ad65-04dbac12a5e0:
-    world: mainmenu
-    group: mainmenu
+    world: gotham
+    group: superherocities
   b5186aef-2abf-4e72-b9fb-d64c2d94a0f5:
     group: mainmenu
     world: mainmenu
@@ -3481,7 +3481,7 @@ v2-logout:
     world: survival112
   d2ea0c77-6f4a-4d7b-8514-d809753de291:
     group: superherocities
-    world: greenfield
+    world: survival112
   e6d4ed9b-1623-44f4-b1d8-296c00c5e205:
     group: superherocities
     world: survival112
