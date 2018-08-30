@@ -1,4 +1,4 @@
-infinitygauntlet:
+gauntlet:
     version: 5
     spell_inventory:
       freezetime: 0
