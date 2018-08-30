@@ -77,5 +77,3 @@ infinitygauntlet:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: Gauntlet
-      Unbreakable: true
