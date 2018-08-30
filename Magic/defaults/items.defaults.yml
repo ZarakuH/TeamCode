@@ -1966,3 +1966,27 @@ demonspawner:
         SpawnData:
           id: Zombie
           CustomName: Demon
+infinitygauntlet:
+  worth: 10000.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Dwarven Axe
+      enchants:
+        DIG_SPEED: 8
+        DURABILITY: 8
+test:
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: MythReeses
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HOE
+    damage: 255
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Unbreakable: true

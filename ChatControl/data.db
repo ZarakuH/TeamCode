@@ -73,9 +73,6 @@ Players:
   America2076:
     Channels:
       Global: write
-  soccersuperstars:
-    Channels:
-      Global: write
   StealthFox007:
     Channels:
       Global: write
@@ -87,9 +84,6 @@ Players:
     Channels:
       Global: write
   Kurieita:
-    Channels:
-      Global: write
-  psvcho:
     Channels:
       Global: write
   FIRESTROME:
@@ -105,12 +99,6 @@ Players:
     Channels:
       Global: write
   Jason4704:
-    Channels:
-      Global: write
-  iceboy2017:
-    Channels:
-      Global: write
-  HerpaDerp10000:
     Channels:
       Global: write
   GamebroDutchman:
@@ -182,19 +170,10 @@ Players:
   ToasterMan510:
     Channels:
       Global: write
-  x_MasterBlock_x:
-    Channels:
-      Global: write
   owen_grady1:
     Channels:
       Global: write
-  kayaaaatje:
-    Channels:
-      Global: write
   bloodred2002:
-    Channels:
-      Global: write
-  FriTexwarfare:
     Channels:
       Global: write
   Godlymax767:
@@ -849,7 +828,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Strelitiza:
     Channels:
       Global: write
@@ -941,5 +919,26 @@ Players:
     Channels:
       Global: write
   magicalfire:
+    Channels:
+      Global: write
+  FutureKeeper12:
+    Channels:
+      Global: write
+  Quintey:
+    Channels:
+      Global: write
+  josephmp100:
+    Channels:
+      Global: write
+  luckylefty:
+    Channels:
+      Global: write
+  T0rr3l:
+    Channels:
+      Global: write
+  crimsbry:
+    Channels:
+      Global: write
+  d_lirious:
     Channels:
       Global: write
