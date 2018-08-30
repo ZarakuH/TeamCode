@@ -5253,19 +5253,6 @@ groups:
         - ch.alias.run2
         - ch.alias.run1
         - ch.alias.run0
-  howl:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&4'
-      prefix: '&4H&co&7wl'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.immunity.fire
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - essentials.fly
   scarletspiderbenreilly:
     inheritance:
     - commonherotraits
@@ -5460,28 +5447,6 @@ groups:
       superherocity:
         permissions:
         - powers.sonicscrewdriver
-  inertiathaddeusthawneii:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&2'
-      prefix: '&0In&ae&2r&at&0ia&8(TTII&8)'
-    worlds:
-      speedforce:
-        permissions:
-        - essentials.back
-        - ch.alias.tp
-        - ch.alias.speedforceteleport
-        - ch.alias.speedforcebuffs
-        - ch.alias.powers
-      superherocity:
-        permissions:
-        - essentials.warps.speedforce
-        - essentials.tppos
-        - ch.alias.speedforceteleport
-        - powers.wallrun
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   terra:
     inheritance:
     - commonherotraits
@@ -11081,6 +11046,41 @@ groups:
       superherocity:
         permissions:
         - powers.cloneself
+  inertiathaddeusthawneii:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&2'
+      prefix: '&0In&ae&2r&at&0ia&8(TTII&8)'
+    worlds:
+      speedforce:
+        permissions:
+        - essentials.back
+        - ch.alias.tp
+        - ch.alias.speedforceteleport
+        - ch.alias.speedforcebuffs
+        - ch.alias.powers
+      superherocity:
+        permissions:
+        - essentials.warps.speedforce
+        - essentials.tppos
+        - ch.alias.speedforceteleport
+        - powers.wallrun
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  howl:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4H&co&7wl'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.immunity.fire
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - essentials.fly
 schema-version: 1
 worlds:
   checkers:
