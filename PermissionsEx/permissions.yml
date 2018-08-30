@@ -4969,12 +4969,6 @@ groups:
     options:
       suffix: '&3'
       prefix: '&bH&9y&3d&br&3o&9m&3a&bn'
-  junkrat:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&eJ&eu&2n&6k&8ra&et'
   cassandracassiesandsmark:
     inheritance:
     - commonherotraits
@@ -6301,17 +6295,6 @@ groups:
         permissions:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
-  tracer:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&b'
-      prefix: '&6T&7r&fa&bc&ee&6r'
-    worlds:
-      superherocity:
-        permissions:
-        - command.rewind
-        - worldedit.navigation.jumpto.command
   professorx:
     inheritance:
     - commonherotraits
@@ -11081,6 +11064,23 @@ groups:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
         - essentials.fly
+  junkrat:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&eJ&eu&2n&6k&8ra&et'
+  tracer:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&b'
+      prefix: '&6T&7r&fa&bc&ee&6r'
+    worlds:
+      superherocity:
+        permissions:
+        - command.rewind
+        - worldedit.navigation.jumpto.command
 schema-version: 1
 worlds:
   checkers:
@@ -18817,7 +18817,7 @@ users:
       name: endergod05
   67aef215-1507-47be-a9dd-7ee4bfd6bc84:
     group:
-    - mortal
+    - tracer
     worlds:
       superherocity:
         permissions: []
