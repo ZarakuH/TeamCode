@@ -78,5 +78,4 @@ infinitygauntlet:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: Gauntlet
-      enchants:
-        DURABILITY: 255
+      Unbreakable: true
