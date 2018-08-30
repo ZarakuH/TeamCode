@@ -69,3 +69,14 @@ demonspawner:
         SpawnData:
           id: Zombie
           CustomName: Demon
+infinitygauntlet:
+  worth: 10000.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Gauntlet
+      enchants:
+        DURABILITY: 255
