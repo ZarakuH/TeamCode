@@ -47,6 +47,6 @@ capshieldthrow:
     delay: 100
     damage: 20
     brushes:
-    - gold_hoe:29
+    - gold_hoe
   costs:
     mana: 0
