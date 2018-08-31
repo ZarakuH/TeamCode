@@ -1,0 +1,52 @@
+capshieldthrow:
+  icon: diamond_axe:167
+  icon_disabled: diamond_hoe:167
+  icon_url: http://textures.minecraft.net/texture/b6d7a7f167e24d166ab1d8dedd79311481d4e1ebddbaba8ec6cb394713fb
+  category: engineering
+  tags: noduel
+  worth: 1200
+  earns_sp: 3
+  actions:
+    cast:
+    - class: Brush
+      actions:
+      - class: Spread
+        actions:
+        - class: ThrowItem
+    - class: Delay
+  - class: Brush
+  - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.shimmer
+      location: source
+      effectlib:
+        class: LineEffect
+        particle: redstone
+        color: ffffff
+        particles: 100
+        iterations: 60
+    projectile:
+    - location: origin
+      effectlib:
+        class: Sphere
+        particle: item_crack
+        particles: 10
+        iterations: 60
+  parameters:
+    center_probability: 0.9
+    outer_probability: 0.5
+    vertical_range: 20
+    cooldown: 2000
+    age_items: 3000
+    speed: 4
+    yaw_max: 30
+    pitch_max: 4
+    uses_brush: false
+    delay: 100
+    damage: 20
+    brushes:
+    - capshield
+  costs:
+    mana: 0
