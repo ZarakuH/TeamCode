@@ -8,7 +8,7 @@ soulgrip:
   cast_count: 14
   last_cast: 0
 soulstonetrap:
-  cast_count: 316
+  cast_count: 318
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -124,6 +124,9 @@ forest:
 soulpush:
   cast_count: 6
   last_cast: 0
+capshieldblock:
+  cast_count: 0
+  last_cast: 0
 boomstown:
   cast_count: 0
   last_cast: 0
@@ -227,7 +230,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 3120
+  cast_count: 3122
   last_cast: 0
 glider:
   cast_count: 0
@@ -1748,7 +1751,7 @@ electrictp:
   cast_count: 624
   last_cast: 0
 soulstoneblast:
-  cast_count: 141
+  cast_count: 143
   last_cast: 0
 note09:
   cast_count: 0

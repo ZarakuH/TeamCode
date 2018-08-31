@@ -8,7 +8,7 @@ soulgrip:
   cast_count: 14
   last_cast: 0
 soulstonetrap:
-  cast_count: 314
+  cast_count: 318
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -124,6 +124,9 @@ forest:
 soulpush:
   cast_count: 6
   last_cast: 0
+capshieldblock:
+  cast_count: 0
+  last_cast: 0
 boomstown:
   cast_count: 0
   last_cast: 0
@@ -227,7 +230,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 3118
+  cast_count: 3122
   last_cast: 0
 glider:
   cast_count: 0
@@ -305,7 +308,7 @@ gather:
   cast_count: 3
   last_cast: 0
 conjuresword:
-  cast_count: 210
+  cast_count: 211
   last_cast: 0
 magictorch:
   cast_count: 0
@@ -1664,7 +1667,7 @@ broomshop:
   cast_count: 0
   last_cast: 0
 turnwater:
-  cast_count: 444
+  cast_count: 445
   last_cast: 0
 bogies:
   cast_count: 0
@@ -1748,7 +1751,7 @@ electrictp:
   cast_count: 624
   last_cast: 0
 soulstoneblast:
-  cast_count: 141
+  cast_count: 143
   last_cast: 0
 note09:
   cast_count: 0
@@ -2021,7 +2024,7 @@ cloudreality:
   cast_count: 17
   last_cast: 0
 airstrike:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 deprimomaxima:
   cast_count: 0

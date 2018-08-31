@@ -58,9 +58,6 @@ Players:
   Han_Shot_First_:
     Channels:
       Global: write
-  bluebolt2135:
-    Channels:
-      Global: write
   DJSplatter:
     Channels:
       Global: write
@@ -89,9 +86,6 @@ Players:
   Yechan_10:
     Channels:
       Global: write
-  Grim__:
-    Channels:
-      Global: write
   iFrodoFezbear:
     Channels:
       Global: write
@@ -102,9 +96,6 @@ Players:
     Channels:
       Global: write
   TheoreticalGame:
-    Channels:
-      Global: write
-  Soniikz_:
     Channels:
       Global: write
   BlazeBlack1:
@@ -167,31 +158,16 @@ Players:
   ToasterMan510:
     Channels:
       Global: write
-  owen_grady1:
-    Channels:
-      Global: write
   bloodred2002:
     Channels:
       Global: write
   SilverImtiaaz:
     Channels:
       Global: write
-  Ella34:
-    Channels:
-      Global: write
   adamdotshaw:
     Channels:
       Global: write
   xPriyo:
-    Channels:
-      Global: write
-  Bugrocks:
-    Channels:
-      Global: write
-  ReallyRicky:
-    Channels:
-      Global: write
-  Yuwi_Saito:
     Channels:
       Global: write
   JackHatesPeanuts:
@@ -810,6 +786,7 @@ Players:
     Spying: true
     Channels:
       Global: write
+      Local: write
   Strelitiza:
     Channels:
       Global: write

@@ -29385,6 +29385,37 @@ forcefield:
     bypass_backfire: true
   costs:
     mana: 0
+capshieldblock:
+  icon: diamond_axe:167
+  icon_disabled: diamond_hoe:167
+  icon_url: http://textures.minecraft.net/texture/b6d7a7f167e24d166ab1d8dedd79311481d4e1ebddbaba8ec6cb394713fb
+  category: engineering
+  tags: noduel
+  worth: 1200
+  earns_sp: 3
+  actions:
+    cast:
+    - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.shimmer
+      location: source
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: ff0000
+        particles: 100
+        radius: 1
+        iterations: 60
+  parameters:
+    center_probability: 0.9
+    outer_probability: 0.5
+    cooldown: 2000
+    effect_damage_resistance: 3
+    duration: 2000
+  costs:
+    mana: 0
 frostbreath:
   icon: diamond_axe:144
   icon_disabled: diamond_hoe:144
