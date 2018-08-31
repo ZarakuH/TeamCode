@@ -48,6 +48,6 @@ capshieldthrow:
     damage: 20
     unbreakable: true
     brushes:
-    - quartz_slab
+    - web
   costs:
     mana: 0
