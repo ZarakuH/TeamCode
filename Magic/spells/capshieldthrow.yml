@@ -48,6 +48,6 @@ capshieldthrow:
     damage: 20
     unbreakable: true
     brushes:
-    - gold_hoe:29
+    - quartz_slab
   costs:
     mana: 0
