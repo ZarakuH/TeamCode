@@ -46,7 +46,8 @@ capshieldthrow:
     uses_brush: false
     delay: 100
     damage: 20
+    unbreakable: true
     brushes:
-    - gold_hoe
+    - gold_hoe:29
   costs:
     mana: 0
