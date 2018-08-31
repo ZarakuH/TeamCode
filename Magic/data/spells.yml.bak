@@ -1487,7 +1487,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2026
+  cast_count: 2027
   last_cast: 0
 powerstoneblast:
   cast_count: 48
@@ -1691,7 +1691,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 321
+  cast_count: 327
   last_cast: 0
 fiantoduri:
   cast_count: 0

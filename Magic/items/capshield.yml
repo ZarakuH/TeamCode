@@ -1,0 +1,12 @@
+capshield:
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: MythReeses
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HOE
+    damage: 29
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Unbreakable: true

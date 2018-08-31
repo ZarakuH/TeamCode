@@ -64,9 +64,6 @@ Players:
   DJSplatter:
     Channels:
       Global: write
-  Spiderman1109:
-    Channels:
-      Global: write
   DominickVine:
     Channels:
       Global: write
@@ -176,22 +173,7 @@ Players:
   bloodred2002:
     Channels:
       Global: write
-  Godlymax767:
-    Channels:
-      Global: write
-  austik46:
-    Channels:
-      Global: write
-  TimePirate:
-    Channels:
-      Global: write
-  runesppookje:
-    Channels:
-      Global: write
   SilverImtiaaz:
-    Channels:
-      Global: write
-  TheFlash15:
     Channels:
       Global: write
   Ella34:
@@ -940,5 +922,23 @@ Players:
     Channels:
       Global: write
   d_lirious:
+    Channels:
+      Global: write
+  oClear:
+    Channels:
+      Global: write
+  FusionCold:
+    Channels:
+      Global: write
+  RogerDodger8:
+    Channels:
+      Global: write
+  DrUniverse:
+    Channels:
+      Global: write
+  BrickArmstrong:
+    Channels:
+      Global: write
+  Nick_A_Naut:
     Channels:
       Global: write
