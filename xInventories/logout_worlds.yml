@@ -12,8 +12,8 @@ v2-logout:
     group: superherocities
     world: survival112
   8ca7fc56-614b-482a-91df-bf8580ba273d:
-    world: arcade
-    group: arcade
+    world: infinitycity
+    group: superherocities
   6021e905-d3cd-4145-be8a-865928772016:
     group: superherocities
     world: greenfield
@@ -87,7 +87,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    world: starlabs
+    world: survival112
     group: superherocities
   fa2821a9-27ed-43e0-99f6-e22aec572a35:
     group: superherocities
@@ -105,7 +105,7 @@ v2-logout:
     world: mainmenu
     group: mainmenu
   52b6e861-9b1b-4e74-9fe9-85e81a7e6472:
-    world: survival112_the_end
+    world: survival112
     group: superherocities
   f9e418bf-9c4f-47af-a963-310bff20bc36:
     group: mainmenu
@@ -379,7 +379,7 @@ v2-logout:
     world: mainmenu
   92a2652a-ff1f-4729-b835-acad7a876cb0:
     group: superherocities
-    world: survival112
+    world: infinitycity
   7b8f48f8-6b8d-43ea-a4bd-46d5c211a2a5:
     group: superherocities
     world: fortressofsolitude
@@ -3478,8 +3478,8 @@ v2-logout:
     group: superherocities
     world: survival112
   d2ea0c77-6f4a-4d7b-8514-d809753de291:
-    group: superherocities
     world: survival112
+    group: superherocities
   e6d4ed9b-1623-44f4-b1d8-296c00c5e205:
     group: superherocities
     world: survival112
@@ -4985,8 +4985,8 @@ v2-logout:
     group: superherocities
     world: hogwarts
   39175ddd-9dbc-498e-ad55-3354a8bd9b5f:
-    group: superherocities
-    world: nyc
+    group: mainmenu
+    world: mainmenu
   9f372395-ab58-4067-856b-fb564551b028:
     group: mainmenu
     world: mainmenu
@@ -5765,7 +5765,7 @@ v2-logout:
   7b52a3af-57be-4ecd-b7b2-d4c3e5737999:
     world: tutorial
   5c5207bd-e7d3-4711-87ca-90b3afb7151f:
-    world: gotham
+    world: chicago
     group: superherocities
   c3d55db5-1405-4915-8e6a-c89a7b1abe83:
     world: tutorial
@@ -5773,7 +5773,7 @@ v2-logout:
     group: superherocities
     world: greenfield
   4c95642b-a587-472c-98a2-12f01a2927c1:
-    world: survival112
+    world: broville
     group: superherocities
   a65c9b47-168a-425c-ba88-39208c75ac8e:
     group: superherocities
@@ -5781,3 +5781,17 @@ v2-logout:
   28c16422-b009-40db-b858-710c5870f0c9:
     group: superherocities
     world: infinitycity
+  2906aabb-2020-4397-b23f-cb20a5f22158:
+    group: superherocities
+    world: chicago
+  b2329d75-5be9-4ab6-ae3e-03fa9330f64c:
+    world: tutorial
+  b16a6d77-6519-40ca-bc61-cd8fe5802d60:
+    group: mainmenu
+    world: mainmenu
+  2a8849f7-a7b3-44ba-9009-cc94c9d3aa38:
+    group: hurdles
+    world: hurdles
+  611141f7-62df-452d-9c61-cc1503d6145c:
+    world: helicarrier
+    group: superherocities
