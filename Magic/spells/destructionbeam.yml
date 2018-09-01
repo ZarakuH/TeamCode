@@ -45,6 +45,7 @@ destructionbeam:
         hitbox: true
         hitbox_size: 2
         cooldown: 50
+        target: other
         repeat: 1
         range: 50
         allow_max_range: true
