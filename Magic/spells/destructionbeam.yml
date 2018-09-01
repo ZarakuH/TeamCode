@@ -13,7 +13,7 @@ destructionbeam:
         - class: Delay
           delay: 50
     effects:
-        laser:
+        cast:
         - class: EffectSingle
           source_location: eyes
           effectlib:
@@ -32,8 +32,8 @@ destructionbeam:
              color: ff2100
              relativeOffset: 0.2,0,0.15
              particles: 10
-         hit:
-         - class: EffectSingle
+        hit:
+        - class: EffectSingle
           effectlib:
              class: SphereEffect
              particle: explosion_huge
