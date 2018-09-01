@@ -35,5 +35,6 @@ lanternshield:
          reflect_chance: 0.25 
          bypass_confusion: true 
          bypass_backfire: true 
+         bypass_build: true
      costs: 
          mana: 0
