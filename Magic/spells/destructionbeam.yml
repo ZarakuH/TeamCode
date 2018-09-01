@@ -1,57 +1,122 @@
 destructionbeam:
-    icon: diamond_axe:171
-    actions:
-      cast:
-      - class: Repeat
-        actions:
-        - class: Retarget
-          actions:
-          - class: PlayEffects
-            effects: laser
-          - class: Damage
-          #- class: BreakBlock
-        - class: Delay
-          delay: 50
-    effects:
-        cast:
-        - class: EffectSingle
-          source_location: eyes
-          effectlib:
-             class: LineEffect
-             particle: redstone
-             iterations: 2
-             color: ff2100
-             relativeOffset: 0.2,0,-0.15
-             particles: 10
-        - class: EffectSingle
-          source_location: eyes
-          effectlib:
-             class: LineEffect
-             particle: redstone
-             iterations: 2
-             color: ff2100
-             relativeOffset: 0.2,0,0.15
-             particles: 10
-        hit:
-        - class: EffectSingle
-          effectlib:
-             class: SphereEffect
-             particle: explosion_huge
-             iterations: 2
-             radius: 1
-             relativeOffset: 0.2,0,0.15
-             particles: 10
-    parameters:
-        hitbox: true
-        hitbox_size: 2
-        cooldown: 50
-        target: other
-        repeat: 1
-        range: 50
-        allow_max_range: true
-        damage: 4
-        undo_speed: 1
-        undo: 1000
-        destructible: solid
-        destructible_durability: 100
-        break_durability: 4
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  category: combat
+  worth: 150
+  earns_sp: 7
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+      - class: BreakBlock
+        ignore_result: true
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      location: origin
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,-0.15
+        updateLocations: false
+        updateDirections: false
+    - class: EffectSingle
+      sound: magic.zap_crack
+      location: origin
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,0.15
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - particle: redstone
+      location: target
+    break:
+    - class: EffectSingle
+      location: target
+      particle: block_crack
+      particle_count: 100
+      particle_offset_x: 0.6
+      particle_offset_y: 0.6
+      particle_offset_z: 0.6
+    hit_block:
+    - class: EffectSingle
+      location: target
+      particle: block_crack
+      particle_count: 30
+      particle_offset_x: 0.2
+      particle_offset_y: 1
+      particle_offset_z: 0.2
+    hit_entity:
+    - class: EffectSingle
+      location: target
+      particle: redstone
+      particle_count: 30
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: fireworks_spark
+      particle_count: 10
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: magic.zap
+      sound_volume: 0.3
+      particle_data: 0.1
+    headshot:
+    - class: EffectSingle
+      location: target
+      particle: fireworks_spark
+      particle_count: 20
+      particle_offset_y: 0.2
+      particle_offset_x: 0.2
+      particle_offset_z: 0.2
+      particle_data: 0.1
+      sound: magic.zap
+      sound_volume: 0.3
+    - sound: entity_player_attack_crit
+      sound_pitch: 0.8
+      location: target
+      particle: crit_magic
+      particle_count: 30
+      particle_offset_y: 1
+      particle_offset_x: 1
+      particle_offset_z: 1
+      particle_data: 0.5
+  headshot_parameters:
+    damage_multiplier: 1.5
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 24
+    hitbox: true
+    target_type: Damageable
+    player_damage: 2
+    entity_damage: 4
+    target_breakables: 1
+    cooldown: 1000
+    reorient: false
+    destructible: solid
+    destructible_durability: 50
+    break_durability: 2
+    undo: 10000
+  costs:
+    mana: 15
