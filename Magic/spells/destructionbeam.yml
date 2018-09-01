@@ -19,7 +19,7 @@ destructionbeam:
     cast:
     - class: EffectSingle
       sound: magic.zap_crack
-      location: origin
+      source_location: eyes
       effectlib:
         class: ConeEffect
         iterations: 10
@@ -32,7 +32,7 @@ destructionbeam:
         updateDirections: false
     - class: EffectSingle
       sound: magic.zap_crack
-      location: origin
+      source_location: eyes
       effectlib:
         class: ConeEffect
         iterations: 10
