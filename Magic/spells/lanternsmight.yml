@@ -50,6 +50,7 @@ lanternsmight:
     transparent: transparent_to_construction
     destructible: destructible_replace
     check_destructible: true
+    bypass_build: true
     undo: 4000
     brush: stained_glass
     brushcolor: true
