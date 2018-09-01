@@ -108,5 +108,6 @@ lanternlift:
     cancel_on_damage: 0.5
     effect_levitation: 1
     duration: 1000
+    bypass_build: true
   costs:
     mana: 40
