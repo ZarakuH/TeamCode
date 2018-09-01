@@ -36,7 +36,7 @@ destructionbeam:
          - class: EffectSingle
           effectlib:
              class: SphereEffect
-             particle: explosion_small
+             particle: explosion_huge
              iterations: 2
              radius: 1
              relativeOffset: 0.2,0,0.15
