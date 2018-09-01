@@ -23,7 +23,7 @@ permissions:
   - essentials.speed
   - ch.alias.carryplayer
   - ch.alias.dropplayer
-  - powers.amazonianreflexes
+  - powers.speedsterdodge
 powers:
 - /effects
 - /items
