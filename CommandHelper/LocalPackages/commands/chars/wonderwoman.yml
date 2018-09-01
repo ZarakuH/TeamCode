@@ -20,6 +20,7 @@ items:
 - /mgive <plr> lassoregenwand
 - /mgive <plr> wwbracerswand
 - /mgive <plr> forcefieldwand
+- /mgive <plr> martialarts
 jump: 6
 maxHearts: 50
 mindControlDist: 20
