@@ -62,7 +62,7 @@ destructionbeam:
       particle_offset_x: 0.3
       particle_offset_y: 0.3
       particle_offset_z: 0.3
-      sound: magic.zap
+      sound: entity_lightning_impact
       sound_volume: 0.3
       particle_data: 0.1
   parameters:
@@ -71,14 +71,14 @@ destructionbeam:
     range: 24
     hitbox: true
     target_type: Damageable
-    player_damage: 2
-    entity_damage: 4
+    player_damage: 20
+    entity_damage: 40
     target_breakables: 1
     cooldown: 1000
     reorient: false
     destructible: solid
     destructible_durability: 50
-    break_durability: 2
+    break_durability: 30
     undo: 10000
   costs:
     mana: 15
