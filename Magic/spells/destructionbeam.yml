@@ -72,6 +72,7 @@ destructionbeam:
     velocity: 200
     range: 24
     radius: 2
+    y_radius: 2
     hitbox: true
     target_type: Damageable
     player_damage: 20
