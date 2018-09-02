@@ -13,8 +13,10 @@ destructionbeam:
     - class: CustomProjectile
       actions:
       - class: Damage
-      - class: BreakBlock
-        ignore_result: true
+      - class: AreaOfEffect 
+        actions:
+        - class: BreakBlock
+          ignore_result: true
   effects:
     cast:
     - class: EffectSingle
@@ -69,6 +71,7 @@ destructionbeam:
     allow_max_range: true
     velocity: 200
     range: 24
+    radius: 2
     hitbox: true
     target_type: Damageable
     player_damage: 20
