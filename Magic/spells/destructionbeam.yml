@@ -13,7 +13,7 @@ destructionbeam:
     - class: CustomProjectile
       actions:
       - class: Damage
-      - class: AreaOfEffect 
+      - class: Sphere
         actions:
         - class: BreakBlock
           ignore_result: true
