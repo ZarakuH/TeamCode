@@ -26285,6 +26285,94 @@ lassolock:
     console: false
     commands:
     - mindlock @t
+destructionbeam:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  category: combat
+  worth: 150
+  earns_sp: 7
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+      - class: Sphere
+        actions:
+        - class: BreakBlock
+          ignore_result: true
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      source_location: eyes
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,-0.15
+        updateLocations: false
+        updateDirections: false
+    - class: EffectSingle
+      sound: magic.zap_crack
+      source_location: eyes
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,0.15
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - particle: redstone
+      location: target
+    break:
+    - class: EffectSingle
+      location: target
+      particle: block_crack
+      particle_count: 100
+      particle_offset_x: 0.6
+      particle_offset_y: 0.6
+      particle_offset_z: 0.6
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: explosion_huge
+      particle_count: 10
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: entity_lightning_impact
+      sound_volume: 0.3
+      particle_data: 0.1
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 24
+    radius: 2
+    y_radius: 2
+    hitbox: true
+    target_type: Damageable
+    player_damage: 20
+    entity_damage: 40
+    target_breakables: 1
+    cooldown: 1000
+    reorient: false
+    destructible: solid
+    destructible_durability: 50
+    break_durability: 30
+    undo: 10000
+  costs:
+    mana: 15
 abrawarp:
   icon: ink_sack:12
   icon_disabled: ink_sack:12
@@ -26401,6 +26489,7 @@ lanternsmight:
     transparent: transparent_to_construction
     destructible: destructible_replace
     check_destructible: true
+    bypass_build: true
     undo: 4000
     brush: stained_glass
     brushcolor: true
@@ -26658,6 +26747,45 @@ electrocute:
     cooldown: 6000
   costs:
     mana: 75
+opendoor:
+  icon: diamond_axe:182
+  icon_disabled: diamond_hoe:182
+  icon_url: http://textures.minecraft.net/texture/3944e12e8e67fd67a55359df56c3c59c99550f6eaccb23813769afb2f1992
+  category: utility
+  worth: 20
+  earns_sp: 10
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  actions:
+    cast:
+    - class: Door
+  effects:
+    cast:
+    - sound: magic.shimmer
+    - class: EffectSingle
+      location: target
+      sound: magic.bonk
+      sound_volume: 0.5
+    - class: EffectSingle
+      location: target
+      use_block_location: true
+      effectlib:
+        class: Modified
+        iterations: 30
+        parameters:
+          edge_length: max(1, (t / i) * 5 - 2)
+    no_target:
+    - sound: magic.shimmer
+  parameters:
+    range: 16
+    radius: 3
+    allow_max_range: true
+    destructible: doors
+    transparent: transparent_to_construction
+    undo: 8000
+    cooldown: 10000
+  costs:
+    mana: 50
 soulstoneblast:
   icon: ink_sack:14
   icon_disabled: ink_sack:14
@@ -27692,6 +27820,7 @@ lanternshield:
     reflect_chance: 0.25
     bypass_confusion: true
     bypass_backfire: true
+    bypass_build: true
   costs:
     mana: 0
 glasstouch:
@@ -27862,6 +27991,7 @@ lanternbubble:
     thickness: 1
     radius: 3
     type: sphere
+    bypass_build: true
     transparent: transparent_to_construction
     destructible: destructible_replace
     check_destructible: true
@@ -28120,6 +28250,7 @@ lanternlift:
     cancel_on_damage: 0.5
     effect_levitation: 1
     duration: 1000
+    bypass_build: true
   costs:
     mana: 40
 ravenrush:
@@ -28171,6 +28302,40 @@ ravenrush:
     delay: 100
   costs:
     mana: 40
+lifescan:
+  icon: diamond_axe:154
+  icon_disabled: diamond_hoe:154
+  icon_url: http://textures.minecraft.net/texture/c36adcbe21b520b7355936c89cd2b335ca5318e68173eaaa82e62f5fb986
+  upgrade_required_path: student
+  upgrade_required_casts: 30
+  category: utility
+  worth: 50
+  earns_sp: 5
+  actions:
+    cast:
+    - class: Orient
+    - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap
+      location: origin
+  parameters:
+    range: 64
+    fov: 3
+    close_fov: 3
+    fov_weight: 400
+    player_weight: 500
+    target: other_entity
+    target_type: LivingEntity, Player
+    cooldown: 5000
+    ignore_blocks: true
+    loud: true
+    bypass_pvp: true
+    effect_glowing: 1
+    duration: 10000
+  costs:
+    mana: 20
 infinitemasspunch:
   icon: diamond_axe:178
   icon_disabled: diamond_hoe:178

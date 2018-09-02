@@ -43,9 +43,6 @@ Players:
   _MrFlame_:
     Channels:
       Global: write
-  killergamerbr:
-    Channels:
-      Global: write
   carolinacub:
     Channels:
       Global: write
@@ -75,9 +72,6 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
-  Kurieita:
     Channels:
       Global: write
   FIRESTROME:
@@ -146,9 +140,6 @@ Players:
   Eddy2006:
     Channels:
       Global: write
-  Buehl34:
-    Channels:
-      Global: write
   Timichi:
     Channels:
       Global: write
@@ -173,22 +164,10 @@ Players:
   Catastic1234:
     Channels:
       Global: write
-  LittleMrAndy:
-    Channels:
-      Global: write
   Jarnixis:
     Channels:
       Global: write
   HARLIE123Z:
-    Channels:
-      Global: write
-  Ghostcat1:
-    Channels:
-      Global: write
-  MagicMaster125:
-    Channels:
-      Global: write
-  KikTom:
     Channels:
       Global: write
   CookieMittens:
@@ -758,9 +737,6 @@ Players:
   MadxSeth4:
     Channels:
       Global: write
-  JustTimon:
-    Channels:
-      Global: write
   TheOneSkye:
     Channels:
       Global: write
@@ -777,7 +753,6 @@ Players:
     Spying: true
     Channels:
       Global: write
-      Local: write
   Strelitiza:
     Channels:
       Global: write
@@ -929,5 +904,32 @@ Players:
     Channels:
       Global: write
   Boozardo:
+    Channels:
+      Global: write
+  InfiniteHops:
+    Channels:
+      Global: write
+  Amy_star7:
+    Channels:
+      Global: write
+  ThoseyKitKat:
+    Channels:
+      Global: write
+  DarkJarJar:
+    Channels:
+      Global: write
+  Cpe2013:
+    Channels:
+      Global: write
+  Chowder__:
+    Channels:
+      Global: write
+  TobiasNibr_:
+    Channels:
+      Global: write
+  Karma0001:
+    Channels:
+      Global: write
+  ShadowMage14:
     Channels:
       Global: write
