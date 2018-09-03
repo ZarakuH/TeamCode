@@ -62,31 +62,36 @@ bind('block_dispense',null,null,@e){
     }
     cancel()
 
-    @itemType = @e['item']['type']
+    @itemType = @e['item']['name']
     switch(@itemType){
-        case '310':
-        case '311':
-        case '312':
-        case '313':
-        case '298':
-        case '290':
-        case '300':
-        case '301':
-        case '306':
-        case '307':
-        case '308':
-        case '309':
-        case '314':
-        case '315':
-        case '316':
-        case '317':
-        case '302':
-        case '303':
-        case '304':
-        case '305':
-        case '443':
-        case '442':
-        case '397':
+        case 'DIAMOND_HELMET':
+        case 'DIAMOND_CHESTPLATE':
+        case 'DIAMOND_LEGGINGS':
+        case 'DIAMOND_BOOTS':
+        case 'LEATHER_HELMET':
+        case 'LEATHER_CHESTPLATE':
+        case 'LEATHER_LEGGINGS':
+        case 'LEATHER_BOOTS':
+        case 'IRON_HELMET':
+        case 'IRON_CHESTPLATE':
+        case 'IRON_LEGGINGS':
+        case 'IRON_BOOTS':
+        case 'GOLDEN_HELMET':
+        case 'GOLDEN_CHESTPLATE':
+        case 'GOLDEN_LEGGINGS':
+        case 'GOLDEN_BOOTS':
+        case 'CHAINMAIL_HELMET':
+        case 'CHAINMAIL_CHESTPLATE':
+        case 'CHAINMAIL_LEGGINGS':
+        case 'CHAINMAIL_BOOTS':
+        case 'ELYTRA':
+        case 'SHIELD':
+        case 'SKELETON_SKULL':
+		case 'WITHER_SKELETON_SKULL':
+		case 'ZOMBIE_HEAD':
+		case 'PLAYER_HEAD':
+		case 'CREEPER_HEAD':
+		case 'DRAGON_HEAD':
             die()
     }
 
@@ -101,7 +106,14 @@ bind('block_dispense',null,null,@e){
 }
 
 bind('inventory_drag',null,null,@e){
-    if(@e['oldcursoritem']['type'] == '397'){
+    if(
+		@e['oldcursoritem']['name'] == 'SKELETON_SKULL' || 
+		@e['oldcursoritem']['name'] == 'WITHER_SKELETON_SKULL' || 
+		@e['oldcursoritem']['name'] == 'ZOMBIE_HEAD' || 
+		@e['oldcursoritem']['name'] == 'PLAYER_HEAD' || 
+		@e['oldcursoritem']['name'] == 'CREEPER_HEAD' || 
+		@e['oldcursoritem']['name'] == 'DRAGON_HEAD'
+	){
         foreach(@slot in @e['slots']){
             console(@slot)
             if(@slot == 39){
@@ -110,29 +122,19 @@ bind('inventory_drag',null,null,@e){
             }
         }
     }
-    /*if(@e['slots'][0] == @e['rawslots'][0] && @e['rawslots'][0] <= @e['inventorysize'] && array_index_exists(@e['oldcursoritem']['meta'],'lore')){
-        @lore = @e['oldcursoritem']['meta']['lore']
-        if(@lore != null){
-            if(string_contains(@lore[0],'Bound') || string_contains(@lore[0],'Cooldown')){
-                cancel()
-            }
-        }
-    }*/
 }
 
 bind('inventory_click',null,null,@e){
     if(@e['slotitem'] != null){
         if(@e['shiftclick'] == true){
-            /*if(array_index_exists(@e['slotitem']['meta'],'lore')){
-                @lore = @e['slotitem']['meta']['lore']
-                if(@lore != null){
-                    if(string_contains(@lore[0],'Bound') || string_contains(@lore[0],'Cooldown')){
-                        cancel()
-                        return()
-                    }
-                }
-            }*/
-            if(@e['slotitem']['type'] == 397){
+            if(
+				@e['slotitem']['name'] == 'SKELETON_SKULL' || 
+				@e['slotitem']['name'] == 'WITHER_SKELETON_SKULL' || 
+				@e['slotitem']['name'] == 'ZOMBIE_HEAD' || 
+				@e['slotitem']['name'] == 'PLAYER_HEAD' || 
+				@e['slotitem']['name'] == 'CREEPER_HEAD' || 
+				@e['slotitem']['name'] == 'DRAGON_HEAD'
+			){
                 cancel()
                 return()
             }
@@ -145,27 +147,39 @@ bind('inventory_click',null,null,@e){
                 }
             }
         }else{
-            if(array_index_exists(@e,'cursoritem')){
+            //if(array_index_exists(@e,'cursoritem')){}
+			if(@e['cursoritem'] != null){
                 if(array_index_exists(@e,'slottype')){
-                    if(@e['cursoritem']['type'] == 397 && @e['slottype'] == 'ARMOR'){
-                        cancel()
+					console(@e)
+                    if(
+						@e['cursoritem']['name'] == 'SKELETON_SKULL' ||
+						@e['cursoritem']['name'] == 'WITHER_SKELETON_SKULL' ||
+						@e['cursoritem']['name'] == 'ZOMBIE_HEAD' ||
+						@e['cursoritem']['name'] == 'PLAYER_HEAD' ||
+						@e['cursoritem']['name'] == 'CREEPER_HEAD' ||
+						@e['cursoritem']['name'] == 'DRAGON_HEAD'
+					){
+						if(@e['slottype'] == 'ARMOR'){
+							cancel()
+						}
                     }
                 }
             }
         }
     }else{
-        if(@e['slot'] == 39 && @e['cursoritem']['type'] == 397){
-            cancel()
-            return()
+        if(@e['slot'] == 39){
+			if(
+				@e['cursoritem']['name'] == 'SKELETON_SKULL' ||
+				@e['cursoritem']['name'] == 'WITHER_SKELETON_SKULL' ||
+				@e['cursoritem']['name'] == 'ZOMBIE_HEAD' ||
+				@e['cursoritem']['name'] == 'PLAYER_HEAD' ||
+				@e['cursoritem']['name'] == 'CREEPER_HEAD' ||
+				@e['cursoritem']['name'] == 'DRAGON_HEAD'
+			){
+				cancel()
+				return()
+			}
         }
-        /*if(@e['slottype'] == 'CONTAINER' && @e['slot'] == @e['rawslot'] && @e['rawslot'] <= @e['inventorysize'] && array_index_exists(@e['cursoritem']['meta'],'lore')){
-            @lore = @e['cursoritem']['meta']['lore']
-            if(@lore != null){
-                if(string_contains(@lore[0],'Bound') || string_contains(@lore[0],'Cooldown')){
-                    cancel()
-                }
-            } 
-        }*/
     }
 }
 
@@ -174,10 +188,18 @@ bind('player_interact', null, array('button': 'right'), @e){
         @meta = get_itemmeta(@e['player'], null)
         if(@meta != null && is_array(@meta['enchants'])){
             @item = pinv(@e['player'],null)
-            if(@item['type'] == '397'){
+			
+            if(
+				@item['name'] == 'SKELETON_SKULL' ||
+				@item['name'] == 'WITHER_SKELETON_SKULL' ||
+				@item['name'] == 'ZOMBIE_HEAD' ||
+				@item['name'] == 'PLAYER_HEAD' ||
+				@item['name'] == 'CREEPER_HEAD' ||
+				@item['name'] == 'DRAGON_HEAD'
+			){
                 cancel()
             }
-            if(@item['type'] == 301 || @item['type'] == 305 || @item['type'] == 309 || @item['type'] == 313 || @item['type'] == 317){
+            if(@item['name'] == 'LEATHER_BOOTS' || @item['name'] == 'CHAINMAIL_BOOTS' || @item['name'] == 'IRON_BOOTS' || @item['name'] == 'DIAMOND_BOOTS' || @item['name'] == 'GOLDEN_BOOTS'){
                 foreach(@enchant in @meta['enchants']){
                     if(@enchant['etype'] == 'FROST_WALKER'){
                         @enchant['elevel'] = 0

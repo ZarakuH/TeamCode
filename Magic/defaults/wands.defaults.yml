@@ -1007,6 +1007,9 @@ magicsword:
     physical: 0.4
   item_attributes:
     GENERIC_ATTACK_DAMAGE: 6
+  tags:
+  - buffable
+  - sharpenable
 magictorch:
   icon: torch
   locked: true
@@ -1091,6 +1094,9 @@ mastersword:
     physical: 0.5
   item_attributes:
     GENERIC_ATTACK_DAMAGE: 10
+  tags:
+  - buffable
+  - sharpenable
 minister:
   mode: cast
   path: broom
@@ -1268,7 +1274,7 @@ knight_upgrade:
   indestructible: false
   hotbar_count: 3
 potion_sp100:
-  icon: potion
+  icon: potion:FFD700
   consume_spell: addsp
 purger:
   inherit: base_wand
@@ -1430,6 +1436,7 @@ spellbook:
   skills:
     keep: true
 spleef:
+  inherit: base_wand
   locked: true
   icon: stick
   glow: true
@@ -1744,6 +1751,10 @@ wand:
   migrate_icon: wood_hoe
   effect_color: random
   active_spell: missile
+  tags:
+  - buffable
+  - transformable
+  - effectable
 wizardboots:
   icon: chainmail_boots
   indestructible: true
@@ -1971,41 +1982,182 @@ wolfhouse:
   effect_color: FFAA00
   spells:
   - wolfhouse
-potterwand:
+beater:
+  path: beater
+  active_spell: beat
+  icon: stick
+  indestructible: false
+  locked: true
+  mana_max: 20
+  mana: 10
+  mana_regeneration: 10
+  effect_color: FF0000
+  spells:
+  - beat
+black_upgrade:
+  name: Black Wand Appearance
+  upgrade: true
+  icon: wood_hoe:25
+  upgrade_icon: wood_hoe:25
+bluebottle:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: false
+  locked: true
+  effect_color: 0000FF
+  overrides: broom.mount_boost 0.5, broom.mount_boost_ticks 120, broom.mount_health
+    8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
+  spells:
+  - broom
+bombs:
+  mode: cast
+  quiet: 2
+  active_spell: bombtastic
+  icon: magma_cream
+  indestructible: clay_ball
+  locked: true
+  effect_color: FF0000
+  uses: 16
+  spells:
+  - bombtastic
+booster:
+  icon: nether_star
+  path: broom
+  upgrade: true
+  overrides: broom.mount_boost 2, broom.mount_item gold_barding
+brakes:
+  icon: nether_star
+  path: broom
+  upgrade: true
+  overrides: broom.slow_ticks 10, mount_item diamond_barding
+brown_upgrade:
+  name: Brown Wand Appearance
+  upgrade: true
+  icon: wood_hoe:26
+  upgrade_icon: wood_hoe:26
+cleanbroom:
+  icon: nether_star
+  path: broom
+  upgrade: true
+  overrides: broom.mount_item
+cleansweep1:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: false
+  locked: true
+  effect_color: FFFF00
+  overrides: broom.mount_boost 1, broom.mount_boost_ticks 300, broom.mount_health
+    12, broom.steer_speed 0, broom.slow_steer_speed 0.8
+  spells:
+  - broom
+comet290:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: true
+  locked: true
+  effect_color: FF00FF
+  overrides: broom.mount_boost 2.5, broom.mount_boost_ticks 80, broom.mount_health
+    14, broom.slow_ticks 6, broom.steer_speed 0.6, broom.slow_steer_speed 0.5, broom.mount_boost_per_jump
+    1
+  spells:
+  - broom
+crudbroom:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: false
+  locked: true
+  uses: 10
+  effect_color: '000088'
+  overrides: broom.mount_boost 0.5, broom.mount_boost_ticks 120, broom.mount_health
+    8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
+  spells:
+  - broom
+crudfirebolt:
+  mode: cast
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:29
+  indestructible: false
+  locked: true
+  effect_color: FF00FF
+  uses: 20
+  overrides: broom.mount_boost 2.5, broom.mount_boost_ticks 1200, broom.mount_health
+    20, broom.slow_ticks 5, broom.steer_speed 0.8, broom.slow_steer_speed 0.2, broom.mount_boost_per_jump
+    0.25
+  spells:
+  - broom
+crudnimbus:
+  mode: cast
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: false
+  locked: true
+  effect_color: '880088'
+  uses: 20
+  overrides: broom.mount_boost_ticks 600, broom.mount_health 16, broom.mount_boost
+    2, broom.slow_ticks 3, broom.steer_speed 0.6, broom.slow_steer_speed 0, broom.mount_boost_per_jump
+    0.4
+  spells:
+  - broom
+crudwand:
   inherit: base_wand
-  class: wizard
-  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
-  migrate_icons:
-    wood_hoe: wood_hoe:24
-    gold_axe: wood_hoe:25
-    gold_pickaxe: wood_hoe:26
-  active_spell: vermillious
-  quiet: 1
-  effect_color: '888888'
-  effect_bubbles: false
-wandbox:
-  icon: wood_step:2
-  replace_on_activate: potterwand
-  effects:
-    replace:
-    - class: EffectSingle
-      sound: entity_player_levelup
-    - class: EffectRing
-      firework: star
-      radius: 4
-      size: 2
-randomizedpotterwand:
-  hidden: true
-  inherit: potterwand
-  randomize_icon: wood_step
-  effects:
-    randomize:
-    - class: EffectSingle
-      sound: entity_player_levelup
-    - class: EffectRing
-      firework: star
-      radius: 4
-      size: 2
+  bound: false
+  keep: false
+  icon: stick
+  indestructible: false
+  locked: true
+  mana: 50
+  mana_max: 50
+  mana_regeneration: 5
+  uses: 20
+  effect_color: '440044'
+deatheater_upgrade:
+  name: Deatheater Wand
+  icon: wood_hoe:25
+  rename: true
+  upgrade: true
+  effect_color: '#010101'
+  effect_bubbles: true
+  active_spell: morsmordre
+  spells:
+  - morsmordre
+deluminator:
+  mode: cast
+  quiet: 2
+  active_spell: deluminate
+  icon: bone
+  indestructible: false
+  locked: true
+  effect_color: '111111'
+  mana: 100
+  mana_max: 100
+  mana_regeneration: 5
+  spells:
+  - deluminate
+dungbombs:
+  mode: cast
+  quiet: 2
+  active_spell: dungbomb
+  icon: magma_cream
+  indestructible: false
+  locked: true
+  effect_color: 00FF00
+  uses: 12
+  spells:
+  - dungbomb
 elder:
   inherit: base_wand
   migrate_icon: iron_hoe
@@ -2039,6 +2191,349 @@ elder:
   - imperio
   - avadakedavra
   - finiteincantatem
+firebolt:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:29
+  indestructible: true
+  locked: true
+  effect_color: FF00FF
+  overrides: broom.mount_boost 3, broom.mount_boost_ticks 1200, broom.mount_health
+    20, broom.slow_ticks 3, broom.steer_speed 0.8, broom.slow_steer_speed 0.8, broom.mount_boost_per_jump
+    0.25
+  spells:
+  - broom
+floopowder:
+  mode: cast
+  quiet: 2
+  active_spell: floo
+  icon: sulphur
+  indestructible: false
+  locked: true
+  effect_color: FF0000
+  uses: 8
+  spells:
+  - floo
+graduate:
+  upgrade: true
+  hidden: true
+  path: year7
+  upgrade_path: graduate
+  indestructible: false
+  icon: nether_star
+  mana_max: 200
+  mana_regeneration: 40
+  spells:
+  - protego|3
+  - stupefy|3
+  - levicorpus|3
+  - glacius|3
+  - bombarda|2
+  - ferula|2
+  - ascendio|2
+  - vermillious|3
+  - expelliarmus|4
+  - aguamenti|2
+  - reducto|2
+  - finiteincantatem|3
+  - deprimo|3
+  - duro|2
+  - incendio|3
+  - arrow|3
+  - episkey|2
+  - reducio|2
+  - conjunctivitis|2
+handbag:
+  mode: cast
+  quiet: 2
+  active_spell: stash
+  icon: glass_bottle
+  indestructible: false
+  locked: true
+  effect_color: FFFF00
+  spells:
+  - stash
+headmaster:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:29
+  indestructible: true
+  locked: true
+  effect_color: FF00FF
+  overrides: broom.mount_boost 4, broom.mount_boost_ticks 600, broom.mount_health
+    20, broom.slow_ticks 5, broom.steer_speed 0, broom.slow_steer_speed 0.05, broom.mount_boost_per_jump
+    0.3, broom.effect_confusion 0
+  spells:
+  - broom
+headstaff:
+  icon: nether_star
+  upgrade: true
+  upgrade_path: graduate
+  mana_max: 200
+  mana_regeneration: 40
+  spells:
+  - expulsion
+  - silencio
+  - silenciomaxima
+  - silenciototalus
+  - amplify
+  - amplifytotalus
+  - jail
+  - meteo
+  - atmos
+  - noxmaxima
+  - expelliarmus|5
+  - finiteincantatem|4
+  - reducio|3
+  - episkey|3
+  - ferula|3
+  - ascendio|3
+  - arrow|4
+  - duro|2
+  - bombarda|2
+  - glacius|3
+  - protego|3
+  - stupefy|3
+  - levicorpus|3
+  - vermillious|3
+  - aguamenti|2
+  - reducto|2
+  - deprimo|3
+  - incendio|3
+  - lumos|3
+  - conjunctivitis|2
+  - flipendo|3
+key:
+  mode: cast
+  quiet: 2
+  active_spell: alohomora
+  icon: shears
+  indestructible: false
+  locked: true
+  effect_color: FFFFFF
+  uses: 1
+  overrides: range 5
+  cost_reduction: 2
+  spells:
+  - alohomora
+manaboost:
+  upgrade: true
+  indestructible: false
+  icon: glass_bottle
+  mana: 1000
+nimbus:
+  mode: cast
+  path: broom
+  active_spell: broom
+  migrate_icon: gold_spade
+  icon: wood_hoe:11
+  indestructible: true
+  locked: true
+  effect_color: '880088'
+  overrides: broom.mount_boost_ticks 600, broom.mount_health 16, broom.mount_boost
+    2, broom.slow_ticks 3, broom.steer_speed 0.6, broom.slow_steer_speed 0, broom.mount_boost_per_jump
+    0.4
+  spells:
+  - broom
+patronus_bat:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type bat
+patronus_cat_black:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type ocelot, patronus.variant black_cat
+patronus_cat_red:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type ocelot, patronus.variant red_cat
+patronus_cat_siamese:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type ocelot, patronus.variant siamese_cat
+patronus_chicken:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type chicken
+patronus_cow:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type cow
+patronus_horse:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type horse
+patronus_pig:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type pig
+patronus_sheep:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type sheep
+patronus_slime:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type slime
+patronus_spider:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type spider
+patronus_thestral:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type horse, patronus.variant skeleton_horse
+patronus_wolf:
+  icon: nether_star
+  upgrade: true
+  overrides: patronus.type wolf,patronus.sound wolf_howl,patronus.name Wolfie
+portkey:
+  mode: cast
+  active_spell: recall
+  icon: flower_pot_item,bowl,glass_bottle,iron_axe,feather,compass
+  indestructible: true
+  locked: true
+  uses: 5
+  keep: true
+  quiet: 2
+  effect_color: FFFF00
+  overrides: allow_marker false
+  spells:
+  - recall
+potterwand:
+  inherit: base_wand
+  class: wizard
+  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
+  migrate_icons:
+    wood_hoe: wood_hoe:24
+    gold_axe: wood_hoe:25
+    gold_pickaxe: wood_hoe:26
+  active_spell: vermillious
+  quiet: 1
+  effect_color: '888888'
+  effect_bubbles: false
+prefect:
+  icon: nether_star
+  upgrade: true
+  spells:
+  - protego|3
+  - stupefy|3
+  - levicorpus|3
+  - glacius|3
+  - bombarda|2
+  - ferula|2
+  - ascendio|2
+  - vermillious|3
+  - expelliarmus|4
+  - aguamenti|2
+  - reducto|2
+  - finiteincantatem|3
+  - deprimo|3
+  - duro|2
+  - incendio|3
+  - arrow|3
+  - episkey|2
+  - reducio|2
+  - lumos|3
+  - conjunctivitis|2
+  - flipendo|3
+randomizedpotterwand:
+  hidden: true
+  inherit: potterwand
+  randomize_icon: wood_step
+  effects:
+    randomize:
+    - class: EffectSingle
+      sound: entity_player_levelup
+    - class: EffectRing
+      firework: star
+      radius: 4
+      size: 2
+skinny_upgrade:
+  name: Skinny Wand Appearance
+  upgrade: true
+  icon: wood_hoe:24
+  upgrade_icon: wood_hoe:24
+slytherinwand:
+  inherit: base_wand
+  migrate_icon: gold_axe
+  icon: wood_hoe:25
+  path: graduate
+  fill: true
+  organize: true
+  cost_reduction: 2
+  cooldown_reduction: 2
+  quiet: 0
+  power: 0
+  haste: 0
+  effect_color: 00FFFF
+  effect_particle: drip_water
+  effect_particle_interval: 0
+  effect_particle_count: 1
+  effect_particle_data: 1
+  effect_bubbles: false
+  active_spell: ascendio
+  hidden: true
+sorting:
+  mode: cast
+  active_spell: recall
+  icon: paper
+  indestructible: true
+  locked: true
+  keep: true
+  uses: 1
+  quiet: 2
+  effect_color: FFFF00
+  overrides: warp sortinghat
+  spells:
+  - recall
+squib:
+  inherit: base_wand
+  icon: stick
+  indestructible: false
+  bound: false
+  keep: false
+  locked: true
+  mana: 100
+  mana_max: 100
+  mana_regeneration: 12
+  uses: 40
+  quiet: 2
+  effect_color: FF0000
+  active_spell: reducto
+  spells:
+  - reducto
+  - deprimo
+  - duro
+stabilizer:
+  icon: nether_star
+  path: broom
+  upgrade: true
+  overrides: broom.steer_speed 3, broom.mount_item iron_barding
+thestral:
+  mode: cast
+  active_spell: broom
+  icon: bone
+  indestructible: false
+  locked: true
+  effect_color: '880088'
+  uses: 1
+  quiet: 2
+  overrides: mount_variant skeleton_horse stash_item false
+  spells:
+  - broom
+ticket:
+  bound: true
+  undroppable: true
+  icon: paper
+  indestructible: true
+  locked: true
+  keep: true
+  quiet: 2
 unspeakable:
   inherit: base_wand
   icon: wood_hoe:24
@@ -2060,178 +2555,6 @@ unspeakable:
   active_spell: ascendio
   hidden: true
   overrides: patronus.type sheep, patronus.variant blue
-slytherinwand:
-  inherit: base_wand
-  migrate_icon: gold_axe
-  icon: wood_hoe:25
-  path: graduate
-  fill: true
-  organize: true
-  cost_reduction: 2
-  cooldown_reduction: 2
-  quiet: 0
-  power: 0
-  haste: 0
-  effect_color: 00FFFF
-  effect_particle: drip_water
-  effect_particle_interval: 0
-  effect_particle_count: 1
-  effect_particle_data: 1
-  effect_bubbles: false
-  active_spell: ascendio
-  hidden: true
-crudwand:
-  inherit: base_wand
-  bound: false
-  keep: false
-  icon: stick
-  indestructible: false
-  locked: true
-  mana: 50
-  mana_max: 50
-  mana_regeneration: 5
-  uses: 20
-  effect_color: '440044'
-video:
-  inherit: base_wand
-  active_spell: superfly
-  icon: wood_hoe:25
-  migrate_icon: gold_axe
-  locked: true
-  mana: 50
-  mana_max: 50
-  mana_regeneration: 5
-  effect_color: '440044'
-  spells:
-  - superfly
-flappy:
-  inherit: base_wand
-  icon: feather
-  indestructible: false
-  bound: false
-  keep: false
-  locked: true
-  mana: 45
-  mana_max: 45
-  mana_regeneration: 20
-  uses: 50
-  quiet: 2
-  effect_color: '000088'
-  active_spell: ascendio
-  spells:
-  - ascendio
-squib:
-  inherit: base_wand
-  icon: stick
-  indestructible: false
-  bound: false
-  keep: false
-  locked: true
-  mana: 100
-  mana_max: 100
-  mana_regeneration: 12
-  uses: 40
-  quiet: 2
-  effect_color: FF0000
-  active_spell: reducto
-  spells:
-  - reducto
-  - deprimo
-  - duro
-portkey:
-  mode: cast
-  active_spell: recall
-  icon: flower_pot_item,bowl,glass_bottle,iron_axe,feather,compass
-  indestructible: true
-  locked: true
-  uses: 5
-  keep: true
-  quiet: 2
-  effect_color: FFFF00
-  overrides: allow_marker false
-  spells:
-  - recall
-floopowder:
-  mode: cast
-  quiet: 2
-  active_spell: floo
-  icon: sulphur
-  indestructible: false
-  locked: true
-  effect_color: FF0000
-  uses: 8
-  spells:
-  - floo
-dungbombs:
-  mode: cast
-  quiet: 2
-  active_spell: dungbomb
-  icon: magma_cream
-  indestructible: false
-  locked: true
-  effect_color: 00FF00
-  uses: 12
-  spells:
-  - dungbomb
-bombs:
-  mode: cast
-  quiet: 2
-  active_spell: bombtastic
-  icon: magma_cream
-  indestructible: clay_ball
-  locked: true
-  effect_color: FF0000
-  uses: 16
-  spells:
-  - bombtastic
-handbag:
-  mode: cast
-  quiet: 2
-  active_spell: stash
-  icon: glass_bottle
-  indestructible: false
-  locked: true
-  effect_color: FFFF00
-  spells:
-  - stash
-key:
-  mode: cast
-  quiet: 2
-  active_spell: alohomora
-  icon: shears
-  indestructible: false
-  locked: true
-  effect_color: FFFFFF
-  uses: 1
-  overrides: range 5
-  cost_reduction: 2
-  spells:
-  - alohomora
-deluminator:
-  mode: cast
-  quiet: 2
-  active_spell: deluminate
-  icon: bone
-  indestructible: false
-  locked: true
-  effect_color: '111111'
-  mana: 100
-  mana_max: 100
-  mana_regeneration: 5
-  spells:
-  - deluminate
-thestral:
-  mode: cast
-  active_spell: broom
-  icon: bone
-  indestructible: false
-  locked: true
-  effect_color: '880088'
-  uses: 1
-  quiet: 2
-  overrides: mount_variant skeleton_horse stash_item false
-  spells:
-  - broom
 unspeakabroom:
   mode: cast
   path: broom
@@ -2246,214 +2569,29 @@ unspeakabroom:
     0.3, broom.effect_confusion 0
   spells:
   - broom
-headmaster:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:29
-  indestructible: true
+video:
+  inherit: base_wand
+  active_spell: superfly
+  icon: wood_hoe:25
+  migrate_icon: gold_axe
   locked: true
-  effect_color: FF00FF
-  overrides: broom.mount_boost 4, broom.mount_boost_ticks 600, broom.mount_health
-    20, broom.slow_ticks 5, broom.steer_speed 0, broom.slow_steer_speed 0.05, broom.mount_boost_per_jump
-    0.3, broom.effect_confusion 0
+  mana: 50
+  mana_max: 50
+  mana_regeneration: 5
+  effect_color: '440044'
   spells:
-  - broom
-firebolt:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:29
-  indestructible: true
-  locked: true
-  effect_color: FF00FF
-  overrides: broom.mount_boost 3, broom.mount_boost_ticks 1200, broom.mount_health
-    20, broom.slow_ticks 3, broom.steer_speed 0.8, broom.slow_steer_speed 0.8, broom.mount_boost_per_jump
-    0.25
-  spells:
-  - broom
-crudfirebolt:
-  mode: cast
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:29
-  indestructible: false
-  locked: true
-  effect_color: FF00FF
-  uses: 20
-  overrides: broom.mount_boost 2.5, broom.mount_boost_ticks 1200, broom.mount_health
-    20, broom.slow_ticks 5, broom.steer_speed 0.8, broom.slow_steer_speed 0.2, broom.mount_boost_per_jump
-    0.25
-  spells:
-  - broom
-nimbus:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: true
-  locked: true
-  effect_color: '880088'
-  overrides: broom.mount_boost_ticks 600, broom.mount_health 16, broom.mount_boost
-    2, broom.slow_ticks 3, broom.steer_speed 0.6, broom.slow_steer_speed 0, broom.mount_boost_per_jump
-    0.4
-  spells:
-  - broom
-crudnimbus:
-  mode: cast
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: false
-  locked: true
-  effect_color: '880088'
-  uses: 20
-  overrides: broom.mount_boost_ticks 600, broom.mount_health 16, broom.mount_boost
-    2, broom.slow_ticks 3, broom.steer_speed 0.6, broom.slow_steer_speed 0, broom.mount_boost_per_jump
-    0.4
-  spells:
-  - broom
-comet290:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: true
-  locked: true
-  effect_color: FF00FF
-  overrides: broom.mount_boost 2.5, broom.mount_boost_ticks 80, broom.mount_health
-    14, broom.slow_ticks 6, broom.steer_speed 0.6, broom.slow_steer_speed 0.5, broom.mount_boost_per_jump
-    1
-  spells:
-  - broom
-cleansweep1:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: false
-  locked: true
-  effect_color: FFFF00
-  overrides: broom.mount_boost 1, broom.mount_boost_ticks 300, broom.mount_health
-    12, broom.steer_speed 0, broom.slow_steer_speed 0.8
-  spells:
-  - broom
-bluebottle:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: false
-  locked: true
-  effect_color: 0000FF
-  overrides: broom.mount_boost 0.5, broom.mount_boost_ticks 120, broom.mount_health
-    8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
-  spells:
-  - broom
-crudbroom:
-  mode: cast
-  path: broom
-  active_spell: broom
-  migrate_icon: gold_spade
-  icon: wood_hoe:11
-  indestructible: false
-  locked: true
-  uses: 10
-  effect_color: '000088'
-  overrides: broom.mount_boost 0.5, broom.mount_boost_ticks 120, broom.mount_health
-    8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
-  spells:
-  - broom
-beater:
-  path: beater
-  active_spell: beat
-  icon: stick
-  indestructible: false
-  locked: true
-  mana_max: 20
-  mana: 10
-  mana_regeneration: 10
-  effect_color: FF0000
-  spells:
-  - beat
-patronus_wolf:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type wolf,patronus.sound wolf_howl,patronus.name Wolfie
-patronus_horse:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type horse
-patronus_chicken:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type chicken
-patronus_spider:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type spider
-patronus_cow:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type cow
-patronus_sheep:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type sheep
-patronus_pig:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type pig
-patronus_cat_siamese:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type ocelot, patronus.variant siamese_cat
-patronus_cat_black:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type ocelot, patronus.variant black_cat
-patronus_cat_red:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type ocelot, patronus.variant red_cat
-patronus_thestral:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type horse, patronus.variant skeleton_horse
-patronus_slime:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type slime
-patronus_bat:
-  icon: nether_star
-  upgrade: true
-  overrides: patronus.type bat
-stabilizer:
-  icon: nether_star
-  path: broom
-  upgrade: true
-  overrides: broom.steer_speed 3, broom.mount_item iron_barding
-booster:
-  icon: nether_star
-  path: broom
-  upgrade: true
-  overrides: broom.mount_boost 2, broom.mount_item gold_barding
-brakes:
-  icon: nether_star
-  path: broom
-  upgrade: true
-  overrides: broom.slow_ticks 10, mount_item diamond_barding
-cleanbroom:
-  icon: nether_star
-  path: broom
-  upgrade: true
-  overrides: broom.mount_item
+  - superfly
+wandbox:
+  icon: wood_step:2
+  replace_on_activate: potterwand
+  effects:
+    replace:
+    - class: EffectSingle
+      sound: entity_player_levelup
+    - class: EffectRing
+      firework: star
+      radius: 4
+      size: 2
 year2:
   upgrade: true
   hidden: true
@@ -2508,149 +2646,13 @@ year7:
   icon: nether_star
   mana_max: 180
   mana_regeneration: 35
-graduate:
-  upgrade: true
-  hidden: true
-  path: year7
-  upgrade_path: graduate
-  indestructible: false
-  icon: nether_star
-  mana_max: 200
-  mana_regeneration: 40
-  spells:
-  - protego|3
-  - stupefy|3
-  - levicorpus|3
-  - glacius|3
-  - bombarda|2
-  - ferula|2
-  - ascendio|2
-  - vermillious|3
-  - expelliarmus|4
-  - aguamenti|2
-  - reducto|2
-  - finiteincantatem|3
-  - deprimo|3
-  - duro|2
-  - incendio|3
-  - arrow|3
-  - episkey|2
-  - reducio|2
-  - conjunctivitis|2
-prefect:
-  icon: nether_star
-  upgrade: true
-  spells:
-  - protego|3
-  - stupefy|3
-  - levicorpus|3
-  - glacius|3
-  - bombarda|2
-  - ferula|2
-  - ascendio|2
-  - vermillious|3
-  - expelliarmus|4
-  - aguamenti|2
-  - reducto|2
-  - finiteincantatem|3
-  - deprimo|3
-  - duro|2
-  - incendio|3
-  - arrow|3
-  - episkey|2
-  - reducio|2
-  - lumos|3
-  - conjunctivitis|2
-  - flipendo|3
-headstaff:
-  icon: nether_star
-  upgrade: true
-  upgrade_path: graduate
-  mana_max: 200
-  mana_regeneration: 40
-  spells:
-  - expulsion
-  - silencio
-  - silenciomaxima
-  - silenciototalus
-  - amplify
-  - amplifytotalus
-  - jail
-  - meteo
-  - atmos
-  - noxmaxima
-  - expelliarmus|5
-  - finiteincantatem|4
-  - reducio|3
-  - episkey|3
-  - ferula|3
-  - ascendio|3
-  - arrow|4
-  - duro|2
-  - bombarda|2
-  - glacius|3
-  - protego|3
-  - stupefy|3
-  - levicorpus|3
-  - vermillious|3
-  - aguamenti|2
-  - reducto|2
-  - deprimo|3
-  - incendio|3
-  - lumos|3
-  - conjunctivitis|2
-  - flipendo|3
-manaboost:
-  upgrade: true
-  indestructible: false
-  icon: glass_bottle
-  mana: 1000
-skinny_upgrade:
-  name: Skinny Wand Appearance
-  upgrade: true
-  icon: wood_hoe:24
-  upgrade_icon: wood_hoe:24
-brown_upgrade:
-  name: Brown Wand Appearance
-  upgrade: true
-  icon: wood_hoe:26
-  upgrade_icon: wood_hoe:26
-black_upgrade:
-  name: Black Wand Appearance
-  upgrade: true
-  icon: wood_hoe:25
-  upgrade_icon: wood_hoe:25
-deatheater_upgrade:
-  name: Deatheater Wand
-  icon: wood_hoe:25
-  rename: true
-  upgrade: true
-  effect_color: '#010101'
-  effect_bubbles: true
-  active_spell: morsmordre
-  spells:
-  - morsmordre
-ticket:
-  bound: true
-  undroppable: true
-  icon: paper
-  indestructible: true
-  locked: true
-  keep: true
-  quiet: 2
-sorting:
-  mode: cast
-  active_spell: recall
-  icon: paper
-  indestructible: true
-  locked: true
-  keep: true
-  uses: 1
-  quiet: 2
-  effect_color: FFFF00
-  overrides: warp sortinghat
-  spells:
-  - recall
+ak47:
+  icon: diamond_pickaxe:1
+  inherit: base_gun
+  active_spell: ak47
+  alternate_spell: reload_ak47
+  mana: 30
+  mana_max: 30
 base_gun:
   hidden: true
   right_click: cast
@@ -2667,134 +2669,11 @@ base_gun:
   immortal: true
   track: true
   undroppable: true
-ak47:
-  icon: diamond_pickaxe:1
-  inherit: base_gun
-  active_spell: ak47
-  alternate_spell: reload_ak47
-  mana: 30
-  mana_max: 30
-mp5:
-  icon: diamond_pickaxe:21
-  inherit: base_gun
-  active_spell: mp5
-  alternate_spell: reload_mp5
-  mana: 15
-  mana_max: 15
-sniper:
-  icon: diamond_pickaxe:2
-  inherit: base_gun
-  active_spell: sniper
-  swap: alt_cast2
-  alternate_spell: reload_sniper
-  alternate_spell2: sniper_scope
-  mana: 3
-  mana_max: 3
-pistol:
-  icon: diamond_pickaxe:3
-  inherit: base_gun
-  active_spell: pistol
-  alternate_spell: reload_pistol
-  mana: 13
-  mana_max: 13
-shotgun:
-  icon: diamond_pickaxe:4
-  inherit: base_gun
-  active_spell: shotgun
-  alternate_spell: reload_shotgun
-  mana: 6
-  mana_max: 6
-rifle:
-  icon: diamond_pickaxe:17
-  inherit: base_gun
-  active_spell: rifle
-  alternate_spell: reload_rifle
-  alternate_spell2: sniper_scope
-  swap: alt_cast2
-  mana: 10
-  mana_max: 30
-hawk_shotgun:
-  icon: diamond_pickaxe:18
-  inherit: base_gun
-  active_spell: hawk_shotgun
-  alternate_spell: reload_hawk_shotgun
-  mana: 5
-  mana_max: 5
-pkp:
-  icon: diamond_pickaxe:19
-  inherit: base_gun
-  active_spell: pkp
-  alternate_spell: reload_pkp
-  mana: 75
-  mana_max: 75
-  potion_effects:
-  - SLOW:2
-thompson:
-  icon: diamond_pickaxe:20
-  inherit: base_gun
-  active_spell: thompson
-  alternate_spell: reload_thompson
-  mana: 50
-  mana_max: 50
-rocketlauncher:
-  icon: diamond_pickaxe:5
-  inherit: base_gun
-  active_spell: rocketlauncher
-  alternate_spell: reload_rocketlauncher
-  mana: 1
-  mana_max: 1
-radar:
-  icon: compass
-  right_click: cast
-  active_spell: radar
-riotshield:
-  icon: shield:1
-  indestructible: true
-  block_chance: 1
-  block_fov: 0.5
-  effects:
-    spell_blocked:
-    - class: EffectSingle
-      sound: war.ricochet
-      sound_volume: 1
-      location: origin
-      effectlib:
-        class: HelixEffect
-        iterations: 1
-        radius: 0.3
-        particle: fireworks_spark
-jetpack:
-  icon: elytra
-  cast_spell: thruster
-  cast_interval: 10
-  cast_min_velocity: 4
-  passive: true
-  indestructible: true
-incendiary:
-  icon: diamond_pickaxe:8
-  indestructible: true
-  uses: 1
-  right_click: cast
-  active_spell: incendiary
 c4:
   icon: tnt
   uses: 1
   right_click: cast
   active_spell: c4
-flashbang:
-  icon: diamond_pickaxe:6
-  indestructible: true
-  uses: 1
-  right_click: cast
-  active_spell: flash_bang
-model3:
-  name: Model 3
-  icon: diamond_pickaxe:10
-  active_spell: spawn_car
-  right_click: cast
-  indestructible: true
-  overrides: type model3
-  uses: 1
 ferrari:
   name: Ferrari California
   icon: diamond_pickaxe:11
@@ -2803,29 +2682,39 @@ ferrari:
   indestructible: true
   overrides: type ferrari
   uses: 1
-train:
-  name: Steam Engine
-  icon: diamond_pickaxe:12
-  active_spell: spawn_car
-  right_click: cast
+flashbang:
+  icon: diamond_pickaxe:6
   indestructible: true
-  overrides: type train
   uses: 1
-model3_white:
-  name: Model 3
-  icon: diamond_pickaxe:13
-  active_spell: spawn_car
   right_click: cast
+  active_spell: flash_bang
+hawk_shotgun:
+  icon: diamond_pickaxe:18
+  inherit: base_gun
+  active_spell: hawk_shotgun
+  alternate_spell: reload_hawk_shotgun
+  mana: 5
+  mana_max: 5
+incendiary:
+  icon: diamond_pickaxe:8
   indestructible: true
-  overrides: type model3_white
   uses: 1
-model3_silver:
+  right_click: cast
+  active_spell: incendiary
+jetpack:
+  icon: elytra
+  cast_spell: thruster
+  cast_interval: 10
+  cast_min_velocity: 4
+  passive: true
+  indestructible: true
+model3:
   name: Model 3
-  icon: diamond_pickaxe:14
+  icon: diamond_pickaxe:10
   active_spell: spawn_car
   right_click: cast
   indestructible: true
-  overrides: type model3_silver
+  overrides: type model3
   uses: 1
 model3_black:
   name: Model 3
@@ -2843,17 +2732,112 @@ model3_red:
   indestructible: true
   overrides: type model3_red
   uses: 1
-base_bending:
-  hidden: true
-  inherit: base_wand
-  cast_location: 0,-0.6,0.5
-  mode: skills
-  left_click: none
-  swap: none
-  drop: none
-  quiet: 1
-  effect_bubbles: false
-  limit_spells_to_path: true
+model3_silver:
+  name: Model 3
+  icon: diamond_pickaxe:14
+  active_spell: spawn_car
+  right_click: cast
+  indestructible: true
+  overrides: type model3_silver
+  uses: 1
+model3_white:
+  name: Model 3
+  icon: diamond_pickaxe:13
+  active_spell: spawn_car
+  right_click: cast
+  indestructible: true
+  overrides: type model3_white
+  uses: 1
+mp5:
+  icon: diamond_pickaxe:21
+  inherit: base_gun
+  active_spell: mp5
+  alternate_spell: reload_mp5
+  mana: 15
+  mana_max: 15
+pistol:
+  icon: diamond_pickaxe:3
+  inherit: base_gun
+  active_spell: pistol
+  alternate_spell: reload_pistol
+  mana: 13
+  mana_max: 13
+pkp:
+  icon: diamond_pickaxe:19
+  inherit: base_gun
+  active_spell: pkp
+  alternate_spell: reload_pkp
+  mana: 75
+  mana_max: 75
+  potion_effects:
+  - SLOW:2
+radar:
+  icon: compass
+  right_click: cast
+  active_spell: radar
+rifle:
+  icon: diamond_pickaxe:17
+  inherit: base_gun
+  active_spell: rifle
+  alternate_spell: reload_rifle
+  alternate_spell2: sniper_scope
+  swap: alt_cast2
+  mana: 10
+  mana_max: 30
+riotshield:
+  icon: shield:1
+  indestructible: true
+  block_chance: 1
+  block_fov: 0.5
+  effects:
+    spell_blocked:
+    - class: EffectSingle
+      sound: war.ricochet
+      sound_volume: 1
+      location: origin
+      effectlib:
+        class: HelixEffect
+        iterations: 1
+        radius: 0.3
+        particle: fireworks_spark
+rocketlauncher:
+  icon: diamond_pickaxe:5
+  inherit: base_gun
+  active_spell: rocketlauncher
+  alternate_spell: reload_rocketlauncher
+  mana: 1
+  mana_max: 1
+shotgun:
+  icon: diamond_pickaxe:4
+  inherit: base_gun
+  active_spell: shotgun
+  alternate_spell: reload_shotgun
+  mana: 6
+  mana_max: 6
+sniper:
+  icon: diamond_pickaxe:2
+  inherit: base_gun
+  active_spell: sniper
+  swap: alt_cast2
+  alternate_spell: reload_sniper
+  alternate_spell2: sniper_scope
+  mana: 3
+  mana_max: 3
+thompson:
+  icon: diamond_pickaxe:20
+  inherit: base_gun
+  active_spell: thompson
+  alternate_spell: reload_thompson
+  mana: 50
+  mana_max: 50
+train:
+  name: Steam Engine
+  icon: diamond_pickaxe:12
+  active_spell: spawn_car
+  right_click: cast
+  indestructible: true
+  overrides: type train
+  uses: 1
 airbending:
   inherit: base_bending
   class: airbender
@@ -2867,12 +2851,26 @@ airstaff:
   effect_color: FFFFFF
   alternate_spell: airglider
   drop: alt_cast
-waterbending:
+avatar:
+  class: avatar
   inherit: base_bending
-  class: waterbender
-  migrate_icon: gold_spade
-  icon: wood_hoe:20
-  effect_color: 0000FF
+  limit_spells_to_path: false
+  icon: wood_hoe:23
+  migrate_icon: wood_hoe
+  power: 0.5
+  effect_color: FFFFFF
+  effect_bubbles: true
+base_bending:
+  hidden: true
+  inherit: base_wand
+  cast_location: 0,-0.6,0.5
+  mode: skills
+  left_click: none
+  swap: none
+  drop: none
+  quiet: 1
+  effect_bubbles: false
+  limit_spells_to_path: true
 earthbending:
   inherit: base_bending
   class: earthbender
@@ -2886,15 +2884,12 @@ firebending:
   migrate_icon: gold_pickaxe
   icon: wood_hoe:22
   effect_color: '880000'
-avatar:
-  class: avatar
+waterbending:
   inherit: base_bending
-  limit_spells_to_path: false
-  icon: wood_hoe:23
-  migrate_icon: wood_hoe
-  power: 0.5
-  effect_color: FFFFFF
-  effect_bubbles: true
+  class: waterbender
+  migrate_icon: gold_spade
+  icon: wood_hoe:20
+  effect_color: 0000FF
 base_lightsaber:
   hidden: true
   inherit: base_bound
@@ -3020,52 +3015,6 @@ base_lightsaber:
         iterations: 1
         radius: 0.3
         particle: redstone
-lightsaber_green:
-  inherit: base_lightsaber
-  class: ''
-  icon: shield:2
-  effect_color: 00FF00
-  mode: none
-  path: acolyte
-lightsaber_blue:
-  inherit: base_lightsaber
-  class: ''
-  icon: shield:3
-  effect_color: 0000FF
-  mode: none
-  path: acolyte
-lightsaber_red:
-  inherit: base_lightsaber
-  class: ''
-  icon: shield:4
-  effect_color: FF0000
-  mode: none
-  path: acolyte
-lightsaber_orange:
-  inherit: base_lightsaber
-  class: ''
-  icon: shield:5
-  effect_color: FF00FF
-  mode: none
-  path: acolyte
-lightsaber_purple:
-  inherit: base_lightsaber
-  class: ''
-  icon: shield:6
-  effect_color: FFFF00
-  mode: none
-  path: acolyte
-detonator:
-  icon: tnt
-  uses: 1
-  mode: cast
-  right_click: cast
-  left_click: none
-  locked: true
-  cost_reduction: 2
-  cooldown_reduction: 0.9
-  spells:
-  - detonator
 blaster:
   migrate_icon: monster_eggs:3
   icon: wood_hoe:12
@@ -3085,21 +3034,67 @@ blaster:
   lore:
   - Fire powerful bolts of energy
   - '&7Reflects off of iron blocks'
-blaster_red:
+blaster_blue:
   class: ''
   inherit: blaster
-  effect_color: FF0000
+  effect_color: 0000FF
   mode: cast
 blaster_green:
   class: ''
   inherit: blaster
   effect_color: 00FF00
   mode: cast
-blaster_blue:
+blaster_red:
   class: ''
   inherit: blaster
-  effect_color: 0000FF
+  effect_color: FF0000
   mode: cast
+detonator:
+  icon: tnt
+  uses: 1
+  mode: cast
+  right_click: cast
+  left_click: none
+  locked: true
+  cost_reduction: 2
+  cooldown_reduction: 0.9
+  spells:
+  - detonator
+lightsaber_blue:
+  inherit: base_lightsaber
+  class: ''
+  icon: shield:3
+  effect_color: 0000FF
+  mode: none
+  path: acolyte
+lightsaber_green:
+  inherit: base_lightsaber
+  class: ''
+  icon: shield:2
+  effect_color: 00FF00
+  mode: none
+  path: acolyte
+lightsaber_orange:
+  inherit: base_lightsaber
+  class: ''
+  icon: shield:5
+  effect_color: FF00FF
+  mode: none
+  path: acolyte
+lightsaber_purple:
+  inherit: base_lightsaber
+  class: ''
+  icon: shield:6
+  effect_color: FFFF00
+  mode: none
+  path: acolyte
+lightsaber_red:
+  inherit: base_lightsaber
+  class: ''
+  icon: shield:4
+  effect_color: FF0000
+  mode: none
+  path: acolyte
 sandwallwand:
   version: 5
   spell_inventory:
@@ -3916,43 +3911,6 @@ liftmetalwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-sonicscrewdriver:
-  version: 1
-  spell_inventory:
-    opendoor: 1
-    lifescan: 1
-  active_spell: opendoor
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: SonicScrewdriver
-  mana_max: 200.0
-  page: 0
-  spells:
-  - opendoor
-  - lifescan
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: false
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: c6cb4b81-f1e7-446d-b966-e4ed7b45909d
-  creator: LordOfGallifrey
 throwswordwand:
   version: 5
   spell_inventory:

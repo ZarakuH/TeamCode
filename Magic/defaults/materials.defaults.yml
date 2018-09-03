@@ -7,14 +7,39 @@
 # 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/materials
 
+all_air:
+- air
+- void_air
+- cave_air
 all_attachable:
 - attachable
 - attachable_wall
 - attachable_double
 - delayed
+all_crops:
+- carrot
+- potato
+- melon_stem
+- pumpkin_stem
+- wheat
+- sugar_cane_block
+- nether_warts
+- cocoa
+- crops
+- nether_warts
+- sugar_cane
 all_lava:
 - lava
 - stationary_lava
+all_leaves:
+- leaves
+- leaves_2
+- oak_leaves
+- spruce_leaves
+- birch_leaves
+- jungle_leaves
+- dark_oak_leaves
+- acacia_leaves
 all_water:
 - water
 - stationary_water
@@ -55,12 +80,14 @@ attachable:
 - beds
 - flowers
 - plants
-- signs
+- sign_post
+- pistons
 - redstone_torch
 - redstone_wall_torch
 - repeater
 - comparator
 - wall_torch
+- sign
 attachable_double:
 - cactus
 - sugar_cane_block
@@ -68,6 +95,7 @@ attachable_double:
 - double_plant
 - banners
 - doors
+- pistons
 attachable_wall:
 - wood_button
 - stone_button
@@ -85,6 +113,7 @@ attachable_wall:
 - bed_block
 - trap_door
 - iron_trap_door
+- pistons
 banners:
 - banner
 - standing_banner
@@ -143,6 +172,8 @@ beds:
 building:
 - stone
 - grass
+- grass_block
+- grass_path
 - dirt
 - cobblestone
 - wood
@@ -258,9 +289,18 @@ building:
 - skulls
 - banners
 burnable:
-- air
+- all_air
 - snow
 - plants
+buttons:
+- stone_button
+- wood_button
+- oak_button
+- spruce_button
+- birch_button
+- jungle_button
+- dark_oak_button
+- acacia_button
 carpets:
 - carpet
 - black_carpet
@@ -286,6 +326,42 @@ commands:
 - command_block
 - chain_command_block
 - repeating_command_block
+concrete_powders:
+- concrete_powder
+- black_concrete_powder
+- blue_concrete_powder
+- brown_concrete_powder
+- cyan_concrete_powder
+- gray_concrete_powder
+- green_concrete_powder
+- light_blue_concrete_powder
+- light_gray_concrete_powder
+- lime_concrete_powder
+- magenta_concrete_powder
+- orange_concrete_powder
+- pink_concrete_powder
+- purple_concrete_powder
+- red_concrete_powder
+- white_concrete_powder
+- yellow_concrete_powder
+concretes:
+- concrete
+- black_concrete
+- blue_concrete
+- brown_concrete
+- cyan_concrete
+- gray_concrete
+- green_concrete
+- light_blue_concrete
+- light_gray_concrete
+- lime_concrete
+- magenta_concrete
+- orange_concrete
+- pink_concrete
+- purple_concrete
+- red_concrete
+- white_concrete
+- yellow_concrete
 containers:
 - chest
 - furnace
@@ -294,31 +370,26 @@ containers:
 - hopper
 - dropper
 - trapped_chest
-crops:
-- carrot
-- potato
-- melon_stem
-- pumpkin_stem
-- wheat
-- sugar_cane_block
-- nether_wart_block
-- nether_warts
-- cocoa
-- nether_warts
+deferred:
+- fences
+- stained_glass_panes
+- thin_glass
+- glass_pain
 delayed:
 - redstone_block
 destructible:
-- log
-- log_2
+- logs
+- all_leaves
 - stone
 - grass
+- grass_block
 - dirt
 - soil
 - cobblestone
 - mossy_cobblestone
 - clay
 - hard_clay
-- stained_clay
+- stained_clays
 - fire
 - sand
 - gravel
@@ -327,8 +398,6 @@ destructible:
 - mycel
 - soul_sand
 - snow
-- leaves
-- leaves_2
 - sandstone
 - gold_ore
 - iron_ore
@@ -351,63 +420,41 @@ destructible:
 - magma
 - plants
 destructible2:
-- step
+- slabs
 - double_step
-- wood
+- wood_double_step
+- planks
 - glass
 - thin_glass
-- stained_glass
-- stained_glass_pane
+- stained_glasses
+- stained_glass_panees
 - web
 - bookshelf
-- crops
+- all_crops
+- nether_wart_block
 - workbench
 - wood_stairs
 - cactus
 - glowstone
 - jack_o_lantern
-- fence
-- spruce_fence
-- birch_fence
-- jungle_fence
-- dark_oak_fence
-- acacia_fence
+- fences
 - melon_stem
 - pumpkin_stem
-- smooth_stairs
-- wood_double_step
-- wood_step
 - cocoa
-- sandstone_stairs
-- spruce_wood_stairs
-- birch_wood_stairs
-- jungle_wood_stairs
-- acacia_stairs
-- dark_oak_stairs
+- stairs
 - cobble_wall
 - carrot
 - potato
 - hay_block
 - carpet
 - red_sandstone
-- red_sandstone_stairs
 - double_stone_slab2
 - stone_slab2
-- gate
-- spruce_fence_gate
-- birch_fence_gate
-- jungle_fence_gate
-- dark_oak_fence_gate
-- acacia_fence_gate
-- wooden_door
+- gates
+- doors
 - double_plant
-- spruce_door
-- birch_door
-- jungle_door
-- acacia_door
-- dark_oak_door
 - standing_banner
-- wool
+- wools
 - torch
 - chrous_plant
 - chrous_flower
@@ -439,10 +486,15 @@ destructible3:
 - sea_lantern
 - iron_door_block
 - end_bricks
+- chiseled_quartz_block
+- quartz_pillar
+- smooth_quartz
 destructible_mining:
 - log
 - stone
 - grass
+- grass_block
+- grass_path
 - dirt
 - cobblestone
 - sand
@@ -458,7 +510,7 @@ destructible_mining:
 - hard_clay
 - plants
 destructible_replace:
-- air
+- all_air
 - fire
 - snow
 - plants
@@ -470,6 +522,8 @@ doors:
 earth:
 - stone
 - grass
+- grass_path
+- grass_block
 - dirt
 - cobblestone
 - mossy_cobblestone
@@ -518,18 +572,29 @@ fences:
 - dark_oak_fence
 - acacia_fence
 - nether_fence
+- nether_brick_fence
 - iron_fence
 flowers:
 - yellow_flower
 - red_rose
 - double_plant
+- oxeye_daisy
+- blue_orchid
+- dandelion
+- dead_bush
+- fern
+- orange_tulip
+- pink_tulip
+- poppy
+- red_tulip
+- white_tulip
 freeze_transparent:
-- air
+- all_air
 - fire
 - flowers
 - snow
 freezeable:
-- air
+- all_air
 - fire
 - all_water
 - all_lava
@@ -545,25 +610,7 @@ gates:
 - dark_oak_fence_gate
 - acacia_fence_gate
 half:
-- stone_slab2
-- purpur_slab
-- step
-- wood_step
-- acacia_slab
-- birch_slab
-- brick_slab
-- cobblestone_slab
-- dark_oak_slab
-- jungle_slab
-- nether_brick_slab
-- oak_slab
-- petrified_oak_slab
-- quartz_slab
-- red_sandstone_slab
-- sandstone_slab
-- spruce_slab
-- stone_brick_slab
-- stone_slab
+- slabs
 hardenable:
 - all_water
 - all_lava
@@ -571,6 +618,7 @@ indestructible:
 - bedrock
 - barrier
 - ender_portal_frame
+- pistons
 interactible:
 - chest
 - ender_chest
@@ -582,8 +630,6 @@ interactible:
 - burning_furnace
 - dispenser
 - hopper
-- stone_button
-- wood_button
 - lever
 - daylight_detector
 - daylight_detector_inverted
@@ -594,12 +640,42 @@ interactible:
 - beds
 - signs
 - gates
+- buttons
+logs:
+- log
+- log_2
+- oak_log
+- spruce_log
+- birch_log
+- jungle_log
+- dark_oak_log
+- acacia_log
+- oak_wood
+- spruce_wood
+- birch_wood
+- jungle_wood
+- dark_oak_wood
+- acacia_wood
+- stripped_oak_log
+- stripped_spruce_log
+- stripped_birch_log
+- stripped_jungle_log
+- stripped_dark_oak_log
+- stripped_acacia_log
+- stripped_oak_wood
+- stripped_spruce_wood
+- stripped_birch_wood
+- stripped_jungle_wood
+- stripped_dark_oak_wood
+- stripped_acacia_wood
 melee:
 - diamond_sword
 - wood_sword
+- wooden_sword
 - iron_sword
 - stone_sword
 - gold_sword
+- golden_sword
 - trident
 - shield
 mining:
@@ -647,7 +723,7 @@ ores:
 - quartz_ore
 passthrough:
 - all_water
-- air
+- all_air
 - snow
 - torch
 - fire
@@ -688,14 +764,32 @@ passthrough:
 - redstone_wall_torch
 - repeater
 - restone_comparator
+pistons:
+- piston_sticky_base
+- piston_base
+- piston_extension
+- piston_moving_piece
+- piston
+- piston_head
+- sticky_piston
+- moving_piston
+planks:
+- wood
+- oak_planks
+- spruce_planks
+- birch_planks
+- jungle_planks
+- dark_oak_planks
+- acacia_planks
 plants:
 - brown_mushroom
 - red_mushroom
 - flowers
 - long_grass
 - dead_bush
-- crops
+- all_crops
 - saplings
+- grass
 player_skulls:
 - skull:3
 - skull_item:3
@@ -771,7 +865,7 @@ restricted_animate:
 - nether_fence
 - gravel
 - water
-- air
+- all_air
 - snow
 - glass
 - thin_glass
@@ -863,7 +957,48 @@ skulls:
 - zombie_wall_head
 - skeleton_wall_skull
 - creeper_wall_head
+slabs:
+- stone_slab2
+- purpur_slab
+- step
+- wood_step
+- acacia_slab
+- birch_slab
+- brick_slab
+- cobblestone_slab
+- dark_oak_slab
+- jungle_slab
+- nether_brick_slab
+- oak_slab
+- petrified_oak_slab
+- quartz_slab
+- red_sandstone_slab
+- sandstone_slab
+- spruce_slab
+- stone_brick_slab
+- stone_slab
+- petrified_oak_slab
+- prismarine_slab
+- prismarine_brick_slab
 solid: '!air,all_water,all_lava,barrier'
+stained_clays:
+- stained_clay
+- black_terracotta
+- blue_terracotta
+- brown_terracotta
+- cyan_terracotta
+- gray_terracotta
+- green_terracotta
+- light_blue_terracotta
+- light_gray_terracotta
+- lime_terracotta
+- magenta_terracotta
+- orange_terracotta
+- pink_terracotta
+- purple_terracotta
+- red_terracotta
+- white_terracotta
+- yellow_terracotta
 stained_glass_panes:
 - stained_glass_pane
 - black_stained_glass_pane
@@ -914,6 +1049,11 @@ stairs:
 - spruce_wood_stairs
 - birch_wood_stairs
 - jungle_wood_stairs
+- dark_prismarine_stairs
+- prismarine_stairs
+- prismarine_brick_stairs
+- purpur_stairs
+- stone_brick_stairs
 transparent:
 - all_water
 - transparent_no_water
@@ -924,7 +1064,7 @@ transparent_and_glass:
 - stained_glasses
 - stained_glass_panes
 transparent_no_water:
-- air
+- all_air
 - snow
 - torch
 - wall_torch
@@ -954,7 +1094,7 @@ transparent_no_water:
 - skulls
 - plants
 transparent_to_construction:
-- air
+- all_air
 trees:
 - log
 - log_2
@@ -962,6 +1102,37 @@ trees:
 - leaves
 - vine
 - cocoa
+underwater:
+- all_water
+- kelp_plant
+- kelp
+- horn_coral
+- horn_coral_block
+- horn_coral_fan
+- horn_coral_wall_fan
+- tube_coral
+- tube_coral_block
+- tube_coral_fan
+- tube_coral_wall_fan
+- fire_coral
+- fire_coral_block
+- fire_coral_fan
+- fire_coral_wall_fans
+- dead_brain_coral_block
+- dead_brain_coral_fan
+- dead_brain_coral_wall_fan
+- dead_bubble_coral_block
+- dead_bubble_coral_fan
+- dead_bubble_coral_wall_fan
+- dead_fire_coral_block
+- dead_fire_coral_fan
+- dead_fire_coral_wall_fan
+- dead_horn_coral_block
+- dead_horn_coral_fan
+- dead_horn_coral_wall_fan
+- dead_tube_coral_block
+- dead_tube_coral_fan
+- dead_tube_coral_wall_fan
 unlocked_doors:
 - wooden_door
 - spruce_door
@@ -997,53 +1168,24 @@ wearable:
 - skulls
 - pumpkin
 - turtle_helmet
-transparent_to_avada:
-- air
-- snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- brown_mushroom
-- red_mushroom
-- double_plant
-- sapling
-- torch
-- redstone_wire
-- rails
-- powered_rail
-- detector_rail
-- lever
-- redstone_torch_off
-- redstone_torch_on
-- stone_button
-- sugar_cane_block
-- diode_block_off
-- diode_block_on
-- pumpkin_stem
-- melon_stem
-- vine
-- water_lily
-- nether_warts
-- ender_portal
-- cocoa
-- tripwire_hook
-- tripwire
-- flower_pot
-- carrot
-- potato
-- wood_button
-- skull
-- restone_comparator_off
-- restone_comparator_on
-- activator_rail
-- double_plant
-- carpet
-- water
-- stationary_water
-- portal
-- glass
-- stained_glass
+wools:
+- wool
+- black_wool
+- blue_wool
+- brown_wool
+- cyan_wool
+- gray_wool
+- green_wool
+- light_blue_wool
+- light_gray_wool
+- lime_wool
+- magenta_wool
+- orange_wool
+- pink_wool
+- purple_wool
+- red_wool
+- white_wool
+- yellow_wool
 apparate:
 - water
 - stationary_water
@@ -1145,16 +1287,63 @@ apparatemaxima:
 - double_plant
 - carpet
 - lapis_ore
-prevent_passthrough:
-- bedrock
-floatable:
-- quartz_ore
 colorable:
 - wool
 - stained_glass
 - stained_clay
 - stained_glass_pane
 - carpet
+floatable:
+- quartz_ore
+prevent_passthrough:
+- bedrock
+transparent_to_avada:
+- air
+- snow
+- long_grass
+- dead_bush
+- yellow_flower
+- red_rose
+- brown_mushroom
+- red_mushroom
+- double_plant
+- sapling
+- torch
+- redstone_wire
+- rails
+- powered_rail
+- detector_rail
+- lever
+- redstone_torch_off
+- redstone_torch_on
+- stone_button
+- sugar_cane_block
+- diode_block_off
+- diode_block_on
+- pumpkin_stem
+- melon_stem
+- vine
+- water_lily
+- nether_warts
+- ender_portal
+- cocoa
+- tripwire_hook
+- tripwire
+- flower_pot
+- carrot
+- potato
+- wood_button
+- skull
+- restone_comparator_off
+- restone_comparator_on
+- activator_rail
+- double_plant
+- carpet
+- water
+- stationary_water
+- portal
+- glass
+- stained_glass
 metal:
 - iron_block
 - gold_block

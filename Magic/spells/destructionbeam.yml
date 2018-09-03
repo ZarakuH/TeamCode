@@ -1,0 +1,88 @@
+destructionbeam:
+  icon: diamond_axe:160
+  icon_disabled: diamond_hoe:160
+  icon_url: http://textures.minecraft.net/texture/2ba95570c7b712713632d4c0d2fc66906613d3850a596a0267c6d763fe741ac
+  upgrade_required_path: beginner
+  upgrade_required_casts: 20
+  category: combat
+  worth: 150
+  earns_sp: 7
+  earns_cooldown: 10000
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Damage
+      - class: Sphere
+        actions:
+        - class: BreakBlock
+          ignore_result: true
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      source_location: eyes
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,-0.15
+        updateLocations: false
+        updateDirections: false
+    - class: EffectSingle
+      sound: magic.zap_crack
+      source_location: eyes
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: ff2100
+        lengthGrow: 0.1
+        radiusGrow: 0.003
+        relativeOffset: 0.2,0,0.15
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - particle: redstone
+      location: target
+    break:
+    - class: EffectSingle
+      location: target
+      particle: block_crack
+      particle_count: 100
+      particle_offset_x: 0.6
+      particle_offset_y: 0.6
+      particle_offset_z: 0.6
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: explosion_huge
+      particle_count: 10
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      sound: entity_lightning_impact
+      sound_volume: 0.3
+      particle_data: 0.1
+  parameters:
+    allow_max_range: true
+    velocity: 200
+    range: 24
+    radius: 2
+    y_radius: 2
+    hitbox: true
+    target_type: Damageable
+    player_damage: 20
+    entity_damage: 40
+    target_breakables: 1
+    cooldown: 1000
+    reorient: false
+    destructible: solid
+    destructible_durability: 50
+    break_durability: 30
+    undo: 10000
+  costs:
+    mana: 15

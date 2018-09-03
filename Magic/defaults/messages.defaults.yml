@@ -176,9 +176,9 @@ damage_types:
   projectile: Projectile
 requirements:
   unknown: '&cNot Allowed'
-  property_requirement: '&r&cRequires: &6$property &cof $4$value'
+  property_requirement: '&r&cRequires: &6$property &cof &4$value'
   property_max: '&r&cYour &6$property &cis maxed out'
-  property_min: '&r&cYour &6$property &cmust be greater than $4$value'
+  property_min: '&r&cYour &6$property &cmust be greater than &4$value'
   no_wand: '&cYou must be holding a wand!'
   no_template: '&cYou may not learn with that $wand&c.'
   no_path: '&cYou may not learn here.'
@@ -518,6 +518,8 @@ spells:
     upgrade_description: Now negates Silence
   cure|4:
     upgrade_description: Now cures hunger
+  cure|5:
+    upgrade_description: Now cures zombie villagers
   music:
     name: Music
     description: Play some tunes
@@ -1066,6 +1068,10 @@ spells:
     description: Lights fire from a distance
     cast: You start a fire
     upgrade_description: Increased radius, longer burn time
+  growth:
+    name: Growth
+    description: Make plants, crops and saplings grow instantly
+    upgrade_description: Increased radius
   alter:
     name: Alter
     description: Alter certain objects
@@ -1593,6 +1599,8 @@ spells:
     descriptions: Chooses your active brush
     usage: Brushes are used by engineering spells
     fail: You must be holding a wand!
+    variant_name: '&b$variant &3+Variants'
+    variant_description: Choose a type of $variant
   tracking:
     name: Tracking Sense
     description: Find nearby life
@@ -1777,6 +1785,10 @@ spells:
   fxdemo:
     name: FX Demo
     description: Show off various EffectLib effects
+  soundtest:
+    name: Custom Sound Demo
+    description: Listen to all of the custom sound FX built into the Magic resource
+      pack
   fx:
     name: FX Particle
     description: Show off a specific particle, use with /cast fx particle redstone
@@ -1941,6 +1953,12 @@ spells:
     header: '&2&lBalances'
     currency_prefix: '&7&l'
     value_prefix: '&0'
+  kamikaze:
+    name: Kamikaze
+    description: Spawn a mob that explodes on death
+  decoy:
+    name: Decoy
+    description: Hide behind a clone
   accio:
     name: Accio
     description: Summons an object to you
@@ -2467,7 +2485,7 @@ spells:
     description: Form a deadly weapon out of pure fire
   combustion:
     name: Combustion
-    description: Cause objects to explode
+    description: Concentrate before firing a powerful beam of exploding energy
   airblast:
     name: Air Blast
     description: Create a direct pulse of air
@@ -2553,6 +2571,9 @@ spells:
   forceexplode:
     name: Force Explode
     description: Use the force to cause an explosion
+  forcechoke:
+    name: Force Choke
+    description: Use the force to lift choke your target
   forcecollapse:
     name: Force Collapse
     description: Cause your target to collapse and crumble
@@ -3205,9 +3226,6 @@ wands:
     name: Deatheater Wand
     description: $wood and $core
     upgrade_description: Become a Deatheater!
-  flappy:
-    name: Flappy Feather
-    description: Fly, little bird, fly!
   squib:
     name: Squib Wand
     description: Kersplode Things

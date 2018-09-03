@@ -1,20 +1,22 @@
-# !---------------------------------------------------------!
-# ! File automatically updated at 12.10.2017 17:36:07
-# ! to plugin version v7.5.14
-# !---------------------------------------------------------!
-# ! Unfortunatelly due to how Bukkit handles YAML
-# ! configurations, all comments (#) were wiped. 
-# ! 
-# ! For reference values and comments, open
-# ! channels.yml in the plugin .JAR file.
-# !---------------------------------------------------------!
+# -------------------------------------------------------------------------------------------
+# 
+#  Your file has been automatically updated at 02.09.2018 17:27:40
+#  to ChatControl 7.9.17
+# 
+#  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
+#  preserve the documentation comments in your file. We apologies.
+# 
+#  If you'd like to view the default file, you can either:
+#  a) Open the chatcontrol.jar with a WinRar or similar
+#  b) or, visit: https://github.com/kangarko/ChatControl/wiki
+# 
+# -------------------------------------------------------------------------------------------
 
 Enabled: true
 Command_Aliases:
 - channel
 - ch
 Notify_On_Join: true
-Max_Channels_Per_Player: 1
 Channels:
   Global:
     Format: Global_Chat
@@ -34,3 +36,6 @@ Compatibility:
     Deny_Unknown_Channel: true
     Format: '&8[&3Discord&8] &7{player}: &f{message}'
     Apply_Natural_Format_If_Online: false
+Channel_Limits:
+  Write: 1
+  Read: 3

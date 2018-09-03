@@ -1,7 +1,6 @@
 v2-logout:
   391762eb-24f6-4d95-84d6-bfac682d575a:
-    world: survival112
-    group: superherocities
+    world: sakaar
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
     world: mainmenu
     group: mainmenu
@@ -86,7 +85,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    world: survival112
+    world: gotham
     group: superherocities
   fa2821a9-27ed-43e0-99f6-e22aec572a35:
     group: superherocities
@@ -95,7 +94,8 @@ v2-logout:
     world: mainmenu
     group: mainmenu
   2a63e405-eecf-480a-9fcf-1e22b996d998:
-    world: sakaar
+    world: mainmenu
+    group: mainmenu
   902ff43f-7561-4447-a884-2cf54ce8c1f1:
     group: superherocities
     world: infinitycity
@@ -257,8 +257,7 @@ v2-logout:
     group: superherocities
     world: survival112
   e6de8cf0-af45-44e4-882f-d98446f4b31b:
-    world: titanstower
-    group: superherocities
+    world: tutorial
   02608c84-25c3-4d49-9940-9ba7b6730816:
     group: superherocities
     world: survival112
@@ -375,7 +374,7 @@ v2-logout:
     world: mainmenu
   92a2652a-ff1f-4729-b835-acad7a876cb0:
     group: superherocities
-    world: infinitycity
+    world: starlabs
   7b8f48f8-6b8d-43ea-a4bd-46d5c211a2a5:
     group: superherocities
     world: fortressofsolitude
@@ -2343,7 +2342,8 @@ v2-logout:
     group: superherocities
     world: nyc
   9068e658-a14f-43a3-ad65-04dbac12a5e0:
-    world: sakaar
+    world: nyc
+    group: superherocities
   b5186aef-2abf-4e72-b9fb-d64c2d94a0f5:
     group: mainmenu
     world: mainmenu
@@ -5067,8 +5067,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   67895bd7-befa-4e7d-aa85-b0f793ab618a:
-    group: superherocities
-    world: survival112_nether
+    world: tutorial
   3536e76c-1dd5-433b-ac5a-bf60513ece18:
     group: superherocities
     world: infinitycity
@@ -5804,3 +5803,17 @@ v2-logout:
     world: tutorial
   9e928d21-702b-4400-820c-6c6c3913b729:
     world: tutorial
+  16cf60f0-5b4a-4f9f-8100-0cb5a373edd2:
+    group: arcade
+    world: arcade
+  f299baaf-2fc2-4e95-89fd-f4668ed4170d:
+    group: superherocities
+    world: gotham
+  ac3660ef-0002-4331-b4ee-a3d47b5ff1a5:
+    group: mainmenu
+    world: mainmenu
+  15df3cf1-0170-4878-b9bc-94a218be9b6f:
+    world: tutorial
+  5281fd3d-e95a-49ac-9ddc-82f895d73114:
+    group: arcade
+    world: arcade

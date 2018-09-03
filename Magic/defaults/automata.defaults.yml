@@ -41,3 +41,20 @@ spawner:
       dark_wizard: 5
       dark_spider: 20
       mega_spider: 30
+werewolf_spawner:
+  name: Werewolf Spawner
+  description: A spawner that spawns werewolves, but only at night during a full moon
+  interval: 10000
+  min_time: dusk
+  max_time: dawn
+  moon_phase: full
+  spawn:
+    player_range: 32
+    min_players: 1
+    limit_range: 32
+    vertical_range: 8
+    limit: 5
+    probability: 1
+    radius: 8
+    vertical_radius: 2
+    mobs: werewolf

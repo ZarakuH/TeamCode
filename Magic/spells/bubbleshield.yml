@@ -59,4 +59,4 @@ bubbleshield:
     miss_effects: hit
     miss: actions
   costs:
-mana: 75
+    mana: 75

@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 12.03.2018 13:12:22
-#  to ChatControl 7.8.0
+#  Your file has been automatically updated at 02.09.2018 17:27:40
+#  to ChatControl 7.9.17
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologies.
@@ -38,9 +38,12 @@ Join_Message:
         &6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         &e&l{player} &ejoined the server 100th time!
         &6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ignore_Vanished: true
+  Delay_Ticks: 1
 Quit_Message:
   Enabled: false
   Message: '&8[&c-&8] &b{player}'
+  Ignore_Vanished: true
 Kick_Message:
   Enabled: false
   Message: default
@@ -137,6 +140,7 @@ Death_Messages:
     Skeleton: Mighty Skeleton
     Wither Skeleton: Withered Skeleton
     Diamond Sword: Sword of Death
+  Ignore_Vanished: true
 Broadcaster:
   Enabled: true
   Mode: 0
@@ -145,37 +149,44 @@ Broadcaster:
   Delay_Seconds: 180
   Messages:
     global:
-    - "&b ----------------------------------------------------\n
-&cRemember to use &a/reportglitch <description> &cto report server issues!\n
-&cPlease read &a/listglitches &cfirst to prevent reporting something already reported!\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&cRemember that &aANY &cplayer can create new characters!\n
-&cPlease do &a/makehero &cfor the tutorial on how to do so!\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&cDiscord: &ahttps://discord.gg/rnKWKkn\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&6Minigames are back! do &a/exitgame &6to get to our arcade\n
-&6Also to get back to heroes the machine at the arcade is labeled &aInfinity to One\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&7Handy Stuff:\n
-&a/recipe&7\n
-&a/co i&7 &f<-- &alets you see who griefed\n
-&a/home &f<&aplayername&f>&a: &f<-- dont forget the &a:&7\n
-&a/who&7\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&7We now beg for irl money: &ahttps://goo.gl/BmxAqv&7\n
-&b----------------------------------------------------"
-    - "&b ----------------------------------------------------\n
-&7This server supports &aall canon &7(&4&lnot &4fanfic&7) &7characters&7\n
-&7It is &lFEATS ONLY&7, meaning NO WIKIS OR FANSITES.\n
-&7Only stuff that's &lACTUALLY&7 been shown in a comic, game,\n
-&7TV, Movie, or other authorized merch.\n
-&7Interpretation can still be up for debate.\n
-&7&lONLY PICS OR VIDS COUNT AS PROOF!\n
-&b----------------------------------------------------"
+    - |-
+      &b ----------------------------------------------------
+       &cRemember to use &a/reportglitch <description> &cto report server issues!
+       &cPlease read &a/listglitches &cfirst to prevent reporting something already reported!
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &cRemember that &aANY &cplayer can create new characters!
+       &cPlease do &a/makehero &cfor the tutorial on how to do so!
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &cDiscord: &ahttps://discord.gg/rnKWKkn
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &6Minigames are back! do &a/exitgame &6to get to our arcade
+       &6Also to get back to heroes the machine at the arcade is labeled &aInfinity to One
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &7Handy Stuff:
+       &a/recipe&7
+       &a/co i&7 &f<-- &alets you see who griefed
+       &a/home &f<&aplayername&f>&a: &f<-- dont forget the &a:&7
+       &a/who&7
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &7We now beg for irl money: &ahttps://goo.gl/BmxAqv&7
+       &b----------------------------------------------------
+    - |-
+      &b ----------------------------------------------------
+       &7This server supports &aall canon &7(&4&lnot &4fanfic&7) &7characters&7
+       &7It is &lFEATS ONLY&7, meaning NO WIKIS OR FANSITES.
+       &7Only stuff that's &lACTUALLY&7 been shown in a comic, game,
+       &7TV, Movie, or other authorized merch.
+       &7Interpretation can still be up for debate.
+       &7&lONLY PICS OR VIDS COUNT AS PROOF!
+       &b----------------------------------------------------
   Sound: none

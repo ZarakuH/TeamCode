@@ -72,6 +72,7 @@ apprentice:
   - wave
   - chainlightning
   - airscooter
+  - growth
 archer:
   inherit: default
   spell_count: 1
@@ -405,6 +406,7 @@ conduit:
   - weather
   - capture
   - commit
+  - forest
   materials:
   - clone
   - replicate
@@ -505,6 +507,7 @@ master:
   - shrink
   - dragonball
   - neutron
+  - mob
 staff:
   hidden: true
 student:
@@ -544,6 +547,20 @@ student:
   - entangle
   - whip
   - curse
+graduate:
+  follows: master
+  inherit: year7
+  max_mana_regeneration: 40
+  max_mana: 200
+  spells:
+  - expelliarmus|5
+  - finiteincantatem|4
+  - reducio|3
+  - episkey|3
+  - ferula|3
+  - arrow|4
+  - bogies|3
+  - lacarnum|3
 year1:
   follows: beginner
   inherit: default
@@ -670,20 +687,6 @@ year7:
   - ventus
   required_spells:
   - piertotum
-graduate:
-  follows: master
-  inherit: year7
-  max_mana_regeneration: 40
-  max_mana: 200
-  spells:
-  - expelliarmus|5
-  - finiteincantatem|4
-  - reducio|3
-  - episkey|3
-  - ferula|3
-  - arrow|4
-  - bogies|3
-  - lacarnum|3
 airbending:
   mana_regeneration: 4
   mana_max: 20
@@ -699,50 +702,6 @@ airbending:
   - airshield
   - enhancedspeed
   - tornado
-waterbending:
-  mana_regeneration: 4
-  mana_max: 20
-  max_mana: 200
-  max_mana_regeneration: 20
-  inherit: default
-  spells:
-  - breathofice
-  - waterball
-  - waterjet
-  - heal
-  - cure
-  - bloodbending
-  - waterwhip
-  - iceshield
-earthbending:
-  mana_regeneration: 4
-  mana_max: 20
-  max_mana: 200
-  max_mana_regeneration: 20
-  inherit: default
-  spells:
-  - earthblock
-  - compression
-  - harden
-  - sandspout
-  - collapse
-  - earthsmash
-  - earthquake
-  - earthline
-  - earthbullet
-firebending:
-  mana_regeneration: 4
-  mana_max: 20
-  max_mana: 200
-  max_mana_regeneration: 20
-  inherit: default
-  spells:
-  - fireball
-  - fire
-  - lava
-  - firestream
-  - combustion
-  - fire_dagger
 avatar:
   max_mana: 500
   max_mana_regeneration: 50
@@ -774,27 +733,64 @@ avatar:
   - breach
   - boon
   - airscooter
-blaster:
-  hidden: true
-youngling:
+earthbending:
+  mana_regeneration: 4
+  mana_max: 20
+  max_mana: 200
+  max_mana_regeneration: 20
   inherit: default
-  upgrade: padawan
+  spells:
+  - earthblock
+  - compression
+  - harden
+  - sandspout
+  - collapse
+  - earthsmash
+  - earthquake
+  - earthline
+  - earthbullet
+firebending:
+  mana_regeneration: 4
+  mana_max: 20
+  max_mana: 200
+  max_mana_regeneration: 20
+  inherit: default
+  spells:
+  - fireball
+  - fire
+  - lava
+  - firestream
+  - combustion
+  - fire_dagger
+waterbending:
+  mana_regeneration: 4
+  mana_max: 20
+  max_mana: 200
+  max_mana_regeneration: 20
+  inherit: default
+  spells:
+  - breathofice
+  - waterball
+  - waterjet
+  - heal
+  - cure
+  - bloodbending
+  - waterwhip
+  - iceshield
+acolyte:
+  inherit: default
+  upgrade: sith_apprentice
   max_mana: 200
   max_mana_regeneration: 20
   mana_regeneration: 1
   mana_max: 2
   spell_count: 1
   spells:
-  - forceleap
   - forcepush
   - forcepull
-padawan:
-  inherit: youngling
-  upgrade: jedi_knight
-  max_mana: 200
-  max_mana_regeneration: 20
-  spells:
-  - forcespeed
+  - forceignite
+blaster:
+  hidden: true
 jedi_knight:
   inherit: padawan
   upgrade: jedi_master
@@ -809,26 +805,20 @@ jedi_master:
   max_mana_regeneration: 20
   spells:
   - forcetelekinesis
-acolyte:
-  inherit: default
-  upgrade: sith_apprentice
-  max_mana: 200
-  max_mana_regeneration: 20
-  mana_regeneration: 1
-  mana_max: 2
-  spell_count: 1
-  spells:
-  - forcepush
-  - forcepull
-  - forceignite
-sith_apprentice:
-  inherit: acolyte
-  upgrade: sith
+marauder:
+  inherit: sith
+  upgrade: sith_master
   max_mana: 200
   max_mana_regeneration: 20
   spells:
-  - forceblast
-  - forceexplode
+  - forcecollapse
+padawan:
+  inherit: youngling
+  upgrade: jedi_knight
+  max_mana: 200
+  max_mana_regeneration: 20
+  spells:
+  - forcespeed
 sith:
   inherit: sith_apprentice
   upgrade: marauder
@@ -837,13 +827,21 @@ sith:
   spells:
   - forceleap
   - forcethrow
-marauder:
-  inherit: sith
-  upgrade: sith_master
+sith_apprentice:
+  inherit: acolyte
+  upgrade: sith
   max_mana: 200
   max_mana_regeneration: 20
   spells:
-  - forcecollapse
+  - forceblast
+  - forceexplode
+sith_lord:
+  inherit: sith_master
+  max_mana: 200
+  max_mana_regeneration: 20
+  spells:
+  - forcelightning
+  - forcechoke
 sith_master:
   inherit: marauder
   upgrade: sith_lord
@@ -852,9 +850,15 @@ sith_master:
   spells:
   - forcetelekinesis
   - forcelift
-sith_lord:
-  inherit: sith_master
+youngling:
+  inherit: default
+  upgrade: padawan
   max_mana: 200
   max_mana_regeneration: 20
+  mana_regeneration: 1
+  mana_max: 2
+  spell_count: 1
   spells:
-  - forcelightning
+  - forceleap
+  - forcepush
+  - forcepull

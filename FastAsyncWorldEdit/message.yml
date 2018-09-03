@@ -327,3 +327,11 @@ tips:
   tip_regen_1: 'Tip: Use a seed with /regen [biome] [seed]'
   tip_biome_pattern: 'Tip: The &c#biome:forest&7 pattern can be used in any command'
   tip_biome_mask: 'Tip: Restrict to a biome with the `$jungle` mask'
+  tip_discord: Need help using FAWE? https://discord.gg/ngZCzbU
+  tip_replace_regex: '&7Tip: Replace using regex:&c //replace .*_log <pattern>'
+  tip_replace_regex_2: '&7Tip: Replace using regex:&c //replace .*stairs[facing=(north|south)]
+    <pattern>'
+  tip_replace_regex_3: '&7Tip: Replace using operators:&c //replace water[level>2]
+    sand'
+  tip_replace_regex_4: '&7Tip: Replace using operators:&c //replace true *[waterlogged=false]'
+  tip_replace_regex_5: '&7Tip: Replace using operators:&c //replace true *[level-=1]'

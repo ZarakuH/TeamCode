@@ -70,24 +70,6 @@ soldier:
   locked: false
   storage:
     spell_levels: class
-bender:
-  inherit: base
-  locked: false
-  limit_spells_to_path: true
-  mana_max: 50
-  mana: 50
-  mana_regeneration: 5
-waterbender:
-  class_items: waterbending
-  parent: bender
-  locked: true
-  path: waterbending
-  protection:
-    water: 0.5
-    drowning: 0.75
-  spells:
-  - waterjet
-  - waterball
 airbender:
   class_items: airstaff
   parent: bender
@@ -101,30 +83,6 @@ airbender:
   - airblast
   - suction
   - airscooter
-firebender:
-  class_items: firebending
-  parent: bender
-  locked: true
-  path: firebending
-  protection:
-    fire: 0.9
-    lightning: 0.7
-  spells:
-  - fire
-  - fireball
-earthbender:
-  class_items: earthbending
-  parent: bender
-  locked: true
-  path: earthbending
-  protection:
-    physical: 0.3
-    explosion: 0.2
-    earth: 0.5
-    falling_block: 0.8
-  spells:
-  - compression
-  - earthblock
 avatar:
   class_items: avatar
   path: avatar
@@ -163,6 +121,48 @@ avatar:
   - cure
   - earthline
   - airscooter
+bender:
+  inherit: base
+  locked: false
+  limit_spells_to_path: true
+  mana_max: 50
+  mana: 50
+  mana_regeneration: 5
+earthbender:
+  class_items: earthbending
+  parent: bender
+  locked: true
+  path: earthbending
+  protection:
+    physical: 0.3
+    explosion: 0.2
+    earth: 0.5
+    falling_block: 0.8
+  spells:
+  - compression
+  - earthblock
+firebender:
+  class_items: firebending
+  parent: bender
+  locked: true
+  path: firebending
+  protection:
+    fire: 0.9
+    lightning: 0.7
+  spells:
+  - fire
+  - fireball
+waterbender:
+  class_items: waterbending
+  parent: bender
+  locked: true
+  path: waterbending
+  protection:
+    water: 0.5
+    drowning: 0.75
+  spells:
+  - waterjet
+  - waterball
 force_user:
   inherit: base
   limit_spells_to_path: true
@@ -176,6 +176,9 @@ jedi:
   spells:
   - forcepush
   - forcepull
+rebel:
+  parent: stars_soldier
+  locked: false
 sith:
   parent: force_user
   locked: true
@@ -186,9 +189,6 @@ sith:
 stars_soldier:
   storage:
     spell_levels: class
-rebel:
-  parent: stars_soldier
-  locked: false
 trooper:
   parent: stars_soldier
   locked: false

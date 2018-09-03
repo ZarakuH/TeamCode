@@ -55,13 +55,7 @@ Players:
   Han_Shot_First_:
     Channels:
       Global: write
-  DJSplatter:
-    Channels:
-      Global: write
   DominickVine:
-    Channels:
-      Global: write
-  America2076:
     Channels:
       Global: write
   StealthFox007:
@@ -72,8 +66,6 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -95,9 +87,7 @@ Players:
   BlazeBlack1:
     Channels:
       Global: write
-  NotSatixfied:
-    Channels:
-      Global: write
+  NotSatixfied: {}
   Newt_Scamander1:
     Channels:
       Global: write
@@ -108,9 +98,6 @@ Players:
     Channels:
       Global: write
   piglord1618:
-    Channels:
-      Global: write
-  Memeixis:
     Channels:
       Global: write
   THAN0S_:
@@ -171,15 +158,6 @@ Players:
     Channels:
       Global: write
   CookieMittens:
-    Channels:
-      Global: write
-  OverlordGary:
-    Channels:
-      Global: write
-  Stradious:
-    Channels:
-      Global: write
-  kagekaji1994:
     Channels:
       Global: write
   aldrin524:
@@ -371,12 +349,7 @@ Players:
   GethTardo:
     Channels:
       Global: write
-  BlueMeif:
-    Channels:
-      Global: write
-  Txmmeh:
-    Channels:
-      Global: write
+  Txmmeh: {}
   CrazyForMusic:
     Channels:
       Global: write
@@ -701,9 +674,7 @@ Players:
   endergod05:
     Channels:
       Global: write
-  ViggieSkittles:
-    Channels:
-      Global: write
+  ViggieSkittles: {}
   OmegaCrafterHD:
     Channels:
       Global: write
@@ -751,8 +722,6 @@ Players:
       Global: write
   MythReeses:
     Spying: true
-    Channels:
-      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -837,9 +806,7 @@ Players:
   kelemor:
     Channels:
       Global: write
-  Eiilonwy:
-    Channels:
-      Global: write
+  Eiilonwy: {}
   kylo_gamer:
     Channels:
       Global: write
@@ -912,9 +879,7 @@ Players:
   Amy_star7:
     Channels:
       Global: write
-  ThoseyKitKat:
-    Channels:
-      Global: write
+  ThoseyKitKat: {}
   DarkJarJar:
     Channels:
       Global: write
@@ -933,3 +898,26 @@ Players:
   ShadowMage14:
     Channels:
       Global: write
+  tommkaj224:
+    Channels:
+      Global: write
+  Wiqe_:
+    Channels:
+      Global: write
+  Orhiane160597:
+    Channels:
+      Global: write
+  jaydenmine8:
+    Channels:
+      Global: write
+  MikeSal:
+    Channels:
+      Global: write
+  MisserMan:
+    Channels:
+      Global: write
+  ro5edirt: {}
+  Jiren_The_Grey:
+    Channels:
+      Global: write
+  JCPslayer1: {}

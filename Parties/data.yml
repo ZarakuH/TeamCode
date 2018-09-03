@@ -110,6 +110,9 @@ players:
   391762eb-24f6-4d95-84d6-bfac682d575a:
     options:
       spy: true
+    name:
+      name: StrikerMax
+      timestamp: 1535927814
   f475c2cf-ebbe-4314-8c6a-7211b32e55ae:
     rank: 20
     party: CHAOS
@@ -564,3 +567,4 @@ parties:
     leader: 24a234d7-e652-4a24-af9a-da143b05acc0
     members:
     - 24a234d7-e652-4a24-af9a-da143b05acc0
+database-version: 1

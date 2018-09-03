@@ -30,6 +30,31 @@ Options:
     TimerChecker: false
     JoinChecker: false
   BroadcastEventMessages: true
+  Inventory:
+    Particles: true
+    Blocks: true
+    Rains: true
+    Wings: true
+    ParticlesSlot: 19
+    BlocksSlot: 21
+    RainsSlot: 23
+    WingsSlot: 25
+    RemoveItemSlot: 39
+    LanguageItemSlot: 41
+    BackItemSlot: 49
+    ParticlesItem: BLAZE_POWDER
+    BlocksItem: STAINED_GLASS,3
+    RainsItem: GHAST_TEAR
+    WingsItem: FEATHER
+    ParticlesMenuSize: 54
+    BlocksMenuSize: 54
+    MainMenuSize: 54
+    RemoveItem: PAPER
+    BackItem: ARROW
+    ModesItem: ANVIL
+  HideInCombatTime: 50
+  NoRainItemNames: false
+  RainsWithPackets: true
 MYSQL:
   Enable: false
   ip: ''

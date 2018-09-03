@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 01.05.2018 10:26:14
-#  to ChatControl 7.8.10
+#  Your file has been automatically updated at 02.09.2018 17:27:40
+#  to ChatControl 7.9.17
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologies.
@@ -93,6 +93,13 @@ Anti_Spam:
     Limit:
       Period: 10 seconds
       Max_Messages: 8
+    Parrot:
+      Enabled: true
+      Delay: 20 ticks
+      Minimum_Similarity: 85
+      Whitelist:
+      - hello
+      - hey
   Regex_In_Whitelists: false
 Grammar:
   Insert_Dot:
@@ -122,6 +129,7 @@ Mute:
   - msg
   - r
   - w
+  Apply_Limits_For_Essentials_Mute: true
 Announcer:
   Bungee: false
   Ignore_Self: false
@@ -172,17 +180,16 @@ Ignore:
   - ign
   Chat: true
   Private_Messages: true
-  Report_To_Essentials: true
 Packets:
   Enabled: true
   Tab_Complete:
-    Disable: false
-    Disable_Only_In_Commands: true
-    Allow_When_Message_Has_Space: true
-    Allow_When_Length_Above: 0
     Hide_Vanished_Players:
       Enabled: true
       Maximum_Length: 20
+    Enabled: false
+    Only_In_Commands: true
+    Require_Arguments: 1
+    Require_Length: -1
 Rules:
   Verbose: false
   Bungee: false
@@ -210,6 +217,7 @@ Console_Filter:
   Filter_Console_Messages:
   - Reached end of stream for
   - Connection reset
+  Filter_System_Out: false
 Sound_Notify:
   Enabled: false
   Cooldown: 10 seconds
@@ -231,7 +239,6 @@ Groups:
       Command_Delay: 0
 Points:
   Enabled: false
-  Repeat_Last_Action: true
   Smart_Warnings: true
   Reset_Task:
     Repeat_Every_Seconds: 20
@@ -364,7 +371,7 @@ Regex_Strip_Colors: true
 Reset_Cache_On_Quit: false
 Enforce_New_Line: false
 Server_Name: default
-Version: 19
+Version: 22
 Clear_Data_If_Inactive: 30 days
 Notify_Updates: true
 Debug: []
@@ -391,8 +398,10 @@ Newcomer:
     - /helpop
     - /help
     - /?
+    Blacklist: false
   Restrict_Seeing_Chat:
     Enabled: true
   Restrict_Chat:
     Enabled: true
     Whitelist: []
+Notify_Promotions: true

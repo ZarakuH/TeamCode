@@ -13,8 +13,8 @@
 
 archer:
   type: skeleton
-  item: magicbow
-  cast_requires_item: magicbow
+  item: archer_bow
+  cast_requires_item: archer_bow
   chestplate: warlock_chestplate
   leggings: warlock_leggings
   helmet: chainmail_helmet
@@ -311,6 +311,10 @@ polterghast:
   potion_effects:
   - type: speed
     amplifier: 2
+totem:
+  type: armor_stand
+  invisible: true
+  helmet: totem
 undead_minion:
   type: skeleton
   item: iron_sword
@@ -359,21 +363,46 @@ warlock:
     gold_nugget@12: 50
     gold_nugget@8: 20
   - sp:16
-dementor:
-  name: Dementor
-  type: wither
-  health: 1000
+werewolf:
+  type: zombie
+  helmet: skull:MHF_Wolf
+  chestplate: leather_chestplate:000000
+  leggings: leather_leggings:000000
+  name: Werewolf
+  health: 40
+  default_drops: false
+  drops:
+  - bone@3
+  - sp:5
+  entity_attributes:
+    generic_knockback_resistance: 1
+    generic_attack_speed: 3
+    generic_attack_damage: 0.3
+  triggers:
+    spawn:
+      effects:
+      - sound: entity_wolf_howl
+        sound_volume: 2
+        sound_pitch: 0.2
+      - sound: entity_wolf_growl
+        sound_volume: 1.5
+        sound_pitch: 0.5
+acromantula:
+  type: spider
+  name: '&2Acromantula'
+  health: 100
   default_drops: false
   cast_interval: 1000
   cast:
-    dementor: 100
-    petrificustotalus: 20
-    confundus: 30
-    crucio: 10
-    none: 20
+    webbing: 100
+    poison|3: 100
+    none: 50
   drops:
-  - gold_ingot@24
-  - sp:100
+  - gold_nugget@8
+  - sp:8
+  potion_effects:
+  - type: speed
+    amplifier: 0
 deatheater:
   name: Death Eater
   type: zombie
@@ -398,37 +427,84 @@ deatheater:
   potion_effects:
   - type: speed
     amplifier: 1
-acromantula:
-  type: spider
-  name: '&2Acromantula'
-  health: 100
+dementor:
+  name: Dementor
+  type: wither
+  health: 1000
   default_drops: false
   cast_interval: 1000
   cast:
-    webbing: 100
-    poison|3: 100
-    none: 50
+    dementor: 100
+    petrificustotalus: 20
+    confundus: 30
+    crucio: 10
+    none: 20
   drops:
-  - gold_nugget@8
-  - sp:8
-  potion_effects:
-  - type: speed
-    amplifier: 0
-soldier:
-  type: zombie
-  item: ak47_item
+  - gold_ingot@24
+  - sp:100
+fbi:
+  type: skeleton
+  item: pistol_item
   baby: false
   chestplate: iron_chestplate
   leggings: iron_leggings
+  helmet: iron_helmet
   boots: iron_boots
-  helmet: pumpkin
-  name: Soldier
-  health: 50
+  name: FBI
+  health: 30
   default_drops: false
   cast_interval: 1000
   cast:
-    ak47: 80
-    none: 50
+    pistol: 80
+    none: 20
+ferrari:
+  type: armor_stand
+  helmet: ferrari_item
+  invisible: true
+  silent: true
+  name: Ferrari California
+  interact_spell: steal_ferrari
+  disabled_slots: 2039552
+model3:
+  type: armor_stand
+  helmet: model3_item
+  invisible: true
+  silent: true
+  name: '&9Model 3'
+  interact_spell: steal_model3
+  disabled_slots: 2039552
+model3_black:
+  type: armor_stand
+  helmet: model3_black_item
+  invisible: true
+  silent: true
+  name: '&0Model 3'
+  interact_spell: steal_model3
+  disabled_slots: 2039552
+model3_red:
+  type: armor_stand
+  helmet: model3_red_item
+  invisible: true
+  silent: true
+  name: '&cModel 3'
+  interact_spell: steal_model3
+  disabled_slots: 2039552
+model3_silver:
+  type: armor_stand
+  helmet: model3_silver_item
+  invisible: true
+  silent: true
+  name: '&7Model 3'
+  interact_spell: steal_model3
+  disabled_slots: 2039552
+model3_white:
+  type: armor_stand
+  helmet: model3_white_item
+  invisible: true
+  silent: true
+  name: '&fModel 3'
+  interact_spell: steal_model3
+  disabled_slots: 2039552
 police:
   type: pig_zombie
   item: pistol_item
@@ -454,37 +530,21 @@ riotpolice:
   cast:
     shotgun: 50
     none: 100
-fbi:
-  type: skeleton
-  item: pistol_item
+soldier:
+  type: zombie
+  item: ak47_item
   baby: false
   chestplate: iron_chestplate
   leggings: iron_leggings
-  helmet: iron_helmet
   boots: iron_boots
-  name: FBI
-  health: 30
+  helmet: pumpkin
+  name: Soldier
+  health: 50
   default_drops: false
   cast_interval: 1000
   cast:
-    pistol: 80
-    none: 20
-model3:
-  type: armor_stand
-  helmet: model3_item
-  invisible: true
-  silent: true
-  name: '&9Model 3'
-  interact_spell: steal_model3
-  disabled_slots: 2039552
-ferrari:
-  type: armor_stand
-  helmet: ferrari_item
-  invisible: true
-  silent: true
-  name: Ferrari California
-  interact_spell: steal_ferrari
-  disabled_slots: 2039552
+    ak47: 80
+    none: 50
 train:
   type: armor_stand
   helmet: train_item
@@ -492,38 +552,6 @@ train:
   silent: true
   name: Steam Engine
   interact_spell: drive
-  disabled_slots: 2039552
-model3_red:
-  type: armor_stand
-  helmet: model3_red_item
-  invisible: true
-  silent: true
-  name: '&cModel 3'
-  interact_spell: steal_model3
-  disabled_slots: 2039552
-model3_black:
-  type: armor_stand
-  helmet: model3_black_item
-  invisible: true
-  silent: true
-  name: '&0Model 3'
-  interact_spell: steal_model3
-  disabled_slots: 2039552
-model3_white:
-  type: armor_stand
-  helmet: model3_white_item
-  invisible: true
-  silent: true
-  name: '&fModel 3'
-  interact_spell: steal_model3
-  disabled_slots: 2039552
-model3_silver:
-  type: armor_stand
-  helmet: model3_silver_item
-  invisible: true
-  silent: true
-  name: '&7Model 3'
-  interact_spell: steal_model3
   disabled_slots: 2039552
 skybison:
   type: cow

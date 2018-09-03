@@ -1,3 +1,26 @@
+1.73
+
+   Support for 1.13 R2
+   Fixed pumpkin on zoom
+   Fixed null on startup
+
+1.72
+
+    Fixed custom shoot sound
+    Fixed camera recoil
+    Fixed delay bar
+    Possible fix for using run commands with custom command plugins
+
+1.71
+
+	Added Remove_Bullet_Drop for custom bullet spread
+	Maybe fixed the pumpkin disappearing bug when shooting with new system
+	Recoded GUI system to be "all in one GUI"
+	Removed weapon recipes folder
+	Added 1.13 support incase CrackShot gets updated
+	    Somethings worked in CrackShot in 1.13, but its mostly broken
+    Fixed crafting recipe when using AIR
+
 1.70
 
     Added Reload_All_Similar_Weapons_In_Inventory
