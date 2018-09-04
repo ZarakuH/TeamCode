@@ -346,11 +346,11 @@ incendiary:
 airshield:
   cast_count: 0
   last_cast: 0
-hydroshield:
-  cast_count: 0
-  last_cast: 0
 crystaltrap:
   cast_count: 867
+  last_cast: 0
+hydroshield:
+  cast_count: 0
   last_cast: 0
 emp:
   cast_count: 9
@@ -538,17 +538,17 @@ fishshop:
 forcespeed:
   cast_count: 67
   last_cast: 0
-manipulate:
-  cast_count: 169
-  last_cast: 0
 demon_firebolt:
   cast_count: 0
   last_cast: 0
-soultear:
-  cast_count: 10
+manipulate:
+  cast_count: 169
   last_cast: 0
 electrocute:
   cast_count: 102
+  last_cast: 0
+soultear:
+  cast_count: 10
   last_cast: 0
 kamikaze:
   cast_count: 0
@@ -805,11 +805,11 @@ fill:
 terrainshop:
   cast_count: 0
   last_cast: 0
-freezeray:
-  cast_count: 384
-  last_cast: 0
 stungrenade:
   cast_count: 404
+  last_cast: 0
+freezeray:
+  cast_count: 384
   last_cast: 0
 deposits:
   cast_count: 0
@@ -829,11 +829,11 @@ abratrap:
 freezetime:
   cast_count: 1310
   last_cast: 0
-glasstouch:
-  cast_count: 730
-  last_cast: 0
 startspleef:
   cast_count: 77
+  last_cast: 0
+glasstouch:
+  cast_count: 730
   last_cast: 0
 airscooter:
   cast_count: 0
@@ -1906,11 +1906,11 @@ superdisc:
 nobabies:
   cast_count: 0
   last_cast: 0
-gutshot:
-  cast_count: 11
-  last_cast: 0
 forcegrip:
   cast_count: 108
+  last_cast: 0
+gutshot:
+  cast_count: 11
   last_cast: 0
 ollivander:
   cast_count: 0

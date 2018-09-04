@@ -3095,20 +3095,20 @@ lightsaber_red:
   effect_color: FF0000
   mode: none
   path: acolyte
-sandwallwand:
+rhinodashwand:
   version: 5
   spell_inventory:
-    sandwall: 0
-  active_spell: sandwall
+    rhinodash: 0
+  active_spell: rhinodash
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Sand Wall
+  name: Rhino Dash
   mana_max: 200.0
   page: 0
   spells:
-  - sandwall
+  - rhinodash
   bound: true
   keep: true
   invulnerable: true
@@ -3130,20 +3130,20 @@ sandwallwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-soulgripwand:
+moltenboltwand:
   version: 5
   spell_inventory:
-    soulgrip: 0
-  active_spell: soulgrip
+    moltenbolt: 0
+  active_spell: moltenbolt
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Soul Grip
+  name: Molten Bolt
   mana_max: 200.0
   page: 0
   spells:
-  - soulgrip
+  - moltenbolt
   bound: true
   keep: true
   invulnerable: true
@@ -3165,144 +3165,20 @@ soulgripwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-webshotwand:
-  spell_inventory:
-    webshot: 0
-  active_spell: webshot
-  name: Web Shot
-  spells:
-  - webshot
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  left_click: cast
-manipulatewand:
+wwbracerswand:
   version: 5
   spell_inventory:
-    manipulate: 0
-  active_spell: manipulate
+    wwbracers: 0
+  active_spell: wwbracers
   spell_levels: {}
-  mana: 200.0
+  mana: 300.0
   mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Manipulate
-  mana_max: 200.0
+  effect_color: 00ffff
+  name: Wonder Woman's Bracer Attack
+  mana_max: 300.0
   page: 0
   spells:
-  - manipulate
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-quakewand:
-  version: 5
-  spell_inventory:
-    quake: 0
-  active_spell: quake
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Quake
-  mana_max: 200.0
-  page: 0
-  spells:
-  - quake
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-jackfrostwand:
-  version: 5
-  spell_inventory:
-    frost: 1
-    backflip: 2
-    supercollapse: 3
-  active_spell: frost
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Jack's Wand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - frost
-  - backflip
-  - supercollapse
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wooden_hoe:10
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-forcepushwand:
-  version: 5
-  spell_inventory:
-    forcepush: 3
-  active_spell: forcepush
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Force Push
-  mana_max: 200.0
-  page: 0
-  spells:
-  - forcepush
+  - wwbracers
   bound: true
   keep: true
   invulnerable: true
@@ -3322,61 +3198,22 @@ forcepushwand:
   attribute_slot: mainhand
   icon: wood_hoe:1
   path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-webshooter:
-  version: 5
-  spell_inventory:
-    webshot: 0
-    webfling: 1
-    webpull: 2
-  active_spell: webshot
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: ffffff
-  name: WebShooter
-  mana_max: 300.0
-  page: 0
-  spells:
-  - webshot
-  - webfling
-  - webpull
-  bound: true
-  keep: false
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: gold_hoe:27
-  path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-waterspearwand:
+crescentthrowwand:
   version: 5
   spell_inventory:
-    waterspear: 0
-  active_spell: waterspear
+    crescentthrow: 0
+  active_spell: crescentthrow
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Water Spear
+  name: Crescent Throw
   mana_max: 200.0
   page: 0
   spells:
-  - waterspear
+  - crescentthrow
   bound: true
   keep: true
   invulnerable: true
@@ -3398,30 +3235,22 @@ waterspearwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-symbiotepowers:
+redtornadowand:
   version: 5
   spell_inventory:
-    webshot: 0
-    webfling: 1
-    webpull: 2
-    symbiotestretch: 3
-    symbiotetendril: 4
-  active_spell: webshot
+    redtornado: 0
+  active_spell: redtornado
   spell_levels: {}
-  mana: 300.0
+  mana: 200.0
   mana_regeneration: 10.0
-  effect_color: 0
-  name: SymbiotePowers
-  mana_max: 300.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Red Tornado
+  mana_max: 200.0
   page: 0
   spells:
-  - webshot
-  - webfling
-  - webpull
-  - symbiotestretch
-  - symbiotetendril
+  - redtornado
   bound: true
-  keep: false
+  keep: true
   invulnerable: true
   immortal: true
   track: true
@@ -3437,24 +3266,59 @@ symbiotepowers:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: iron_barding
+  icon: blaze_rod
   path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-tekcajtiartswand:
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+streamwand:
   version: 5
   spell_inventory:
-    tekcajtiarts: 0
-  active_spell: tekcajtiarts
+    stream: 0
+  active_spell: stream
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Tekcajtiarts Spell
+  name: Stream
   mana_max: 200.0
   page: 0
   spells:
-  - tekcajtiarts
+  - stream
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+crystalshieldwand:
+  version: 5
+  spell_inventory:
+    crystalshield: 0
+  active_spell: crystalshield
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Crystal Shield
+  mana_max: 200.0
+  page: 0
+  spells:
+  - crystalshield
   bound: true
   keep: true
   invulnerable: true
@@ -3537,20 +3401,125 @@ harryswand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-electrocutewand:
+infinitemasspunchwand:
   version: 5
   spell_inventory:
-    electrocute: 0
-  active_spell: electrocute
+    infinitemasspunch: 0
+  active_spell: infinitemasspunch
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Infinite Mass Punch
+  mana_max: 200.0
+  page: 0
+  spells:
+  - infinitemasspunch
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+mach5punchwand:
+  version: 5
+  spell_inventory:
+    mach5punch: 0
+  active_spell: mach5punch
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Mach 5 Punch
+  mana_max: 200.0
+  page: 0
+  spells:
+  - mach5punch
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+stonetouchwand:
+  version: 5
+  spell_inventory:
+    stonetouch: 1
+  active_spell: stonetouch
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: StoneTouchWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - stonetouch
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+regeneratewand:
+  version: 5
+  spell_inventory:
+    regenerate: 0
+  active_spell: regenerate
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: 00ffff
-  name: ElectrocuteWand
+  name: Regenerate
   mana_max: 300.0
   page: 0
   spells:
-  - electrocute
+  - regenerate
   bound: true
   keep: true
   invulnerable: true
@@ -3572,20 +3541,209 @@ electrocutewand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-freezeraywand:
+tekcajtiartswand:
   version: 5
   spell_inventory:
-    freezeray: 0
-  active_spell: freezeray
+    tekcajtiarts: 0
+  active_spell: tekcajtiarts
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Freeze Ray
+  name: Tekcajtiarts Spell
   mana_max: 200.0
   page: 0
   spells:
-  - freezeray
+  - tekcajtiarts
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+energytrapwand:
+  version: 5
+  spell_inventory:
+    energytrap: 0
+  active_spell: energytrap
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Energy Trap
+  mana_max: 200.0
+  page: 0
+  spells:
+  - energytrap
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+webshooter:
+  version: 5
+  spell_inventory:
+    webshot: 0
+    webfling: 1
+    webpull: 2
+  active_spell: webshot
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ffffff
+  name: WebShooter
+  mana_max: 300.0
+  page: 0
+  spells:
+  - webshot
+  - webfling
+  - webpull
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: gold_hoe:27
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+destroyerblastwand:
+  version: 5
+  spell_inventory:
+    destroyerblast: 0
+  active_spell: destroyerblast
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Destroyer Blast
+  mana_max: 200.0
+  page: 0
+  spells:
+  - destroyerblast
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+martialarts:
+  version: 1
+  spell_inventory:
+    rapidpunch: 0
+    blindinghit: 1
+    criticalpunch: 2
+    gutshot: 3
+    highkick: 4
+    lowkick: 5
+  active_spell: rapidpunch
+  spell_levels: {}
+  mana: 9999.0
+  mana_regeneration: 1000.0
+  effect_color: 00ff00
+  name: MartialArts
+  mana_max: 9999.0
+  page: 0
+  spells:
+  - rapidpunch
+  - blindinghit
+  - criticalpunch
+  - gutshot
+  - highkick
+  - lowkick
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: quartz
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+erifnrubnordlaucelbbubwand:
+  version: 5
+  spell_inventory:
+    erifnrubnordlaucelbbub: 0
+  active_spell: erifnrubnordlaucelbbub
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Erifnrubnordlaucelbbub Spell
+  mana_max: 200.0
+  page: 0
+  spells:
+  - erifnrubnordlaucelbbub
   bound: true
   keep: true
   invulnerable: true
@@ -3621,570 +3779,6 @@ darkpoundwand:
   page: 0
   spells:
   - darkpound
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-feathershotwand:
-  version: 5
-  spell_inventory:
-    feathershot: 0
-  active_spell: feathershot
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Feather Shot
-  mana_max: 200.0
-  page: 0
-  spells:
-  - feathershot
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-crescentthrowwand:
-  version: 5
-  spell_inventory:
-    crescentthrow: 0
-  active_spell: crescentthrow
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Crescent Throw
-  mana_max: 200.0
-  page: 0
-  spells:
-  - crescentthrow
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-wwbracerswand:
-  version: 5
-  spell_inventory:
-    wwbracers: 0
-  active_spell: wwbracers
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Wonder Woman's Bracer Attack
-  mana_max: 300.0
-  page: 0
-  spells:
-  - wwbracers
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-universalpullwand:
-  version: 5
-  spell_inventory:
-    universalpull: 0
-  active_spell: universalpull
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Universal Pull
-  mana_max: 200.0
-  page: 0
-  spells:
-  - universalpull
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-dovahkiinshouts:
-  version: 5
-  spell_inventory:
-    unrelentingforce: 0
-    firebreath: 1
-    whirlwindsprint: 2
-    frostbreath: 3
-    iceform: 4
-    markedfordeath: 5
-    becomeethereal: 6
-    aurawhisper: 7
-    callofvalor: 26
-    disarmshout: 27
-    elementalfury: 28
-    soultear: 29
-    slowtimeshout: 30
-  active_spell: unrelentingforce
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: ff0000
-  name: DovahkiinShouts
-  mana_max: 300.0
-  page: 0
-  spells:
-  - unrelentingforce
-  - firebreath
-  - whirlwindsprint
-  - frostbreath
-  - iceform
-  - markedfordeath
-  - becomeethereal
-  - aurawhisper
-  - callofvalor
-  - disarmshout
-  - elementalfury
-  - soultear
-  - slowtimeshout
-  bound: true
-  keep: false
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: iron_barding
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-healingfieldwand:
-  version: 5
-  spell_inventory:
-    healingfield: 0
-  active_spell: healingfield
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Healing Field
-  mana_max: 200.0
-  page: 0
-  spells:
-  - healingfield
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-liftmetalwand:
-  version: 5
-  spell_inventory:
-    liftmetal: 0
-  active_spell: liftmetal
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Lift Metal
-  mana_max: 200.0
-  page: 0
-  spells:
-  - liftmetal
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-throwswordwand:
-  version: 5
-  spell_inventory:
-    throwsword: 6
-  active_spell: throwsword
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: ThrowSwordWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - throwsword
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-crystaltrapwand:
-  version: 5
-  spell_inventory:
-    crystaltrap: 0
-  active_spell: crystaltrap
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Crystal Trap
-  mana_max: 200.0
-  page: 0
-  spells:
-  - crystaltrap
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-streamwand:
-  version: 5
-  spell_inventory:
-    stream: 0
-  active_spell: stream
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Stream
-  mana_max: 200.0
-  page: 0
-  spells:
-  - stream
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-fireboltwand:
-  version: 5
-  spell_inventory:
-    firebolt: 0
-  active_spell: firebolt
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Fire Bolt
-  mana_max: 200.0
-  page: 0
-  spells:
-  - firebolt
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-electricfloorwand:
-  version: 5
-  spell_inventory:
-    electricfloor: 0
-  active_spell: electricfloor
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Electric Floor
-  mana_max: 300.0
-  page: 0
-  spells:
-  - electricfloor
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-energypistolwand:
-  spell_inventory:
-    energypistol: 0
-  active_spell: energypistol
-  name: Energy Pistol
-  spells:
-  - energypistol
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  left_click: cast
-lassolockwand:
-  version: 5
-  spell_inventory:
-    lassolock: 0
-  active_spell: lassolock
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Lasso Lock
-  mana_max: 300.0
-  page: 0
-  spells:
-  - lassolock
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-antimatterraywand:
-  version: 5
-  spell_inventory:
-    antimatterray: 0
-  active_spell: antimatterray
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: AntimatterRayWand
-  mana_max: 300.0
-  page: 0
-  spells:
-  - antimatterray
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-bubblewand:
-  version: 5
-  spell_inventory:
-    bubble: 0
-  active_spell: bubble
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Bubble
-  mana_max: 200.0
-  page: 0
-  spells:
-  - bubble
   bound: true
   keep: true
   invulnerable: true
@@ -4251,6 +3845,91 @@ yellowlanternring:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
+ravenfieldwand:
+  version: 5
+  spell_inventory:
+    ravenfield: 0
+  active_spell: ravenfield
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: Raven's Field
+  mana_max: 300.0
+  page: 0
+  spells:
+  - ravenfield
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+warlockblastwand:
+  spell_inventory:
+    warlockblast: 0
+  active_spell: warlockblast
+  name: Warlock Blast
+  spells:
+  - warlockblast
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  left_click: cast
+quakewand:
+  version: 5
+  spell_inventory:
+    quake: 0
+  active_spell: quake
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Quake
+  mana_max: 200.0
+  page: 0
+  spells:
+  - quake
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
 greenlanternrings:
   version: 5
   spell_inventory:
@@ -4296,35 +3975,20 @@ greenlanternrings:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-jokerfloweracidwand:
-  spell_inventory:
-    jokerfloweracid: 0
-  active_spell: jokerfloweracid
-  name: Flower Acid
-  spells:
-  - jokerfloweracid
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  left_click: cast
-conjureswordwand:
+turnghostwand:
   version: 5
   spell_inventory:
-    conjuresword: 3
-  active_spell: conjuresword
+    turnghost: 5
+  active_spell: turnghost
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: ConjureSwordWand
+  name: TurnGhostWand
   mana_max: 200.0
   page: 0
   spells:
-  - conjuresword
+  - turnghost
   bound: true
   keep: true
   invulnerable: true
@@ -4346,20 +4010,70 @@ conjureswordwand:
   path: beginner
   creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
   creator: xHqrkie
-forcespeedwand:
+watershotwand:
+  spell_inventory:
+    watershot: 0
+  active_spell: watershot
+  name: Water Shot
+  spells:
+  - watershot
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  left_click: cast
+solidifywand:
   version: 5
   spell_inventory:
-    forcespeed: 0
-  active_spell: forcespeed
+    solidify: 0
+  active_spell: solidify
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Solidify
+  mana_max: 200.0
+  page: 0
+  spells:
+  - solidify
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+lassoregenwand:
+  version: 5
+  spell_inventory:
+    lassoregen: 0
+  active_spell: lassoregen
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: 00ffff
-  name: Force Speed
+  name: Lasso Regen
   mana_max: 300.0
   page: 0
   spells:
-  - forcespeed
+  - lassoregen
   bound: true
   keep: true
   invulnerable: true
@@ -4381,6 +4095,109 @@ forcespeedwand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
+demonicblastwand:
+  version: 5
+  spell_inventory:
+    demonicblast: 0
+  active_spell: demonicblast
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Demonic Blast
+  mana_max: 200.0
+  page: 0
+  spells:
+  - demonicblast
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+elderwand:
+  active_spell: expelliarmus
+  mana: 600.0
+  effect_color: 274d74a0f611,5d8c5d622d3f,d775451acad6
+  page: 0
+  spells: []
+  spell_inventory: []
+  mana_regenartion_boost: 20.0
+  right_click: inventory
+  mana_regenartion: 20.0
+  mana_regeneration: 50.0
+  name: Elder Wand
+  mana_max: 600.0
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: toggle
+  left_click: cast
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: mythguy1226
+crystaltrapwand:
+  version: 5
+  spell_inventory:
+    crystaltrap: 0
+  active_spell: crystaltrap
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Crystal Trap
+  mana_max: 200.0
+  page: 0
+  spells:
+  - crystaltrap
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
 acidshotwand:
   version: 5
   spell_inventory:
@@ -4416,6 +4233,506 @@ acidshotwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
+jackfrostwand:
+  version: 5
+  spell_inventory:
+    frost: 1
+    backflip: 2
+    supercollapse: 3
+  active_spell: frost
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Jack's Wand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - frost
+  - backflip
+  - supercollapse
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wooden_hoe:10
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+blindwand:
+  version: 5
+  spell_inventory:
+    blind: 1
+  active_spell: blind
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: BlindWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - blind
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+sandwallwand:
+  version: 5
+  spell_inventory:
+    sandwall: 0
+  active_spell: sandwall
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Sand Wall
+  mana_max: 200.0
+  page: 0
+  spells:
+  - sandwall
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+ravenrushwand:
+  version: 5
+  spell_inventory:
+    ravenrush: 0
+  active_spell: ravenrush
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: Raven's Rush
+  mana_max: 300.0
+  page: 0
+  spells:
+  - ravenrush
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+forcegripwand:
+  version: 5
+  spell_inventory:
+    forcegrip: 0
+  active_spell: forcegrip
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Force Grip
+  mana_max: 200.0
+  page: 0
+  spells:
+  - forcegrip
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+etaercsnoisulliwand:
+  version: 5
+  spell_inventory:
+    etaercsnoisulli: 0
+  active_spell: etaercsnoisulli
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Etaercsnoisulli Spell
+  mana_max: 200.0
+  page: 0
+  spells:
+  - etaercsnoisulli
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+helaboltwand:
+  version: 5
+  spell_inventory:
+    helabolt: 4
+  active_spell: helabolt
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: HelaBoltWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - helabolt
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+throwswordwand:
+  version: 5
+  spell_inventory:
+    throwsword: 6
+  active_spell: throwsword
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: ThrowSwordWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - throwsword
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+freezetimewand:
+  version: 5
+  spell_inventory:
+    freezetime: 0
+  active_spell: freezetime
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Freeze Time
+  mana_max: 200.0
+  page: 0
+  spells:
+  - freezetime
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+emoksemocebadlofdnilbwand:
+  version: 5
+  spell_inventory:
+    emoksemocebadlofdnilb: 0
+  active_spell: emoksemocebadlofdnilb
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Emoksemocebadlofdnilb Spell
+  mana_max: 200.0
+  page: 0
+  spells:
+  - emoksemocebadlofdnilb
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+timestone:
+  version: 5
+  spell_inventory:
+    freezetime: 0
+    acceleratetime: 1
+  active_spell: freezetime
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: adec69d28e0f,7c10275ee6a0,f3f1820c39d0
+  name: TimeStone
+  mana_max: 300.0
+  page: 0
+  spells:
+  - freezetime
+  - acceleratetime
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: emerald
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+percysdemigodpowers:
+  version: 5
+  spell_inventory:
+    waterscooter: 1
+    waterspear: 2
+    bubble: 0
+  active_spell: bubble
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 100.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: PercysDemiGodPowers
+  mana_max: 200.0
+  page: 0
+  spells:
+  - bubble
+  - waterscooter
+  - waterspear
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: ghast_tear
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+telekinesiswand:
+  version: 5
+  spell_inventory:
+    telekinesis: 0
+  active_spell: telekinesis
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Telekinesis
+  mana_max: 200.0
+  page: 0
+  spells:
+  - telekinesis
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+helahealwand:
+  version: 5
+  spell_inventory:
+    helaheal: 2
+  active_spell: helaheal
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: HelaHealWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - helaheal
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
 newtscamanderswand:
   version: 5
   spell_inventory:
@@ -4455,6 +4772,937 @@ newtscamanderswand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
+longpunchwand:
+  version: 5
+  spell_inventory:
+    longpunch: 0
+  active_spell: longpunch
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: LongPunchWand
+  mana_max: 300.0
+  page: 0
+  spells:
+  - longpunch
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+groundpoundwand:
+  version: 5
+  spell_inventory:
+    groundpound: 0
+  active_spell: groundpound
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Ground Pound
+  mana_max: 200.0
+  page: 0
+  spells:
+  - groundpound
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+almightypushwand:
+  version: 5
+  spell_inventory:
+    almightypush: 0
+  active_spell: almightypush
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Almighty Push
+  mana_max: 200.0
+  page: 0
+  spells:
+  - almightypush
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+liftmetalwand:
+  version: 5
+  spell_inventory:
+    liftmetal: 0
+  active_spell: liftmetal
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Lift Metal
+  mana_max: 200.0
+  page: 0
+  spells:
+  - liftmetal
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+universalpullwand:
+  version: 5
+  spell_inventory:
+    universalpull: 0
+  active_spell: universalpull
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Universal Pull
+  mana_max: 200.0
+  page: 0
+  spells:
+  - universalpull
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+jokerfloweracidwand:
+  spell_inventory:
+    jokerfloweracid: 0
+  active_spell: jokerfloweracid
+  name: Flower Acid
+  spells:
+  - jokerfloweracid
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  left_click: cast
+symbiotestretchwand:
+  version: 5
+  spell_inventory:
+    symbiotestretch: 0
+  active_spell: symbiotestretch
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Symbiote Stretch
+  mana_max: 200.0
+  page: 0
+  spells:
+  - symbiotestretch
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+soulshockwand:
+  version: 5
+  spell_inventory:
+    soulshock: 0
+  active_spell: soulshock
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Soul Shock
+  mana_max: 200.0
+  page: 0
+  spells:
+  - soulshock
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+soulstone:
+  version: 5
+  spell_inventory:
+    soulstonetrap: 0
+    soulstoneblast: 1
+  active_spell: soulstonetrap
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ff8800
+  name: SoulStone
+  mana_max: 300.0
+  page: 0
+  spells:
+  - soulstonetrap
+  - soulstoneblast
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: ink_sack:14
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+increaseagewand:
+  version: 5
+  spell_inventory:
+    increaseagewand: 7
+  active_spell: increaseage
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: IncreaseAgeWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - increaseage
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+lucarioballwand:
+  version: 5
+  spell_inventory:
+    lucarioball: 0
+  active_spell: lucarioball
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: LucarioBallWand
+  mana_max: 300.0
+  page: 0
+  spells:
+  - lucarioball
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+dovahkiinshouts:
+  version: 5
+  spell_inventory:
+    unrelentingforce: 0
+    firebreath: 1
+    whirlwindsprint: 2
+    frostbreath: 3
+    iceform: 4
+    markedfordeath: 5
+    becomeethereal: 6
+    aurawhisper: 7
+    callofvalor: 26
+    disarmshout: 27
+    elementalfury: 28
+    soultear: 29
+    slowtimeshout: 30
+  active_spell: unrelentingforce
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ff0000
+  name: DovahkiinShouts
+  mana_max: 300.0
+  page: 0
+  spells:
+  - unrelentingforce
+  - firebreath
+  - whirlwindsprint
+  - frostbreath
+  - iceform
+  - markedfordeath
+  - becomeethereal
+  - aurawhisper
+  - callofvalor
+  - disarmshout
+  - elementalfury
+  - soultear
+  - slowtimeshout
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: iron_barding
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+soulgripwand:
+  version: 5
+  spell_inventory:
+    soulgrip: 0
+  active_spell: soulgrip
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Soul Grip
+  mana_max: 200.0
+  page: 0
+  spells:
+  - soulgrip
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+electricfloorwand:
+  version: 5
+  spell_inventory:
+    electricfloor: 0
+  active_spell: electricfloor
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: Electric Floor
+  mana_max: 300.0
+  page: 0
+  spells:
+  - electricfloor
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+sunbeamwand:
+  version: 5
+  spell_inventory:
+    sunbeam: 0
+  active_spell: sunbeam
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: SunbeamWand
+  mana_max: 300.0
+  page: 0
+  spells:
+  - sunbeam
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+forcefieldwand:
+  version: 5
+  spell_inventory:
+    forcefield: 0
+  active_spell: forcefield
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: ForceFieldWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - forcefield
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+sonicwavewand:
+  version: 5
+  spell_inventory:
+    sonicwave: 0
+  active_spell: sonicwave
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: aaaaaa
+  name: SonicWaveWand
+  mana_max: 300.0
+  page: 0
+  spells:
+  - sonicwave
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+webshotwand:
+  spell_inventory:
+    webshot: 0
+  active_spell: webshot
+  name: Web Shot
+  spells:
+  - webshot
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  left_click: cast
+symbiotetendrilwand:
+  version: 5
+  spell_inventory:
+    symbiotetendril: 0
+  active_spell: symbiotetendril
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Symbiote Tendril
+  mana_max: 200.0
+  page: 0
+  spells:
+  - symbiotetendril
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+phoenixforcewand:
+  version: 5
+  spell_inventory:
+    phoenixforce: 0
+  active_spell: phoenixforce
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Phoenix Force
+  mana_max: 200.0
+  page: 0
+  spells:
+  - phoenixforce
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+lassopullwand:
+  version: 5
+  spell_inventory:
+    lassopull: 0
+  active_spell: lassopull
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: Lasso Pull
+  mana_max: 300.0
+  page: 0
+  spells:
+  - lassopull
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+tsunamiwand:
+  version: 5
+  spell_inventory:
+    tsunami: 0
+  active_spell: tsunami
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Tsunami
+  mana_max: 200.0
+  page: 0
+  spells:
+  - tsunami
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+freezeraywand:
+  version: 5
+  spell_inventory:
+    freezeray: 0
+  active_spell: freezeray
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Freeze Ray
+  mana_max: 200.0
+  page: 0
+  spells:
+  - freezeray
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+electrictpwand:
+  version: 5
+  spell_inventory:
+    electrictp: 0
+  active_spell: electrictp
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Electric Teleport
+  mana_max: 200.0
+  page: 0
+  spells:
+  - electrictp
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+antimatterraywand:
+  version: 5
+  spell_inventory:
+    antimatterray: 0
+  active_spell: antimatterray
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: 00ffff
+  name: AntimatterRayWand
+  mana_max: 300.0
+  page: 0
+  spells:
+  - antimatterray
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+fireboltwand:
+  version: 5
+  spell_inventory:
+    firebolt: 0
+  active_spell: firebolt
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Fire Bolt
+  mana_max: 200.0
+  page: 0
+  spells:
+  - firebolt
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+cosmicboltwand:
+  version: 5
+  spell_inventory:
+    cosmicbolt: 0
+  active_spell: cosmicbolt
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: CosmicBoltWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - cosmicbolt
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
 gauntlet:
   version: 5
   spell_inventory:
@@ -4528,20 +5776,61 @@ gauntlet:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-lightraywand:
+technokinesiswand:
   version: 5
   spell_inventory:
-    lightray: 0
-  active_spell: lightray
+    technokinesis: 0
+  active_spell: technokinesis
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Light Ray
+  name: Techno Control
+  mana_max: 500.0
+  page: 0
+  spells:
+  - technokinesis
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: sugar
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+abraswand:
+  version: 5
+  spell_inventory:
+    abrawarp: 1
+    abrabolt: 2
+    abratrap: 0
+    turnwater: 3
+  active_spell: abratrap
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: AbrasWand
   mana_max: 200.0
   page: 0
   spells:
-  - lightray
+  - turnwater
+  - abrabolt
+  - abrawarp
+  - abratrap
   bound: true
   keep: true
   invulnerable: true
@@ -4563,20 +5852,55 @@ lightraywand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-energytrapwand:
+forcepushwand:
   version: 5
   spell_inventory:
-    energytrap: 0
-  active_spell: energytrap
+    forcepush: 3
+  active_spell: forcepush
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Energy Trap
+  name: Force Push
   mana_max: 200.0
   page: 0
   spells:
-  - energytrap
+  - forcepush
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+waterscooterwand:
+  version: 5
+  spell_inventory:
+    waterscooter: 0
+  active_spell: waterscooter
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Water Scooter
+  mana_max: 200.0
+  page: 0
+  spells:
+  - waterscooter
   bound: true
   keep: true
   invulnerable: true
@@ -4598,22 +5922,67 @@ energytrapwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-sonicwavewand:
+stungrenadewand:
   version: 5
   spell_inventory:
-    sonicwave: 0
-  active_spell: sonicwave
+    stungrenade: 0
+  active_spell: stungrenade
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Stun Grenade
+  mana_max: 200.0
+  page: 0
+  spells:
+  - stungrenade
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+redlanternring:
+  version: 5
+  spell_inventory:
+    lanternshield: 0
+    lanternblast: 1
+    lanternsmight: 2
+    lanternsingularity: 3
+    lanternlift: 4
+    lanternbubble: 5
+  active_spell: lanternshield
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
-  effect_color: aaaaaa
-  name: SonicWaveWand
+  effect_color: ff0000
+  name: RedLanternRing
   mana_max: 300.0
   page: 0
   spells:
-  - sonicwave
+  - lanternshield
+  - lanternblast
+  - lanternsmight
+  - lanternsingularity
+  - lanternlift
+  - lanternbubble
   bound: true
-  keep: true
+  keep: false
   invulnerable: true
   immortal: true
   track: true
@@ -4629,24 +5998,24 @@ sonicwavewand:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: wood_hoe:1
+  icon: gold_hoe:30
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-electrictpwand:
+timewand:
   version: 5
   spell_inventory:
-    electrictp: 0
-  active_spell: electrictp
+    time: 0
+  active_spell: time
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Electric Teleport
+  name: Time
   mana_max: 200.0
   page: 0
   spells:
-  - electrictp
+  - time
   bound: true
   keep: true
   invulnerable: true
@@ -4668,278 +6037,20 @@ electrictpwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-forcepullwand:
+forcespeedwand:
   version: 5
   spell_inventory:
-    forcepull: 3
-  active_spell: forcepull
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Force Pull
-  mana_max: 200.0
-  page: 0
-  spells:
-  - forcepull
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-elderwand:
-  active_spell: expelliarmus
-  mana: 600.0
-  effect_color: 274d74a0f611,5d8c5d622d3f,d775451acad6
-  page: 0
-  spells: []
-  spell_inventory: []
-  mana_regenartion_boost: 20.0
-  right_click: inventory
-  mana_regenartion: 20.0
-  mana_regeneration: 50.0
-  name: Elder Wand
-  mana_max: 600.0
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: toggle
-  left_click: cast
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: mythguy1226
-helaboltwand:
-  version: 5
-  spell_inventory:
-    helabolt: 4
-  active_spell: helabolt
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: HelaBoltWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - helabolt
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-solidifywand:
-  version: 5
-  spell_inventory:
-    solidify: 0
-  active_spell: solidify
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Solidify
-  mana_max: 200.0
-  page: 0
-  spells:
-  - solidify
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-embiggenpunchwand:
-  version: 5
-  spell_inventory:
-    embiggenpunch: 0
-  active_spell: embiggenpunch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Embiggen Punch
-  mana_max: 200.0
-  page: 0
-  spells:
-  - embiggenpunch
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-glasstouchwand:
-  version: 5
-  spell_inventory:
-    glasstouch: 0
-  active_spell: glasstouch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: GlassTouchWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - glasstouch
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-soulpushwand:
-  version: 5
-  spell_inventory:
-    soulpush: 0
-  active_spell: soulpush
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Soul Push
-  mana_max: 200.0
-  page: 0
-  spells:
-  - soulpush
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-watershotwand:
-  spell_inventory:
-    watershot: 0
-  active_spell: watershot
-  name: Water Shot
-  spells:
-  - watershot
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  left_click: cast
-longpunchwand:
-  version: 5
-  spell_inventory:
-    longpunch: 0
-  active_spell: longpunch
+    forcespeed: 0
+  active_spell: forcespeed
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: 00ffff
-  name: LongPunchWand
+  name: Force Speed
   mana_max: 300.0
   page: 0
   spells:
-  - longpunch
+  - forcespeed
   bound: true
   keep: true
   invulnerable: true
@@ -4961,55 +6072,20 @@ longpunchwand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-almightypushwand:
+healingfieldwand:
   version: 5
   spell_inventory:
-    almightypush: 0
-  active_spell: almightypush
+    healingfield: 0
+  active_spell: healingfield
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Almighty Push
+  name: Healing Field
   mana_max: 200.0
   page: 0
   spells:
-  - almightypush
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-blindwand:
-  version: 5
-  spell_inventory:
-    blind: 1
-  active_spell: blind
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: BlindWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - blind
+  - healingfield
   bound: true
   keep: true
   invulnerable: true
@@ -5031,20 +6107,147 @@ blindwand:
   path: beginner
   creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
   creator: xHqrkie
-helahealwand:
+frostwand:
   version: 5
   spell_inventory:
-    helaheal: 2
-  active_spell: helaheal
+    frost: 0
+  active_spell: frost
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: HelaHealWand
+  name: Frost
   mana_max: 200.0
   page: 0
   spells:
-  - helaheal
+  - frost
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+kryptonianlaservisionwand:
+  spell_inventory:
+    kryptonianlaservision: 0
+  active_spell: kryptonianlaservision
+  name: Kryptonian Laser Vision
+  spells:
+  - kryptonianlaservision
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  right_click: cast
+  left_click: none
+spearofdestiny:
+  version: 5
+  spell_inventory:
+    spearofdestinythrow: 0
+    spearofdestinyknockback: 1
+    eraseexistance: 2
+    changereality: 3
+  active_spell: spearofdestinythrow
+  spell_levels: {}
+  mana: 300.0
+  mana_regeneration: 10.0
+  effect_color: ff0000
+  name: SpearOfDestiny
+  mana_max: 300.0
+  page: 0
+  spells:
+  - spearofdestinythrow
+  - spearofdestinyknockback
+  - eraseexistance
+  - changereality
+  bound: true
+  keep: false
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: iron_spade
+  path: beginner
+  creator_id: f621586e-8ef8-448d-9264-86b61375052e
+  creator: President_Myth
+turnwaterwand:
+  version: 5
+  spell_inventory:
+    turnwater: 2
+  active_spell: turnwater
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: TurnWaterWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - turnwater
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+conjureswordwand:
+  version: 5
+  spell_inventory:
+    conjuresword: 3
+  active_spell: conjuresword
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: ConjureSwordWand
+  mana_max: 200.0
+  page: 0
+  spells:
+  - conjuresword
   bound: true
   keep: true
   invulnerable: true
@@ -5116,20 +6319,20 @@ warbeamwand:
   undroppable: true
   indestructible: true
   left_click: cast
-destroyerblastwand:
+dlocdniwwolbwand:
   version: 5
   spell_inventory:
-    destroyerblast: 0
-  active_spell: destroyerblast
+    dlocdniwwolb: 0
+  active_spell: dlocdniwwolb
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Destroyer Blast
+  name: Dlocdniwwolb Spell
   mana_max: 200.0
   page: 0
   spells:
-  - destroyerblast
+  - dlocdniwwolb
   bound: true
   keep: true
   invulnerable: true
@@ -5151,20 +6354,20 @@ destroyerblastwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-regeneratewand:
+meteorshowerwand:
   version: 5
   spell_inventory:
-    regenerate: 0
-  active_spell: regenerate
+    meteorshower: 0
+  active_spell: meteorshower
   spell_levels: {}
-  mana: 300.0
+  mana: 200.0
   mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Regenerate
-  mana_max: 300.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Meteor Shower
+  mana_max: 200.0
   page: 0
   spells:
-  - regenerate
+  - meteorshower
   bound: true
   keep: true
   invulnerable: true
@@ -5184,8 +6387,198 @@ regeneratewand:
   attribute_slot: mainhand
   icon: wood_hoe:1
   path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+acceleratetimewand:
+  version: 5
+  spell_inventory:
+    acceleratetime: 0
+  active_spell: acceleratetime
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Accelerate Time
+  mana_max: 200.0
+  page: 0
+  spells:
+  - acceleratetime
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+whirlwindwand:
+  version: 5
+  spell_inventory:
+    whirlwind: 0
+  active_spell: whirlwind
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Whirl Wind
+  mana_max: 200.0
+  page: 0
+  spells:
+  - whirlwind
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+deadlightswand:
+  version: 5
+  spell_inventory:
+    deadlights: 0
+  active_spell: deadlights
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Deadlights
+  mana_max: 200.0
+  page: 0
+  spells:
+  - deadlights
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+energypistolwand:
+  spell_inventory:
+    energypistol: 0
+  active_spell: energypistol
+  name: Energy Pistol
+  spells:
+  - energypistol
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  left_click: cast
+lightraywand:
+  version: 5
+  spell_inventory:
+    lightray: 0
+  active_spell: lightray
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Light Ray
+  mana_max: 200.0
+  page: 0
+  spells:
+  - lightray
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+bubblewand:
+  version: 5
+  spell_inventory:
+    bubble: 0
+  active_spell: bubble
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Bubble
+  mana_max: 200.0
+  page: 0
+  spells:
+  - bubble
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
 voldemortswand:
   version: 5
   spell_inventory:
@@ -5229,125 +6622,20 @@ voldemortswand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-rhinodashwand:
+forcepullwand:
   version: 5
   spell_inventory:
-    rhinodash: 0
-  active_spell: rhinodash
+    forcepull: 3
+  active_spell: forcepull
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Rhino Dash
+  name: Force Pull
   mana_max: 200.0
   page: 0
   spells:
-  - rhinodash
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-redtornadowand:
-  version: 5
-  spell_inventory:
-    redtornado: 0
-  active_spell: redtornado
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Red Tornado
-  mana_max: 200.0
-  page: 0
-  spells:
-  - redtornado
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-emoksemocebadlofdnilbwand:
-  version: 5
-  spell_inventory:
-    emoksemocebadlofdnilb: 0
-  active_spell: emoksemocebadlofdnilb
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Emoksemocebadlofdnilb Spell
-  mana_max: 200.0
-  page: 0
-  spells:
-  - emoksemocebadlofdnilb
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-stonetouchwand:
-  version: 5
-  spell_inventory:
-    stonetouch: 1
-  active_spell: stonetouch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: StoneTouchWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - stonetouch
+  - forcepull
   bound: true
   keep: true
   invulnerable: true
@@ -5369,57 +6657,20 @@ stonetouchwand:
   path: beginner
   creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
   creator: xHqrkie
-timestone:
+waterspearwand:
   version: 5
   spell_inventory:
-    freezetime: 0
-    acceleratetime: 1
-  active_spell: freezetime
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: adec69d28e0f,7c10275ee6a0,f3f1820c39d0
-  name: TimeStone
-  mana_max: 300.0
-  page: 0
-  spells:
-  - freezetime
-  - acceleratetime
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: emerald
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-stungrenadewand:
-  version: 5
-  spell_inventory:
-    stungrenade: 0
-  active_spell: stungrenade
+    waterspear: 0
+  active_spell: waterspear
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Stun Grenade
+  name: Water Spear
   mana_max: 200.0
   page: 0
   spells:
-  - stungrenade
+  - waterspear
   bound: true
   keep: true
   invulnerable: true
@@ -5441,20 +6692,90 @@ stungrenadewand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-lucarioballwand:
+manipulatewand:
   version: 5
   spell_inventory:
-    lucarioball: 0
-  active_spell: lucarioball
+    manipulate: 0
+  active_spell: manipulate
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Manipulate
+  mana_max: 200.0
+  page: 0
+  spells:
+  - manipulate
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: blaze_rod
+  path: beginner
+  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
+  creator: WingArmor
+feathershotwand:
+  version: 5
+  spell_inventory:
+    feathershot: 0
+  active_spell: feathershot
+  spell_levels: {}
+  mana: 200.0
+  mana_regeneration: 10.0
+  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
+  name: Feather Shot
+  mana_max: 200.0
+  page: 0
+  spells:
+  - feathershot
+  bound: true
+  keep: true
+  invulnerable: true
+  immortal: true
+  track: true
+  undroppable: true
+  indestructible: true
+  mode: inventory
+  drop: cycle_hotbar
+  left_click: cast
+  right_click: toggle
+  swap: cycle_hotbar
+  quiet: 1
+  effect_bubbles: false
+  attributes:
+    GENERIC_ATTACK_SPEED: 10
+  attribute_slot: mainhand
+  icon: wood_hoe:1
+  path: beginner
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
+lassolockwand:
+  version: 5
+  spell_inventory:
+    lassolock: 0
+  active_spell: lassolock
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: 00ffff
-  name: LucarioBallWand
+  name: Lasso Lock
   mana_max: 300.0
   page: 0
   spells:
-  - lucarioball
+  - lassolock
   bound: true
   keep: true
   invulnerable: true
@@ -5476,111 +6797,6 @@ lucarioballwand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-turnghostwand:
-  version: 5
-  spell_inventory:
-    turnghost: 5
-  active_spell: turnghost
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: TurnGhostWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - turnghost
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-infinitemasspunchwand:
-  version: 5
-  spell_inventory:
-    infinitemasspunch: 0
-  active_spell: infinitemasspunch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Infinite Mass Punch
-  mana_max: 200.0
-  page: 0
-  spells:
-  - infinitemasspunch
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-soulshockwand:
-  version: 5
-  spell_inventory:
-    soulshock: 0
-  active_spell: soulshock
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Soul Shock
-  mana_max: 200.0
-  page: 0
-  spells:
-  - soulshock
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
 iceshieldwand:
   version: 5
   spell_inventory:
@@ -5616,176 +6832,20 @@ iceshieldwand:
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-frostwand:
+glasstouchwand:
   version: 5
   spell_inventory:
-    frost: 0
-  active_spell: frost
+    glasstouch: 0
+  active_spell: glasstouch
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Frost
+  name: GlassTouchWand
   mana_max: 200.0
   page: 0
   spells:
-  - frost
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-symbiotestretchwand:
-  version: 5
-  spell_inventory:
-    symbiotestretch: 0
-  active_spell: symbiotestretch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Symbiote Stretch
-  mana_max: 200.0
-  page: 0
-  spells:
-  - symbiotestretch
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-waterscooterwand:
-  version: 5
-  spell_inventory:
-    waterscooter: 0
-  active_spell: waterscooter
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Water Scooter
-  mana_max: 200.0
-  page: 0
-  spells:
-  - waterscooter
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-kryptonianlaservisionwand:
-  spell_inventory:
-    kryptonianlaservision: 0
-  active_spell: kryptonianlaservision
-  name: Kryptonian Laser Vision
-  spells:
-  - kryptonianlaservision
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  right_click: cast
-  left_click: none
-mach5punchwand:
-  version: 5
-  spell_inventory:
-    mach5punch: 0
-  active_spell: mach5punch
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Mach 5 Punch
-  mana_max: 200.0
-  page: 0
-  spells:
-  - mach5punch
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-ravenrushwand:
-  version: 5
-  spell_inventory:
-    ravenrush: 0
-  active_spell: ravenrush
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Raven's Rush
-  mana_max: 300.0
-  page: 0
-  spells:
-  - ravenrush
+  - glasstouch
   bound: true
   keep: true
   invulnerable: true
@@ -5805,53 +6865,8 @@ ravenrushwand:
   attribute_slot: mainhand
   icon: wood_hoe:1
   path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-redlanternring:
-  version: 5
-  spell_inventory:
-    lanternshield: 0
-    lanternblast: 1
-    lanternsmight: 2
-    lanternsingularity: 3
-    lanternlift: 4
-    lanternbubble: 5
-  active_spell: lanternshield
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: ff0000
-  name: RedLanternRing
-  mana_max: 300.0
-  page: 0
-  spells:
-  - lanternshield
-  - lanternblast
-  - lanternsmight
-  - lanternsingularity
-  - lanternlift
-  - lanternbubble
-  bound: true
-  keep: false
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: gold_hoe:30
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
+  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
+  creator: xHqrkie
 mindstone:
   version: 5
   spell_inventory:
@@ -5887,20 +6902,20 @@ mindstone:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-sunbeamwand:
+electrocutewand:
   version: 5
   spell_inventory:
-    sunbeam: 0
-  active_spell: sunbeam
+    electrocute: 0
+  active_spell: electrocute
   spell_levels: {}
   mana: 300.0
   mana_regeneration: 10.0
   effect_color: 00ffff
-  name: SunbeamWand
+  name: ElectrocuteWand
   mana_max: 300.0
   page: 0
   spells:
-  - sunbeam
+  - electrocute
   bound: true
   keep: true
   invulnerable: true
@@ -5922,55 +6937,20 @@ sunbeamwand:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-moltenboltwand:
+soulpushwand:
   version: 5
   spell_inventory:
-    moltenbolt: 0
-  active_spell: moltenbolt
+    soulpush: 0
+  active_spell: soulpush
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Molten Bolt
+  name: Soul Push
   mana_max: 200.0
   page: 0
   spells:
-  - moltenbolt
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-crystalshieldwand:
-  version: 5
-  spell_inventory:
-    crystalshield: 0
-  active_spell: crystalshield
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Crystal Shield
-  mana_max: 200.0
-  page: 0
-  spells:
-  - crystalshield
+  - soulpush
   bound: true
   keep: true
   invulnerable: true
@@ -6037,20 +7017,20 @@ blacklanternring:
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-freezetimewand:
+embiggenpunchwand:
   version: 5
   spell_inventory:
-    freezetime: 0
-  active_spell: freezetime
+    embiggenpunch: 0
+  active_spell: embiggenpunch
   spell_levels: {}
   mana: 200.0
   mana_regeneration: 10.0
   effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Freeze Time
+  name: Embiggen Punch
   mana_max: 200.0
   page: 0
   spells:
-  - freezetime
+  - embiggenpunch
   bound: true
   keep: true
   invulnerable: true
@@ -6068,362 +7048,33 @@ freezetimewand:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-spearofdestiny:
-  version: 5
-  spell_inventory:
-    spearofdestinythrow: 0
-    spearofdestinyknockback: 1
-    eraseexistance: 2
-    changereality: 3
-  active_spell: spearofdestinythrow
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: ff0000
-  name: SpearOfDestiny
-  mana_max: 300.0
-  page: 0
-  spells:
-  - spearofdestinythrow
-  - spearofdestinyknockback
-  - eraseexistance
-  - changereality
-  bound: true
-  keep: false
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: iron_spade
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-percysdemigodpowers:
-  version: 5
-  spell_inventory:
-    waterscooter: 1
-    waterspear: 2
-    bubble: 0
-  active_spell: bubble
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 100.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: PercysDemiGodPowers
-  mana_max: 200.0
-  page: 0
-  spells:
-  - bubble
-  - waterscooter
-  - waterspear
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: ghast_tear
+  icon: blaze_rod
   path: beginner
   creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
   creator: WingArmor
-symbiotetendrilwand:
+symbiotepowers:
   version: 5
   spell_inventory:
-    symbiotetendril: 0
-  active_spell: symbiotetendril
+    webshot: 0
+    webfling: 1
+    webpull: 2
+    symbiotestretch: 3
+    symbiotetendril: 4
+  active_spell: webshot
   spell_levels: {}
-  mana: 200.0
+  mana: 300.0
   mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Symbiote Tendril
-  mana_max: 200.0
+  effect_color: 0
+  name: SymbiotePowers
+  mana_max: 300.0
   page: 0
   spells:
+  - webshot
+  - webfling
+  - webpull
+  - symbiotestretch
   - symbiotetendril
   bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-tsunamiwand:
-  version: 5
-  spell_inventory:
-    tsunami: 0
-  active_spell: tsunami
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Tsunami
-  mana_max: 200.0
-  page: 0
-  spells:
-  - tsunami
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-turnwaterwand:
-  version: 5
-  spell_inventory:
-    turnwater: 2
-  active_spell: turnwater
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: TurnWaterWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - turnwater
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-increaseagewand:
-  version: 5
-  spell_inventory:
-    increaseagewand: 7
-  active_spell: increaseage
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: IncreaseAgeWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - increaseage
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-whirlwindwand:
-  version: 5
-  spell_inventory:
-    whirlwind: 0
-  active_spell: whirlwind
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Whirl Wind
-  mana_max: 200.0
-  page: 0
-  spells:
-  - whirlwind
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-soulstone:
-  version: 5
-  spell_inventory:
-    soulstonetrap: 0
-    soulstoneblast: 1
-  active_spell: soulstonetrap
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: ff8800
-  name: SoulStone
-  mana_max: 300.0
-  page: 0
-  spells:
-  - soulstonetrap
-  - soulstoneblast
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: ink_sack:14
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-lassopullwand:
-  version: 5
-  spell_inventory:
-    lassopull: 0
-  active_spell: lassopull
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Lasso Pull
-  mana_max: 300.0
-  page: 0
-  spells:
-  - lassopull
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-martialarts:
-  version: 1
-  spell_inventory:
-    rapidpunch: 0
-    blindinghit: 1
-    criticalpunch: 2
-    gutshot: 3
-    highkick: 4
-    lowkick: 5
-  active_spell: rapidpunch
-  spell_levels: {}
-  mana: 9999.0
-  mana_regeneration: 1000.0
-  effect_color: 00ff00
-  name: MartialArts
-  mana_max: 9999.0
-  page: 0
-  spells:
-  - rapidpunch
-  - blindinghit
-  - criticalpunch
-  - gutshot
-  - highkick
-  - lowkick
-  bound: true
   keep: false
   invulnerable: true
   immortal: true
@@ -6440,658 +7091,7 @@ martialarts:
   attributes:
     GENERIC_ATTACK_SPEED: 10
   attribute_slot: mainhand
-  icon: quartz
+  icon: iron_barding
   path: beginner
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: President_Myth
-groundpoundwand:
-  version: 5
-  spell_inventory:
-    groundpound: 0
-  active_spell: groundpound
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Ground Pound
-  mana_max: 200.0
-  page: 0
-  spells:
-  - groundpound
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-technokinesiswand:
-  version: 5
-  spell_inventory:
-    technokinesis: 0
-  active_spell: technokinesis
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Techno Control
-  mana_max: 500.0
-  page: 0
-  spells:
-  - technokinesis
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: sugar
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-etaercsnoisulliwand:
-  version: 5
-  spell_inventory:
-    etaercsnoisulli: 0
-  active_spell: etaercsnoisulli
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Etaercsnoisulli Spell
-  mana_max: 200.0
-  page: 0
-  spells:
-  - etaercsnoisulli
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-timewand:
-  version: 5
-  spell_inventory:
-    time: 0
-  active_spell: time
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Time
-  mana_max: 200.0
-  page: 0
-  spells:
-  - time
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-meteorshowerwand:
-  version: 5
-  spell_inventory:
-    meteorshower: 0
-  active_spell: meteorshower
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Meteor Shower
-  mana_max: 200.0
-  page: 0
-  spells:
-  - meteorshower
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-warlockblastwand:
-  spell_inventory:
-    warlockblast: 0
-  active_spell: warlockblast
-  name: Warlock Blast
-  spells:
-  - warlockblast
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  left_click: cast
-deadlightswand:
-  version: 5
-  spell_inventory:
-    deadlights: 0
-  active_spell: deadlights
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Deadlights
-  mana_max: 200.0
-  page: 0
-  spells:
-  - deadlights
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-abraswand:
-  version: 5
-  spell_inventory:
-    abrawarp: 1
-    abrabolt: 2
-    abratrap: 0
-    turnwater: 3
-  active_spell: abratrap
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: AbrasWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - turnwater
-  - abrabolt
-  - abrawarp
-  - abratrap
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-erifnrubnordlaucelbbubwand:
-  version: 5
-  spell_inventory:
-    erifnrubnordlaucelbbub: 0
-  active_spell: erifnrubnordlaucelbbub
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Erifnrubnordlaucelbbub Spell
-  mana_max: 200.0
-  page: 0
-  spells:
-  - erifnrubnordlaucelbbub
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-ravenfieldwand:
-  version: 5
-  spell_inventory:
-    ravenfield: 0
-  active_spell: ravenfield
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Raven's Field
-  mana_max: 300.0
-  page: 0
-  spells:
-  - ravenfield
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-dlocdniwwolbwand:
-  version: 5
-  spell_inventory:
-    dlocdniwwolb: 0
-  active_spell: dlocdniwwolb
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Dlocdniwwolb Spell
-  mana_max: 200.0
-  page: 0
-  spells:
-  - dlocdniwwolb
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-phoenixforcewand:
-  version: 5
-  spell_inventory:
-    phoenixforce: 0
-  active_spell: phoenixforce
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Phoenix Force
-  mana_max: 200.0
-  page: 0
-  spells:
-  - phoenixforce
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-telekinesiswand:
-  version: 5
-  spell_inventory:
-    telekinesis: 0
-  active_spell: telekinesis
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Telekinesis
-  mana_max: 200.0
-  page: 0
-  spells:
-  - telekinesis
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-lassoregenwand:
-  version: 5
-  spell_inventory:
-    lassoregen: 0
-  active_spell: lassoregen
-  spell_levels: {}
-  mana: 300.0
-  mana_regeneration: 10.0
-  effect_color: 00ffff
-  name: Lasso Regen
-  mana_max: 300.0
-  page: 0
-  spells:
-  - lassoregen
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: f621586e-8ef8-448d-9264-86b61375052e
-  creator: President_Myth
-forcegripwand:
-  version: 5
-  spell_inventory:
-    forcegrip: 0
-  active_spell: forcegrip
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Force Grip
-  mana_max: 200.0
-  page: 0
-  spells:
-  - forcegrip
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-cosmicboltwand:
-  version: 5
-  spell_inventory:
-    cosmicbolt: 0
-  active_spell: cosmicbolt
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: CosmicBoltWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - cosmicbolt
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-forcefieldwand:
-  version: 5
-  spell_inventory:
-    forcefield: 0
-  active_spell: forcefield
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: ForceFieldWand
-  mana_max: 200.0
-  page: 0
-  spells:
-  - forcefield
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
-demonicblastwand:
-  version: 5
-  spell_inventory:
-    demonicblast: 0
-  active_spell: demonicblast
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Demonic Blast
-  mana_max: 200.0
-  page: 0
-  spells:
-  - demonicblast
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: blaze_rod
-  path: beginner
-  creator_id: 90b2ba6d-43e6-4e5c-8f77-9126b6969a9c
-  creator: WingArmor
-acceleratetimewand:
-  version: 5
-  spell_inventory:
-    acceleratetime: 0
-  active_spell: acceleratetime
-  spell_levels: {}
-  mana: 200.0
-  mana_regeneration: 10.0
-  effect_color: 63c2e3dbb274,64ef87652dcb,88cbb7c77840
-  name: Accelerate Time
-  mana_max: 200.0
-  page: 0
-  spells:
-  - acceleratetime
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-  mode: inventory
-  drop: cycle_hotbar
-  left_click: cast
-  right_click: toggle
-  swap: cycle_hotbar
-  quiet: 1
-  effect_bubbles: false
-  attributes:
-    GENERIC_ATTACK_SPEED: 10
-  attribute_slot: mainhand
-  icon: wood_hoe:1
-  path: beginner
-  creator_id: 28556dea-667d-409f-b2ff-fb4177a20ff2
-  creator: xHqrkie
