@@ -10398,168 +10398,168 @@ note01:
   inherit: note
   icon_url: http://textures.minecraft.net/texture/c4c932901eaf61a741a8fa8a786fa9e509b13ba518f384c6c731086ffdc829e
   parameters:
-    sound: flute.1c
+    sound: flute.1C
   enabled: true
 note02:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.2csharp
+    sound: flute.2C#
   enabled: true
 note03:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.3d
+    sound: flute.3D
   enabled: true
 note04:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.4dsharp
+    sound: flute.4D#
   enabled: true
 note05:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.5e
+    sound: flute.5E
   enabled: true
 note06:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.6f
+    sound: flute.6F
   enabled: true
 note07:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.7fsharp
+    sound: flute.7F#
   enabled: true
 note08:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.8g
+    sound: flute.8G
   enabled: true
 note09:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.9gsharp
+    sound: flute.9G#
   enabled: true
 note10:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.10a
+    sound: flute.10A
   enabled: true
 note11:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.11asharp
+    sound: flute.11A#
   enabled: true
 note12:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.12b
+    sound: flute.12B
   enabled: true
 note13:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/812a772ef923c597e12f41986d7bea9a9387055eb17eeebb1d8c6de3ca25f
   parameters:
-    sound: flute.13coctave
+    sound: flute.13Coctave
   enabled: true
 note14:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.14csharp
+    sound: flute.14C#
   enabled: true
 note15:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.15d
+    sound: flute.15D
   enabled: true
 note16:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.16dsharp
+    sound: flute.16D#
   enabled: true
 note17:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.17e
+    sound: flute.17E
   enabled: true
 note18:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.18f
+    sound: flute.18F
   enabled: true
 note19:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.19fsharp
+    sound: flute.19F#
   enabled: true
 note20:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.20g
+    sound: flute.20G
   enabled: true
 note21:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.21gsharp
+    sound: flute.21G#
   enabled: true
 note22:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.22a
+    sound: flute.22A
   enabled: true
 note23:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
   parameters:
-    sound: flute.23asharp
+    sound: flute.23A#
   enabled: true
 note24:
   hidden: true
   inherit: note
   icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
   parameters:
-    sound: flute.24b
+    sound: flute.24B
   enabled: true
 mute:
   icon: paper
@@ -22780,7 +22780,7 @@ sniper_scope:
     effect_slow: 20
     duration: 30000
     undo: 30000
-    item: carved_pumpkin
+    item: pumpkin
     cancel_on_no_wand: true
   enabled: true
 spawn_car:

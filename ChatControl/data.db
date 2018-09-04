@@ -61,9 +61,7 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz:
-    Channels:
-      Global: write
+  GaySparkelz: {}
   StrikerMax:
     Spying: true
   FIRESTROME:
@@ -873,9 +871,7 @@ Players:
   Boozardo:
     Channels:
       Global: write
-  InfiniteHops:
-    Channels:
-      Global: write
+  InfiniteHops: {}
   Amy_star7:
     Channels:
       Global: write
@@ -917,7 +913,10 @@ Players:
     Channels:
       Global: write
   ro5edirt: {}
-  Jiren_The_Grey:
+  Jiren_The_Grey: {}
+  JCPslayer1: {}
+  Altairlive:
     Channels:
       Global: write
-  JCPslayer1: {}
+  PvtpuddingTots: {}
+  05n: {}

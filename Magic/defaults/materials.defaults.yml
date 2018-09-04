@@ -789,7 +789,6 @@ plants:
 - dead_bush
 - all_crops
 - saplings
-- grass
 player_skulls:
 - skull:3
 - skull_item:3

@@ -2,8 +2,7 @@ v2-logout:
   391762eb-24f6-4d95-84d6-bfac682d575a:
     world: sakaar
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
-    world: mainmenu
-    group: mainmenu
+    world: sakaar
   a15f051c-1473-4f90-88f3-bad6e6b9dce2:
     group: superherocities
     world: survival112
@@ -433,8 +432,8 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   0c99e21a-834c-44ed-bf78-f7d6be118cc9:
-    group: superherocities
-    world: survival112
+    group: arcade
+    world: arcade
   24de4258-6d03-4b5f-9ea4-a2161c4950c4:
     group: superherocities
     world: survival112
@@ -5817,3 +5816,7 @@ v2-logout:
   5281fd3d-e95a-49ac-9ddc-82f895d73114:
     group: arcade
     world: arcade
+  677b60f1-6bdc-4308-8902-d74e612f8d0e:
+    world: tutorial
+  b05a8adb-961b-46d1-b0bf-e012938bdca9:
+    world: tutorial

@@ -230,7 +230,7 @@ entangle:
   cast_count: 0
   last_cast: 0
 forcefield:
-  cast_count: 3124
+  cast_count: 3125
   last_cast: 0
 glider:
   cast_count: 0
@@ -362,7 +362,7 @@ paste:
   cast_count: 0
   last_cast: 0
 telekinesis:
-  cast_count: 4299
+  cast_count: 4300
   last_cast: 0
 ride:
   cast_count: 0

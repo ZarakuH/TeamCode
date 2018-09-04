@@ -12058,7 +12058,8 @@ users:
     permissions:
     - -essentials.fly
   0c99e21a-834c-44ed-bf78-f7d6be118cc9:
-    group: []
+    group:
+    - mortal
     options:
       name: Altairlive
     worlds:
