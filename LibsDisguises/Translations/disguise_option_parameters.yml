@@ -114752,3 +114752,51 @@
 
 # Used for the disguise option Potion Effect
 "Dolphins_Grace": "Dolphins_Grace"
+
+# A disguise option name, has description View the directions usable on player setSleeping and shulker direction
+"Direction": "Direction"
+
+# A disguise option name, has description Set the X,Y,Z directions on an armorstand
+"Euler Angle": "Euler Angle"
+
+# A disguise option name, has description A material used for blocks and items
+"Material": "Material"
+
+# Description for the disguise option Material
+"A material used for blocks and items": "A material used for blocks and items"
+
+# A disguise option name, has description An ItemStack compromised of Material:Amount:Glow, only requires Material
+"ItemStack": "ItemStack"
+
+# A disguise option descriptive name
+"ItemStack (Material:Amount?:Glow?)": "ItemStack (Material:Amount?:Glow?)"
+
+# Description for the disguise option ItemStack
+"An ItemStack compromised of Material:Amount:Glow, only requires Material": "An ItemStack compromised of Material:Amount:Glow, only requires Material"
+
+# Used for the disguise option ItemStack
+"null": "null"
+
+# Used for the disguise option ItemStack
+"glow": "glow"
+
+# A disguise option name, has description Four ItemStacks separated by a comma
+"ItemStack[]": "ItemStack[]"
+
+# A disguise option descriptive name
+"Four ItemStacks (Material:Amount?:Glow?,Material:Amount?:Glow?..)": "Four ItemStacks (Material:Amount?:Glow?,Material:Amount?:Glow?..)"
+
+# Description for the disguise option ItemStack[]
+"Four ItemStacks separated by a comma": "Four ItemStacks separated by a comma"
+
+# A disguise option name, has description Three numbers separated by a ,
+"Block Position": "Block Position"
+
+# A disguise option name, has description True or False
+"Boolean": "Boolean"
+
+# Description for the disguise option Number
+"A whole number without decimals": "A whole number without decimals"
+
+# Description for the disguise option Number.0
+"A number which can have decimal places": "A number which can have decimal places"

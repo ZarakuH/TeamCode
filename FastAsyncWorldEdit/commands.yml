@@ -242,12 +242,6 @@ MaskCommands:
     - '#extrema'
     usage: <min> <max> [distance=1]
     desc: Restrict to near specific terrain extrema
-  '#air':
-    help: ''
-    aliases:
-    - '#air'
-    usage: ''
-    desc: Restrict to types of air
 PatternCommands:
   '#clipboard':
     help: ''
@@ -620,12 +614,6 @@ AnvilCommands:
     - deletebiomechunks
     usage: ''
     desc: Delete chunks matching a specific biome
-  debugfixroads:
-    help: ''
-    aliases:
-    - debugfixroads
-    usage: ''
-    desc: debug - do not use
 BiomeCommands:
   biomelist:
     help: ''
@@ -1295,12 +1283,6 @@ ScriptingCommands:
     - cs
     usage: <filename> [args...]
     desc: Execute a CraftScript
-  setupdispatcher:
-    help: ''
-    aliases:
-    - setupdispatcher
-    usage: ''
-    desc: ''
 SelectionCommands:
   /wand:
     help: ''
@@ -1803,13 +1785,6 @@ UtilityCommands:
     - /help
     usage: '[<command>]'
     desc: Displays help for WorldEdit commands
-  /cancel:
-    help: ''
-    aliases:
-    - /cancel
-    - fcancel
-    usage: ''
-    desc: Cancel your current command
 WorldEditCommands:
   worldedit:
     help: ''

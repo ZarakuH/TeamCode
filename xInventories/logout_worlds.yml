@@ -1,6 +1,7 @@
 v2-logout:
   391762eb-24f6-4d95-84d6-bfac682d575a:
-    world: sakaar
+    world: nyc
+    group: superherocities
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
     world: sakaar
   a15f051c-1473-4f90-88f3-bad6e6b9dce2:
@@ -84,7 +85,7 @@ v2-logout:
     group: mainmenu
     world: mainmenu
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    world: gotham
+    world: nyc
     group: superherocities
   fa2821a9-27ed-43e0-99f6-e22aec572a35:
     group: superherocities
@@ -1047,8 +1048,7 @@ v2-logout:
     group: superherocities
     world: nyc
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
-    world: arcade
-    group: arcade
+    world: jail
   ed624832-feca-405a-ba65-95281a8e4479:
     group: superherocities
     world: survival112

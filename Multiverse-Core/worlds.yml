@@ -44,7 +44,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8478116200311982340'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   ccjitters:
@@ -92,7 +92,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '1739834039843752070'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   deathdrop:
@@ -188,7 +188,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-6004619011172202496'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   sparkour:
@@ -236,7 +236,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-2825520039589694380'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   dreamworld:
@@ -284,7 +284,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-9196779263343398231'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   mainmenu:
@@ -332,7 +332,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1216964590615361181'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   survival112_the_end:
@@ -476,7 +476,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1602247912182264695'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   speedforce:
@@ -524,7 +524,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '3978847583586440234'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   survival112_nether:
@@ -620,7 +620,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4453133660524789324'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   QuestForDestiny:
@@ -716,7 +716,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1222691089526159363'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   tutorial:
@@ -764,7 +764,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4200648004558562233'
-    generator: CleanroomGenerator:,
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   infiniteparkour:
@@ -812,7 +812,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '7877536783112638219'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   gotham:
@@ -860,7 +860,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8396532316255869955'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   chicago:
@@ -908,7 +908,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-7439131130339926251'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   hurdles:
@@ -1004,7 +1004,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2560473323781011124'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   greenfield:
@@ -1052,7 +1052,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4769229038942337798'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   rapunzel:
@@ -1100,7 +1100,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '8492744613558337312'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   buildworld:
@@ -1148,7 +1148,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-611310922854456390'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   waynemanor:
@@ -1196,7 +1196,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-4555679731000886557'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   chess:
@@ -1292,7 +1292,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '6443437897987275846'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   hallofjustice:
@@ -1340,7 +1340,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4808279642009935407'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   metropolis:
@@ -1388,7 +1388,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2386160503095898246'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   Spleef:
@@ -1436,7 +1436,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-3998479241752111124'
-    generator: CleanroomGenerator:,
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   sandrun:
@@ -1532,7 +1532,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2468506352200051153'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   jail:
@@ -1580,7 +1580,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-4062144809456574447'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   InfinityTrials:
@@ -1676,7 +1676,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '530294497265122151'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   arenapvp:
@@ -1820,7 +1820,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-6427908694883863127'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   survival112:
@@ -1916,7 +1916,7 @@ worlds:
     worldBlacklist: &id012 []
     environment: NORMAL
     seed: '-6827399460918381634'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   deathrun:
@@ -2012,7 +2012,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-563590356234267331'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   lavahop:
@@ -2107,8 +2107,8 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-3717571407552071495'
-    generator: CleanroomGenerator:,
+    seed: '417749299979733468'
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   infinitycity:
@@ -2156,7 +2156,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-25'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'
   soulstone:
@@ -2190,6 +2190,6 @@ worlds:
     worldBlacklist: *id012
     environment: NORMAL
     seed: '-6827399460918381634'
-    generator: CleanroomGenerator:.
+    generator: VoidGenerator
     playerLimit: '-1'
     allowFlight: 'true'

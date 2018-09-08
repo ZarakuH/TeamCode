@@ -332,7 +332,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 2769
+  cast_count: 2777
   last_cast: 0
 realitystoneblast:
   cast_count: 56
@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2307
+  cast_count: 2348
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -1511,7 +1511,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2340
+  cast_count: 2381
   last_cast: 0
 powerstoneblast:
   cast_count: 50
@@ -1832,7 +1832,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 693
+  cast_count: 697
   last_cast: 0
 symbioteaxe:
   cast_count: 5

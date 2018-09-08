@@ -85,7 +85,9 @@ Players:
   BlazeBlack1:
     Channels:
       Global: write
-  NotSatixfied: {}
+  NotSatixfied:
+    Channels:
+      Global: write
   Newt_Scamander1:
     Channels:
       Global: write
@@ -347,7 +349,9 @@ Players:
   GethTardo:
     Channels:
       Global: write
-  Txmmeh: {}
+  Txmmeh:
+    Channels:
+      Global: write
   CrazyForMusic:
     Channels:
       Global: write
@@ -519,9 +523,7 @@ Players:
   AwesomeInformed:
     Channels:
       Global: write
-  Fisherbear9:
-    Channels:
-      Global: write
+  Fisherbear9: {}
   PreyRez:
     Channels:
       Global: write
@@ -672,7 +674,9 @@ Players:
   endergod05:
     Channels:
       Global: write
-  ViggieSkittles: {}
+  ViggieSkittles:
+    Channels:
+      Global: write
   OmegaCrafterHD:
     Channels:
       Global: write
@@ -720,6 +724,8 @@ Players:
       Global: write
   MythReeses:
     Spying: true
+    Channels:
+      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -804,7 +810,9 @@ Players:
   kelemor:
     Channels:
       Global: write
-  Eiilonwy: {}
+  Eiilonwy:
+    Channels:
+      Global: write
   kylo_gamer:
     Channels:
       Global: write
@@ -871,11 +879,15 @@ Players:
   Boozardo:
     Channels:
       Global: write
-  InfiniteHops: {}
+  InfiniteHops:
+    Channels:
+      Global: write
   Amy_star7:
     Channels:
       Global: write
-  ThoseyKitKat: {}
+  ThoseyKitKat:
+    Channels:
+      Global: write
   DarkJarJar:
     Channels:
       Global: write
@@ -909,14 +921,3 @@ Players:
   MikeSal:
     Channels:
       Global: write
-  MisserMan:
-    Channels:
-      Global: write
-  ro5edirt: {}
-  Jiren_The_Grey: {}
-  JCPslayer1: {}
-  Altairlive:
-    Channels:
-      Global: write
-  PvtpuddingTots: {}
-  05n: {}

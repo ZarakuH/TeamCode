@@ -59481,3 +59481,9 @@
 
 # Reference: PARSE_NO_PERM_REF
 "&cYou do not have permission to use disguise references!": "&cYou do not have permission to use disguise references!"
+
+# Reference: DHELP_HELP3
+"&c/disguisehelp &2%s&a - %s": "&c/disguisehelp &2%s&a - %s"
+
+# Reference: DHELP_HELP6
+"&c%s: &2%s &a%s": "&c%s: &2%s &a%s"

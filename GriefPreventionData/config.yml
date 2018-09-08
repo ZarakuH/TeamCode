@@ -72,7 +72,6 @@ GriefPrevention:
       arenapvp: Survival
       hallofjustice: Disabled
       deathdrop: Survival
-      SpleefLobby: Survival
       infinitycity: Disabled
       waynemanor: Disabled
       thephantomzone: Disabled
@@ -85,6 +84,7 @@ GriefPrevention:
       deathrun: Survival
       mainmenu: Disabled
       sandrun: Survival
+      SpleefLobby: Survival
       fortressofsolitude: Disabled
       Spleef: Survival
     PreventGlobalMonsterEggs: true
@@ -110,7 +110,7 @@ GriefPrevention:
     MinimumArea: 100
     MaximumDepth: 0
     InvestigationTool: STICK
-    ModificationTool: GOLD_SPADE
+    ModificationTool: GOLDEN_SHOVEL
     Expiration:
       ChestClaimDays: 7
       UnusedClaimDays: 14
@@ -241,11 +241,6 @@ GriefPrevention:
     Password: ''
   UseBanCommand: false
   BanCommandPattern: ban %name% %reason%
-  Mods:
-    BlockIdsRequiringAccessTrust: []
-    BlockIdsRequiringContainerTrust: []
-    BlockIdsExplodable: []
-    PlayersIgnoringAllClaims: []
   Advanced:
     fixNegativeClaimblockAmounts: true
   Abridged Logs:
