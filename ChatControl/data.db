@@ -10,9 +10,7 @@ Players:
   Bruce_Wayne08:
     Channels:
       Global: write
-  Christina1125:
-    Channels:
-      Global: write
+  Christina1125: {}
   alex363:
     Channels:
       Global: write
@@ -79,9 +77,7 @@ Players:
   GamebroDutchman:
     Channels:
       Global: write
-  TheoreticalGame:
-    Channels:
-      Global: write
+  TheoreticalGame: {}
   BlazeBlack1:
     Channels:
       Global: write
@@ -921,3 +917,10 @@ Players:
   MikeSal:
     Channels:
       Global: write
+  Eli441: {}
+  RyftAdam: {}
+  TheRedArchie: {}
+  MouseValinhos: {}
+  Titatron78: {}
+  pumpkinboi: {}
+  Mr_Gamer_Kid: {}
