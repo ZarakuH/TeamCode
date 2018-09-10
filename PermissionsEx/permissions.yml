@@ -9589,12 +9589,6 @@ groups:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
         - -essentials.protect.damage.fall
-  harrypotter:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&4Har&6ry &4Pot&6ter'
   hulk:
     inheritance:
     - commonherotraits
@@ -11063,6 +11057,12 @@ groups:
         - headdb.open
         - ch.alias.create
         - powers.cantdie
+  harrypotter:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&4Har&6ry &4Pot&6ter'
 schema-version: 1
 worlds:
   checkers:
@@ -16328,7 +16328,8 @@ users:
     options:
       name: Scamper2006
   18c70f2f-c175-4f54-9800-ff7390003d7b:
-    group: []
+    group:
+    - harrypotter
     options:
       name: _Rossi_
     worlds:

@@ -3731,7 +3731,7 @@ v2-logout:
     group: superherocities
     world: nyc
   18c70f2f-c175-4f54-9800-ff7390003d7b:
-    world: nyc
+    world: waynemanor
     group: superherocities
   f67dbe94-b42c-47a2-bc3e-8978b650c54b:
     group: superherocities
@@ -5834,4 +5834,12 @@ v2-logout:
   dc138d75-4cd5-41f7-bd3b-241288037d39:
     world: tutorial
   d67305a9-1ff9-4357-bd10-1b5fd8856d78:
+    world: tutorial
+  7baf546b-7f6b-4862-b0a2-60c3d160effc:
+    world: tutorial
+  e3477ee2-3794-4f89-bdb9-22eeebfab0cc:
+    world: tutorial
+  3eae7d83-c34e-4b93-a5c9-25688513c58b:
+    world: tutorial
+  6d23b99b-e3ca-49fa-82a2-1578c7a551a2:
     world: tutorial

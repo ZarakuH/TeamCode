@@ -32,9 +32,7 @@ Players:
   PixelPiCASSO_:
     Channels:
       Global: write
-  _Rossi_:
-    Channels:
-      Global: write
+  _Rossi_: {}
   ThunderCoffee:
     Channels:
       Global: write
@@ -924,3 +922,8 @@ Players:
   Titatron78: {}
   pumpkinboi: {}
   Mr_Gamer_Kid: {}
+  skystrikerYT: {}
+  SP1DER_M4N: {}
+  Avenger0222: {}
+  thedeadlytrio: {}
+  I_See_ViZionZ: {}
