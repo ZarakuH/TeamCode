@@ -28,9 +28,9 @@ Range:
   Distance: 100.0
   Linked_Worlds:
     normal:
-    - survival112
-    - survival112_nether
-    - survival112_the_end
+    - survival
+    - survival_nether
+    - survival_the_end
     - lexstarklabs
 Formats:
   Private_Message_Sender:

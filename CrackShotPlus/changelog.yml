@@ -1,8 +1,17 @@
+1.74
+
+    Fixed weapon GUI weapon swapping bug
+    Fixed glass pane regen in 1.13
+        Couldn't fully fix this, for some reason updating block doesn't work (atleast in version I use)
+        It updates nearby glass panels to stick together though
+    Fixed unbreakable tag in 1.11
+    Fixed skin & attachments all commands
+
 1.73
 
-   Support for 1.13 R2
-   Fixed pumpkin on zoom
-   Fixed null on startup
+    Support for 1.13 R2
+    Fixed pumpkin on zoom
+    Fixed null on startup
 
 1.72
 

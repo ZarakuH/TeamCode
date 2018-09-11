@@ -1,92 +1,14 @@
 # Default values are perfect for most servers.  If you want to customize and have a question, look for the answer here first: http://dev.bukkit.org/bukkit-plugins/grief-prevention/pages/setup-and-configuration/
 GriefPrevention:
   SeaLevelOverrides:
-    survival112: -1
-    survival112_nether: -1
-    survival112_the_end: -1
-    broville: -1
-    deathdrop: -1
-    ooo: -1
-    sparkour: -1
-    dreamworld: -1
-    mainmenu: -1
-    sakaar: -1
-    speedforce: -1
-    titanstower: -1
-    QuestForDestiny: -1
-    fortressofsolitude: -1
-    helicarrier: -1
-    tutorial: -1
-    infiniteparkour: -1
-    chicago: -1
-    gotham: -1
-    hurdles: -1
-    starlabs: -1
-    buildworld: -1
-    greenfield: -1
-    chess: -1
-    waynemanor: -1
-    hallofjustice: -1
-    pokemon: -1
-    metropolis: -1
-    sandrun: -1
-    Spleef: -1
-    jail: -1
-    arcade: -1
-    hogwarts: -1
-    InfinityTrials: -1
-    arenapvp: -1
-    thephantomzone: -1
-    deathrun: -1
-    nyc: -1
-    lavahop: -1
-    infinitycity: -1
-    SpleefLobby: -1
-    soulstone: -1
+    survival: -1
+    survival_nether: -1
+    survival_the_end: -1
   Claims:
     Mode:
-      pokemon: Disabled
-      survival112: Survival
-      InfinityTrials: Survival
-      metropolis: Disabled
-      sparkour: Survival
-      buildworld: Survival
-      hogwarts: Disabled
-      lavahop: Survival
-      broville: Disabled
-      gotham: Disabled
-      hurdles: Survival
-      titanstower: Disabled
-      infiniteparkour: Disabled
-      soulstone: Disabled
-      ooo: Disabled
-      survival112_the_end: Survival
-      survival112_nether: Survival
-      sakaar: Survival
-      greenfield: Disabled
-      nyc: Disabled
-      QuestForDestiny: Survival
-      helicarrier: Disabled
-      chicago: Disabled
-      starlabs: Disabled
-      arenapvp: Survival
-      hallofjustice: Disabled
-      deathdrop: Survival
-      infinitycity: Disabled
-      waynemanor: Disabled
-      thephantomzone: Disabled
-      dreamworld: Survival
-      tutorial: Survival
-      arcade: Disabled
-      chess: Survival
-      speedforce: Disabled
-      jail: Disabled
-      deathrun: Survival
-      mainmenu: Disabled
-      sandrun: Survival
-      SpleefLobby: Survival
-      fortressofsolitude: Disabled
-      Spleef: Survival
+      survival_the_end: Survival
+      survival: Survival
+      survival_nether: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -142,48 +64,9 @@ GriefPrevention:
     Logout Message Delay In Seconds: 0
   PvP:
     RulesEnabledInWorld:
-      survival112: true
-      survival112_nether: true
-      survival112_the_end: true
-      broville: true
-      deathdrop: true
-      ooo: true
-      sparkour: true
-      dreamworld: true
-      mainmenu: true
-      sakaar: true
-      speedforce: true
-      titanstower: true
-      QuestForDestiny: true
-      fortressofsolitude: true
-      helicarrier: true
-      tutorial: true
-      infiniteparkour: true
-      chicago: true
-      gotham: true
-      hurdles: true
-      starlabs: true
-      buildworld: true
-      greenfield: true
-      chess: true
-      waynemanor: true
-      hallofjustice: true
-      pokemon: true
-      metropolis: true
-      sandrun: true
-      Spleef: true
-      jail: true
-      arcade: true
-      hogwarts: true
-      InfinityTrials: true
-      arenapvp: true
-      thephantomzone: true
-      deathrun: true
-      nyc: true
-      lavahop: true
-      infinitycity: true
-      SpleefLobby: true
-      soulstone: true
+      survival: true
+      survival_nether: true
+      survival_the_end: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

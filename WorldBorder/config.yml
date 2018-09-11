@@ -17,19 +17,19 @@ fill-memory-tolerance: 500
 prevent-block-place: false
 prevent-mob-spawn: false
 worlds:
-  survival112:
+  survival:
     x: 0.5
     z: 0.5
     radiusX: 2000
     radiusZ: 2000
     wrapping: false
-  survival112_nether:
+  survival_nether:
     x: -0.5570252414697041
     z: 0.4823100982554256
     radiusX: 2000
     radiusZ: 2000
     wrapping: false
-  survival112_the_end:
+  survival_the_end:
     x: 0.5
     z: 0.5
     radiusX: 2000

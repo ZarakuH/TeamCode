@@ -44,7 +44,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8478116200311982340'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   ccjitters:
@@ -92,7 +92,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '1739834039843752070'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   deathdrop:
@@ -143,6 +143,54 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
+  survival_the_end:
+    ==: MVWorld
+    hidden: 'false'
+    alias: '&7&lN&8o &7&lM&8an''s &5&lE&8nd'
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '16.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 63.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: THE_END
+    seed: '-1718841292585333391'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   ooo:
     ==: MVWorld
     hidden: 'false'
@@ -188,7 +236,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-6004619011172202496'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   sparkour:
@@ -236,7 +284,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-2825520039589694380'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   dreamworld:
@@ -284,7 +332,55 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-9196779263343398231'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
+    playerLimit: '-1'
+    allowFlight: 'true'
+  survival_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: '&7&lN&8o &7&lM&8an''s &4&lH&8ell'
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 99.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '-1718841292585333391'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   mainmenu:
@@ -332,7 +428,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1216964590615361181'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   sakaar:
@@ -383,102 +479,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  survival112_the_end:
-    ==: MVWorld
-    hidden: 'false'
-    alias: '&7&lN&8o &7&lM&8an''s &5&lE&8nd'
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '16.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: HARD
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 0.0
-      y: 63.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: THE_END
-    seed: '495321866658933837'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
-  survival112_nether:
-    ==: MVWorld
-    hidden: 'false'
-    alias: '&7&lN&8o &7&lM&8an''s &4&lH&8ell'
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '8.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: HARD
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 0.0
-      y: 99.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NETHER
-    seed: '495321866658933837'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
   speedforce:
     ==: MVWorld
     hidden: 'false'
@@ -487,7 +487,7 @@ worlds:
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
-    respawnWorld: survival112
+    respawnWorld: survival
     allowWeather: 'true'
     difficulty: HARD
     spawning:
@@ -524,7 +524,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '3978847583586440234'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   titanstower:
@@ -572,7 +572,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1602247912182264695'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   QuestForDestiny:
@@ -668,7 +668,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4453133660524789324'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   helicarrier:
@@ -716,7 +716,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-1222691089526159363'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   tutorial:
@@ -764,7 +764,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4200648004558562233'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   infiniteparkour:
@@ -812,7 +812,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '7877536783112638219'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   chicago:
@@ -860,7 +860,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-7439131130339926251'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   gotham:
@@ -908,7 +908,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8396532316255869955'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   hurdles:
@@ -1004,7 +1004,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2560473323781011124'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   buildworld:
@@ -1052,7 +1052,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-611310922854456390'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   rapunzel:
@@ -1100,7 +1100,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '8492744613558337312'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   greenfield:
@@ -1148,7 +1148,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4769229038942337798'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   chess:
@@ -1244,7 +1244,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-4555679731000886557'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   hallofjustice:
@@ -1292,7 +1292,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '4808279642009935407'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   pokemon:
@@ -1340,7 +1340,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '6443437897987275846'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   metropolis:
@@ -1388,7 +1388,55 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2386160503095898246'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
+    playerLimit: '-1'
+    allowFlight: 'true'
+  survival:
+    ==: MVWorld
+    hidden: 'false'
+    alias: '&7&lN&8o &7&lM&8ans &7&lL&8and'
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'false'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 649.4248089166971
+      y: 66.0
+      z: 994.5088710906042
+      pitch: 16.472181
+      yaw: -90.31897
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-1718841292585333391'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   sandrun:
@@ -1484,7 +1532,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-3998479241752111124'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   jail:
@@ -1532,7 +1580,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-4062144809456574447'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   arcade:
@@ -1580,7 +1628,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '2468506352200051153'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   hogwarts:
@@ -1628,7 +1676,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '530294497265122151'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   InfinityTrials:
@@ -1775,54 +1823,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  survival112:
-    ==: MVWorld
-    hidden: 'false'
-    alias: '&7&lN&8o &7&lM&8ans &7&lL&8and'
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: HARD
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'false'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 649.4248089166971
-      y: 66.0
-      z: 994.5088710906042
-      pitch: 16.472181
-      yaw: -90.31897
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '495321866658933837'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
   phantomzone:
     ==: MVWorld
     hidden: 'false'
@@ -1831,7 +1831,7 @@ worlds:
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
-    respawnWorld: survival112
+    respawnWorld: survival
     allowWeather: 'true'
     difficulty: EASY
     spawning:
@@ -1868,7 +1868,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-6427908694883863127'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   thephantomzone:
@@ -1879,7 +1879,7 @@ worlds:
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
-    respawnWorld: survival112
+    respawnWorld: survival
     allowWeather: 'true'
     difficulty: EASY
     spawning: &id010
@@ -1916,7 +1916,7 @@ worlds:
     worldBlacklist: &id012 []
     environment: NORMAL
     seed: '-6827399460918381634'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   deathrun:
@@ -2012,7 +2012,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-563590356234267331'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   lavahop:
@@ -2108,7 +2108,7 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-25'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   SpleefLobby:
@@ -2155,8 +2155,8 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '417749299979733468'
-    generator: VoidGenerator
+    seed: '-3717571407552071495'
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'
   soulstone:
@@ -2167,7 +2167,7 @@ worlds:
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
-    respawnWorld: survival112
+    respawnWorld: survival
     allowWeather: 'true'
     difficulty: EASY
     spawning: *id010
@@ -2190,6 +2190,6 @@ worlds:
     worldBlacklist: *id012
     environment: NORMAL
     seed: '-6827399460918381634'
-    generator: VoidGenerator
+    generator: CleanroomGenerator:.
     playerLimit: '-1'
     allowFlight: 'true'

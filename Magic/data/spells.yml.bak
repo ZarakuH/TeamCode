@@ -776,7 +776,7 @@ grenade:
   cast_count: 0
   last_cast: 0
 fiendfyre:
-  cast_count: 369
+  cast_count: 370
   last_cast: 0
 superbackup:
   cast_count: 0
@@ -1094,7 +1094,7 @@ salviohexia:
   cast_count: 0
   last_cast: 0
 crucio:
-  cast_count: 151
+  cast_count: 152
   last_cast: 0
 tsunami:
   cast_count: 114
@@ -1418,7 +1418,7 @@ vulnera:
   cast_count: 0
   last_cast: 0
 avadakedavra:
-  cast_count: 224
+  cast_count: 227
   last_cast: 0
 arrow_light:
   cast_count: 0
@@ -1544,7 +1544,7 @@ frost:
   cast_count: 108
   last_cast: 0
 confringo:
-  cast_count: 204
+  cast_count: 205
   last_cast: 0
 weather:
   cast_count: 0

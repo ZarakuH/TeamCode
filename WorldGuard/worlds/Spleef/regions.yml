@@ -10,52 +10,62 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    spleefred:
-        min: {x: -1.0, y: 0.0, z: 58.0}
-        max: {x: 5.0, y: 6.0, z: 64.0}
+    spleefpodred:
+        parent: spleeffloor
+        min: {x: -36.0, y: 53.0, z: -29.0}
+        max: {x: -33.0, y: 53.0, z: -26.0}
         members: {}
-        flags: {use: allow, block-break: deny}
+        flags: {build: deny, use: deny, interact: deny}
         owners: {}
         type: cuboid
         priority: 0
-    spleefspectator:
-        min: {x: 0.0, y: 19.0, z: 0.0}
-        max: {x: 66.0, y: 30.0, z: 63.0}
+    spleefpodyellow:
+        parent: spleeffloor
+        min: {x: 18.0, y: 53.0, z: 25.0}
+        max: {x: 21.0, y: 53.0, z: 28.0}
         members: {}
-        flags: {use: allow, block-break: deny}
+        flags: {build: deny}
         owners: {}
         type: cuboid
         priority: 0
-    spleefblue:
-        min: {x: 61.0, y: 0.0, z: 58.0}
-        max: {x: 67.0, y: 6.0, z: 64.0}
+    spleeffloor:
+        min: {x: -36.0, y: 53.0, z: -29.0}
+        max: {x: 21.0, y: 53.0, z: 28.0}
         members: {}
-        flags: {use: allow, block-break: deny}
+        flags: {build: allow}
         owners: {}
         type: cuboid
         priority: 0
-    spleefgreen:
-        min: {x: 61.0, y: 0.0, z: -1.0}
-        max: {x: 67.0, y: 6.0, z: 5.0}
+    spleeflobby:
+        min: {x: -46.0, y: 23.0, z: 256.0}
+        max: {x: -10.0, y: 57.0, z: 292.0}
         members: {}
-        flags: {use: allow, block-break: deny}
+        flags: {build: deny, invincible: allow, use: allow, fall-damage: deny, greeting: §7Welcome
+                to the §4Spleef Lobby§7!, interact: allow}
         owners: {}
         type: cuboid
         priority: 0
-    spleef:
-        min: {x: -11.0, y: 0.0, z: -6.0}
-        max: {x: 72.0, y: 31.0, z: 73.0}
+    spleefpodgreen:
+        parent: spleeffloor
+        min: {x: 18.0, y: 53.0, z: -29.0}
+        max: {x: 21.0, y: 53.0, z: -26.0}
         members: {}
-        flags: {use: allow, feed-delay: 5, feed-amount: 2, block-break: allow, interact: allow,
-            tnt: allow, mob-spawning: deny}
+        flags: {build: deny}
         owners: {}
         type: cuboid
         priority: 0
-    spleefyellow:
-        min: {x: -1.0, y: 0.0, z: -1.0}
-        max: {x: 5.0, y: 6.0, z: 5.0}
+    __global__:
         members: {}
-        flags: {use: allow, block-break: deny}
+        flags: {build: deny, use: allow, fall-damage: deny, interact: allow}
+        owners: {}
+        type: global
+        priority: 0
+    spleefpodorange:
+        parent: spleeffloor
+        min: {x: -36.0, y: 53.0, z: 25.0}
+        max: {x: -33.0, y: 53.0, z: 28.0}
+        members: {}
+        flags: {build: deny}
         owners: {}
         type: cuboid
         priority: 0

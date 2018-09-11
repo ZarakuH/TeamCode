@@ -101,7 +101,7 @@ groups:
       overvoid:
         permissions:
         - essentials.build.interact.70
-      survival112:
+      survival:
         permissions:
         - command.exitgame
       superherocity:
@@ -216,7 +216,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -367,7 +367,7 @@ groups:
         - ch.alias.run2
         - ch.alias.run1
         - ch.alias.run0
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -428,7 +428,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -506,7 +506,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -556,7 +556,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -984,9 +984,9 @@ groups:
     - trail.all
     - trail.rain
     - ch.alias.run0
-    - multiverse.access.survival112
-    - multiverse.access.survival112_nether
-    - multiverse.access.survival112_the_end
+    - multiverse.access.survival
+    - multiverse.access.survival_nether
+    - multiverse.access.survival_the_end
     - trail.allow
     - essentials.balance
     - essentials.balancetop
@@ -998,9 +998,9 @@ groups:
     - griefprevention.transferclaim
     - whatisit.use
     - -multiverse.access.anarchy
-    - multiverse.access.survival112
-    - multiverse.access.survival112_nether
-    - multiverse.access.survival112_the_end
+    - multiverse.access.survival
+    - multiverse.access.survival_nether
+    - multiverse.access.survival_the_end
     - multiverse.access.wooftywoo
     - multiverse.access.wooftywoo_nether
     - multiverse.access.wooftywoo_the_end
@@ -1179,7 +1179,7 @@ groups:
         - Signshop.Signs.Buy
         - essentials.sethome.bed
         - essentials.sethome.multiple.unlimited
-      survival112:
+      survival:
         permissions:
         - command.mainmenu
         - essentials.tpahere
@@ -1558,7 +1558,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -1772,7 +1772,7 @@ groups:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
         - ch.alias.fanficlaser
-      survival112:
+      survival:
         permissions:
         - ch.alias.fanficchatcolor
         - ch.alias.fanficname
@@ -5187,19 +5187,6 @@ groups:
         - ch.alias.carryplayer
         - -essentials.protect.damage.fall
         - powers.wallrun
-  bobafett:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&2'
-      prefix: '&2B&3o&2b&3a &8Fett'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.fireballpunch
-        - essentials.fly
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
   cable:
     inheritance:
     - commonherotraits
@@ -9174,19 +9161,6 @@ groups:
         - essentials.tppos
         - ch.alias.speedforceteleport
         - powers.wallrun
-  adamwarlock:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&b'
-      prefix: '&4A&6d&ea&6m &4W&ba&er&6l&bo&ec&4k'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.tangible
-        - ch.alias.intangible
-        - essentials.fly
-        - ch.alias.magicpush
   superman:
     inheritance:
     - commonherotraits
@@ -9625,12 +9599,6 @@ groups:
         - ch.alias.carryplayer
         - essentials.tppos
         - powers.wallrun
-  lordvoldemort:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&a'
-      prefix: '&8L&fo&7r&8d &8V&ao&7l&8d&7e&fm&ao&8r&7t'
   jackjoyce:
     inheritance:
     - commonherotraits
@@ -10187,37 +10155,6 @@ groups:
       superherocity:
         permissions:
         - powers.herotransform
-  flashbarryallen:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&e'
-      prefix: '&4Fl&ea&4sh&8(BarryA&8)'
-    worlds:
-      speedforce:
-        permissions:
-        - essentials.back
-        - ch.alias.powers
-        - ch.alias.tp
-        - ch.alias.speedforceteleport
-        - ch.alias.speedforcebuffs
-      superherocity:
-        permissions:
-        - powers.herotransform
-        - powers.timeremnant
-        - ch.alias.vis
-        - ch.alias.invis
-        - powers.cloneself
-        - ch.alias.speedforcewhirlwind
-        - essentials.warps.speedforce
-        - essentials.tppos
-        - ch.alias.carryplayer
-        - ch.alias.dropplayer
-        - ch.alias.speedforceteleport
-        - powers.wallrun
-        - powers.lightningpunch
-        - worldedit.navigation.thru.command
-        - needsto.eat
   firestormraymondstein:
     inheritance:
     - commonherotraits
@@ -10397,7 +10334,7 @@ groups:
         - ch.alias.carryplayer
         - essentials.fly
         - powers.fireballPunch
-      survival112_nether:
+      survival_nether:
         permissions:
         - essentials.warp.*
         - essentials.warp
@@ -10448,16 +10385,6 @@ groups:
         - -essentials.protect.entitytarget.bypass
         - kill.immune
         - powers.onepunch
-  captainamericasteverogers:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&f'
-      prefix: '&4C&9apt&fain &4A&9mer&4ica&8(&4S&9R&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - ch.alias.captainamerica
   ghostriderjohnnyblaze:
     inheritance:
     - commonherotraits
@@ -11063,6 +10990,79 @@ groups:
         - headdb.category.*
         - headdb.open
         - ch.alias.create
+  captainamericasteverogers:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&f'
+      prefix: '&4C&9apt&fain &4A&9mer&4ica&8(&4S&9R&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.captainamerica
+  bobafett:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&2'
+      prefix: '&2B&3o&2b&3a &8Fett'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.fireballpunch
+        - essentials.fly
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+  lordvoldemort:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&a'
+      prefix: '&8L&fo&7r&8d &8V&ao&7l&8d&7e&fm&ao&8r&7t'
+  adamwarlock:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&b'
+      prefix: '&4A&6d&ea&6m &4W&ba&er&6l&bo&ec&4k'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.tangible
+        - ch.alias.intangible
+        - essentials.fly
+        - ch.alias.magicpush
+  flashbarryallen:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&e'
+      prefix: '&4Fl&ea&4sh&8(BarryA&8)'
+    worlds:
+      speedforce:
+        permissions:
+        - essentials.back
+        - ch.alias.powers
+        - ch.alias.tp
+        - ch.alias.speedforceteleport
+        - ch.alias.speedforcebuffs
+      superherocity:
+        permissions:
+        - powers.herotransform
+        - powers.timeremnant
+        - ch.alias.vis
+        - ch.alias.invis
+        - powers.cloneself
+        - ch.alias.speedforcewhirlwind
+        - essentials.warps.speedforce
+        - essentials.tppos
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - ch.alias.speedforceteleport
+        - powers.wallrun
+        - powers.lightningpunch
+        - worldedit.navigation.thru.command
+        - needsto.eat
 schema-version: 1
 worlds:
   checkers:
@@ -11165,12 +11165,12 @@ worlds:
   sprintparkour:
     inheritance:
     - parkour
-  survival112_nether:
+  survival_nether:
     inheritance:
-    - survival112
-  survival112_the_end:
+    - survival
+  survival_the_end:
     inheritance:
-    - survival112
+    - survival
   anarchy_nether:
     inheritance:
     - anarchy
@@ -11198,7 +11198,7 @@ worlds:
   nyc:
     inheritance:
     - superherocity
-  survival112:
+  survival:
     inheritance:
     - superherocity
   colosseum:
@@ -11221,13 +11221,13 @@ worlds:
     - superherocity
   Spleef:
     inheritance:
-    - survival112
+    - survival
   arcade:
     inheritance:
-    - survival112
+    - survival
   QuestForDestiny:
     inheritance:
-    - survival112
+    - survival
   lavahop:
     inheritance:
     - superherocity
@@ -11601,7 +11601,8 @@ users:
     options:
       name: batbike
   78122850-9279-4601-aa85-ba14fa956dbc:
-    group: []
+    group:
+    - adamwarlock
     options:
       name: iamlegolas2018
   b6412492-e7c2-417e-82b7-d0cb962b4f5b:
@@ -15986,8 +15987,7 @@ users:
       superherocity:
         permissions: []
   5abf3837-fb54-4e3c-a293-100afd827cb2:
-    group:
-    - flashbarryallen
+    group: []
     options:
       name: DarkJarJar
     worlds:
@@ -18031,7 +18031,7 @@ users:
       name: SmoothDonatello
   4681c60e-1da2-4f7d-80be-5947e1d7497e:
     group:
-    - apocalypse
+    - flashbarryallen
     options:
       name: GamebroDutchman
     worlds:

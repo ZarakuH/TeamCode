@@ -96,9 +96,9 @@ bind('block_dispense',null,null,@e){
     }
 
     if(
-        @e['location']['world'] == 'survival112' || 
-        @e['location']['world'] == 'survival112_nether' || 
-        @e['location']['world'] == 'survival112_the_end' ||
+        @e['location']['world'] == 'survival' || 
+        @e['location']['world'] == 'survival_nether' || 
+        @e['location']['world'] == 'survival_the_end' ||
         @e['location']['world'] == 'tutorial'
     ){
         cancel(false)

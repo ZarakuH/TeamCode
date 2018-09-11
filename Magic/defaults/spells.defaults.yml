@@ -414,6 +414,7 @@ alter:
     transparent: transparent_to_construction
     cycle_colors: true
     cycle_variants: true
+    ignore_region_overrides: true
     materials:
     - - dirt
       - dirt:1
@@ -2144,6 +2145,7 @@ backup:
     brushtarget: true
     bypass_undo: true
     cooldown: 10000
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -3084,6 +3086,7 @@ box:
     transparent: transparent_to_construction
     y_offset: 4
     destructible: destructible_replace
+    ignore_region_overrides: true
   costs:
     mana: 60
   enabled: true
@@ -3200,6 +3203,7 @@ bridge:
     consume: true
     direction: forward
     target_offset: 0,-2,0
+    ignore_region_overrides: true
   costs:
     mana: 5
   enabled: true
@@ -4046,6 +4050,7 @@ column:
     orient: true
     consume: true
     destructible: destructible_replace
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -4151,6 +4156,7 @@ convert:
     replace: true
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -4889,7 +4895,6 @@ defender_attack:
   hidden: true
   icon: diamond_axe:112
   icon_disabled: diamond_hoe:112
-  category: engineering
   actions:
     cast:
     - class: Sphere
@@ -4925,6 +4930,7 @@ birth_defender:
   parameters:
     allow_max_range: true
     seed_radius: 2
+    ignore_region_overrides: true
   enabled: true
 disarm:
   icon: diamond_axe:43
@@ -5792,6 +5798,7 @@ fill:
     check_destructible: false
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -6227,6 +6234,7 @@ flatten:
     radius: 16
     vertical_range: 32
     volume_type: reverse_spiral
+    ignore_region_overrides: true
     faces:
     - down
     - north
@@ -6348,6 +6356,7 @@ floodfill:
     cooldown: 1000
     consume: true
     priority_faces: down
+    ignore_region_overrides: true
     faces:
     - down
     - north
@@ -7817,6 +7826,7 @@ growth:
     transparent: air
     destructible: plants
     bypass_undo: true
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -8459,6 +8469,7 @@ birth_hunter:
   parameters:
     allow_max_range: true
     seed_radius: 2
+    ignore_region_overrides: true
   enabled: true
 icbm:
   icon: diamond_axe:51
@@ -8675,6 +8686,7 @@ iterate:
     increment_data: false
     destructible: destructible_replace
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 50
   enabled: true
@@ -9380,6 +9392,7 @@ light:
     range: 32
     cooldown: 10000
     async: false
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -10893,6 +10906,7 @@ paint:
     check_destructible: false
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 5
   enabled: true
@@ -10919,6 +10933,7 @@ paste:
     target: block
     type: cuboid
     transparent: transparent_to_construction
+    ignore_region_overrides: true
   casts:
     mana: 300
   enabled: true
@@ -11029,6 +11044,7 @@ permafrost:
     freeze_lava: true
     biome: mutated_ice_flats
     weather: storm
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -11084,6 +11100,7 @@ permamelt:
     biome: desert
     weather: normal
     brush: stationary_water
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -11384,6 +11401,7 @@ pillar:
     direction: up
     destructible: destructible_replace
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 5
   enabled: true
@@ -11415,6 +11433,7 @@ place:
     transparent: transparent_to_construction
     check_destructible: false
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 10
   enabled: true
@@ -11624,6 +11643,7 @@ pollinate:
     yaw_max: 30
     pitch_max: 4
     uses_brush: false
+    ignore_region_overrides: true
     brushes:
     - yellow_flower
     - red_rose
@@ -12176,7 +12196,7 @@ railgun:
     - class: CustomProjectile
       actions:
       - class: Damage
-      - class: ModifyBlock
+      - class: BreakBlock
         ignore_result: true
   effects:
     cast:
@@ -12263,6 +12283,8 @@ railgun:
     damage_multiplier: 2
   parameters:
     destructible: destructible,destructible2,destructible3,transparent
+    destructible_durability: 10000
+    break_durability: 1000
     allow_max_range: true
     velocity: 1000
     range: 80
@@ -12276,7 +12298,6 @@ railgun:
     cooldown: 10000
     reorient: false
     undo: 5000
-    brush: air
     transparent: air,water,stationary_water
   costs:
     mana: 150
@@ -12555,6 +12576,7 @@ recurse:
     cooldown: 500
     replace: true
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 30
   enabled: true
@@ -12682,6 +12704,7 @@ regenerate:
     range: 16
     max_dimension: 32
     transparent: transparent_to_construction
+    ignore_region_overrides: true
     speed: 5
     target_type: LivingEntity
     target_breakables: 1
@@ -12731,6 +12754,7 @@ repair:
     obworld: ~_backup
     brushtarget: true
     cooldown: 7000
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -12939,6 +12963,7 @@ rollback:
     loud: true
     cancel: true
     admin_permission: Magic.undo_others
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -13169,6 +13194,7 @@ secure:
     check_destructible: true
     destructible: chest,trapped_chest
     cooldown: 5000
+    ignore_region_overrides: true
     key_icon: skull:http://textures.minecraft.net/texture/3944e12e8e67fd67a55359df56c3c59c99550f6eaccb23813769afb2f1992
   costs:
     mana: 100
@@ -14420,6 +14446,7 @@ birth_snake:
   parameters:
     allow_max_range: true
     seed_radius: 2
+    ignore_region_overrides: true
   enabled: true
 snoop:
   icon: diamond_axe:107
@@ -14732,6 +14759,7 @@ sphere:
     undo: 20000
     type: sphere
     transparent: transparent_to_construction
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -15124,6 +15152,7 @@ superalter:
     transparent: transparent_to_construction
     destructible: '!air'
     replace: true
+    ignore_region_overrides: true
   costs:
     mana: 40
   enabled: true
@@ -15156,6 +15185,7 @@ superbackup:
     obworld: ~-_backup
     brushtarget: true
     bypass_undo: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15185,6 +15215,7 @@ superblast:
     speed: 0.9
     direction: 0,0.8,0
     falling: true
+    ignore_region_overrides: true
   costs:
     mana: 100
   enabled: true
@@ -15213,6 +15244,7 @@ superblob:
     type: sphere
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15241,6 +15273,7 @@ superbox:
     destructible: destructible_replace
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15293,6 +15326,7 @@ supercollapse:
     target: select
     type: sphere
     transparent: transparent_to_construction
+    ignore_region_overrides: true
   costs:
     mana: 250
   enabled: true
@@ -15321,6 +15355,7 @@ superconvert:
     replace: true
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 300
   enabled: true
@@ -15349,6 +15384,7 @@ supercube:
     check_destructible: false
     orient_dimension_min: 0
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15377,6 +15413,7 @@ supercylinder:
     transparent: transparent_to_construction
     destructible: destructible_replace
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15407,6 +15444,7 @@ superdisc:
     destructible: destructible_replace
     orient: true
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -15436,6 +15474,7 @@ superdome:
     destructible: destructible_replace
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -15559,6 +15598,7 @@ superhemisphere:
     transparent: transparent_to_construction
     orient_dimension_min: 0
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15679,6 +15719,7 @@ superlaser:
     repeat: 10
     orient: true
     axis: z
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -15728,6 +15769,7 @@ superpyramid:
     transparent: transparent_to_construction
     destructible: destructible_replace
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15752,6 +15794,7 @@ superregenerate:
     max_dimension: 64
     expand: true
     transparent: transparent_to_construction
+    ignore_region_overrides: true
   costs:
     mana: 1000
   enabled: true
@@ -15784,6 +15827,7 @@ superrepair:
     otworld: ~-_backup
     obworld: ~_backup
     brushtarget: true
+    ignore_region_overrides: true
   costs:
     mana: 400
   enabled: true
@@ -15815,6 +15859,7 @@ superring:
     orient: true
     consume: true
     thickness: 1
+    ignore_region_overrides: true
   costs:
     mana: 200
   enabled: true
@@ -15843,6 +15888,7 @@ supershell:
     destructible: destructible_replace
     transparent: transparent_to_construction
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 250
   enabled: true
@@ -15874,6 +15920,7 @@ supertorch:
     allow_glowstone: false
     cooldown: 1000
     destructible: destructible_replace
+    ignore_region_overrides: true
   costs:
     mana: 50
     torch: 1
@@ -16435,6 +16482,7 @@ toss:
     speed_min: 1.2
     speed_max: 2.2
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 20
   enabled: true
@@ -16618,6 +16666,7 @@ tunnel:
     allow_max_range: false
     range: 32
     destructible: destructible_mining
+    ignore_region_overrides: true
   costs:
     mana: 30
   enabled: true
@@ -16942,6 +16991,7 @@ birth_virus:
   parameters:
     allow_max_range: true
     seed_radius: 2
+    ignore_region_overrides: true
   enabled: true
 volley:
   icon: diamond_axe:31
@@ -16968,6 +17018,7 @@ volley:
     pitch_max: 5
     yaw_max: 45
     consume: true
+    ignore_region_overrides: true
   costs:
     mana: 40
   enabled: true
@@ -17671,6 +17722,7 @@ wolfhouse:
     - class: EffectTrail
       particle: block_crack
   parameters:
+    ignore_region_overrides: true
     target_type: LivingEntity
     allow_max_range: true
     check_destructible: false
@@ -17722,7 +17774,7 @@ workbench:
   icon: diamond_axe:105
   icon_disabled: diamond_hoe:105
   icon_url: http://textures.minecraft.net/texture/a5bf87cdeeefecb473472dc7c858ffa2e3ec5bd48c3718df49e2798e4aeff
-  category: engineering
+  category: utility
   tags: noduel
   quick_cast: true
   worth: 80
@@ -17871,6 +17923,7 @@ birth_worm:
   parameters:
     allow_max_range: true
     seed_radius: 2
+    ignore_region_overrides: true
   enabled: true
 wound:
   icon: diamond_axe:178
