@@ -72,9 +72,7 @@ Players:
   Jason4704:
     Channels:
       Global: write
-  GamebroDutchman:
-    Channels:
-      Global: write
+  GamebroDutchman: {}
   TheoreticalGame: {}
   BlazeBlack1:
     Channels:
@@ -927,3 +925,7 @@ Players:
   Avenger0222: {}
   thedeadlytrio: {}
   I_See_ViZionZ: {}
+  AMLF: {}
+  Bcrulez: {}
+  Paislius: {}
+  RaZaR_C0ll1n: {}

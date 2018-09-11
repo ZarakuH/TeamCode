@@ -198,8 +198,8 @@ v2-logout:
     group: superherocities
     world: survival112
   b09b6618-e035-4e1f-be4e-f01ec6888001:
-    group: speedforce
-    world: speedforce
+    group: arcade
+    world: arcade
   f030d637-bf56-48da-a7ee-91ae9a3bfb73:
     group: mainmenu
     world: mainmenu
@@ -5014,7 +5014,7 @@ v2-logout:
     world: nyc
   4681c60e-1da2-4f7d-80be-5947e1d7497e:
     group: superherocities
-    world: survival112_nether
+    world: survival112
   c783605b-da49-4970-9e9b-e9e4f7749c47:
     group: mainmenu
     world: mainmenu
@@ -5842,4 +5842,8 @@ v2-logout:
   3eae7d83-c34e-4b93-a5c9-25688513c58b:
     world: tutorial
   6d23b99b-e3ca-49fa-82a2-1578c7a551a2:
+    world: tutorial
+  0627a6df-e3ac-4c15-82d9-97a6aa9615a9:
+    world: tutorial
+  7f952cfe-fdb2-40f8-bafd-1e303b89af1a:
     world: tutorial
