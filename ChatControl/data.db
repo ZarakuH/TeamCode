@@ -716,9 +716,6 @@ Players:
       Global: write
   MythReeses:
     Spying: true
-    Channels:
-      Global: write
-      Local: write
   Strelitiza:
     Channels:
       Global: write
@@ -800,9 +797,7 @@ Players:
   TerrorDismay:
     Channels:
       Global: write
-  kelemor:
-    Channels:
-      Global: write
+  kelemor: {}
   Eiilonwy:
     Channels:
       Global: write
@@ -933,3 +928,7 @@ Players:
   iamlegolas2018: {}
   Brillliance: {}
   JJupiter: {}
+  ObiSam2017: {}
+  pinkie_smile: {}
+  Riohlo: {}
+  ocvarner12: {}

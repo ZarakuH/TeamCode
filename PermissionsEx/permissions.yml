@@ -11442,7 +11442,8 @@ users:
     options:
       name: blacflash
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
-    group: []
+    group:
+    - mortal
     options:
       name: GaySparkelz
     permissions:
@@ -11602,7 +11603,7 @@ users:
       name: batbike
   78122850-9279-4601-aa85-ba14fa956dbc:
     group:
-    - adamwarlock
+    - mortal
     options:
       name: iamlegolas2018
   b6412492-e7c2-417e-82b7-d0cb962b4f5b:
@@ -18965,3 +18966,8 @@ users:
     - ironmanmkxliii
     options:
       name: tommkaj224
+  83bdf05c-fd40-4bc0-b500-1b6daf9c7b43:
+    group:
+    - mortal
+    options:
+      name: Riohlo
