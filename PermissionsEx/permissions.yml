@@ -15252,7 +15252,7 @@ users:
     group:
     - mortal
     options:
-      name: DoNotSmash
+      name: DoNotPass
   4ac8b423-fcd0-4de5-b2ed-aaf99197d008:
     group: []
     options:
@@ -16331,7 +16331,8 @@ users:
       name: Scamper2006
   18c70f2f-c175-4f54-9800-ff7390003d7b:
     group:
-    - harrypotter
+    - police
+    - mortal
     options:
       name: _Rossi_
     worlds:
