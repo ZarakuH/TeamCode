@@ -14705,6 +14705,7 @@ users:
     worlds:
       superherocity:
         permissions: []
+    permissions: []
   55536c6e-48f8-497f-8a4c-0033eb5bfd65:
     group: []
     options:
