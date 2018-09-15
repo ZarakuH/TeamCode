@@ -9,9 +9,9 @@ effects:
 - /effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 3
 items:
+- /minecraft:give <plr> minecraft:iron_sword{display:{Name:"{\"text\":\"§9A§1q§4ual§1a§9d's §bWater Bound Sword\"}"},Enchantments:[{id:"minecraft:sharpness",lvl:10}]} 1
+- /minecraft:give <plr> minecraft:iron_sword{display:{Name:"{\"text\":\"§9A§1q§4ual§1a§9d's §bWater Bound Sword\"}"},Enchantments:[{id:"minecraft:sharpness",lvl:10}]} 1
 - /mgive <plr> watershotwand
-- /minecraft:give <plr> minecraft:iron_sword{display:{Name:"{\"text\":\"§9A§1q§4ual§1a§9d's §bWater Bound Sword\"}"},Enchantments:[{id:"minecraft:sharpness",lvl:10}]} 1
-- /minecraft:give <plr> minecraft:iron_sword{display:{Name:"{\"text\":\"§9A§1q§4ual§1a§9d's §bWater Bound Sword\"}"},Enchantments:[{id:"minecraft:sharpness",lvl:10}]} 1
 jump: 3
 maxHearts: 30
 permissions:
