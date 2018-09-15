@@ -8419,23 +8419,6 @@ groups:
         - ch.alias.dropplayer
         - ch.alias.carryplayer
         - powers.fireballpunch
-  gokusupersaiyangod:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&6'
-      prefix: '&cG&1o&6ku&8(&cSSG&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - essentials.speed
-        - essentials.speed.fly
-        - essentials.fly
-        - ch.alias.tp
-        - ch.alias.carryplayer
-        - ch.alias.dropplayer
-        - powers.herotransform
-        - ch.alias.grouptp
   gokusupersaiyanbluekaioken:
     inheritance:
     - commonherotraits
@@ -9161,25 +9144,6 @@ groups:
         - essentials.tppos
         - ch.alias.speedforceteleport
         - powers.wallrun
-  superman:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&9'
-      prefix: '&cS&9u&ep&9e&9rm&can'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.herotransform
-        - essentials.speed
-        - essentials.speed.fly
-        - essentials.fly
-        - ch.alias.dropplayer
-        - ch.alias.carryplayer
-        - -essentials.protect.damage.fall
-        - powers.wallrun
-        - powers.nofalldamage
-        - weakto.kryptonite
   antman:
     inheritance:
     - commonherotraits
@@ -10635,16 +10599,6 @@ groups:
         - powers.wallrun
         - ch.alias.mindlock
         - ch.alias.msg
-  clarkkent:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&f'
-      prefix: '&7Clark Kent'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.herotransform
   wolverine:
     inheritance:
     - commonherotraits
@@ -11032,6 +10986,70 @@ groups:
         - ch.alias.intangible
         - essentials.fly
         - ch.alias.magicpush
+  gokusupersaiyangod:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&6'
+      prefix: '&cG&1o&6ku&8(&cSSG&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.tp
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - powers.herotransform
+        - ch.alias.grouptp
+  clarkkent:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&f'
+      prefix: '&7Clark Kent'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.herotransform
+  superman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&9'
+      prefix: '&cS&9u&ep&9e&9rm&can'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.herotransform
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - powers.wallrun
+        - powers.nofalldamage
+        - weakto.kryptonite
+  spidermanpeterparker:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&4'
+      prefix: '&4Sp&fi&4d&0e&4r-M&0a&4n&8(PP)'
+    worlds:
+      superherocity:
+        permissions:
+        - magic.cast.webfling2
+        - magic.commands.cast
+        - powers.spidersense
+        - ch.alias.web
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - ch.alias.websling
+        - powers.wallclimb
   flashbarryallen:
     inheritance:
     - commonherotraits
@@ -11250,7 +11268,7 @@ users:
       name: StrikerMax
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
     group:
-    - mortal
+    - superman
     options:
       name: Jiren_The_Grey
     permissions:
@@ -11640,7 +11658,8 @@ users:
     options:
       name: CoolCandyCattt
   6ce15a5d-be9a-49c5-9a30-cc8de4ea1391:
-    group: []
+    group:
+    - mortal
     options:
       name: Avenger0222
   dbb47887-bfbd-40e6-bfec-3d1053ea3aff:
@@ -11759,7 +11778,7 @@ users:
       name: SlamBam345
   f621586e-8ef8-448d-9264-86b61375052e:
     group:
-    - f621586e8ef8448d926486b61375052e
+    - flashbarryallen
     options:
       name: MythReeses
     permissions: []
@@ -12897,7 +12916,8 @@ users:
       name: gabriel_hicks
   2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
     group:
-    - gokusupersaiyan3
+    - headpolice
+    - mortal
     options:
       name: TheoreticalGame
     permissions:
@@ -18033,8 +18053,7 @@ users:
     options:
       name: SmoothDonatello
   4681c60e-1da2-4f7d-80be-5947e1d7497e:
-    group:
-    - flashbarryallen
+    group: []
     options:
       name: GamebroDutchman
     worlds:
@@ -18934,8 +18953,7 @@ users:
     options:
       name: _SSiri_
   b16a6d77-6519-40ca-bc61-cd8fe5802d60:
-    group:
-    - superman
+    group: []
     options:
       name: Wolfslayer102
   611141f7-62df-452d-9c61-cc1503d6145c:

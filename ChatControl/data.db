@@ -60,6 +60,9 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
+      Local: write
   FIRESTROME:
     Channels:
       Global: write
@@ -713,7 +716,8 @@ Players:
     Channels:
       Global: write
   MythReeses:
-    Spying: true
+    Channels:
+      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -934,3 +938,10 @@ Players:
   goose6969: {}
   Jiren_The_Grey: {}
   Coodabear88: {}
+  Mindtaro: {}
+  xXninjadragonXx: {}
+  Tematron04: {}
+  CWProfessorZoom: {}
+  Obrezzy08: {}
+  karmaisawoman45: {}
+  Shanethepain2018: {}
