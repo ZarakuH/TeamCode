@@ -32,34 +32,34 @@ register_command('run',
                 return(false)
             }
 
-            sudo('/effect '.@plr.' 1 0')
+            sudo('/effect clear '.@plr)
             switch(@requestedRun){
                 case 1:
-                    sudo('/effect '.@plr.' 1 9999 1 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 1 true')
                     break()
                 case 2:
-                    sudo('/effect '.@plr.' 1 9999 2 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 2 true')
                     break()
                 case 3:
-                    sudo('/effect '.@plr.' 1 9999 3 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 3 true')
                     break()
                 case 4:
-                    sudo('/effect '.@plr.' 1 9999 5 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 5 true')
                     break()
                 case 5:
-                    sudo('/effect '.@plr.' 1 9999 8 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 8 true')
                     break()
                 case 6:
-                    sudo('/effect '.@plr.' 1 9999 10 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 10 true')
                     break()
                 case 7:
-                    sudo('/effect '.@plr.' 1 9999 50 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 50 true')
                     break()
                 case 8:
-                    sudo('/effect '.@plr.' 1 9999 100 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 100 true')
                     break()
                 case 9:
-                    sudo('/effect '.@plr.' 1 9999 255 true')
+                    sudo('/effect give '.@plr.' minecraft:speed 9999 255 true')
                     break()
             } 
 

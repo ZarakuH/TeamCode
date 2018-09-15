@@ -4,11 +4,19 @@ GriefPrevention:
     survival: -1
     survival_nether: -1
     survival_the_end: -1
+    mainmenu: -1
+    sakaar: -1
+    tutorial: -1
+    greenfield: -1
   Claims:
     Mode:
       survival_the_end: Survival
       survival: Survival
       survival_nether: Survival
+      sakaar: Survival
+      mainmenu: Survival
+      tutorial: Survival
+      greenfield: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -67,6 +75,10 @@ GriefPrevention:
       survival: true
       survival_nether: true
       survival_the_end: true
+      mainmenu: true
+      sakaar: true
+      tutorial: true
+      greenfield: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

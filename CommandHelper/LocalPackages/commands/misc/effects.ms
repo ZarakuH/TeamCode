@@ -18,7 +18,7 @@ register_command('effects',
                 tmsg(@plr, 'There\'s no effects\'s associated with your current character :(')
                 die()
             }
-            queue_push(closure(runas('~console','/effect '.@plr.' clear')))
+            queue_push(closure(runas('~console','/effect clear '.@plr)))
             if(array_index_exists(@hero,'effects')){
                 foreach(@effect in @hero['effects']){
                     @effect = replace(@effect,'<plr>',@plr)

@@ -57,12 +57,13 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz: {}
+  GaySparkelz:
+    Channels:
+      Global: write
   StrikerMax:
     Spying: true
     Channels:
       Global: write
-      Local: write
   FIRESTROME:
     Channels:
       Global: write
@@ -144,9 +145,7 @@ Players:
   Catastic1234:
     Channels:
       Global: write
-  Jarnixis:
-    Channels:
-      Global: write
+  Jarnixis: {}
   HARLIE123Z:
     Channels:
       Global: write
@@ -936,7 +935,9 @@ Players:
   ocvarner12: {}
   DoNotPass: {}
   goose6969: {}
-  Jiren_The_Grey: {}
+  Jiren_The_Grey:
+    Channels:
+      Global: write
   Coodabear88: {}
   Mindtaro: {}
   xXninjadragonXx: {}
@@ -945,3 +946,4 @@ Players:
   Obrezzy08: {}
   karmaisawoman45: {}
   Shanethepain2018: {}
+  SgtJaffas: {}

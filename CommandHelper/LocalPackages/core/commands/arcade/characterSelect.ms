@@ -219,7 +219,7 @@ register_command('selectchar',
                     broadcast(color('GRAY').color('ITALIC').'A shitty fanfic has entered the game!')
                     queue_push(closure(runas('~console',"/fly ".@player." off")))
                     queue_push(closure(runas('~console',"/gamemode survival ".@player)))
-                    queue_push(closure(runas('~console',"/effect ".@player." clear")))
+                    queue_push(closure(runas('~console',"/effect clear ".@player)))
                     queue_push(closure(runas('~console',"/minecraft:clear" @player)))
                     queue_push(closure(runas('~console',"/god ".@player." off")))
                     queue_push(closure(runas('~console',"/tptoggle ".@player." on")))
@@ -295,7 +295,7 @@ register_command('selectchar',
                 export(@player.'skinNum',1)
                 queue_push(closure(runas('~console',"/fly ".@player." off")))
                 queue_push(closure(runas('~console',"/gamemode survival ".@player)))
-                queue_push(closure(runas('~console',"/effect ".@player." clear")))
+                queue_push(closure(runas('~console',"/effect clear ".@player)))
                 queue_push(closure(runas('~console',"/god ".@player." off")))
                 queue_push(closure(runas('~console',"/tptoggle ".@player." on")))
                 
