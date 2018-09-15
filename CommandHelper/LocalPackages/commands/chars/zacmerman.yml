@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:dolphins_grace 9999 1 true
 haste: 2
 items:
-- /shot give <plr> watershot
+- /mgive <plr> watershotwand
 - /mgive <plr> waterspearwand
 - /mgive <plr> bubblewand
 - /mgive <plr> streamwand
