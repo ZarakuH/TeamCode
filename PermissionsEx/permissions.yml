@@ -972,16 +972,6 @@ groups:
     options:
       prefix: '&2A&er&bc&4a&dd&6e &fTechnician'
       suffix: '&4&l'
-  zacmerman:
-    inheritance:
-    - commonherotraits
-    options:
-      suffix: '&9'
-      prefix: '&7Z&ba&7c&8(&9m&1m&8)'
-    worlds:
-      superherocity:
-        permissions:
-        - powers.freezewater
   flashbarryallen:
     inheritance:
     - commonherotraits
@@ -1105,6 +1095,64 @@ groups:
         - essentials.fly
         - ch.alias.dropplayer
         - ch.alias.carryplayer
+  aqualadgarth:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&9'
+      prefix: '&9Aq&3ua&4la&1d&8(&9G&8)'
+  aqualadkaldurahm:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&b'
+      prefix: '&9A&1q&4ual&1a&9d&8(K&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+  greenarrow:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&2'
+      prefix: '&2Gre&0e&2n A&0r&2row'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.arrowluck
+        - ch.alias.arrowwaterbreathe
+        - ch.alias.arrowharm
+        - ch.alias.arrowslow
+        - ch.alias.arrowweak
+        - ch.alias.arrowlongpoison
+        - ch.alias.arrowstrongpoison
+        - ch.alias.arrowinvisible
+        - ch.alias.arrowlongleaping
+        - ch.alias.arrowstrongleaping
+        - ch.alias.arrowlongstrength
+        - ch.alias.arrowstrongstrength
+        - ch.alias.arrownightvision
+        - ch.alias.arrowhealing
+        - ch.alias.arrowfireresist
+        - ch.alias.arrowlongswift
+        - ch.alias.arrowstrongswift
+        - ch.alias.arrowlongregen
+        - ch.alias.arrowstrongregen
+        - ch.alias.arrow
+        - ch.alias.arrowspectral
+  aquaman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&3'
+      prefix: '&eA&6qua&2man'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
   novasamalexander:
     inheritance:
     - commonherotraits
@@ -1123,23 +1171,57 @@ groups:
         - -essentials.protect.damage.fall
         - powers.wallrun
         - powers.nofalldamage
-  aquaman:
+  dannyphantom:
     inheritance:
     - commonherotraits
     options:
-      suffix: '&3'
-      prefix: '&eA&6qua&2man'
+      suffix: '&2'
+      prefix: '&2D&aa&0n&fn&ay &0P&ah&2a&0n&at&fo&2m'
     worlds:
       superherocity:
         permissions:
-        - ch.alias.carryplayer
+        - essentials.speed
+        - ch.alias.tangible
+        - ch.alias.intangible
+        - essentials.speed.fly
+        - essentials.fly
+        - powers.mindcontrol
+        - -essentials.protect.damage.fall
+        - -essentials.protect.entitytarget.bypass
+  f621586e8ef8448d926486b61375052e:
+    inheritance:
+    - op
+    options:
+      prefix: '&2A&er&bc&4a&dd&6e &fTechnician'
+  cosmicarmorsuperman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&c'
+      prefix: '&cC&eo&9s&6mi&9c &4A&2r&9m&6o&4r S&9u&ep&9er&4man'
+    worlds:
+      superherocity:
+        permissions:
         - ch.alias.dropplayer
-  aqualadgarth:
+        - ch.alias.carryplayer
+        - essentials.fly
+        - weakto.kryptonite
+        - powers.forget
+        - headdb.free.*
+        - headdb.category.*
+        - headdb.open
+        - ch.alias.create
+        - powers.cantdie
+  zacmerman:
     inheritance:
     - commonherotraits
     options:
       suffix: '&9'
-      prefix: '&9Aq&3ua&4la&1d&8(&9G&8)'
+      prefix: '&7Z&ba&7c&8(&9m&1m&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.freezewater
 schema-version: 1
 worlds:
   checkers:
@@ -1321,14 +1403,26 @@ users:
   391762eb-24f6-4d95-84d6-bfac682d575a:
     group:
     - 391762eb24f64d9584d6bfac682d575a
+    options:
+      name: StrikerMax
   433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
     group:
-    - aqualadgarth
+    - zacmerman
+    options:
+      name: GaySparkelz
   18c70f2f-c175-4f54-9800-ff7390003d7b:
     group:
-    - greenlanternhaljordan
+    - aquaman
     options:
       name: _Rossi_
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
     group:
-    - aquaman
+    - mortal
+    options:
+      name: Jiren_The_Grey
+  f621586e-8ef8-448d-9264-86b61375052e:
+    group:
+    - f621586e8ef8448d926486b61375052e
+    options:
+      suffix: '&b&l'
+      name: MythReeses

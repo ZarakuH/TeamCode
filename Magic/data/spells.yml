@@ -164,7 +164,7 @@ tocreative:
   cast_count: 0
   last_cast: 0
 sectumsempra:
-  cast_count: 124
+  cast_count: 125
   last_cast: 0
 mine:
   cast_count: 0
@@ -332,7 +332,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 2793
+  cast_count: 2811
   last_cast: 0
 realitystoneblast:
   cast_count: 57
@@ -368,7 +368,7 @@ ride:
   cast_count: 0
   last_cast: 0
 wingardiumleviosa:
-  cast_count: 216
+  cast_count: 219
   last_cast: 0
 invisray:
   cast_count: 0
@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2376
+  cast_count: 2384
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -635,13 +635,13 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 338
+  cast_count: 353
   last_cast: 0
 sphere:
   cast_count: 0
   last_cast: 0
 stream:
-  cast_count: 12
+  cast_count: 15
   last_cast: 0
 add_fall_protection:
   cast_count: 0
@@ -1322,7 +1322,7 @@ waterjet:
   cast_count: 0
   last_cast: 0
 lanternbubble:
-  cast_count: 95
+  cast_count: 96
   last_cast: 0
 flipendo:
   cast_count: 0
@@ -1391,7 +1391,7 @@ lava:
   cast_count: 0
   last_cast: 0
 protego:
-  cast_count: 1337
+  cast_count: 1338
   last_cast: 0
 icbm:
   cast_count: 0
@@ -1412,7 +1412,7 @@ miscshop:
   cast_count: 0
   last_cast: 0
 incendio:
-  cast_count: 473
+  cast_count: 476
   last_cast: 0
 vulnera:
   cast_count: 0
@@ -1511,7 +1511,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2409
+  cast_count: 2417
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1544,7 +1544,7 @@ frost:
   cast_count: 108
   last_cast: 0
 confringo:
-  cast_count: 205
+  cast_count: 208
   last_cast: 0
 weather:
   cast_count: 0
@@ -1574,7 +1574,7 @@ birth_worm:
   cast_count: 0
   last_cast: 0
 waterspear:
-  cast_count: 83
+  cast_count: 87
   last_cast: 0
 worm:
   cast_count: 0
@@ -1832,7 +1832,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 697
+  cast_count: 710
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2054,7 +2054,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 445
+  cast_count: 470
   last_cast: 0
 progressmenu:
   cast_count: 224
