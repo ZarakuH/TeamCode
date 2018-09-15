@@ -5,7 +5,7 @@ register_command('speedforcebuffs',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure() {        
             
-            runas('~console',"/effect ".player()." 5 9999 254 true")
+            runas('~console',"/effect ".player()." minecraft:strength 9999 254 true")
             msg(color('RED').'You can now one-punch anyone who you bring to the speedforce using /speedforceteleport <player>')                
         }
     )

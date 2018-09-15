@@ -25,7 +25,7 @@ register_command('freeze',
                 set_pflying(@vic,true)
                 set_pflyspeed(@vic,0)
                 set_pwalkspeed(@vic,0)
-                runas('~console','/effect '.@vic.' 25 9999 255 true')
+                runas('~console','/effect '.@vic.' minecraft:levitation 9999 255 true')
                 runas('~console','/pex user '.@vic.' timed add -essentials.fly '.(@time / 1000))
             ))
 

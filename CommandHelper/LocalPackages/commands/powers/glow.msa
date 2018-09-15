@@ -11,5 +11,5 @@ glowon:/glow on = >>>
         die()
     }
     sudo('/effect '.player().' 24 0')
-    sudo('/effect '.player().' 24 9999 1 true')
+    sudo('/effect '.player().' minecraft:glowing 9999 1 true')
 <<<

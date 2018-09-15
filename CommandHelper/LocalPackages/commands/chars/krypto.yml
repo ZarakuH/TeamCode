@@ -12,8 +12,8 @@ costumes:
   sig: wolf
   val: ''
 effects:
-- /effect <plr> 5 9999 20 true
-- /effect <plr> 11 9999 3 true
+- /effect <plr> minecraft:strength 9999 20 true
+- /effect <plr> minecraft:resistance 9999 3 true
 items:
 - /mgive <plr> kryptonianlaservisionwand
 maxHearts: 40

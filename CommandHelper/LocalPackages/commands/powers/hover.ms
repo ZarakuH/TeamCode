@@ -17,7 +17,7 @@ register_command('hover',
             
             if (@status == 'on') {
             
-                sudo(/effect player() 25 9999 255 true)
+                sudo(/effect player() minecraft:levitation 9999 255 true)
                 tmsg(player(),concat(color('GOLD'),
                 'You feel lighter than a feather..'))
                 

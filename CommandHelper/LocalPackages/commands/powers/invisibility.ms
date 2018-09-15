@@ -13,7 +13,7 @@ register_command('camo',
                     sudo("/effect ". @player ." 14 0")
                     unbind()
                 )
-                sudo("/effect ". @player ." 14 9999 1 true")
+                sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
             ,
                 tmsg(@player,"You're already invisible!")
             )
@@ -30,7 +30,7 @@ register_command('invis',
         'executor': closure() {        
             
             @player = player()
-            sudo("/effect ". @player ." 14 9999 1 true")
+            sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
             runas('~console',"/disguiseplayer ". @player ." Creeper setInvisible true")
                 
         }
@@ -96,7 +96,7 @@ register_command('shadowhide',
                         unbind()
                     }
                 )
-                sudo("/effect ". @player ." 14 9999 1 true")
+                sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
                 runas('~console',"/disguiseplayer ". @player ." Creeper setInvisible true")
             ,
                 tmsg(@player,"You're already invisible!")
