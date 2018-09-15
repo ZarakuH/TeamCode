@@ -9,7 +9,7 @@ effects:
 haste: 2
 items:
 - /shot give <plr> watershot
-- /minecraft:give <plr> minecraft:iron_boots{display:{Name:"{\"text\":\"§bMerman  Tail\"}"},Enchantments:[{id:"minecraft:depth_strider",lvl:30}]} 1
+- /minecraft:give <plr> minecraft:iron_boots{display:{Name:"{\"text\":\"§bMerman Tail\"}"},Enchantments:[{id:"minecraft:dolphins_grace",lvl:30}]} 1
 - /mgive <plr> waterspearwand
 - /mgive <plr> bubblewand
 - /mgive <plr> streamwand
