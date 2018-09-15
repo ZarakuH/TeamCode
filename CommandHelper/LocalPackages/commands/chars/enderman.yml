@@ -5,7 +5,7 @@ costumes:
   sig: enderman
   val: ''
 effects:
-- /effect <plr> minecraft:slowness 9999 3 true
+- /effect give <plr> minecraft:slowness 9999 3 true
 items: [
   ]
 permissions:

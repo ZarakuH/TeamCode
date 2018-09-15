@@ -5,11 +5,11 @@ costumes:
   sig: nl0PzOFSvJklgO/TEA0trAmF47Bv7/Ci7ahMzPKsek15YsbbULEzfiHBECE8aDBos/tddMPZP8ClFbdJdlutvNEcQ9AjIFj0G8w3XdhsIMT8NZlew1HGcT/leR71Xp1/cdfin/+hz1D3trh2FO5SAlcKeth6X0DV9rrlpgKukYqq91WiYygE8sMehlXziWYA27cKDeV/tnZJNWZwFTCqjRYY5D4Ixe399eyAYLVsliyWkDh94mneCNgIAYgkoDUbZMJveq+8e6ELjNx/ZpC2jfHicl8z0ixEXGr4maxrxBNLskCBb2tKcDETzaXpBbKbWLpnbZKzc0aAYP+gjK03C1QYanP8NpB1DT8XfgGjV3NB3LzmWCIXV3peyee5AyKi5dSuW0tUb56il4a449Gqoa5OdRe3/RTQOQm56teIXk1RQsACrrN85KNort+5Feu8Xs/vIp34xwsHeksaihPxFCCAl2qOi45Mq38Rs99/123rqQIGbNmXH579drMRPzFf5IkwtcTQykJBCUWQLTXEl+C2w1rR2MFqYVjv67OUmkqvGK7xV3etNYF1mzPMYrPCDKA+w2hR47fczGirZa3YAPETFAXbi9z+T5bbmmCSqYXJ2+DuDAJZiTg7QNBpiQIpW2/g9w1BwP77MJiXNVhumzdsFgaF6SNhiIlkuC0YZ7s=
   val: eyJ0aW1lc3RhbXAiOjE1MjAyMTg2NjgyMjEsInByb2ZpbGVJZCI6IjM5MTc2MmViMjRmNjRkOTU4NGQ2YmZhYzY4MmQ1NzVhIiwicHJvZmlsZU5hbWUiOiJTdHJpa2VyTWF4Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODVmY2M5ZDFjYTNlMjRmMzFkZDlmNjk3YWFlZjAyN2NiZjFlOTJjYWYzZGQ0MjNjOGMzMWE0MGJiNDAifX19
 effects:
-- /effect <plr> minecraft:strength 9999 18 true
-- /effect <plr> minecraft:regeneration 9999 1 true
-- /effect <plr> minecraft:resistance 9999 3 true
-- /effect <plr> minecraft:fire_resistance 9999 1 true
-- /effect <plr> minecraft:water_breathing 9999 1 true
+- /effect give <plr> minecraft:strength 9999 18 true
+- /effect give <plr> minecraft:regeneration 9999 1 true
+- /effect give <plr> minecraft:resistance 9999 3 true
+- /effect give <plr> minecraft:fire_resistance 9999 1 true
+- /effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 9
 items:
 - /shot give <plr> kamehameha

@@ -16,12 +16,12 @@ costumes:
   sig: AJFvQprV3sRSvNkJ/PHKxMtAD5NZu1d1p4fwmqHkNuCZkvh2cnK/8ZfyiifU0rvOyZBGAWW2FDGKptknhcLIwZwLxOdxcfovcvuHTaOD//TITu7JjEd99cm0FIPc3OMPiU2gC8RfpWFpo7dZgzocisHVUVeVXfGrGf1ETU5UAP8cbAHEOm3GHKX9U/xWrICoh8kwCbQQzxF4O1hVVaDRHPTIy9Ehs6CyQhhEyJN8pw3ynVK9GxYaOLNQHhd3SET7El15LQ53jFpTK7aiUNGm9fSysYikQCXoNKdG9Sowr0HjXLPmaD8JkZhLicwueDW6uZJo2Qu15VRJnrca8A4xrhaDqTexbceYwWUco/MWEqr6TMMm9sbhzqVKwmfADmD2VpEL9O7xvkYTPqdkB3IdS/FZyVDvOAC+NCVUdhtGS/cXhhEeiZFqsJkT5nknG2QyUkJL3av8ByxCOOgDecGUJG9P+J0U0fcVp3djUCH01iF/Q/L5Gl1oM7cnwdrJUU4vPZM+xyY2IJV1SoE5oEz71BerWNTFqwOSQY4f3zN1O5Ga1n2EAaqEito7+o4YBFlm/+iczZj6NyFUlShPK/lG02jj3rNcDUEBFx9vaigZrruD4G73croVXCupUrpHwlyBHo08hNLq+0sOJqGGTTOcC8o0zVcxgUWpOsPN22CgDi0=
   val: eyJ0aW1lc3RhbXAiOjE1MjA4NDM3NjMyNTAsInByb2ZpbGVJZCI6ImQxZmJhYWI3YmRlMzQ0MDU4MjgyOWZjMTVkOTAyMDlkIiwicHJvZmlsZU5hbWUiOiJUaGVEYXJrQXVyYV8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkYmI0YWU5YjQ3MDM2ZWE3NTZkMWM2NTVhOTA4MWEyMGVmM2Y3YzNjZmRkODkxNjhmZDhiYmMxODE2OWMifX19
 effects:
-- /effect <plr> minecraft:strength 9999 5 true
-- /effect <plr> minecraft:regeneration 9999 1 true
-- /effect <plr> minecraft:resistance 9999 2 true
-- /effect <plr> minecraft:fire_resistance 9999 1 true
-- /effect <plr> minecraft:water_breathing 9999 1 true
-- /effect <plr> minecraft:night_vision 9999 1 true
+- /effect give <plr> minecraft:strength 9999 5 true
+- /effect give <plr> minecraft:regeneration 9999 1 true
+- /effect give <plr> minecraft:resistance 9999 2 true
+- /effect give <plr> minecraft:fire_resistance 9999 1 true
+- /effect give <plr> minecraft:water_breathing 9999 1 true
+- /effect give <plr> minecraft:night_vision 9999 1 true
 haste: 6
 items:
 - /give <plr> minecraft:fireworks 64 name:&7Propelled_Flight

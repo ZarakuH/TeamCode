@@ -5,7 +5,7 @@ costumes:
   sig: magmacube
   val: ''
 effects:
-- /effect <plr> minecraft:strength 9999 1 true
+- /effect give <plr> minecraft:strength 9999 1 true
 haste: 2
 items: [
   ]

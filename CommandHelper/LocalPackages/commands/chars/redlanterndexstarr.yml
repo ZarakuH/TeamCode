@@ -5,9 +5,9 @@ costumes:
   sig: ocelot
   val: ''
 effects:
-- /effect <plr> minecraft:strength 9999 15 true
-- /effect <plr> minecraft:regeneration 9999 1 true
-- /effect <plr> minecraft:resistance 9999 2 true
+- /effect give <plr> minecraft:strength 9999 15 true
+- /effect give <plr> minecraft:regeneration 9999 1 true
+- /effect give <plr> minecraft:resistance 9999 2 true
 haste: 4
 items:
 - /shot give <plr> redenergybeam
