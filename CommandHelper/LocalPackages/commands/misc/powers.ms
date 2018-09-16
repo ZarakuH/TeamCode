@@ -7,12 +7,23 @@ register_command('powers',
         'executor': closure(@alias, @plr, @args) {
         
                 //@plr = player()
-
-                if(array_size(@args) != 0){
+                @numArgs = array_size(@args)
+                if(@numArgs == 0){
                     include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
                     @class = _getheroclass(@plr)
                 }else{
-                    @class = @args[0]
+                    @searchTerm = ''
+                    foreach(@arg in @args){
+                        @searchTerm = @searchTerm.@arg
+                    }
+                    @class = to_lower(@searchTerm)
+            }
+
+                }else{
+                    tmsg(@plr, color('RED').'Usage: /powers')
+                    tmsg(@plr, color('RED').'or')
+                    tmsg(@plr, color('RED').'Usage: /powers <heroclass>')
+                    die()
                 }
                 
                 try {
