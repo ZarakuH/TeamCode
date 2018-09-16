@@ -6,7 +6,7 @@ register_command('karmabal',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
-            if(num_args(@args) > 0){
+            if(array_size(@args) > 0){
                 tmsg(@sender,color('RED').'Usage: /karmabal')
                 return()
             }
@@ -38,7 +38,7 @@ register_command('karmapay',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
-            if(num_args(@args) > 0){
+            if(array_size(@args) > 0){
                 tmsg(@sender,color('RED').'Usage: /karmabal')
                 return()
             }
@@ -97,7 +97,7 @@ register_command('karmapaybal',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
-            if(num_args(@args) > 0){
+            if(array_size(@args) > 0){
                 tmsg(@sender,color('RED').'Usage: /karmabal')
                 return()
             }
