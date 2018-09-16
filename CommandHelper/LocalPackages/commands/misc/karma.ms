@@ -10,6 +10,7 @@ register_command('karmabal',
 
             if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')){
                 tmsg(@sender,color('RED').'You look like a first timer, creating your Karma file...')
+                @data = associative_array()
                 @data['karma'] = 5
                 write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true))
                 tmsg(@sender,color('RED').'Done!') 
