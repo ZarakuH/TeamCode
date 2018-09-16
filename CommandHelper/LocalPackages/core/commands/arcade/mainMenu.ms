@@ -51,6 +51,8 @@ register_command('mainmenu',
                         cancel()
                         unbind()
                         tmsg(@plr,color('GREEN').'Success! Time to pick a hero! Choose wisely!')
+                        @data['karma'] = 5
+                        write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                         include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
                         _mortal(@plr)
                         queue_push(closure(runas('~console','/warp mainmenu '.@plr)))
