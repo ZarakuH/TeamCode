@@ -8,7 +8,7 @@ soulgrip:
   cast_count: 14
   last_cast: 0
 soulstonetrap:
-  cast_count: 319
+  cast_count: 321
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -194,7 +194,7 @@ pistol:
   cast_count: 2
   last_cast: 0
 blast:
-  cast_count: 1
+  cast_count: 2
   last_cast: 0
 atmos:
   cast_count: 0
@@ -332,7 +332,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 2811
+  cast_count: 2858
   last_cast: 0
 realitystoneblast:
   cast_count: 57
@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2384
+  cast_count: 2404
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -635,7 +635,7 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 353
+  cast_count: 408
   last_cast: 0
 sphere:
   cast_count: 0
@@ -989,7 +989,7 @@ lockpick:
   cast_count: 0
   last_cast: 0
 fire:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 wandbuffshop:
   cast_count: 0
@@ -1511,7 +1511,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2417
+  cast_count: 2437
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1550,7 +1550,7 @@ weather:
   cast_count: 0
   last_cast: 0
 disarmshout:
-  cast_count: 17
+  cast_count: 18
   last_cast: 0
 add_projectile_protection:
   cast_count: 0
@@ -1574,7 +1574,7 @@ birth_worm:
   cast_count: 0
   last_cast: 0
 waterspear:
-  cast_count: 87
+  cast_count: 90
   last_cast: 0
 worm:
   cast_count: 0
@@ -1691,7 +1691,7 @@ broomshop:
   cast_count: 0
   last_cast: 0
 turnwater:
-  cast_count: 445
+  cast_count: 454
   last_cast: 0
 bogies:
   cast_count: 0
@@ -1718,7 +1718,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 358
+  cast_count: 362
   last_cast: 0
 fiantoduri:
   cast_count: 0
@@ -1832,7 +1832,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 710
+  cast_count: 712
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2054,7 +2054,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 470
+  cast_count: 485
   last_cast: 0
 progressmenu:
   cast_count: 224

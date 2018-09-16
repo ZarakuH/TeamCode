@@ -347,12 +347,6 @@ players:
       timestamp: 1531014359
     rank: 20
     party: LOVIES
-  e6de8cf0-af45-44e4-882f-d98446f4b31b:
-    rank: 5
-    party: LOVIES
-    name:
-      timestamp: 1535833229
-      name: ThoseyKitKat
   fbfcb190-4cdb-400e-a8aa-fc30cc822caf:
     party: Bedrockers
     name:
@@ -413,6 +407,18 @@ players:
       timestamp: 1535497754
       name: Eiilonwy
     party: LOVIES
+  67895bd7-befa-4e7d-aa85-b0f793ab618a:
+    party: orrrr
+    rank: 20
+    name:
+      name: NotSatixfied
+      timestamp: 1537059810
+  e6de8cf0-af45-44e4-882f-d98446f4b31b:
+    party: orrrr
+    rank: 5
+    name:
+      name: ThoseyKitKat
+      timestamp: 1537059836
 parties:
   TheTitans:
     members:
@@ -544,9 +550,9 @@ parties:
     leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
     members:
     - 28556dea-667d-409f-b2ff-fb4177a20ff2
-    - e6de8cf0-af45-44e4-882f-d98446f4b31b
     - fbb8c072-4c4b-49c8-948b-26e8ad73099e
     motd: HIaa
+    protection: false
   Bedrockers:
     leader: fbfcb190-4cdb-400e-a8aa-fc30cc822caf
     members:
@@ -567,4 +573,10 @@ parties:
     leader: 24a234d7-e652-4a24-af9a-da143b05acc0
     members:
     - 24a234d7-e652-4a24-af9a-da143b05acc0
+  orrrr:
+    protection: false
+    leader: 67895bd7-befa-4e7d-aa85-b0f793ab618a
+    members:
+    - 67895bd7-befa-4e7d-aa85-b0f793ab618a
+    - e6de8cf0-af45-44e4-882f-d98446f4b31b
 database-version: 1
