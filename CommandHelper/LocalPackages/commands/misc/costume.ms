@@ -34,7 +34,7 @@ register_command('setcostume',
                 }catch(Exception @e){
                     tmsg(@player,"Sorry, this hero doesn't have a skin number ". @skinNum)
                     export(@player.'skinNum',1)    
-                    queue_push(closure(runas('~console','/undisguiseplayer '.@plr)))
+                    queue_push(closure(runas('~console','/undisguiseplayer '.@player)))
                     return()
                 }
 
