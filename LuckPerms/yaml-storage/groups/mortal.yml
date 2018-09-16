@@ -1,14 +1,5 @@
 name: mortal
 permissions:
-- command.exitgame:
-    value: false
-    world: tutorial
-- command.mainmenu:
-    value: false
-    world: tutorial
-- command.stageselect:
-    value: false
-    world: tutorial
 - in.survival:
     value: false
     world: tutorial
@@ -731,12 +722,14 @@ permissions:
 - command.effects
 - command.exitgame
 - command.items
+- command.mainmenu
 - command.makeahero
 - command.quitjob
 - command.reportglitch
 - command.requestchar
 - command.setname
 - command.skininfo
+- command.stageselect
 - command.taxi
 - csp.trail
 - deluxechat.utf

@@ -1,0 +1,20 @@
+name: superman
+permissions:
+- -essentials.protect.damage.fall
+- ch.alias.carryplayer
+- essentials.fly
+- essentials.speed
+- essentials.speed.fly
+- powers.herotransform
+- powers.nofalldamage
+- powers.wallrun
+- weakto.kryptonite
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&cS&9u&ep&9e&9rm&can':
+    priority: 100
+suffixes:
+- '&9':
+    priority: 100
