@@ -4,11 +4,16 @@ register_command('powers',
         'usage': '/powers',
         'permission': 'ch.alias.powers',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
-        'executor': closure() {
+        'executor': closure(@alias, @plr, @args) {
         
-                @plr = player()
-                include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
-                @class = _getheroclass(@plr)
+                //@plr = player()
+
+                if(array_size(@args) != 0){
+                    include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
+                    @class = _getheroclass(@plr)
+                }else{
+                    @class = @args[0]
+                }
                 
                 try {
                     @contents = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/chars/'.@class.'.yml')
