@@ -2,6 +2,7 @@ name: superman
 permissions:
 - -essentials.protect.damage.fall
 - ch.alias.carryplayer
+- ch.alias.dropplayer
 - essentials.fly
 - essentials.speed
 - essentials.speed.fly
