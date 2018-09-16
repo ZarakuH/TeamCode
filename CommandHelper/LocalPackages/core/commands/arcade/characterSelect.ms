@@ -288,7 +288,7 @@ register_command('selectchar',
                 if(array_index_exists(@hero,'permissions') && is_array(@hero['permissions'])){
                     foreach(@worldName: @worldPerms in @hero['permissions']){
                         foreach(@perm in @worldPerms){
-                            queue_push(closure(runas('~console','/lp group '.@hero['class'].' permission set '.@perm.' true world='.@worldName)))
+                            queue_push(closure(runas('~console','/lp group '.@hero['class'].' permission set '.@perm.' true')))
                         }
                     }
                 }

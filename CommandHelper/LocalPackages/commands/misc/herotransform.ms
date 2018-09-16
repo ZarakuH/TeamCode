@@ -73,7 +73,7 @@ register_command('herotransform',
                 queue_push(closure(runas('~console','/lp group '.@idToBe.' meta addprefix 100 "'.@niceName.'"')))
                 foreach(@worldName: @worldPerms in @newHero['permissions']){
                     foreach(@perm in @worldPerms){
-                        queue_push(closure(runas('~console','/lp group '.@idToBe.' permission set '.@perm.' true world='.@worldName)))
+                        queue_push(closure(runas('~console','/lp group '.@idToBe.' permission set '.@perm.' true')))
                     }
                 }
                 queue_push(closure(runas('~console',"/fly ".@player." off")))

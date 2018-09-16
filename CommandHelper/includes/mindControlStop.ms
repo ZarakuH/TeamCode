@@ -152,7 +152,8 @@ proc('_mindControlStop', @player,
     export(@player.'markerUUID',null)
     export(@player.'mindControlling',null)
     export(@player.'mindControlActiveVic',null)
-    runas('~console','/lp user '.@player.' permission unset powers.mindcontrol world=superherocity')
+    //runas('~console','/lp user '.@player.' permission unset powers.mindcontrol world=superherocity')
+    runas('~console','/lp user '.@player.' permission unset powers.mindcontrol')
 
     @successfulVics = import(@player.'mindControlVics')
 
