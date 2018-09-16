@@ -3,9 +3,6 @@ permissions:
 - in.survival:
     value: false
     world: tutorial
-- essentials.build.*:
-    value: true
-    world: survival
 - cancel.entityclicks:
     value: false
     world: survival
@@ -444,9 +441,6 @@ permissions:
 - ch.alias.fightclubstats:
     value: true
     world: fightclub
-- essentials.build.*:
-    value: true
-    world: creative
 - essentials.skull.*:
     value: true
     world: creative

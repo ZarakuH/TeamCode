@@ -555,5 +555,19 @@
     "type": "GROUP",
     "actedName": "superman",
     "action": "meta addsuffix 100 \u00269"
+  },
+  {
+    "actor": "f621586e-8ef8-448d-9264-86b61375052e",
+    "actorName": "MythReeses",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "webeditor remove essentials.build.* true world\u003dsurvival"
+  },
+  {
+    "actor": "f621586e-8ef8-448d-9264-86b61375052e",
+    "actorName": "MythReeses",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "webeditor remove essentials.build.* true world\u003dcreative"
   }
 ]
