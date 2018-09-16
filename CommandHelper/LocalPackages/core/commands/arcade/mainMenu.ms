@@ -44,9 +44,12 @@ register_command('mainmenu',
                         tmsg(@plr,color('RED').'Oof, sorry, maybe next time!')
                         tmsg(@plr,color('RED').'If you try again, you\'ll have a '.@data['karma'].'% chance!')
                         write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
+                        cancel()
                         unbind()
                         return()
                     }else{
+                        cancel()
+                        unbind()
                         tmsg(@plr,color('GREEN').'Success! Time to pick a hero! Choose wisely!')
                         include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
                         _mortal(@plr)
