@@ -122,7 +122,7 @@ set_cron('*/20 * * * *',closure(
     @sendingKarma = associative_array()
     @sendingKarma['karma'] = 10
     foreach(@player in @players){
-        export(@player.'paymentKarma')
+        export(@player.'paymentKarma',@sendingKarma)
     }
 
 ))
