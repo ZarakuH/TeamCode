@@ -108,8 +108,11 @@ bind('player_join',null,null,@event){
         //}
     //))
 
-    set_timeout(5000, closure(
-        runas('~console','/lp user '.@plr.' parent set mortal')
+    set_timeout(3000, closure(
+        @group = pgroup(@plr)
+        if(array_size(@group) == 1){
+            runas('~console','/lp user '.@plr.' parent set mortal')
+        }
     ))
 
     set_timeout(5000, closure(
