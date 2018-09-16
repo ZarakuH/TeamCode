@@ -972,6 +972,16 @@ groups:
     - op
     options:
       prefix: '&2A&er&bc&4a&dd&6e &fTechnician'
+  zacmerman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&9'
+      prefix: '&7Z&ba&7c&8(&9m&1m&8)'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.freezewater
 schema-version: 1
 worlds:
   checkers:
@@ -1161,3 +1171,16 @@ users:
     options:
       suffix: '&b&l'
       name: MythReeses
+  e6de8cf0-af45-44e4-882f-d98446f4b31b:
+    options:
+      name: ThoseyKitKat
+    permissions:
+    - worldguard.region.bypass.*
+    - essentials.build.*
+    - essentials.gamemode.1
+    - essentials.gamemode
+  433a0d8e-aa8a-42ae-bc54-f4456bf366c0:
+    group:
+    - zacmerman
+    options:
+      name: GaySparkelz
