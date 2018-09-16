@@ -977,7 +977,7 @@ skills:
   cast_count: 0
   last_cast: 0
 llama:
-  cast_count: 9
+  cast_count: 11
   last_cast: 0
 reflect:
   cast_count: 7
