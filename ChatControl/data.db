@@ -45,12 +45,8 @@ Players:
   Keiichi23:
     Channels:
       Global: write
-  Marielia:
-    Channels:
-      Global: write
-  Han_Shot_First_:
-    Channels:
-      Global: write
+  Marielia: {}
+  Han_Shot_First_: {}
   DominickVine:
     Channels:
       Global: write
@@ -62,9 +58,6 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
-      Local: write
   FIRESTROME:
     Channels:
       Global: write
@@ -713,8 +706,6 @@ Players:
       Global: write
   MythReeses:
     Spying: true
-    Channels:
-      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -795,9 +786,7 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy:
-    Channels:
-      Global: write
+  Eiilonwy: {}
   kylo_gamer:
     Channels:
       Global: write
@@ -942,3 +931,4 @@ Players:
   Shanethepain2018: {}
   SgtJaffas: {}
   BotLettuce: {}
+  Brettconk: {}
