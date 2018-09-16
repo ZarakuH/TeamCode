@@ -90,7 +90,7 @@ register_command('karmapay',
                 @recievingKarma['karma'] = @recievingKarma['karma'] + @amount
             }
             write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@recievingKarma,true),'OVERWRITE')
-            @sendingKarma = @sendingKarma - @amount
+            @sendingKarma['karma'] = @sendingKarma['karma'] - @amount
             export(@sender.'paymentKarma',@sendingKarma)
             tmsg(@sender,color('RED').'Done! You have paid them '.@amount.' Karma!')
         }
