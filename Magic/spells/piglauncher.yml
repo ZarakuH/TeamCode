@@ -18,12 +18,11 @@ piglauncher:
           sound_volume: 5
           sound_pitch: -0.25
           location: origin
+          speed: 2
           effectlib:
              class: AtomEffect
              particleNucleus: spell_mob
-             colorNucleus: "ffffff"
              particleOrbital: redstone
-             colorOrbital: "ffffff"
              iterations: 16
              radius: 5
         launch:
@@ -35,12 +34,13 @@ piglauncher:
         - location: target
           particle: redstone
           particle_count: 4
-          speed: 1
+          speed: 2
           particle_offset_x: 0.2
           particle_offset_y: 0.2
           particle_offset_z: 0.2
         projectile:
         - class: EffectSingle
+        speed: 2
           effectlib:
              class: SphereEffect
              particle: redstone
