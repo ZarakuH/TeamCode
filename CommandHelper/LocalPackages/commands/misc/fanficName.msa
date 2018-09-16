@@ -11,6 +11,7 @@ fanficname:/fanficname $ = >>>
     include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
     @group = _getheroclass(@player)
 
-    runas('~console','/pex group '.@group.' prefix "&r'.@name.'"')
+    runas('~console','/lp group '.@group.' meta removeprefix 100')
+    runas('~console','/lp group '.@group.' meta addprefix "&r'.@name.'"')
 
 <<<

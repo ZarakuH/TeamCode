@@ -11,6 +11,7 @@ fanficchatcolor:/fanficchatcolor $color = >>>
     include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
     @group = _getheroclass(@player)
 
-    runas('~console','/pex group '.@group.' suffix "&r'.@name.'"')
+    runas('~console','/lp group '.@group.' meta removesuffix 100')
+    runas('~console','/lp group '.@group.' meta addsuffix 100 "&r'.@name.'"')
 
 <<<

@@ -45,8 +45,9 @@ register_command('setname',
             @reqestedNum = @args[0] - 1
             if(array_index_exists(@hero['costumes'],@reqestedNum)){
                 @niceName = replace(@hero['costumes'][@reqestedNum]['name'],'§','&')
-                runas('~console','/pex group #'.@class.' prefix "'.@niceName.'"')
-                runas('~console','/pex group #'.@class.' suffix "'.@hero['costumes'][@reqestedNum]['chatcolor'].'"')
+                runas('~console','/lp group '.@class.' meta clear')
+                runas('~console','/lp group '.@class.' meta addprefix 100 "'.@niceName.'"')
+                runas('~console','/lp group '.@class.' meta addsuffix 100 "'.@hero['costumes'][@reqestedNum]['chatcolor'].'"')
                 tmsg(@sender,color('RED').'Name set!')
             }else{
                 tmsg(@sender,color('RED').'Sorry, you are not a character with multiple skins.')

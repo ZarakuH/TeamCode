@@ -130,7 +130,7 @@ proc('_mindControlStop', @player,
     
     @pOrigClass = import(@player.'mindControlOrigHero')
     if(@pOrigClass != null){
-        runas('~console','/pex user '.@player.' group set '.@pOrigClass)
+        runas('~console','/lp user '.@player.' parent set '.@pOrigClass)
     }
     export(@player.'mindControlOrigHero',null)
     
@@ -152,7 +152,7 @@ proc('_mindControlStop', @player,
     export(@player.'markerUUID',null)
     export(@player.'mindControlling',null)
     export(@player.'mindControlActiveVic',null)
-    runas('~console','/pex user '.@player.' remove powers.mindcontrol superherocity')
+    runas('~console','/lp user '.@player.' permission unset powers.mindcontrol world=superherocity')
 
     @successfulVics = import(@player.'mindControlVics')
 

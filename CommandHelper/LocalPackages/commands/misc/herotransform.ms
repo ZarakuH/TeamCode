@@ -63,17 +63,17 @@ register_command('herotransform',
                 @contents = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/chars/'.@idToBe.'.yml')
                 @newHero = yml_decode(@contents)
         
-                #runas('~console','/pex user '.@player.' group set '.@idToBe)
-                queue_push(closure(runas('~console','/pex group #'.@idToBe.' delete')))
-                queue_push(closure(runas('~console','/pex group #'.@idToBe.' create')))
-                queue_push(closure(runas('~console','/pex user '.@player.' group set #'.@idToBe)))
-                queue_push(closure(runas('~console','/pex group #'.@idToBe.' parents set #commonherotraits')))
-                queue_push(closure(runas('~console','/pex group #'.@idToBe.' suffix '.@newHero['costumes'][0]['chatcolor'])))
+                #runas('~console','/lp user '.@player.' parent set '.@idToBe)
+                queue_push(closure(runas('~console','/lp deletegroup '.@idToBe)))
+                queue_push(closure(runas('~console','/lp creategroup '.@idToBe)))
+                queue_push(closure(runas('~console','/lp user '.@player.' parent set '.@idToBe)))
+                queue_push(closure(runas('~console','/lp group '.@idToBe.' parent set commonherotraits')))
+                queue_push(closure(runas('~console','/lp group '.@idToBe.' meta addsuffix 100 '.@newHero['costumes'][0]['chatcolor'])))
                 @niceName = replace(@newHero['costumes'][0]['name'],'§','&')
-                queue_push(closure(runas('~console','/pex group #'.@idToBe.' prefix "'.@niceName.'"')))
+                queue_push(closure(runas('~console','/lp group '.@idToBe.' meta addprefix 100 "'.@niceName.'"')))
                 foreach(@worldName: @worldPerms in @newHero['permissions']){
                     foreach(@perm in @worldPerms){
-                        queue_push(closure(runas('~console','/pex group #'.@idToBe.' add '.@perm.' '.@worldName)))
+                        queue_push(closure(runas('~console','/lp group '.@idToBe.' permission set '.@perm.' true world='.@worldName)))
                     }
                 }
                 queue_push(closure(runas('~console',"/fly ".@player." off")))

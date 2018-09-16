@@ -199,23 +199,23 @@ register_command('selectchar',
 
                 if(@class == 'fanfic'){
                     @uuid = puuid(@player,true)
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' delete')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' create')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' parents set #commonherotraits')))
-                    queue_push(closure(runas('~console','/pex user '.@player.' group set #'.@class.@uuid)))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.run0 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.run1 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.run2 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.haste0 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.haste1 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.haste2 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.jump0 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.jump1 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.jump2 superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.fanficlaser superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.fanficname superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add ch.alias.fanficchatcolor superherocity')))
-                    queue_push(closure(runas('~console','/pex group #'.@class.@uuid.' add is.fanfic superherocity')))
+                    queue_push(closure(runas('~console','/lp deletegroup '.@class.@uuid)))
+                    queue_push(closure(runas('~console','/lp creategroup '.@class.@uuid)))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' parent set commonherotraits')))
+                    queue_push(closure(runas('~console','/lp user '.@player.' parent set '.@class.@uuid)))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.run0 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.run1 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.run2 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.haste0 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.haste1 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.haste2 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.jump0 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.jump1 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.jump2 true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.fanficlaser true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.fanficname true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set ch.alias.fanficchatcolor true world=superherocity')))
+                    queue_push(closure(runas('~console','/lp group '.@class.@uuid.' permission set is.fanfic true world=superherocity')))
                     broadcast(color('GRAY').color('ITALIC').'A shitty fanfic has entered the game!')
                     queue_push(closure(runas('~console',"/fly ".@player." off")))
                     queue_push(closure(runas('~console',"/gamemode survival ".@player)))
@@ -272,21 +272,21 @@ register_command('selectchar',
                 }
 
                 if(!@multipleInUse){
-                    queue_push(closure(runas('~console','/pex group #'.@hero['class'].' delete')))
-                    queue_push(closure(runas('~console','/pex group #'.@hero['class'].' create')))
+                    queue_push(closure(runas('~console','/lp deletegroup '.@hero['class'])))
+                    queue_push(closure(runas('~console','/lp creategroup '.@hero['class'])))
                 }
 
                 queue_push(closure(runas('~console','/minecraft:clear '.@player)))
                 queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
-                queue_push(closure(runas('~console','/pex group #'.@hero['class'].' parents set #commonherotraits')))
-                queue_push(closure(runas('~console','/pex group #'.@hero['class'].' suffix '.@hero['costumes'][0]['chatcolor'])))
+                queue_push(closure(runas('~console','/lp group '.@hero['class'].' parent set commonherotraits')))
+                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addsuffix 100 '.@hero['costumes'][0]['chatcolor'])))
                 @niceName = replace(@hero['costumes'][0]['name'],'§','&')
-                queue_push(closure(runas('~console','/pex group #'.@hero['class'].' prefix "'.@niceName.'"')))
-                queue_push(closure(runas('~console','/pex user #'.@player.' group set #'.@hero['class'])))
+                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addprefix 100 "'.@niceName.'"')))
+                queue_push(closure(runas('~console','/lp user '.@player.' parent set '.@hero['class'])))
                 if(array_index_exists(@hero,'permissions') && is_array(@hero['permissions'])){
                     foreach(@worldName: @worldPerms in @hero['permissions']){
                         foreach(@perm in @worldPerms){
-                            queue_push(closure(runas('~console','/pex group #'.@hero['class'].' add '.@perm.' '.@worldName)))
+                            queue_push(closure(runas('~console','/lp group '.@hero['class'].' permission set '.@perm.' true world='.@worldName)))
                         }
                     }
                 }

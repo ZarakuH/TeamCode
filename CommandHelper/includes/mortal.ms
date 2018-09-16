@@ -15,6 +15,6 @@ proc('_mortal',@plr,
     queue_push(closure(runas('~console',"/walkspeed ".@plr." 1")))
     queue_push(closure(runas('~console',"/god ".@plr." off")))
     queue_push(closure(runas('~console','/undisguiseplayer '.@plr)))
-    queue_push(closure(runas('~console',"/pex user ".@plr." group set mortal")))
+    queue_push(closure(runas('~console',"/lp user ".@plr." parent set mortal")))
 
 )
