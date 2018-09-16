@@ -21,7 +21,7 @@ register_command('taxi',
 
             @dest = @args[0]
 
-            if(acc_balance(@sender) >= 20)) {
+            if(acc_balance(@sender) >= 20) {
                acc_subtract(@sender, 20)
                sudo('/warp '.@dest)
                tmsg(@sender,color('RED').'Taxi fee: $20.')
