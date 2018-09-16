@@ -16,7 +16,7 @@ register_command('hireop',
                 runas('~console',"/lp creategroup ".@puuid)
                 runas('~console',"/lp group ".@puuid." meta removeprefix 100")
                 runas('~console',"/lp group ".@puuid." meta addprefix 100 \"&2A&er&bc&4a&dd&6e &fTechnician\"")
-                runas('~console',"/pex user ".@player." parent set ".@puuid)
+                runas('~console',"/lp user ".@player." parent set ".@puuid)
                 tmsg(player(),color('RED')."You have hired ".@player. " as OP!")
                 tmsg(@player,color('RED')."You have been hired as OP")
         }
