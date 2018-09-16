@@ -1,0 +1,22 @@
+name: superadmin
+permissions:
+- '*'
+- tpjail.active:
+    value: false
+- vanish.effects.explode:
+    value: false
+- vanish.effects.lightning:
+    value: false
+- vanish.effects.smoke:
+    value: false
+- vanish.joinvanished:
+    value: false
+- vanish.joinwithoutannounce:
+    value: false
+- vanish.nochat:
+    value: false
+- vanish.silentjoin:
+    value: false
+- vanish.silentquit:
+    value: false
+- weight.5

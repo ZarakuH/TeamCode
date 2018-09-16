@@ -1,0 +1,13 @@
+name: headjudge
+permissions:
+- ch.alias.release
+- fire.judge
+- hire.judge
+- judge.quizclear
+- judge.quizread
+- weight.5
+parents:
+- judge
+prefixes:
+- '&e&kI&4&k|&eHeadJudge&4&k|&e&kI&a/':
+    priority: 5

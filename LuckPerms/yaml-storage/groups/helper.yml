@@ -1,0 +1,6 @@
+name: helper
+permissions:
+- weight.5
+prefixes:
+- '&e&kI&4&k|&eHelper&4&k|&e&kI&a/':
+    priority: 5

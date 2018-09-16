@@ -1,0 +1,6 @@
+name: spleefgod
+permissions:
+- weight.5
+prefixes:
+- '&4&lSpleef&e&lGod&a/':
+    priority: 5

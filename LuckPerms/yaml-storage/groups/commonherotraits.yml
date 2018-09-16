@@ -1,0 +1,25 @@
+name: commonherotraits
+permissions:
+- ch.alias.jump:
+    value: true
+    world: superherocity
+- chatcontrol.part.playername:
+    value: false
+    world: superherocity
+- libsdisguises.undisguise:
+    value: false
+    world: superherocity
+- magic.wand.use:
+    value: true
+    world: superherocity
+- powers.haste:
+    value: true
+    world: superherocity
+- powers.run:
+    value: true
+    world: superherocity
+- chatcontrol.part.playername:
+    value: false
+- weight.5
+parents:
+- mortal

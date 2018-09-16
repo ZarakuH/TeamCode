@@ -1,0 +1,6 @@
+name: buildgod
+permissions:
+- weight.5
+prefixes:
+- '&b&lBuild&e&lGod&a/':
+    priority: 5

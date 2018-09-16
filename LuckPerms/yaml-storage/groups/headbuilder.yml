@@ -1,0 +1,24 @@
+name: headbuilder
+permissions:
+- headdb.category.*:
+    value: true
+    world: buildworld
+- headdb.free.*:
+    value: true
+    world: buildworld
+- headdb.open:
+    value: true
+    world: buildworld
+- fire.builder
+- give.we
+- hire.builder
+- take.we
+- weight.5
+parents:
+- builder
+prefixes:
+- '&8&l&oM&e&l&oa&7&l&os&6&l&ot&8&l&oe&e&l&or&7&l&oB&6&l&ou&8&l&oi&e&l&ol&7&l&od&6&l&oe&8&l&or&a/':
+    priority: 5
+suffixes:
+- '&6':
+    priority: 5

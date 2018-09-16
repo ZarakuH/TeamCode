@@ -1,0 +1,6 @@
+name: nocheckgod
+permissions:
+- weight.5
+prefixes:
+- '&4&l&nNOCHECKGOD&a/':
+    priority: 5

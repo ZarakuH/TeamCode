@@ -1,0 +1,6 @@
+name: donator
+permissions:
+- weight.5
+prefixes:
+- '&e&l&n&oDonator&a/':
+    priority: 5

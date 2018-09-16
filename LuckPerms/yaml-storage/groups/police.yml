@@ -1,0 +1,17 @@
+name: police
+permissions:
+- ch.alias.addchatcooldown
+- ch.alias.backgroundcheck
+- ch.alias.release
+- ch.alias.remchatcooldown
+- ch.alias.timeout
+- ch.alias.warn
+- command.timeleft
+- essentials.warps.jail
+- essentials.warps.police
+- weight.5
+parents:
+- commonherotraits
+prefixes:
+- '&9P&1o&9l&ei&9c&0e&a/':
+    priority: 5

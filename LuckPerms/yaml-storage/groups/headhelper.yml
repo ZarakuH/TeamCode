@@ -1,0 +1,12 @@
+name: headhelper
+permissions:
+- fire.helper
+- helper.quizclear
+- helper.quizread
+- hire.helper
+- weight.5
+parents:
+- helper
+prefixes:
+- '&e&kI&4&k|&eHeadHelper&4&k|&e&kI&a/':
+    priority: 5

@@ -58,6 +58,8 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -706,6 +708,8 @@ Players:
       Global: write
   MythReeses:
     Spying: true
+    Channels:
+      Global: write
   Strelitiza:
     Channels:
       Global: write

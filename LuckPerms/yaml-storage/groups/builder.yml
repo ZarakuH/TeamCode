@@ -1,0 +1,43 @@
+name: builder
+permissions:
+- essentials.build.*:
+    value: true
+    world: buildworld
+- command.exitgame:
+    value: true
+    world: buildworld
+- command.mainmenu:
+    value: true
+    world: buildworld
+- essentials.fly:
+    value: true
+    world: buildworld
+- essentials.home:
+    value: true
+    world: buildworld
+- essentials.protect.exemptbreak:
+    value: true
+    world: buildworld
+- essentials.protect.exemptplacement:
+    value: true
+    world: buildworld
+- essentials.protect.exemptusage:
+    value: true
+    world: buildworld
+- essentials.sethome:
+    value: true
+    world: buildworld
+- essentials.top:
+    value: true
+    world: buildworld
+- essentials.warps.fightclub
+- essentials.warps.workshop
+- weight.5
+parents:
+- commonherotraits
+prefixes:
+- '&6Co&ens&7tru&6ct&ei&7on &fW&7o&fr&7k&fe&7r&a/':
+    priority: 5
+suffixes:
+- '&e':
+    priority: 5

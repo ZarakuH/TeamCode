@@ -1,0 +1,14 @@
+name: zacmerman
+permissions:
+- powers.freezewater:
+    value: true
+    world: superherocity
+- weight.5
+parents:
+- commonherotraits
+prefixes:
+- '&7Z&ba&7c&8(&9m&1m&8)':
+    priority: 5
+suffixes:
+- '&9':
+    priority: 5

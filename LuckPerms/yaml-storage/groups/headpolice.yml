@@ -1,0 +1,39 @@
+name: headpolice
+permissions:
+- essentials.build.*:
+    value: true
+    world: jail
+- essentials.gamemode.*:
+    value: true
+    world: jail
+- headdb.category.*:
+    value: true
+    world: jail
+- headdb.free.*:
+    value: true
+    world: jail
+- essentials.gamemode:
+    value: true
+    world: jail
+- essentials.protect.exemptbreak:
+    value: true
+    world: jail
+- essentials.protect.exemptplacement:
+    value: true
+    world: jail
+- essentials.protect.exemptusage:
+    value: true
+    world: jail
+- headdb.open:
+    value: true
+    world: jail
+- command.removeglitch
+- command.removerequest
+- fire.police
+- hire.police
+- weight.5
+parents:
+- police
+prefixes:
+- '&9P&1o&9l&ei&9c&0e &9Ch&ei&1e&0f&a/':
+    priority: 5

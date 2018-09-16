@@ -1,0 +1,67 @@
+name: default
+permissions:
+- essentials.build.drop.*
+- essentials.build.pickup.*
+- essentials.protect.damage.*
+- herochat.join.*
+- herochat.leave.*
+- herochat.speak.*
+- magic.*:
+    value: false
+- multiverse.bypass.gamemode.*
+- BCC.cmd.ignore
+- bukkit.command.ban.list
+- bukkit.command.help
+- bukkit.command.me:
+    value: false
+- bukkit.command.plugins
+- bukkit.command.seed
+- bukkit.command.version
+- ch.alias.afkoff
+- ch.alias.afkset
+- ch.alias.b
+- ch.alias.bc
+- ch.alias.bcc
+- ch.alias.broadcast
+- ch.alias.spec
+- ch.alias.vis
+- chatcontrol.autojoin.global.write
+- chatcontrol.channel.autojoin.global.write
+- chatcontrol.channel.global.join.write
+- coreprotect.inspect
+- coreprotect.lookup
+- deluxechat.pm
+- essentials.afk
+- essentials.afk.auto
+- essentials.ban.notify
+- essentials.banlist
+- essentials.chat.url
+- essentials.delhome
+- essentials.help
+- essentials.home.bed
+- essentials.ignore
+- essentials.list
+- essentials.motd
+- essentials.protect.damage.disable:
+    value: false
+- essentials.protect.entitytarget.bypass
+- essentials.realname
+- essentials.recipe
+- essentials.rules
+- essentials.seen
+- essentials.seen.banreason
+- essentials.suicide
+- essentials.warp.list
+- griefprevention.ignore
+- griefprevention.nopvpimmunity
+- herochat.autojoin.Global
+- herochat.force.join.Global
+- libsdisguises.disguise.player:
+    value: false
+- libsdisguises.disguise.player.nooptions
+- minecraft.command.banlist
+- minecraft.command.me:
+    value: false
+- ontime.other
+- ontime.track
+- weight.5

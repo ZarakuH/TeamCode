@@ -1,0 +1,60 @@
+[
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "391762eb24f64d9584d6bfac682d575a",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "391762eb24f64d9584d6bfac682d575a",
+    "action": "meta removeprefix 100 *"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "391762eb24f64d9584d6bfac682d575a",
+    "action": "meta addprefix 100 \u00262A\u0026er\u0026bc\u00264a\u0026dd\u00266e \u0026fTechnician"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actedName": "StrikerMax",
+    "action": "parent set 391762eb24f64d9584d6bfac682d575a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "391762eb24f64d9584d6bfac682d575a",
+    "action": "meta removeprefix 100 *"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "391762eb24f64d9584d6bfac682d575a",
+    "action": "meta addprefix 100 \u00262A\u0026er\u0026bc\u00264a\u0026dd\u00266e \u0026fTechnician"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actedName": "StrikerMax",
+    "action": "parent set 391762eb24f64d9584d6bfac682d575a"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "superherocity",
+    "action": "create"
+  }
+]

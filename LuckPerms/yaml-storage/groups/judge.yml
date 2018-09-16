@@ -1,0 +1,9 @@
+name: judge
+permissions:
+- ch.alias.backgroundcheck
+- weight.5
+parents:
+- commonherotraits
+prefixes:
+- '&e&kI&4&k|&eJudge&4&k|&e&kI&a/':
+    priority: 5

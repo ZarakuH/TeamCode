@@ -1,0 +1,71 @@
+name: criminal
+permissions:
+- command.exitgame:
+    value: true
+    world: survival
+- command.exitgame:
+    value: true
+    world: superherocity
+- essentials.build.interact.70:
+    value: true
+    world: overvoid
+- command.characterselect:
+    value: true
+    world: arcade
+- command.entergame:
+    value: true
+    world: arcade
+- command.selectchar:
+    value: true
+    world: arcade
+- command.stageselect:
+    value: true
+    world: arcade
+- essentials.build.interact.143:
+    value: true
+    world: arcade
+- essentials.build.interact.147:
+    value: true
+    world: arcade
+- essentials.build.interact.148:
+    value: true
+    world: arcade
+- ch.alias.hungerlevel
+- ch.alias.spawnjailzombie
+- chatcontrol.part.playername
+- command.skininfo
+- command.timeleft
+- deluxechat.pm:
+    value: false
+- essentials.afk:
+    value: false
+- essentials.home:
+    value: false
+- essentials.kill.exempt
+- essentials.protect.entitytarget.bypass
+- essentials.suicide:
+    value: false
+- essentials.tp:
+    value: false
+- essentials.tpa:
+    value: false
+- essentials.tpaccept:
+    value: false
+- essentials.tpo:
+    value: false
+- is.criminal
+- kill.immune
+- multiverse.access.arcade
+- multiverse.access.city
+- multiverse.access.greenfield
+- multiverse.access.overvoid
+- needsto.eat
+- weight.5
+parents:
+- default
+prefixes:
+- '&4&lCriminal':
+    priority: 5
+suffixes:
+- '&0':
+    priority: 5

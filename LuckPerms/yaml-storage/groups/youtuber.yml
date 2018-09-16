@@ -1,0 +1,6 @@
+name: youtuber
+permissions:
+- weight.5
+prefixes:
+- '&4&lYou&f&lTuber&a/':
+    priority: 5

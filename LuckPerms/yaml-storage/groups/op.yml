@@ -1,0 +1,87 @@
+name: op
+permissions:
+- essentials.protect.pvp:
+    value: false
+    world: infectiontag
+- essentials.protect.pvp:
+    value: false
+    world: fightclub
+- essentials.warps.*
+- '*'
+- OpenInv.silent:
+    value: false
+- arrest.onjoin:
+    value: false
+- can.burninsun:
+    value: false
+- cancel.entityclicks:
+    value: false
+- case.tolower:
+    value: false
+- ch.alias.mindcontrolnear:
+    value: false
+- change.chat:
+    value: false
+- change.smiles:
+    value: false
+- chat.babytalk:
+    value: false
+- chat.cooldown:
+    value: false
+- chat.ef:
+    value: false
+- chat.tictac:
+    value: false
+- chat.tofood:
+    value: false
+- chatcontrol.channel.*.bypass.range:
+    value: false
+- chatcontrol.channel.*.bypass.world:
+    value: false
+- chatcontrol.chat.overrideranged:
+    value: false
+- chatcontrol.chat.spy:
+    value: false
+- chatcontrol.chat.spyranged:
+    value: false
+- is.burninginsunlight:
+    value: false
+- is.criminal:
+    value: false
+- is.headhelper:
+    value: false
+- is.married:
+    value: false
+- is.mute:
+    value: false
+- is.suspended:
+    value: false
+- machine.mortal:
+    value: false
+- mortal.machine:
+    value: false
+- powers.amazonianreflexes:
+    value: false
+- powers.cantdie:
+    value: false
+- powers.lightningsticks:
+    value: false
+- powers.onepunch:
+    value: false
+- powers.projectileinvulnerability:
+    value: false
+- powers.speedsterdodge:
+    value: false
+- powers.spidersense:
+    value: false
+- powers.sunhealing:
+    value: false
+- powers.ultrainstinct:
+    value: false
+- quarantine.onjoin:
+    value: false
+- tick.kill:
+    value: false
+- weakto.antivenom:
+    value: false
+- weight.5

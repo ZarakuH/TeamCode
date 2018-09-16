@@ -1,0 +1,12 @@
+name: headcoder
+permissions:
+- coder.quizclear
+- coder.quizread
+- fire.coder
+- hire.coder
+- weight.5
+parents:
+- coder
+prefixes:
+- '&2He&aa&2d &eD&aN&4A &2Eng&ai&2n&aee&2r&a/':
+    priority: 5
