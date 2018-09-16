@@ -57,7 +57,7 @@ register_command('karmapay',
                 return()
             }
 
-            if(!is_number(@amount)){
+            if(!is_numeric(@amount)){
                 tmsg(@sender,color('RED').'Make sure the amount is a number.')
                 tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
                 return()
