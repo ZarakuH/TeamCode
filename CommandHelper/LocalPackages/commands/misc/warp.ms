@@ -21,6 +21,11 @@ register_command('taxi',
 
             @dest = @args[0]
 
+            if(is_numeric(@dest)){
+               sudo('/warp '.@dest)
+               return()
+            }
+
             if(acc_balance(@sender) >= 20) {
                acc_subtract(@sender, 20)
                sudo('/warp '.@dest)
