@@ -31,7 +31,7 @@ register_command('powers',
                 
                 if(array_index_exists(@hero,'powers')){
                     msg(color('YELLOW').'-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
-                    msg(color('GOLD').  '                                YOUR POWERS                    ')
+                    msg(color('GOLD').  '          '.@hero['costumes']['name'].'\'S POWERS                    ')
                     msg(color('YELLOW').'-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
                     foreach(@power in @hero['powers']){
                         tmsg(@plr,color('GOLD').@power)
