@@ -129,6 +129,7 @@ groups:
       default: true
       prefix: '&f&lMortal&r'
     permissions:
+    - command.taxi
     - karma.*
     - whos.it
     - command.quitjob
@@ -264,7 +265,6 @@ groups:
     - ch.alias.marry
     - multiverse.access.infinitycity
     - ch.alias.listworlds
-    - essentials.warp
     - chatcontrol.commands.channels.players
     - chatcontrol.chat.format.color.*
     - chatcontrol.part.playername
@@ -1184,3 +1184,6 @@ users:
     - zacmerman
     options:
       name: GaySparkelz
+  87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
+    options:
+      name: Jiren_The_Grey

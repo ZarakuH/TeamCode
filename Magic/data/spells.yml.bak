@@ -635,13 +635,13 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 408
+  cast_count: 409
   last_cast: 0
 sphere:
   cast_count: 0
   last_cast: 0
 stream:
-  cast_count: 15
+  cast_count: 16
   last_cast: 0
 add_fall_protection:
   cast_count: 0
@@ -1832,7 +1832,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 712
+  cast_count: 721
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2054,7 +2054,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 485
+  cast_count: 533
   last_cast: 0
 progressmenu:
   cast_count: 224
