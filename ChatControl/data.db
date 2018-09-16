@@ -57,9 +57,13 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz: {}
+  GaySparkelz:
+    Channels:
+      Global: write
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -708,6 +712,8 @@ Players:
       Global: write
   MythReeses:
     Spying: true
+    Channels:
+      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -863,7 +869,9 @@ Players:
   Amy_star7:
     Channels:
       Global: write
-  ThoseyKitKat: {}
+  ThoseyKitKat:
+    Channels:
+      Global: write
   DarkJarJar:
     Channels:
       Global: write
