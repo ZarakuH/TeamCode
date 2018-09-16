@@ -31,9 +31,11 @@ register_command('taxi',
             if(@numArgs == 0){
                 @locs = ''
                 foreach(@loc in @taxiLocs){
-                   @locs = @locs.@loc.','
+                   @locs = @locs.@loc.', '
                 }
+                tmsg(@sender,color('RED').'Taxi Locations')
                 tmsg(@sender,@locs)
+                tmsg(@sender,color('RED').'------------------')
                 return()
             }
 
