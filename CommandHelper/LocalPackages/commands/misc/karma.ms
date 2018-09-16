@@ -12,7 +12,7 @@ register_command('karmabal',
                 tmsg(@sender,color('RED').'You look like a first timer, creating your Karma file...')
                 @data = associative_array()
                 @data['karma'] = 5
-                write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true))
+                write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                 tmsg(@sender,color('RED').'Done!') 
                 tmsg(@sender,color('RED').'You have 5 Karma!')
                 tmsg(@sender,color('RED').'Visit /warp Karma to read up on what it is, how to use it, and why you want it!')
