@@ -32,17 +32,10 @@ nametransfer:/nametransfer = >>>
 
 <<<
 
-aahh:/aahh = >>>
+aahh:/aahh $targ = >>>
 
-    @plrs = array('a','b','c','d')
-    @successfulVics = array()
-    @i = 1
-    foreach (@plr in @plrs){
-        @mindControlledPeople = array(@plr,@i)
-        array_push(@successfulVics,@mindControlledPeople)
-        @i++
-    }
+    @targ = $targ
 
-    msg(@successfulVics)
+    msg(pgroup(@targ))
 
 <<<
