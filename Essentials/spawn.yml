@@ -1,8 +1,8 @@
 spawns: 
   newbies: 
-    world: mainmenu
-    x: 0.5
-    y: 100.0
-    z: 0.5
-    yaw: -179.89792
-    pitch: 5.6707516
+    world: greenfield
+    x: -25.5
+    y: 69.0
+    z: -215.5
+    yaw: -180.01161
+    pitch: 0.46778247
