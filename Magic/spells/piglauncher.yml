@@ -18,7 +18,6 @@ piglauncher:
           sound_volume: 5
           sound_pitch: -0.25
           location: origin
-          speed: 2
           effectlib:
              class: AtomEffect
              particleNucleus: spell_mob
