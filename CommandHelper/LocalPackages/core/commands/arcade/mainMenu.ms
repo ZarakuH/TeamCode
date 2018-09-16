@@ -35,6 +35,7 @@ register_command('mainmenu',
                 @msg = @e['message']
                 if(@msg == 'yes'){
                     @rand = rand(1,101)
+                    tmsg(@plr,'rand vs karma | '.@rand.' vs '.@data['karma'])
                     if(@rand < @data['karma']){
                         if(@data['karma'] >= 10){
                             @data['karma'] = @data['karma'] - 10
