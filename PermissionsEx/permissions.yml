@@ -129,6 +129,7 @@ groups:
       default: true
       prefix: '&f&lMortal&r'
     permissions:
+    - karma.*
     - whos.it
     - command.quitjob
     - multiverse.access.infiniteparkour
@@ -1305,6 +1306,25 @@ groups:
         - ch.alias.carryplayer
         - ch.alias.dropplayer
         - powers.onepunch
+  superman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&9'
+      prefix: '&cS&9u&ep&9e&9rm&can'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.herotransform
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - -essentials.protect.damage.fall
+        - powers.wallrun
+        - powers.nofalldamage
+        - weakto.kryptonite
 schema-version: 1
 worlds:
   checkers:
