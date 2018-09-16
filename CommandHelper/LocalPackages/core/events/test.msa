@@ -36,6 +36,14 @@ aahh:/aahh $targ = >>>
 
     @targ = $targ
 
-    msg(pgroup(@targ))
+    @groups = pgroup(@targ)
+
+    msg(@groups)
+
+    @numOfGroups = array_size(@groups)
+
+    @baseGroup = @groups[@numOfGroups - 1]
+
+    msg(@basegroup)
 
 <<<
