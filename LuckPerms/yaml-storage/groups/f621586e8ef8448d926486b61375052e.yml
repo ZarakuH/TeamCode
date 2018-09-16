@@ -5,4 +5,6 @@ parents:
 - op
 prefixes:
 - '&2A&er&bc&4a&dd&6e &fTechnician':
+    priority: 100
+- '&2A&er&bc&4a&dd&6e &fTechnician':
     priority: 5

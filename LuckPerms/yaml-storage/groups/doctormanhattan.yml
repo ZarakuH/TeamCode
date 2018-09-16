@@ -1,0 +1,21 @@
+name: doctormanhattan
+permissions:
+- essentials.skull.*
+- headdb.category.*
+- headdb.free.*
+- ch.alias.create
+- ch.alias.explode
+- ch.alias.tp
+- ch.alias.tphere
+- essentials.fly
+- essentials.skull
+- headdb.open
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&bD&3o&bct&3o&br &bM&3a&bnhatt&3a&bn':
+    priority: 100
+suffixes:
+- '&b':
+    priority: 100

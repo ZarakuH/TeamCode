@@ -399,9 +399,7 @@ Players:
   TheKingOfThings:
     Channels:
       Global: write
-  ottomowha:
-    Channels:
-      Global: write
+  ottomowha: {}
   villagerbob158:
     Channels:
       Global: write
