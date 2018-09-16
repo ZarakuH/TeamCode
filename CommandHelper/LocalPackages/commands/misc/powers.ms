@@ -17,13 +17,6 @@ register_command('powers',
                         @searchTerm = @searchTerm.@arg
                     }
                     @class = to_lower(@searchTerm)
-            }
-
-                }else{
-                    tmsg(@plr, color('RED').'Usage: /powers')
-                    tmsg(@plr, color('RED').'or')
-                    tmsg(@plr, color('RED').'Usage: /powers <heroclass>')
-                    die()
                 }
                 
                 try {
