@@ -44,6 +44,6 @@ aahh:/aahh $targ = >>>
 
     @baseGroup = @groups[@numOfGroups - 1]
 
-    msg(@basegroup)
+    msg(@baseGroup)
 
 <<<
