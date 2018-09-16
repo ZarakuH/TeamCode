@@ -51,34 +51,78 @@ register_command('karmapay',
                 return()
             }
 
-            @data = import(@sender.'karmadata')
+            if(@target == @sender){
+                tmsg(@sender,color('RED').'You cannot pay yourself.')
+                return()
+            }
 
-            if(@data == null){
-                @data = associative_array()
-                @data['karma'] = 5
-        
+            @sendingKarma = import(@sender.'paymentKarma')
+
+            if(@sendingKarma == null){
+                @sendingKarma = associative_array()
+                @sendingKarma['karma'] = 5
+            }
             if(@amount < 1){
                 tmsg(@sender,color('RED').'Sorry, you cannot pay less than 1 Karma.')
                 return()
             }
-            if(@amount > @data['karma'){
-                tmsg(@sender,color('RED').'Sorry, you can only afford to pay '.@data['karma'].' Karma.')
+            if(@amount > @sendingKarma['karma']){
+                tmsg(@sender,color('RED').'Sorry, you can only afford to pay '.@sendingKarma['karma'].' Karma.')
+                tmsg(@sender,color('RED').'You will get 10 karma (does not accumulate) to pay out every 20 minutes.')
                 return()
             }
 
             @targetUUID = puuid(@target)
 
              if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')){
-                @data['karma'] = 5 + @amount
-                write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@data,true),'OVERWRITE')
-                tmsg(@sender,color('RED').'Done! You have paid them '.@amount.' Karma!')
+                @recievingKarma['karma'] = 5 + @amount
             }else{
-                @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
-                @data = yml_decode(@data)
-                @data['karma'] = @data['karma'] + @amount
-                tmsg(@sender,color('RED').'Done! You have paid them '.@amount.' Karma!')
+                @recievingKarma = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
+                @recievingKarma = yml_decode(@recievingKarma)
+                @recievingKarma['karma'] = @recievingKarma['karma'] + @amount
+            }
+            write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@recievingKarma,true),'OVERWRITE')
+            @sendingKarma = @sendingKarma - @amount
+            export(@sender.'paymentKarma',@sendingKarma)
+            tmsg(@sender,color('RED').'Done! You have paid them '.@amount.' Karma!')
+        }
+    )
+)
+
+register_command('karmapaybal', 
+    array(
+        'description': 'Shows your karma balance',
+        'usage': '/karmabal',
+        'permission': 'karma.balance',
+        'noPermMsg': 'Sorry you don\'t have permission to use this command.',
+        'executor': closure(@aliases, @sender, @args) {
+
+            if(num_args(@args) > 0){
+                tmsg(@sender,color('RED').'Usage: /karmabal')
+                return()
+            }
+
+            @uuid = puuid(@sender)
+            @paymentKarma = import(@sender.'paymentKarma')
+            if(@paymentKarma == null){
+                @paymentKarma = associative_array()
+                @paymentKarma['karma'] = 10
+                export(@sender.'paymentKarma',@sendingKarma)
+                tmsg(@sender,color('RED').'You have 10 Karma you can pay to other people.')
+            }else{
+                tmsg(@sender,color('RED').'You have '.@paymentKarma['karma'].' Karma to pay people with!')
             }
         }
     )
 )
 
+set_cron('*/20 * * * *',closure(
+
+    @players = all_players()
+    @sendingKarma = associative_array()
+    @sendingKarma['karma'] = 10
+    foreach(@player in @players){
+        export(@player.'paymentKarma')
+    }
+
+))
