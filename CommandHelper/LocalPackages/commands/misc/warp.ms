@@ -14,16 +14,42 @@ register_command('taxi',
                 return()
             }
 
+            @taxiLocs = array(
+                'chinatown',
+                'walmart',
+                'docks',
+                'cruiseship',
+                'shopping',
+                'construction',
+                'plaza',
+                'stadium',
+                'residential',
+                'firehall',
+                'police'
+            )
+
             if(@numArgs == 0){
-               sudo('/warp')
-               return()
+                @locs = ''
+                foreach(@loc in @taxiLocs){
+                   @locs = @locs.@loc.','
+                }
+                tmsg(@sender,@locs)
+                return()
             }
 
             @dest = @args[0]
 
-            if(is_numeric(@dest)){
-               sudo('/warp '.@dest)
-               return()
+            @allowed = false
+            foreach(@loc in @taxiLocs){
+                if(@dest == @loc){
+                    @allowed = true
+                    break()
+                }
+            }
+
+            if(!@allowed){
+                tmsg(@sender,color('RED').'Sorry, that is not a taxi location.')
+                return()
             }
 
             if(acc_balance(@sender) >= 20) {
