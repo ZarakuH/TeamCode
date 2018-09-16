@@ -31,7 +31,7 @@ register_command('mainmenu',
             tmsg(@plr,color('RED').'If you fail, you will have 10% less chance on your next attempt, until you get more Karma by doing jobs for people.')
             tmsg(@plr,color('RED').'Type "yes" to continue or "no" to cancel...')
 
-            bind('player_chat', null, array('player': player()), @e, @data){
+            bind('player_chat', null, array('player': player()), @e, @data, @plr, @uuid){
                 @msg = @e['message']
                 if(@msg == 'yes'){
                     @rand = rand(1,101)
