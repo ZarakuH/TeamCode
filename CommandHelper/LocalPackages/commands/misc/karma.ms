@@ -16,7 +16,7 @@ register_command('karmabal',
                 tmsg(@sender,color('RED').'You have 5 Karma!')
                 tmsg(@sender,color('RED').'Visit /warp Karma to read up on what it is, how to use it, and why you want it!')
             }else{
-                @data = write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')
+                @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')
                 @data = yml_decode(@data)
                 tmsg(@sender,color('RED').'You have '.@data['karma'].' Karma!')
             }
