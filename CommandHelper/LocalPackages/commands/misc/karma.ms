@@ -132,5 +132,6 @@ set_cron('*/20 * * * *',closure(
     foreach(@player in @players){
         export(@player.'paymentKarma',@sendingKarma)
     }
+    broadcast(color('RED').'All online players have had their Payment Karma filled!')
 
 ))
