@@ -13,9 +13,10 @@ register_command('hireop',
                 
                 @player = player(@args[0])
                 @puuid = puuid(@player,true)
-                runas('~console',"/pex group ".@puuid." create op")
-                runas('~console',"/pex group ".@puuid." prefix \"&2A&er&bc&4a&dd&6e &fTechnician\"")
-                runas('~console',"/pex user ".@player." group set ".@puuid)
+                runas('~console',"/lp creategroup ".@puuid)
+                runas('~console',"/lp group ".@puuid." meta removeprefix 100")
+                runas('~console',"/lp group ".@puuid." meta addprefix 100 \"&2A&er&bc&4a&dd&6e &fTechnician\"")
+                runas('~console',"/pex user ".@player." parent set ".@puuid)
                 tmsg(player(),color('RED')."You have hired ".@player. " as OP!")
                 tmsg(@player,color('RED')."You have been hired as OP")
         }
@@ -44,8 +45,8 @@ register_command('fireop',
                 @player = player(@args[0])
                 @puuid = puuid(@player,true)
                 
-                runas('~console',"/pex user ".@player." group remove ".@puuid)
-                runas('~console',"/pex group ".@puuid." delete")
+                runas('~console',"/lp user ".@player." parent set mortal")
+                runas('~console',"/lp deletegroup ".@puuid)
                 runas('~console',"/warp city ".@player)
                 tmsg(player(),color('RED')."You have fired ". @player ." from OP!")
                 tmsg(@player,color('RED')."You have been fired from OP!")
