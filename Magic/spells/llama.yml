@@ -53,7 +53,7 @@ llama:
           firework: ball_large
     parameters:
         target: other
-        type: bat
+        type: llama
         speed: 2
         cooldown: 1000
         bypass_backfire: true
