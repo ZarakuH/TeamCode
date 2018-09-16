@@ -20,7 +20,7 @@ register_command('mainmenu',
 
             if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')){
                 @data = associative_array()
-                @data['karma'] = 5
+                @data['karma'] = 100
             }else{
                 @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')
                 @data = yml_decode(@data)

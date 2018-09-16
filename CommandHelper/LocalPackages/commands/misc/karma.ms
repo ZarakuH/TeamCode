@@ -16,10 +16,10 @@ register_command('karmabal',
             if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')){
                 tmsg(@sender,color('RED').'You look like a first timer, creating your Karma file...')
                 @data = associative_array()
-                @data['karma'] = 5
+                @data['karma'] = 100
                 write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                 tmsg(@sender,color('RED').'Done!') 
-                tmsg(@sender,color('RED').'You have 5 Karma!')
+                tmsg(@sender,color('RED').'You have 100 Karma!')
                 tmsg(@sender,color('RED').'Visit /warp Karma to read up on what it is, how to use it, and why you want it!')
             }else{
                 @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')
@@ -83,7 +83,7 @@ register_command('karmapay',
 
              if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')){
                 @recievingKarma = associative_array()
-                @recievingKarma['karma'] = 5 + @amount
+                @recievingKarma['karma'] = 100 + @amount
             }else{
                 @recievingKarma = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
                 @recievingKarma = yml_decode(@recievingKarma)
