@@ -82,6 +82,7 @@ register_command('karmapay',
             @targetUUID = puuid(@target)
 
              if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')){
+                @recievingKarma = associative_array()
                 @recievingKarma['karma'] = 5 + @amount
             }else{
                 @recievingKarma = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
