@@ -1,644 +1,217 @@
 name: mortal
 permissions:
-- in.survival:
-    value: false
-    world: tutorial
-- cancel.entityclicks:
-    value: false
-    world: survival
-- command.goworld:
-    value: true
-    world: survival
-- command.mainmenu:
-    value: true
-    world: survival
-- command.selectcharacter:
-    value: true
-    world: survival
-- essentials.build.place.166:
-    value: false
-    world: survival
-- essentials.build.place.166:0:
-    value: false
-    world: survival
-- essentials.build.place.7:
-    value: false
-    world: survival
-- essentials.build.place.7:0:
-    value: false
-    world: survival
-- essentials.home:
-    value: true
-    world: survival
-- essentials.protect.exemptbreak:
-    value: true
-    world: survival
-- essentials.protect.exemptplacement:
-    value: true
-    world: survival
-- essentials.protect.exemptusage:
-    value: true
-    world: survival
-- essentials.tpa:
-    value: true
-    world: survival
-- essentials.tpahere:
-    value: true
-    world: survival
-- in.survival:
-    value: true
-    world: survival
-- is.incity:
-    value: false
-    world: survival
-- Signshop.DenyUse.*:
-    value: true
-    world: superherocity
-- drugs.*:
-    value: true
-    world: superherocity
-- magic.cast.*:
-    value: true
-    world: superherocity
-- magic.use.*:
-    value: true
-    world: superherocity
-- Signshop.ChangeOwner:
-    value: true
-    world: superherocity
-- Signshop.Permit:
-    value: true
-    world: superherocity
-- Signshop.Signs.Buy:
-    value: true
-    world: superherocity
-- auction.bid:
-    value: true
-    world: superherocity
-- auction.start:
-    value: true
-    world: superherocity
-- cancel.entityclicks:
-    value: true
-    world: superherocity
-- ch.alias.fixskin:
-    value: true
-    world: superherocity
-- ch.alias.mortal:
-    value: true
-    world: superherocity
-- ch.alias.powers:
-    value: true
-    world: superherocity
-- command.food:
-    value: true
-    world: superherocity
-- command.goworld:
-    value: true
-    world: superherocity
-- command.mainmenu:
-    value: true
-    world: superherocity
-- command.rest:
-    value: true
-    world: superherocity
-- command.roll:
-    value: true
-    world: superherocity
-- command.skins:
-    value: true
-    world: superherocity
-- command.stageselect:
-    value: true
-    world: superherocity
-- essentials.build.interact.261:
-    value: true
-    world: superherocity
-- essentials.build.interact.267:
-    value: true
-    world: superherocity
-- essentials.build.interact.276:
-    value: true
-    world: superherocity
-- essentials.build.interact.279:
-    value: true
-    world: superherocity
-- essentials.build.interact.292:
-    value: true
-    world: superherocity
-- essentials.build.interact.30:
-    value: true
-    world: superherocity
-- essentials.build.interact.309:
-    value: true
-    world: superherocity
-- essentials.build.interact.313:
-    value: true
-    world: superherocity
-- essentials.build.interact.332:
-    value: true
-    world: superherocity
-- essentials.build.interact.364:
-    value: true
-    world: superherocity
-- essentials.build.interact.368:
-    value: true
-    world: superherocity
-- essentials.build.interact.373:
-    value: true
-    world: superherocity
-- essentials.build.interact.388:
-    value: true
-    world: superherocity
-- essentials.build.interact.417:
-    value: true
-    world: superherocity
-- essentials.build.interact.420:
-    value: true
-    world: superherocity
-- essentials.build.interact.438:
-    value: true
-    world: superherocity
-- essentials.build.interact.441:
-    value: true
-    world: superherocity
-- essentials.build.interact.442:
-    value: true
-    world: superherocity
-- essentials.build.interact.443:
-    value: true
-    world: superherocity
-- essentials.build.interact.69:
-    value: true
-    world: superherocity
-- essentials.build.interact.70:
-    value: true
-    world: superherocity
-- essentials.home:
-    value: true
-    world: superherocity
-- essentials.protect.pvp:
-    value: true
-    world: superherocity
-- essentials.sethome:
-    value: true
-    world: superherocity
-- essentials.sethome.bed:
-    value: true
-    world: superherocity
-- essentials.sethome.multiple.unlimited:
-    value: true
-    world: superherocity
-- essentials.tpa:
-    value: true
-    world: superherocity
-- essentials.tpaccept:
-    value: true
-    world: superherocity
-- essentials.tpahere:
-    value: true
-    world: superherocity
-- essentials.warps.omniacademy:
-    value: true
-    world: superherocity
-- is.empowerable:
-    value: true
-    world: superherocity
-- is.incity:
-    value: true
-    world: superherocity
-- is.ingame:
-    value: true
-    world: superherocity
-- is.mindControllable:
-    value: true
-    world: superherocity
-- magic.wand.use:
-    value: true
-    world: superherocity
-- powers.autobuff:
-    value: true
-    world: superherocity
-- essentials.warps.breachroom:
-    value: true
-    world: starlabs
-- essentials.warps.cortex:
-    value: true
-    world: starlabs
-- essentials.warps.pipeline:
-    value: true
-    world: starlabs
-- essentials.warps.speedlab:
-    value: true
-    world: starlabs
-- in.survival:
-    value: false
-    world: spleeflobby
-- essentials.warps.*:
-    value: false
-    world: spleef
-- essentials.build.break.46:
-    value: true
-    world: spleef
-- in.survival:
-    value: false
-    world: spleef
-- magic.cast.startspleef:
-    value: true
-    world: spleef
-- magic.commands.cast:
-    value: true
-    world: spleef
-- ch.alias.powers:
-    value: true
-    world: speedforce
-- command.speedforcedropout:
-    value: true
-    world: speedforce
-- essentials.protect.pvp:
-    value: true
-    world: speedforce
-- power.powers:
-    value: true
-    world: speedforce
-- commands.anarchystart:
-    value: true
-    world: spawn
-- command.leavesoulstone:
-    value: true
-    world: soulstone
-- essentials.protect.pvp:
-    value: true
-    world: soulstone
-- essentials.build.interact.27:
-    value: true
-    world: rollercoaster
-- essentials.build.interact.328:
-    value: true
-    world: rollercoaster
-- in.survival:
-    value: false
-    world: questfordestiny
-- essentials.fly:
-    value: true
-    world: plots
-- plots.claim:
-    value: true
-    world: plots
-- plots.clear:
-    value: true
-    world: plots
-- plots.delete:
-    value: true
-    world: plots
-- plots.home:
-    value: true
-    world: plots
-- plots.merge:
-    value: true
-    world: plots
-- plots.middle:
-    value: true
-    world: plots
-- plots.plot.4:
-    value: true
-    world: plots
-- plots.remove:
-    value: true
-    world: plots
-- plots.trust:
-    value: true
-    world: plots
-- plots.visit:
-    value: true
-    world: plots
-- plots.visit.owned:
-    value: true
-    world: plots
-- essentials.protect.pvp:
-    value: true
-    world: phantomzone
-- ch.alias.cp:
-    value: true
-    world: parkour
-- ch.alias.gcp:
-    value: true
-    world: parkour
-- command.exitgame:
-    value: true
-    world: parkour
-- command.spec:
-    value: true
-    world: parkour
-- command.unspec:
-    value: true
-    world: parkour
-- essentials.warps.arcade:
-    value: true
-    world: overvoid
-- command.goworld:
-    value: true
-    world: omniacademy
-- command.stageselect:
-    value: true
-    world: omniacademy
-- command.characterselect:
-    value: true
-    world: mainmenu
-- command.goworld:
-    value: true
-    world: mainmenu
-- command.selectchar:
-    value: true
-    world: mainmenu
-- essentials.tpa:
-    value: true
-    world: mainmenu
-- in.survival:
-    value: false
-    world: lavahop
-- command.goworld:
-    value: true
-    world: jail
-- command.mainmenu:
-    value: true
-    world: jail
-- command.stageselect:
-    value: true
-    world: jail
-- ch.alias.cp:
-    value: true
-    world: infinitytrials
-- ch.alias.gcp:
-    value: true
-    world: infinitytrials
-- in.survival:
-    value: false
-    world: infinitytrials
-- essentials.fly:
-    value: false
-    world: infiniteparkour
-- in.survival:
-    value: false
-    world: infiniteparkour
-- in.survival:
-    value: false
-    world: hurdles
-- essentials.warps.court:
-    value: true
-    world: greenfield
-- essentials.fly:
-    value: true
-    world: flyminigame
-- essentials.build.drop.*:
-    value: true
-    world: fightminigame
-- essentials.build.interact.*:
-    value: true
-    world: fightminigame
-- crackshot.bypass.all:
-    value: true
-    world: fightminigame
-- essentials.build.interact.268:
-    value: true
-    world: fightminigame
-- essentials.home:
-    value: false
-    world: fightminigame
-- essentials.home.bed:
-    value: false
-    world: fightminigame
-- essentials.protect.damage.fall:
-    value: true
-    world: fightminigame
-- essentials.protect.pvp:
-    value: true
-    world: fightminigame
-- essentials.sethome:
-    value: false
-    world: fightminigame
-- essentials.sethome.bed:
-    value: false
-    world: fightminigame
-- essentials.sethome.multiple.unlimited:
-    value: false
-    world: fightminigame
-- essentials.spawn:
-    value: false
-    world: fightminigame
-- powers.immunity.fire:
-    value: false
-    world: fightminigame
-- powers.projectileinvulnerability:
-    value: false
-    world: fightminigame
-- ch.alias.fightclub:
-    value: true
-    world: fightclub
-- ch.alias.fightclubbet:
-    value: true
-    world: fightclub
-- ch.alias.fightclubstats:
-    value: true
-    world: fightclub
-- essentials.skull.*:
-    value: true
-    world: creative
-- essentials.back:
-    value: true
-    world: creative
-- essentials.build.break.7:0:
-    value: false
-    world: creative
-- essentials.build.interact.154:0:
-    value: false
-    world: creative
-- essentials.build.interact.154:1:
-    value: false
-    world: creative
-- essentials.build.interact.154:2:
-    value: false
-    world: creative
-- essentials.build.interact.154:3:
-    value: false
-    world: creative
-- essentials.build.interact.154:4:
-    value: false
-    world: creative
-- essentials.build.interact.154:5:
-    value: false
-    world: creative
-- essentials.build.interact.154:6:
-    value: false
-    world: creative
-- essentials.build.interact.154:7:
-    value: false
-    world: creative
-- essentials.build.interact.342:0:
-    value: false
-    world: creative
-- essentials.build.interact.343:0:
-    value: false
-    world: creative
-- essentials.build.interact.407:0:
-    value: false
-    world: creative
-- essentials.build.interact.408:0:
-    value: false
-    world: creative
-- essentials.build.place.154:0:
-    value: false
-    world: creative
-- essentials.build.place.154:1:
-    value: false
-    world: creative
-- essentials.build.place.154:2:
-    value: false
-    world: creative
-- essentials.build.place.154:3:
-    value: false
-    world: creative
-- essentials.build.place.154:4:
-    value: false
-    world: creative
-- essentials.build.place.154:5:
-    value: false
-    world: creative
-- essentials.build.place.154:6:
-    value: false
-    world: creative
-- essentials.build.place.154:7:
-    value: false
-    world: creative
-- essentials.build.place.7:0:
-    value: false
-    world: creative
-- essentials.clearinventory:
-    value: true
-    world: creative
-- essentials.sethome:
-    value: true
-    world: creative
-- essentials.sethome.bed:
-    value: true
-    world: creative
-- essentials.sethome.multiple.unlimited:
-    value: true
-    world: creative
-- essentials.skull:
-    value: true
-    world: creative
-- essentials.build.*:
-    value: true
-    world: chess
-- in.survival:
-    value: false
-    world: chess
-- essentials.fly:
-    value: true
-    world: checkers
-- command.exitgame:
-    value: false
-    world: buildworld
-- command.goworld:
-    value: true
-    world: buildworld
-- command.stageselect:
-    value: true
-    world: buildworld
-- essentials.warps.arcade:
-    value: true
-    world: buildworld
-- essentials.build.*:
-    value: true
-    world: buildminigame
-- essentials.build.interact.333:
-    value: true
-    world: boatrace
-- essentials.build.interact.35:
-    value: true
-    world: boatrace
-- essentials.build.interact.9:
-    value: true
-    world: boatrace
-- essentials.build.*:
-    value: true
-    world: arenapvp
-- in.survival:
-    value: false
-    world: arenapvp
-- cancel.entityclicks:
-    value: true
-    world: arcade
-- command.characterselect:
-    value: false
-    world: arcade
-- command.entergame:
-    value: true
-    world: arcade
-- command.exitgame:
-    value: false
-    world: arcade
-- command.goworld:
-    value: true
-    world: arcade
-- command.mainmenu:
-    value: true
-    world: arcade
-- command.selectchar:
-    value: false
-    world: arcade
-- essentials.build.interact.174:
-    value: true
-    world: arcade
-- essentials.build.interact.333:
-    value: true
-    world: arcade
-- essentials.build.interact.444:
-    value: true
-    world: arcade
-- essentials.build.interact.445:
-    value: true
-    world: arcade
-- essentials.build.interact.446:
-    value: true
-    world: arcade
-- essentials.build.interact.447:
-    value: true
-    world: arcade
-- essentials.build.interact.448:
-    value: true
-    world: arcade
-- essentials.build.interact.69:
-    value: true
-    world: arcade
-- essentials.suicide:
-    value: false
-    world: arcade
-- essentials.tpaccept:
-    value: false
-    world: arcade
-- in.survival:
-    value: false
-    world: arcade
-- libsdisguises.undisguise:
-    value: true
-    world: arcade
-- magic.cast.miscshop:
-    value: true
-    world: arcade
-- magic.cast.potionshop:
-    value: true
-    world: arcade
-- magic.cast.skullshop:
-    value: true
-    world: arcade
-- magic.commands.cast:
-    value: true
-    world: arcade
-- bending.*:
-    value: false
-- blivtrails.*
+- in.survival
+- cancel.entityclicks
+- command.goworld
+- command.mainmenu
+- command.selectcharacter
+- essentials.build.place.166
+- essentials.build.place.166:0
+- essentials.build.place.7
+- essentials.build.place.7:0
+- essentials.home
+- essentials.protect.exemptbreak
+- essentials.protect.exemptplacement
+- essentials.protect.exemptusage
+- essentials.tpa
+- essentials.tpahere
+- is.incity
+- Signshop.DenyUse.*
+- drugs.*
+- magic.cast.*
+- magic.use.*
+- Signshop.ChangeOwner
+- Signshop.Permit
+- Signshop.Signs.Buy
+- auction.bid
+- auction.start
+- cancel.entityclicks
+- ch.alias.fixskin
+- ch.alias.mortal
+- ch.alias.powers
+- command.food
+- command.goworld
+- command.mainmenu
+- command.rest
+- command.roll
+- command.skins
+- command.stageselect
+- essentials.build.interact.261
+- essentials.build.interact.267
+- essentials.build.interact.276
+- essentials.build.interact.279
+- essentials.build.interact.292
+- essentials.build.interact.30
+- essentials.build.interact.309
+- essentials.build.interact.313
+- essentials.build.interact.332
+- essentials.build.interact.364
+- essentials.build.interact.368
+- essentials.build.interact.373
+- essentials.build.interact.388
+- essentials.build.interact.417
+- essentials.build.interact.420
+- essentials.build.interact.438
+- essentials.build.interact.441
+- essentials.build.interact.442
+- essentials.build.interact.443
+- essentials.build.interact.69
+- essentials.build.interact.70
+- essentials.home
+- essentials.protect.pvp
+- essentials.sethome
+- essentials.sethome.bed
+- essentials.sethome.multiple.unlimited
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.warps.omniacademy
+- is.empowerable
+- is.incity
+- is.ingame
+- is.mindControllable
+- magic.wand.use
+- powers.autobuff
+- essentials.warps.breachroom
+- essentials.warps.cortex
+- essentials.warps.pipeline
+- essentials.warps.speedlab
+- in.survival
+- essentials.warps.*
+- essentials.build.break.46
+- in.survival
+- magic.cast.startspleef
+- magic.commands.cast
+- ch.alias.powers
+- command.speedforcedropout
+- essentials.protect.pvp
+- power.powers
+- commands.anarchystart
+- command.leavesoulstone
+- essentials.protect.pvp
+- essentials.build.interact.27
+- essentials.build.interact.328
+- in.survival
+- essentials.fly
+- plots.claim
+- plots.clear
+- plots.delete
+- plots.home
+- plots.merge
+- plots.middle
+- plots.plot.4
+- plots.remove
+- plots.trust
+- plots.visit
+- plots.visit.owned
+- essentials.protect.pvp
+- ch.alias.cp
+- ch.alias.gcp
+- command.exitgame
+- command.spec
+- command.unspec
+- essentials.warps.arcade
+- command.goworld
+- command.stageselect
+- command.characterselect
+- command.goworld
+- command.selectchar
+- essentials.tpa
+- in.survival
+- command.goworld
+- command.mainmenu
+- command.stageselect
+- ch.alias.cp
+- ch.alias.gcp
+- in.survival
+- essentials.fly
+- in.survival
+- in.survival
+- essentials.warps.court
+- essentials.fly
+- essentials.build.drop.*
+- essentials.build.interact.*
+- crackshot.bypass.all
+- essentials.build.interact.268
+- essentials.home
+- essentials.home.bed
+- essentials.protect.damage.fall
+- essentials.protect.pvp
+- essentials.sethome
+- essentials.sethome.bed
+- essentials.sethome.multiple.unlimited
+- essentials.spawn
+- powers.immunity.fire
+- powers.projectileinvulnerability
+- ch.alias.fightclub
+- ch.alias.fightclubbet
+- ch.alias.fightclubstats
+- essentials.skull.*
+- essentials.back
+- essentials.build.break.7:0
+- essentials.build.interact.154:0
+- essentials.build.interact.154:1
+- essentials.build.interact.154:2
+- essentials.build.interact.154:3
+- essentials.build.interact.154:4
+- essentials.build.interact.154:5
+- essentials.build.interact.154:6
+- essentials.build.interact.154:7
+- essentials.build.interact.342:0
+- essentials.build.interact.343:0
+- essentials.build.interact.407:0
+- essentials.build.interact.408:0
+- essentials.build.place.154:0
+- essentials.build.place.154:1
+- essentials.build.place.154:2
+- essentials.build.place.154:3
+- essentials.build.place.154:4
+- essentials.build.place.154:5
+- essentials.build.place.154:6
+- essentials.build.place.154:7
+- essentials.build.place.7:0
+- essentials.clearinventory
+- essentials.sethome
+- essentials.sethome.bed
+- essentials.sethome.multiple.unlimited
+- essentials.skull
+- essentials.build.*
+- in.survival
+- essentials.fly
+- command.exitgame
+- command.goworld
+- command.stageselect
+- essentials.warps.arcade
+- essentials.build.*
+- essentials.build.interact.333
+- essentials.build.interact.35
+- essentials.build.interact.9
+- essentials.build.*
+- in.survival
+- cancel.entityclicks
+- command.characterselect
+- command.entergame
+- command.exitgame
+- command.goworld
+- command.mainmenu
+- command.selectchar
+- essentials.build.interact.174
+- essentials.build.interact.333
+- essentials.build.interact.444
+- essentials.build.interact.445
+- essentials.build.interact.446
+- essentials.build.interact.447
+- essentials.build.interact.448
+- essentials.build.interact.69
+- essentials.suicide
+- essentials.tpaccept
+- in.survival
+- libsdisguises.undisguise
+- magic.cast.miscshop
+- magic.cast.potionshop
+- magic.cast.skullshop
+- magic.commands.cast
+- bending.*
 - chatcontrol.bypass.rules.*
 - chatcontrol.chat.format.color.*
 - csp.use.*
