@@ -60,6 +60,9 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
+      Local: write
   FIRESTROME:
     Channels:
       Global: write
