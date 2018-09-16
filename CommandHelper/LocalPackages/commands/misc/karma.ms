@@ -67,7 +67,7 @@ register_command('karmapay',
 
             if(@sendingKarma == null){
                 @sendingKarma = associative_array()
-                @sendingKarma['karma'] = 5
+                @sendingKarma['karma'] = 10
             }
             if(@amount < 1){
                 tmsg(@sender,color('RED').'Sorry, you cannot pay less than 1 Karma.')
