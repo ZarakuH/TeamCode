@@ -46,7 +46,7 @@ register_command('karmapay',
             @amount = @args[1]
             try{
                 @target = player(@target)
-            }(catch @e){
+            }catch(Exception @e){
                 tmsg(@sender,color('RED').'Did you spell their name right?')
                 return()
             }
