@@ -9,7 +9,7 @@ register_command('mainmenu',
             @plr = player()
             assign(@cooldown, 10)
 
-            @uuid = puuid(@sender)
+            @uuid = puuid(@plr)
 
             if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')){
                 @data = associative_array()
@@ -19,10 +19,10 @@ register_command('mainmenu',
                 @data = yml_decode(@data)
             }
 
-            tmsg(@sender,color('RED').'You have a '.@data['karma'].'% chance of becoming a superhero.')
-            tmsg(@sender,color('RED').'This is based on how much Karma you have.')
-            tmsg(@sender,color('RED').'If you fail, you will have 10% less chance on your next attempt, until you get more Karma by doing jobs for people.')
-            tmsg(@sender,color('RED').'Type "yes" to continue or "no" to cancel...')
+            tmsg(@plr,color('RED').'You have a '.@data['karma'].'% chance of becoming a superhero.')
+            tmsg(@plr,color('RED').'This is based on how much Karma you have.')
+            tmsg(@plr,color('RED').'If you fail, you will have 10% less chance on your next attempt, until you get more Karma by doing jobs for people.')
+            tmsg(@plr,color('RED').'Type "yes" to continue or "no" to cancel...')
 
             bind('player_chat', null, array('player': player()), @e){
                 @msg = @e['message']
@@ -34,13 +34,13 @@ register_command('mainmenu',
                         }else{
                             @data['karma'] = 0
                         }
-                        tmsg(@sender,color('RED').'Oof, sorry, maybe next time!')
-                        tmsg(@sender,color('RED').'If you try again, you\'ll have a '.@data['karma'].'% chance!')
+                        tmsg(@plr,color('RED').'Oof, sorry, maybe next time!')
+                        tmsg(@plr,color('RED').'If you try again, you\'ll have a '.@data['karma'].'% chance!')
                         write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                         unbind()
                         return()
                     }else{
-                        tmsg(@sender,color('GREEN').'Success! Time to pick a hero! Choose wisely!')
+                        tmsg(@plr,color('GREEN').'Success! Time to pick a hero! Choose wisely!')
                     }
                 }else{
                     unbind()
