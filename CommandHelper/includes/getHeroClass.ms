@@ -6,11 +6,6 @@ proc('_getheroclass',@playerName,
 
     @baseGroup = @groups[@numOfGroups - 2]
 
-    if(@baseGroup == 'mortal' || @baseGroup == 'default'){
-        console('was going to choose '.@baseGroup.' in getheroclass, whoopsie')
-        die()
-    }
-
     return(@baseGroup)
 
 )
