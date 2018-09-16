@@ -97,7 +97,7 @@ bind('player_join',null,null,@event){
 
     if(has_permission(@plr,'arrest.onjoin')){
         runas('~console','/arrest '.@plr.' 86400 WARRANT FOR ARREST DETECTED! AUTO-ARRESTING USER EFFECTIVE IMMEDIATELY WITHOUT WARNING!')
-        runas('~console','/pex user '.@plr.' remove arrest.onjoin')
+        runas('~console','/lp user '.@plr.' permission unset arrest.onjoin')
     }
 
     //sudo('/ch set '.@plr.' global')
@@ -107,6 +107,11 @@ bind('player_join',null,null,@event){
             //die()
         //}
     //))
+
+    set_timeout(5000, closure(
+        runas('~console','/lp user '.@plr.' parent set mortal')
+    ))
+
     set_timeout(5000, closure(
         _changeSkin(@plr,@hero['costumes'][0]['sig'],@hero['costumes'][0]['val'],@hero['costumes'][0]['name'])
         _changeTrail(@plr, @hero['trail'])
