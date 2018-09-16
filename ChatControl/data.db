@@ -57,13 +57,9 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz:
-    Channels:
-      Global: write
+  GaySparkelz: {}
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -666,9 +662,7 @@ Players:
   endergod05:
     Channels:
       Global: write
-  ViggieSkittles:
-    Channels:
-      Global: write
+  ViggieSkittles: {}
   OmegaCrafterHD:
     Channels:
       Global: write
@@ -714,9 +708,7 @@ Players:
   DAminecraftRD:
     Channels:
       Global: write
-  MythReeses:
-    Channels:
-      Global: write
+  MythReeses: {}
   Strelitiza:
     Channels:
       Global: write
@@ -935,9 +927,7 @@ Players:
   ocvarner12: {}
   DoNotPass: {}
   goose6969: {}
-  Jiren_The_Grey:
-    Channels:
-      Global: write
+  Jiren_The_Grey: {}
   Coodabear88: {}
   Mindtaro: {}
   xXninjadragonXx: {}
