@@ -39,7 +39,7 @@ register_command('karmapay',
         'executor': closure(@aliases, @sender, @args) {
 
             if(array_size(@args) > 0){
-                tmsg(@sender,color('RED').'Usage: /karmabal')
+                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
                 return()
             }
             @target = @args[0]
@@ -53,6 +53,13 @@ register_command('karmapay',
 
             if(@target == @sender){
                 tmsg(@sender,color('RED').'You cannot pay yourself.')
+                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
+                return()
+            }
+
+            if(!is_number(@amount)){
+                tmsg(@sender,color('RED').'Make sure the amount is a number.')
+                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
                 return()
             }
 
