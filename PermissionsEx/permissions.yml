@@ -1222,6 +1222,89 @@ groups:
       superherocity:
         permissions:
         - powers.freezewater
+  adamwarlock:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&b'
+      prefix: '&4A&6d&ea&6m &4W&ba&er&6l&bo&ec&4k'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.tangible
+        - ch.alias.intangible
+        - essentials.fly
+        - ch.alias.magicpush
+  missmartian:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&2'
+      prefix: '&2M&fi&2ss M&4a&2rt&9i&2an'
+    worlds:
+      superherocity:
+        permissions:
+        - ch.alias.tangible
+        - ch.alias.intangible
+        - libsdisguises.disguise.player
+        - libsdisguises.undisguise
+        - libsdisguises.disguise
+        - ch.alias.vis
+        - ch.alias.invis
+        - ch.alias.unconfuse
+        - ch.alias.confuse
+        - ch.alias.speak
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.dropplayer
+        - ch.alias.carryplayer
+        - powers.mindcontrol
+        - powers.wallrun
+        - ch.alias.msg
+        - ch.alias.mindlock
+  wonderwoman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&e'
+      prefix: '&4W&fon&eder &4W&fom&9an'
+    worlds:
+      speedforce:
+        permissions:
+        - essentials.back
+        - ch.alias.powers
+      superherocity:
+        permissions:
+        - powers.speedsterdodge
+        - powers.mindcontrol
+        - powers.lightningpunch
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.fly
+        - ch.alias.msg
+        - ch.alias.mindlock
+        - essentials.warps.speedforce
+        - ch.alias.speedforceteleport
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - is.telepathicallyresistant
+        - essentials.tppos
+        - powers.herotransform
+        - ch.alias.mindlocknear
+  onepunchman:
+    inheritance:
+    - commonherotraits
+    options:
+      suffix: '&f'
+      prefix: '&6One &fPunch &4Man'
+    worlds:
+      superherocity:
+        permissions:
+        - powers.wallrun
+        - ch.alias.carryplayer
+        - ch.alias.dropplayer
+        - powers.onepunch
 schema-version: 1
 worlds:
   checkers:
@@ -1426,3 +1509,32 @@ users:
     options:
       suffix: '&b&l'
       name: MythReeses
+  2aaef4d1-1ff7-4a46-ac2b-7e07aa9c3303:
+    group:
+    - headpolice
+    - adamwarlock
+    options:
+      name: TheoreticalGame
+    permissions:
+    - is.headpolice
+  67895bd7-befa-4e7d-aa85-b0f793ab618a:
+    group:
+    - missmartian
+    options:
+      name: NotSatixfied
+  e6de8cf0-af45-44e4-882f-d98446f4b31b:
+    group:
+    - wonderwoman
+    permissions:
+    - worldguard.region.bypass.*
+    - essentials.build.*
+    - worldedit.*
+    - essentials.gamemode
+    - essentials.gamemode.1
+    options:
+      name: ThoseyKitKat
+  ed038e46-f44d-4e18-8c76-fcaa06a4ae4a:
+    group:
+    - onepunchman
+    options:
+      name: Megadethh

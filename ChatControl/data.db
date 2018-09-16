@@ -77,9 +77,7 @@ Players:
   BlazeBlack1:
     Channels:
       Global: write
-  NotSatixfied:
-    Channels:
-      Global: write
+  NotSatixfied: {}
   Newt_Scamander1:
     Channels:
       Global: write
@@ -708,7 +706,8 @@ Players:
   DAminecraftRD:
     Channels:
       Global: write
-  MythReeses: {}
+  MythReeses:
+    Spying: true
   Strelitiza:
     Channels:
       Global: write
@@ -730,9 +729,7 @@ Players:
   CanineClawsYT:
     Channels:
       Global: write
-  Megadethh:
-    Channels:
-      Global: write
+  Megadethh: {}
   RaymanPotatoes:
     Channels:
       Global: write
@@ -866,9 +863,7 @@ Players:
   Amy_star7:
     Channels:
       Global: write
-  ThoseyKitKat:
-    Channels:
-      Global: write
+  ThoseyKitKat: {}
   DarkJarJar:
     Channels:
       Global: write
