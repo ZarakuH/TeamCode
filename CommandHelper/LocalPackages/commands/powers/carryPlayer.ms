@@ -15,7 +15,7 @@ register_command('carryplayer',
             }
             
             @plr = player()
-            @vic = @args[0]
+            @vic = player(@args[0])
 
             @ploc = ploc()
             @vicLoc = ploc(@vic)
@@ -24,6 +24,10 @@ register_command('carryplayer',
             
             if(@ploc['world'] != @vicLoc['world']){
                 die("Sorry, you have to be in the same world as that person!")
+            }
+
+            if(@plr == @vic){
+                die("You cannot carry yourself lol")
             }
 
             @x1 = @ploc['x']
