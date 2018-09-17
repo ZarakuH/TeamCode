@@ -4,7 +4,17 @@ proc('_getheroclass',@playerName,
 
     @numOfGroups = array_size(@groups)
 
-    @baseGroup = @groups[@numOfGroups - 2]
+    foreach(@g in @groups){
+        if(
+            @g != 'default' && 
+            @g != 'superherocity' && 
+            @g != 'mortal'  && 
+            @g != 'commonherotraits'
+        ){
+            @baseGroup = @g
+            break()
+        }
+    }
 
     return(@baseGroup)
 
