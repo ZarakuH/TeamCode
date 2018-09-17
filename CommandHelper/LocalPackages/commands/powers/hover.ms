@@ -17,13 +17,13 @@ register_command('hover',
             
             if (@status == 'on') {
             
-                sudo(/effect player() minecraft:levitation 9999 255 true)
+                sudo('/minecraft:effect '.player().' minecraft:levitation 9999 255 true')
                 tmsg(player(),concat(color('GOLD'),
                 'You feel lighter than a feather..'))
                 
             } else if (@status == 'off') {
             
-                sudo(/effect player() 25 0)
+                sudo('/minecraft:effect clear '.player().' minecraft:levitation')
                 tmsg(player(),concat(color('GOLD'),
                 'Your gravity returns.'))
             

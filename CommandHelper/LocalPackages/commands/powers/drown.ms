@@ -49,8 +49,9 @@ register_command('drown',
             for(@x = min(@pos1['x'],@pos2['x']), @x <= max(@pos1['x'], @pos2['x']), @x++){
                 for(@y = min(@pos1['y'],@pos2['y']), @y <= max(@pos1['y'], @pos2['y']), @y++){
                     for(@z = min(@pos1['z'],@pos2['z']), @z <= max(@pos1['z'], @pos2['z']), @z++){
-                        @oldBlock = get_block(@x,@y,@z,@pos1['world'])
-                        if(@oldBlock == '0:0'){
+                        @arrLoc = array(@x,@y,@z,@pos1['world'])
+                        @oldBlock = get_block(@arrLoc)
+                        if(@oldBlock == 'AIR'){
                             @block = array('x': @x,'y': @y,'z': @z,'world': @pos1['world'])
                             set_block(@block,9,false)
                             array_push(@blocksChanged,@block)
@@ -88,8 +89,9 @@ register_command('drown',
                 for(@x = min(@pos1['x'],@pos2['x']), @x <= max(@pos1['x'], @pos2['x']), @x++){
                     for(@y = min(@pos1['y'],@pos2['y']), @y <= max(@pos1['y'], @pos2['y']), @y++){
                         for(@z = min(@pos1['z'],@pos2['z']), @z <= max(@pos1['z'], @pos2['z']), @z++){
-                            @oldBlock = get_block(@x,@y,@z,@event['world'])
-                            if(@oldBlock == '0:0'){
+                            @arrLoc = array(@x,@y,@z,@event['world'])
+                            @oldBlock = get_block(@arrLoc)
+                            if(@oldBlock == 'AIR'){
                                 @block = array('x': @x,'y': @y,'z': @z,'world': @event['world'])
                                 set_block(@block,9,false)
                                 array_push(@blocksChanged,@block)
