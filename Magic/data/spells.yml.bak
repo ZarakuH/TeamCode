@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2579
+  cast_count: 2597
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -1517,7 +1517,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2612
+  cast_count: 2630
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1838,7 +1838,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 721
+  cast_count: 727
   last_cast: 0
 symbioteaxe:
   cast_count: 5

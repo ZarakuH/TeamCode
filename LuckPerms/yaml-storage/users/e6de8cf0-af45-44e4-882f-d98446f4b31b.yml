@@ -1,10 +1,10 @@
 uuid: e6de8cf0-af45-44e4-882f-d98446f4b31b
 name: ThoseyKitKat
-primary-group: mortal
+primary-group: mera
 permissions:
 - essentials.build.*
 - worldguard.region.bypass.*
 - essentials.gamemode
 - essentials.gamemode.1
 parents:
-- mortal
+- mera

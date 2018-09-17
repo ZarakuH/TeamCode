@@ -1,0 +1,20 @@
+name: supergirl
+permissions:
+- -essentials.protect.damage.fall
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+- essentials.fly
+- essentials.speed
+- essentials.speed.fly
+- powers.herotransform
+- powers.wallrun
+- weakto.kryptonite
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&cS&9u&ep&9e&9rg&cirl':
+    priority: 100
+suffixes:
+- '&9':
+    priority: 100

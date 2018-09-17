@@ -1,0 +1,13 @@
+name: mera
+permissions:
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&2M&6e&8r&aa':
+    priority: 100
+suffixes:
+- '&a':
+    priority: 100

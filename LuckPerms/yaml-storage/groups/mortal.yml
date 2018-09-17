@@ -167,6 +167,9 @@ permissions:
 - worldresourcepacks.pack.survival
 parents:
 - default
+prefixes:
+- '&f&lMortal':
+    priority: 100
 meta:
 - default:
     value: 'true'
