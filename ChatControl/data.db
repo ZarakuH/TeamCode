@@ -934,6 +934,4 @@ Players:
   SgtJaffas: {}
   BotLettuce: {}
   Brettconk: {}
-  xEntomophobiq_:
-    Channels:
-      Global: write
+  xEntomophobiq_: {}
