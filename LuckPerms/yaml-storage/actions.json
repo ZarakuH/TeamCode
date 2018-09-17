@@ -3843,5 +3843,13 @@
     "acted": "fbb8c072-4c4b-49c8-948b-26e8ad73099e",
     "actedName": "Eiilonwy",
     "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "4082517f-c021-411b-b302-ccb2d61c84c1",
+    "actedName": "Bruce_Wayne08",
+    "action": "parent set mortal"
   }
 ]

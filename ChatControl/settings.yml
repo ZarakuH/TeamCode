@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------------------
 # 
-#  Your file has been automatically updated at 07.09.2018 09:47:36
-#  to ChatControl 7.9.20
+#  Your file has been automatically updated at 17.09.2018 13:27:06
+#  to ChatControl 7.9.24
 # 
 #  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
 #  preserve the documentation comments in your file. We apologies.
@@ -173,6 +173,7 @@ Private_Messages:
     Enabled: true
     Prefix: '@'
     End: exit
+  Deep_Search: true
 Ignore:
   Enabled: false
   Aliases:

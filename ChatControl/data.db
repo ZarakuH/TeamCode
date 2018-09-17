@@ -7,9 +7,7 @@ Players:
   MasterofDevil:
     Channels:
       Global: write
-  Bruce_Wayne08:
-    Channels:
-      Global: write
+  Bruce_Wayne08: {}
   Christina1125: {}
   alex363:
     Channels:
