@@ -1,0 +1,20 @@
+name: spidermanpeterparker
+permissions:
+- -essentials.protect.damage.fall
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+- ch.alias.web
+- ch.alias.websling
+- magic.cast.webfling2
+- magic.commands.cast
+- powers.spidersense
+- powers.wallclimb
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&4Sp&fi&4d&0e&4r-M&0a&4n&8(PP)':
+    priority: 100
+suffixes:
+- '&4':
+    priority: 100

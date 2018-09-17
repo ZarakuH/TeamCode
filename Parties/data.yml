@@ -401,12 +401,6 @@ players:
       timestamp: 1532218641
     party: TheKIngs
     rank: 20
-  fbb8c072-4c4b-49c8-948b-26e8ad73099e:
-    rank: 5
-    name:
-      timestamp: 1535497754
-      name: Eiilonwy
-    party: LOVIES
   67895bd7-befa-4e7d-aa85-b0f793ab618a:
     party: orrrr
     rank: 20
@@ -550,7 +544,6 @@ parties:
     leader: 28556dea-667d-409f-b2ff-fb4177a20ff2
     members:
     - 28556dea-667d-409f-b2ff-fb4177a20ff2
-    - fbb8c072-4c4b-49c8-948b-26e8ad73099e
     motd: HIaa
     protection: false
   Bedrockers:

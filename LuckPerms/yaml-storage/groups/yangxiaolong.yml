@@ -1,0 +1,13 @@
+name: yangxiaolong
+permissions:
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&eYan&0g Xi&6ao L&eong':
+    priority: 100
+suffixes:
+- '&e':
+    priority: 100

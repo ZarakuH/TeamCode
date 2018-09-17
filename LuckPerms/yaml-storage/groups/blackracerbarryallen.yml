@@ -1,0 +1,25 @@
+name: blackracerbarryallen
+permissions:
+- -essentials.protect.entitytarget.bypass
+- ch.alias.powers
+- ch.alias.speedforcebuffs
+- ch.alias.speedforceteleport
+- ch.alias.tp
+- essentials.back
+- essentials.fly
+- essentials.speed
+- essentials.speed.fly
+- essentials.tppos
+- essentials.warps.speedforce
+- kill.immune
+- powers.onepunch
+- powers.wallrun
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&8B&7l&6a&8c&7k &6R&ea&8c&6e&er&8(&6B&8)':
+    priority: 100
+suffixes:
+- '&6':
+    priority: 100

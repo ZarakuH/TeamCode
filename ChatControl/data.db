@@ -855,9 +855,7 @@ Players:
   Amy_star7:
     Channels:
       Global: write
-  ThoseyKitKat:
-    Channels:
-      Global: write
+  ThoseyKitKat: {}
   DarkJarJar:
     Channels:
       Global: write
@@ -928,3 +926,4 @@ Players:
   SgtJaffas: {}
   BotLettuce: {}
   Brettconk: {}
+  xEntomophobiq_: {}
