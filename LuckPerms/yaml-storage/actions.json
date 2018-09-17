@@ -3532,5 +3532,21 @@
     "type": "GROUP",
     "actedName": "yangxiaolong",
     "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "dbb47887-bfbd-40e6-bfec-3d1053ea3aff",
+    "actedName": "xEntomophobiq_",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "ed038e46-f44d-4e18-8c76-fcaa06a4ae4a",
+    "actedName": "Megadethh",
+    "action": "parent set mortal"
   }
 ]
