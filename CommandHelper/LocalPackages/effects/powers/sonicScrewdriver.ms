@@ -41,7 +41,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         if(@face == 'up'){
             @blockLocation[1] = @blockLocation[1] + 1
             @arrLoc = array(@blockLocation[0],@blockLocation[1],@blockLocation[2],@blockLocation[3])
-            if(get_block(@arrLoc == 'AIR'){
+            if(get_block(@arrLoc == 'AIR')){
                 set_block(@arrLoc,'AIR')
                 set_timeout(50,closure(
                     set_block(@arrLoc,'minecraft:redstone_wall_torch')
@@ -51,7 +51,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         }else if(@face == 'north'){
             @blockLocation[2] = @blockLocation[2] - 1
             @arrLoc = array(@blockLocation[0],@blockLocation[1],@blockLocation[2],@blockLocation[3])
-            if(get_block(@arrLoc == 'AIR'){
+            if(get_block(@arrLoc == 'AIR')){
                 set_block(@arrLoc,'AIR')
                 set_timeout(50,closure(    
                     set_block(@arrLoc,'minecraft:redstone_wall_torch[facing=north]')
@@ -61,7 +61,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         }else if(@face == 'east'){
             @blockLocation[0] = @blockLocation[0] + 1
             @arrLoc = array(@blockLocation[0],@blockLocation[1],@blockLocation[2],@blockLocation[3])
-            if(get_block(@arrLoc == 'AIR'){
+            if(get_block(@arrLoc == 'AIR')){
                 set_block(@arrLoc,'AIR')
                 set_timeout(50,closure(    
                     set_block(@arrLoc,'minecraft:redstone_wall_torch[facing=east]')
@@ -71,7 +71,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         }else if(@face == 'west'){
             @blockLocation[0] = @blockLocation[0] - 1
             @arrLoc = array(@blockLocation[0],@blockLocation[1],@blockLocation[2],@blockLocation[3])
-            if(get_block(@arrLoc == 'AIR'){
+            if(get_block(@arrLoc == 'AIR')){
                 set_block(@arrLoc,'AIR')
                 set_timeout(50,closure(    
                     set_block(@arrLoc,'minecraft:redstone_wall_torch[facing=west]')
@@ -81,7 +81,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         }else if(@face == 'south'){
             @blockLocation[2] = @blockLocation[2] + 1
             @arrLoc = array(@blockLocation[0],@blockLocation[1],@blockLocation[2],@blockLocation[3])
-            if(get_block(@arrLoc == 'AIR'){
+            if(get_block(@arrLoc == 'AIR')){
                 set_block(@arrLoc,'AIR')
                 set_timeout(50,closure(    
                     set_block(@arrLoc,'minecraft:redstone_wall_torch[facing=south]')
