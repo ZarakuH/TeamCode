@@ -7,7 +7,7 @@ bind('player_interact',null,array('button': 'RIGHT'),@event){
         die()
     }
     @item = pinv(@player,null)
-    if(@item == null || @item['name'] != 'redstone_torch'){
+    if(@item == null || @item['name'] != 'minecraft:redstone_torch'){
         die()
     }
     
