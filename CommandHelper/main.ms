@@ -30,7 +30,7 @@ set_interval(5000,closure(
             # if night time 
             if(@curTime <= 13000 || @curTime >= 23450){
                 for(@y = @y + 1,@y <= 256,@y++){
-                    if(get_block_at(@x,@y,@z,@world) != '0:0'){
+                    if(get_block(@x,@y,@z,@world) != '0:0'){
                         @underBlock = true
                         break()
                     }
@@ -51,7 +51,7 @@ set_interval(5000,closure(
             # if night time 
             if(@curTime <= 13000 || @curTime >= 23450){
                 for(@y = @y + 1,@y <= 256,@y++){
-                    if(get_block_at(@x,@y,@z,@world) != '0:0'){
+                    if(get_block(@x,@y,@z,@world) != '0:0'){
                         @underBlock = true
                         break()
                     }

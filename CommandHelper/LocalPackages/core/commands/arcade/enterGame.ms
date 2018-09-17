@@ -62,7 +62,7 @@ register_command('entergame',
                 }
 
                 export('vrInUse',true)
-                set_block_at(-15, 95, -6, 152, @ploc['world'])
+                set_block(-15, 95, -6, 152, @ploc['world'])
 
                 msg(color('GREEN').'I:O Uplink ON, connecting to Infinity:One ... ')
                 set_timeout(1500,closure(
@@ -90,7 +90,7 @@ register_command('entergame',
                     
                     if(@final > 1){
                         msg(color('RED').'Uplink canceled, please hold still during uplink process. Please try again.')
-			set_block_at(-15, 95, -6, 0, @ploc['world'])
+			set_block(-15, 95, -6, 0, @ploc['world'])
                         export('vrInUse',false)
                         die()
                     }
@@ -118,7 +118,7 @@ register_command('entergame',
                     runas('~console','/warp begingame '.@sender)
                     broadcast(@sender.color('RED').' is now playing Infinity:One')
                     sudo('/characterselect')
-                    set_block_at(-15, 95, -6, 0, @ploc['world'])
+                    set_block(-15, 95, -6, 0, @ploc['world'])
                     export('vrInUse',false)
                 ))
         }

@@ -48,9 +48,9 @@ register_command('entomb',
                     for(@z = @zStart, @z < @zStart + 3, @z++){
                         @pointer['z'] = @z
                         
-                        array_push(@originalBlocks,get_block_at(@pointer))
+                        array_push(@originalBlocks,get_block(@pointer))
                         if(@counter != 22){
-                            set_block_at(@pointer,"95:3")
+                            set_block(@pointer,"95:3")
                         }
                         
                         @counter++
@@ -75,7 +75,7 @@ register_command('entomb',
                         @pointer['x'] = @x
                         for(@z = @zStart, @z < @zStart + 3, @z++){
                             @pointer['z'] = @z
-                            set_block_at(@pointer,@originalBlocks[@counter])
+                            set_block(@pointer,@originalBlocks[@counter])
                             
                             @counter++
                             if(@counter > 100){

@@ -26,9 +26,9 @@ register_command('freezewater',
             for(@x = @loc[0] - @radius, @x <= @loc[0] + @radius, @x++) {
                 for(@y = @loc[1] - @radius, @y <= @loc[1] + @radius, @y++) {
                     for(@z = @loc[2] - @radius, @z <= @loc[2] + @radius, @z++) {
-                        @block = get_block_at(@x, @y, @z)
+                        @block = get_block(@x, @y, @z)
                         if(@block[0].@block[1] == @blocktype || @block[0].@block[1] == @bl2) {
-                            set_block_at(@x, @y, @z, 79)
+                            set_block(@x, @y, @z, 79)
                             @blkLoc = array(@x,@y,@z,@world,@block)
                             array_push(@blocksChanged,@blkLoc)
                         }
@@ -46,7 +46,7 @@ register_command('freezewater',
             set_timeout(3000,closure(
                 @blocksChanged = import(@player.'blocksFrozen')
                 foreach(@block in @blocksChanged){
-                    set_block_at(@block[0],@block[1],@block[2],@block[4],@block[3])
+                    set_block(@block[0],@block[1],@block[2],@block[4],@block[3])
                 }
             ))
         }

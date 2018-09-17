@@ -9,17 +9,17 @@ proc('_wallRun', @player,
         
     if(@facing == "north"){
         @wallCheck = @ploc
-        @footPosition = get_block_at(@ploc)
+        @footPosition = get_block(@ploc)
         @wallCheck['z'] = @wallCheck['z'] - 1
-        @wallBlockFront = get_block_at(@wallCheck)
+        @wallBlockFront = get_block(@wallCheck)
         @wallCheck['z'] = @wallCheck['z'] + 2
-        @wallBlockBack = get_block_at(@wallCheck)
+        @wallBlockBack = get_block(@wallCheck)
         @wallCheck['z'] = @wallCheck['z'] - 1
 
         @wallCheck['x'] = @wallCheck['x'] - 1
-        @wallBlockLeft = get_block_at(@wallCheck)
+        @wallBlockLeft = get_block(@wallCheck)
         @wallCheck['x'] = @wallCheck['x'] + 2
-        @wallBlockRight = get_block_at(@wallCheck)
+        @wallBlockRight = get_block(@wallCheck)
 
         if(@footPosition[0] == "0"){
             if(
@@ -74,16 +74,16 @@ proc('_wallRun', @player,
         }
     }else if(@facing == "east"){
         assign(@wallCheck, @ploc)
-        @footPosition = get_block_at(@ploc)
+        @footPosition = get_block(@ploc)
         @wallCheck['x'] = @wallCheck['x'] + 1
-        @wallBlockFront = get_block_at(@wallCheck)
+        @wallBlockFront = get_block(@wallCheck)
         @wallCheck['x'] = @wallCheck['x'] - 2
-        @wallBlockBack = get_block_at(@wallCheck)
+        @wallBlockBack = get_block(@wallCheck)
 
         @wallCheck['z'] = @wallCheck['z'] - 1
-        @wallBlockLeft = get_block_at(@wallCheck)
+        @wallBlockLeft = get_block(@wallCheck)
         @wallCheck['z'] = @wallCheck['z'] + 2
-        @wallBlockRight = get_block_at(@wallCheck)
+        @wallBlockRight = get_block(@wallCheck)
         if(@footPosition[0] == "0"){
             if(
                 @wallBlockFront[0].@wallBlockFront[1] != "0:" && 
@@ -137,16 +137,16 @@ proc('_wallRun', @player,
         }
     }else if(@facing == "south"){
         assign(@wallCheck, @ploc)
-        @footPosition = get_block_at(@ploc)
+        @footPosition = get_block(@ploc)
         @wallCheck['z'] = @wallCheck['z'] + 1
-        @wallBlockFront = get_block_at(@wallCheck)
+        @wallBlockFront = get_block(@wallCheck)
         @wallCheck['z'] = @wallCheck['z'] - 2
-        @wallBlockBack = get_block_at(@wallCheck)
+        @wallBlockBack = get_block(@wallCheck)
 
         @wallCheck['x'] = @wallCheck['x'] + 1
-        @wallBlockLeft = get_block_at(@wallCheck)
+        @wallBlockLeft = get_block(@wallCheck)
         @wallCheck['x'] = @wallCheck['x'] - 2
-        @wallBlockRight = get_block_at(@wallCheck)
+        @wallBlockRight = get_block(@wallCheck)
         if(@footPosition[0] == "0"){
             if(
                 @wallBlockFront[0].@wallBlockFront[1] != "0:" && 
@@ -200,16 +200,16 @@ proc('_wallRun', @player,
         }
     }else{
         assign(@wallCheck, @ploc)
-        @footPosition = get_block_at(@ploc)
+        @footPosition = get_block(@ploc)
         @wallCheck['x'] = @wallCheck['x'] - 1
-        @wallBlockFront = get_block_at(@wallCheck)
+        @wallBlockFront = get_block(@wallCheck)
         @wallCheck['x'] = @wallCheck['x'] + 2
-        @wallBlockBack = get_block_at(@wallCheck)
+        @wallBlockBack = get_block(@wallCheck)
 
         @wallCheck['z'] = @wallCheck['z'] + 1
-        @wallBlockLeft = get_block_at(@wallCheck)
+        @wallBlockLeft = get_block(@wallCheck)
         @wallCheck['z'] = @wallCheck['z'] - 2
-        @wallBlockRight = get_block_at(@wallCheck)
+        @wallBlockRight = get_block(@wallCheck)
         if(@footPosition[0] == "0"){
             if(
                 @wallBlockFront[0].@wallBlockFront[1] != "0:" && 

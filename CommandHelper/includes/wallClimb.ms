@@ -22,7 +22,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['x'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['z'] = @wallCheck['z'] - 1
-                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
+                if(get_block(@pointer) == "AIR" && get_block(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -51,7 +51,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['z'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['x'] = @wallCheck['x'] + 1
-                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
+                if(get_block(@pointer) == "AIR" && get_block(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -79,7 +79,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['x'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['z'] = @wallCheck['z'] + 1
-                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
+                if(get_block(@pointer) == "AIR" && get_block(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -107,7 +107,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['z'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['x'] = @wallCheck['x'] - 1
-                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
+                if(get_block(@pointer) == "AIR" && get_block(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 

@@ -10,13 +10,13 @@ register_command('lightfix',
             bind('player_move',array('id': @sender.'lightFixBind'),array('player': @sender),@event){
                 @ploc = ploc(@event['player'])
                 @ploc['y'] = @ploc['y'] + 1
-                @oldBlock = get_block_at(@ploc)
+                @oldBlock = get_block(@ploc)
 
                 if(@oldBlock == '0:0'){
-                    set_block_at(@ploc,169)
+                    set_block(@ploc,169)
     
                     set_timeout(500,closure(
-                        set_block_at(@ploc,'0:0')
+                        set_block(@ploc,'0:0')
                     ))
                 }
             }
