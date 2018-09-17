@@ -52,7 +52,12 @@ register_command('mainmenu',
                         cancel()
                         unbind()
                         tmsg(@plr,color('GREEN').'Success! Time to pick a hero! Choose wisely!')
-                        @data['karma'] = 5
+                        if(@data['karma'] < 100){
+                            @data['karma'] = 0
+                        }else{
+                            @data['karma'] = @data['karma'] - 100
+                        }
+                        
                         write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                         include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
                         _mortal(@plr)
