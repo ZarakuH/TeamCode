@@ -54,6 +54,8 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -631,9 +633,7 @@ Players:
   EsT_JmT:
     Channels:
       Global: write
-  Lightixis:
-    Channels:
-      Global: write
+  Lightixis: {}
   flamearrows1:
     Channels:
       Global: write
@@ -925,3 +925,4 @@ Players:
   BotLettuce: {}
   Brettconk: {}
   xEntomophobiq_: {}
+  AlbusPrime: {}

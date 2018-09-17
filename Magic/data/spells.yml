@@ -332,7 +332,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 3180
+  cast_count: 3184
   last_cast: 0
 realitystoneblast:
   cast_count: 57
@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2597
+  cast_count: 2855
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -1517,7 +1517,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2630
+  cast_count: 2895
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1724,7 +1724,7 @@ starshopextra:
   cast_count: 0
   last_cast: 0
 webpull:
-  cast_count: 403
+  cast_count: 417
   last_cast: 0
 fiantoduri:
   cast_count: 0

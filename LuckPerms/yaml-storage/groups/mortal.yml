@@ -1,5 +1,8 @@
 name: mortal
 permissions:
+- essentials.build.*:
+    value: true
+    world: survival
 - Signshop.DenyUse.*
 - bending.*
 - chatcontrol.bypass.rules.*
