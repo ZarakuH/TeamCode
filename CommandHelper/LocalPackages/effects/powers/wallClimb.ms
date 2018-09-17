@@ -10,7 +10,7 @@ bind('player_toggle_sneak',null,null,@event){
         if(@isSneaking){
         
             include('/home/minecraft/server/plugins/CommandHelper/includes/wallClimb.ms')
-            @blocksChanged = _spidermanVinePlacement(ploc(),"106",@player)
+            @blocksChanged = _spidermanVinePlacement(ploc(),"minecraft:vine",@player)
             export(@player."blocksChanged",@blocksChanged)
         
             @realID = bind('player_move', @eventID, associative_array('player': @player), @event,
@@ -18,10 +18,10 @@ bind('player_toggle_sneak',null,null,@event){
                 
                 @blocksChanged = import(@player."blocksChanged")
                 foreach(@val in @blocksChanged){
-                    psend_block_change(@val,"0:0")
+                    psend_block_change(@val,"AIR")
                 }
 
-                @blocksChanged = _spidermanVinePlacement(ploc(),"106",@player)
+                @blocksChanged = _spidermanVinePlacement(ploc(),"minecraft:vine",@player)
                 export(@player."blocksChanged",@blocksChanged)
             }
             export(@eventID['id'],@realID)
@@ -29,7 +29,7 @@ bind('player_toggle_sneak',null,null,@event){
             unbind(import(@eventID['id']))
             @blocksChanged = import(@player."blocksChanged")
             foreach(@val in @blocksChanged){
-                psend_block_change(@val,"0:0")
+                psend_block_change(@val,"minecraft:vine")
             }
         }
     

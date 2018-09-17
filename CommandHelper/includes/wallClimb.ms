@@ -22,7 +22,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['x'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['z'] = @wallCheck['z'] - 1
-                if(get_block_at(@pointer) == "0:0" && get_block_at(@wallCheck) != "0:0"){
+                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -35,7 +35,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
         }
         
         foreach(@val in @blocksToChange){
-            psend_block_change(@val,"106:4")
+            psend_block_change(@val,"minecraft:vine[north=true]")
         }
         
         return(array_get(@blocksToChange))
@@ -51,7 +51,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['z'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['x'] = @wallCheck['x'] + 1
-                if(get_block_at(@pointer) == "0:0" && get_block_at(@wallCheck) != "0:0"){
+                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -64,7 +64,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
         }
         
         foreach(@val in @blocksToChange){
-            psend_block_change(@val,"106:8")
+            psend_block_change(@val,"minecraft:vine[east=true]")
         }
         
         return(array_get(@blocksToChange))
@@ -79,7 +79,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['x'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['z'] = @wallCheck['z'] + 1
-                if(get_block_at(@pointer) == "0:0" && get_block_at(@wallCheck) != "0:0"){
+                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -92,7 +92,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
         }
         
         foreach(@val in @blocksToChange){
-            psend_block_change(@val,"106:1")
+            psend_block_change(@val,"minecraft:vine[south=true]")
         }
         
         return(array_get(@blocksToChange))
@@ -107,7 +107,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
                 @pointer['z'] = @col
                 assign(@wallCheck, @pointer[])
                 @wallCheck['x'] = @wallCheck['x'] - 1
-                if(get_block_at(@pointer) == "0:0" && get_block_at(@wallCheck) != "0:0"){
+                if(get_block_at(@pointer) == "AIR" && get_block_at(@wallCheck) != "AIR"){
                     array_push(@blocksToChange,array_get(@pointer))
                 }
 
@@ -120,7 +120,7 @@ proc('_spidermanVinePlacement', @ploc, @block, @player,
         }
         
         foreach(@val in @blocksToChange){
-            psend_block_change(@val,"106:2")
+            psend_block_change(@val,"minecraft:vine[west=true]")
         }
         
         return(array_get(@blocksToChange))

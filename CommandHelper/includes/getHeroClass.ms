@@ -4,6 +4,8 @@ proc('_getheroclass',@playerName,
 
     @numOfGroups = array_size(@groups)
 
+    @baseGroup = ''
+
     foreach(@g in @groups){
         if(
             @g != 'default' && 
