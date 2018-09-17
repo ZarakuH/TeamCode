@@ -52,7 +52,8 @@ create:/pickblock = >>>
         @blockLoc = pcursor(@player)
     }catch(Exception @e){die()}
 
-    @block = get_block(@blockLoc['x'],@blockLoc['y'],@blockLoc['z'],@blockLoc['world'])
+    @arrLoc = array(@blockLoc['x'],@blockLoc['y'],@blockLoc['z'],@blockLoc['world'])
+    @block = get_block(@arrLoc)
 
     pgive_item(@player,@block,1)
 
