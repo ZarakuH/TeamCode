@@ -26,7 +26,8 @@ register_command('freezewater',
             for(@x = @loc[0] - @radius, @x <= @loc[0] + @radius, @x++) {
                 for(@y = @loc[1] - @radius, @y <= @loc[1] + @radius, @y++) {
                     for(@z = @loc[2] - @radius, @z <= @loc[2] + @radius, @z++) {
-                        @block = get_block(@x, @y, @z)
+                        @arrLoc = array(@x,@y,@z)
+                        @block = get_block(@arrLoc)
                         if(@block[0].@block[1] == @blocktype || @block[0].@block[1] == @bl2) {
                             @arrLoc = array(@x,@y,@z)
                             set_block(@arrLoc, 'minecraft:ice')

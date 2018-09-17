@@ -17,7 +17,8 @@ register_command('tpradius',
                 @ploc['z'] = @ploc['z'] + @z
                 @ploc2 = @ploc
                 @ploc2['y'] = @ploc2['y'] + 1
-                if(get_block(@ploc['x'],@ploc['y'],@ploc['z'],@ploc['world']) == '0:0' && get_block(@ploc['x'],@ploc['y'] + 1,@ploc['z'],@ploc['world']) == '0:0'){
+                @arrLoc = array(@ploc['x'],@ploc['y'],@ploc['z'],@ploc['world'])
+                if(get_block(@arrLoc) == 'AIR' && get_block(@ploc['x'],@ploc['y'] + 1,@ploc['z'],@ploc['world']) == 'AIR'){
                     @ploc['y'] = @ploc['y'] - 2
                     set_ploc(@plr,@ploc)
                     tmsg(@plr,color('RED').'Short ranged tp!')

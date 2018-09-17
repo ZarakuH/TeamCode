@@ -8,7 +8,7 @@
         
         if(get_block(@ploc) == "49:0"){
 
-            set_block(@ploc, "0:0")
+            set_block(@ploc, "AIR")
 
             set_timeout(10000,closure(
                 set_block(@ploc, "49:0")

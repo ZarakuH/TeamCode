@@ -26,9 +26,9 @@ bind('entity_damage', null, array('type':'/PLAYER/', 'cause': '/ENTITY_ATTACK|MA
             @newLoc['z'] = @newLoc['z'] + @zOffset
             @newLoc['y'] = @newLoc['y'] + 1
 
-            if(get_block(@newLoc) == '0:0'){
+            if(get_block(@newLoc) == 'AIR'){
                 @newLoc['y'] = @newLoc['y'] + 1
-                if(get_block(@newLoc) == '0:0' ){
+                if(get_block(@newLoc) == 'AIR' ){
                     @newLoc['y'] = @newLoc['y'] - 2
                     set_ploc(@e['player'],@newLoc)
                     return()

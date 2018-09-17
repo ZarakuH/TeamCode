@@ -12,11 +12,11 @@ register_command('lightfix',
                 @ploc['y'] = @ploc['y'] + 1
                 @oldBlock = get_block(@ploc)
 
-                if(@oldBlock == '0:0'){
+                if(@oldBlock == 'AIR'){
                     set_block(@ploc,169)
     
                     set_timeout(500,closure(
-                        set_block(@ploc,'0:0')
+                        set_block(@ploc,'AIR')
                     ))
                 }
             }
