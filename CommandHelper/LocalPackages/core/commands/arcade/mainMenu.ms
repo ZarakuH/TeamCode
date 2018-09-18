@@ -33,7 +33,7 @@ register_command('mainmenu',
 
             bind('player_chat', null, array('player': player()), @e, @data, @plr, @uuid){
                 @msg = @e['message']
-                if(@msg == 'yes'){
+                if(@msg == 'yes' || @msg == '/yes'){
                     @rand = rand(1,101)
                     if(@rand > @data['karma']){
                         if(@data['karma'] >= 10){
