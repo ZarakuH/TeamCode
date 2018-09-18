@@ -1,0 +1,12 @@
+name: joker
+permissions:
+- powers.joybuzzer
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&fJo&2k&5er':
+    priority: 100
+suffixes:
+- '&5':
+    priority: 100
