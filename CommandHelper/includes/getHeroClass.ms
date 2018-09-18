@@ -14,10 +14,8 @@ proc('_getheroclass',@playerName,
             @g != 'commonherotraits'
         ){
             @baseGroup = @g
-            break()
+            return(@baseGroup)
         }
     }
-
-    return(@baseGroup)
-
+    return(null)
 )
