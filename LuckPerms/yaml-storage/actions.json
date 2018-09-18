@@ -5717,5 +5717,1296 @@
     "type": "GROUP",
     "actedName": "doctormanhattan",
     "action": "permission set essentials.skull.* true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset ch.alias.listheroes"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set ch.alias.listheroes true world\u003dmainmenu"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "f69afc25-0348-4ef9-bd8f-cd8bcb3f7fa4",
+    "actedName": "Ikirmo",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set needsto.eat true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "commonherotraits",
+    "action": "permission set needsto.eat false"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbartallen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set powers.wallrun true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set essentials.tppos true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "permission set essentials.warps.speedforce true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set powers.run true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set essentials.powertool true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addsuffix 100 \u00269"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addprefix 100 \u0026bZ\u00260oo\u0026bm"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set zoom"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set powers.wallrun true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.warps.speedforce true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.tppos true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addsuffix 100 \u00269"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addprefix 100 \u0026bZ\u00260oo\u0026bm"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set zoom"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set powers.wallrun true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.warps.speedforce true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "permission set essentials.tppos true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addprefix 100 \u0026bZ\u00260oo\u0026bm"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "zoom",
+    "action": "meta addsuffix 100 \u00269"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BarryA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbarryallen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set needsto.eat true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set worldedit.navigation.thru.command true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.lightningpunch true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.wallrun true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.tppos true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.warps.speedforce true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforcewhirlwind true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.cloneself true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.invis true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.vis true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.timeremnant true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BarryA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset command.characterselect"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set barryallen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addsuffix 100 \u0026f"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addprefix 100 \u00267Barry Allen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addprefix 100 \u00267Barry Allen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addsuffix 100 \u0026f"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbarryallen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BarryA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set needsto.eat true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set worldedit.navigation.thru.command true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.lightningpunch true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.wallrun true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.tppos true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set essentials.warps.speedforce true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.speedforcewhirlwind true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.cloneself true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.invis true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set ch.alias.vis true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.timeremnant true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BarryA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbarryallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set command.characterselect true world\u003dmainmenu"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set barryallen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addsuffix 100 \u0026f"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addprefix 100 \u00267Barry Allen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addprefix 100 \u00267Barry Allen"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "barryallen",
+    "action": "meta addsuffix 100 \u0026f"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbartallen"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent add commonherotraits"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "dbb47887-bfbd-40e6-bfec-3d1053ea3aff",
+    "actedName": "xEntomophobiq_",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "meta addprefix 100 \u0026eYan\u00260g Xi\u00266ao L\u0026eong"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "dbb47887-bfbd-40e6-bfec-3d1053ea3aff",
+    "actedName": "xEntomophobiq_",
+    "action": "parent set yangxiaolong"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "meta addprefix 100 \u0026eYan\u00260g Xi\u00266ao L\u0026eong"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "yangxiaolong",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbartallen"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set powers.haste true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set powers.jump true"
   }
 ]

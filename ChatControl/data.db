@@ -54,6 +54,8 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -765,7 +767,9 @@ Players:
   Temperflash:
     Channels:
       Global: write
-  Nrobed3: {}
+  Nrobed3:
+    Channels:
+      Global: write
   hoodedmaster:
     Channels:
       Global: write
@@ -908,7 +912,9 @@ Players:
   ocvarner12: {}
   DoNotPass: {}
   goose6969: {}
-  Jiren_The_Grey: {}
+  Jiren_The_Grey:
+    Channels:
+      Global: write
   Coodabear88: {}
   Mindtaro: {}
   xXninjadragonXx: {}
@@ -927,3 +933,7 @@ Players:
   Adekin: {}
   Carrot_Parrot: {}
   Bubbatruk: {}
+  Ikirmo: {}
+  Scarlet_Terror:
+    Channels:
+      Global: write

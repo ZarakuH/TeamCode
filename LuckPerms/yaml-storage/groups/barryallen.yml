@@ -1,0 +1,11 @@
+name: barryallen
+permissions:
+- powers.herotransform
+parents:
+- commonherotraits
+prefixes:
+- '&7Barry Allen':
+    priority: 100
+suffixes:
+- '&f':
+    priority: 100

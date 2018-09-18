@@ -3,6 +3,12 @@ permissions:
 - essentials.build.*:
     value: true
     world: survival
+- ch.alias.listheroes:
+    value: true
+    world: mainmenu
+- command.characterselect:
+    value: true
+    world: mainmenu
 - Signshop.DenyUse.*
 - bending.*
 - chatcontrol.bypass.rules.*
@@ -44,7 +50,6 @@ permissions:
 - ch.alias.hat
 - ch.alias.id
 - ch.alias.itemname
-- ch.alias.listheroes
 - ch.alias.listworlds
 - ch.alias.marry
 - ch.alias.moblottostart
@@ -97,7 +102,6 @@ permissions:
 - chatcontrol.notify.outofrange
 - chatcontrol.notify.whenmentioned
 - chatcontrol.part.playername
-- command.characterselect
 - command.costume
 - command.effects
 - command.entergame
@@ -128,6 +132,7 @@ permissions:
 - csp.trail
 - editablesign.edit
 - enable.tag
+- essentials.powertool
 - griefprevention.claims.give
 - griefprevention.spam
 - griefprevention.transferclaim
@@ -155,9 +160,13 @@ permissions:
 - multiverse.access.survival
 - multiverse.access.survival_nether
 - multiverse.access.survival_the_end
+- needsto.eat
 - power.powers
 - powers.autobuff
+- powers.haste
 - powers.immunity.fire
+- powers.jump
+- powers.run
 - sank.sounds
 - trail.all
 - trail.allow

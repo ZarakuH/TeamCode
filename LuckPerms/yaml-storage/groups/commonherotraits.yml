@@ -20,6 +20,8 @@ permissions:
     world: superherocity
 - chatcontrol.part.playername:
     value: false
+- needsto.eat:
+    value: false
 - weight.5
 parents:
 - mortal
