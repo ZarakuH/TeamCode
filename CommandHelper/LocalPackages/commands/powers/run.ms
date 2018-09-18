@@ -32,7 +32,7 @@ register_command('run',
                 return(false)
             }
 
-            runas('~console','/minecraft:effect clear '.@plr)
+            runas('~console','/minecraft:effect clear '.@plr.' minecraft:speed')
             switch(@requestedRun){
                 case 1:
                     runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 1 true')
