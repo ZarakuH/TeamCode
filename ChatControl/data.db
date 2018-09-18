@@ -8,7 +8,9 @@ Players:
     Channels:
       Global: write
   Bruce_Wayne08: {}
-  Christina1125: {}
+  Christina1125:
+    Channels:
+      Global: write
   alex363:
     Channels:
       Global: write
@@ -73,7 +75,9 @@ Players:
   BlazeBlack1:
     Channels:
       Global: write
-  NotSatixfied: {}
+  NotSatixfied:
+    Channels:
+      Global: write
   Newt_Scamander1:
     Channels:
       Global: write
@@ -767,9 +771,7 @@ Players:
   Temperflash:
     Channels:
       Global: write
-  Nrobed3:
-    Channels:
-      Global: write
+  Nrobed3: {}
   hoodedmaster:
     Channels:
       Global: write
@@ -780,7 +782,9 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy: {}
+  Eiilonwy:
+    Channels:
+      Global: write
   kylo_gamer:
     Channels:
       Global: write
@@ -841,9 +845,7 @@ Players:
   Wolfslayer102:
     Channels:
       Global: write
-  Builderdragon1:
-    Channels:
-      Global: write
+  Builderdragon1: {}
   Boozardo:
     Channels:
       Global: write
@@ -926,3 +928,6 @@ Players:
   Brettconk: {}
   xEntomophobiq_: {}
   AlbusPrime: {}
+  Darkknight0208:
+    Channels:
+      Global: write

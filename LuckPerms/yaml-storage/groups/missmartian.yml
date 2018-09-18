@@ -1,0 +1,30 @@
+name: missmartian
+permissions:
+- ch.alias.carryplayer
+- ch.alias.confuse
+- ch.alias.dropplayer
+- ch.alias.intangible
+- ch.alias.invis
+- ch.alias.mindlock
+- ch.alias.msg
+- ch.alias.speak
+- ch.alias.tangible
+- ch.alias.unconfuse
+- ch.alias.vis
+- essentials.fly
+- essentials.speed
+- essentials.speed.fly
+- libsdisguises.disguise
+- libsdisguises.disguise.player
+- libsdisguises.undisguise
+- powers.mindcontrol
+- powers.wallrun
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&2M&fi&2ss M&4a&2rt&9i&2an':
+    priority: 100
+suffixes:
+- '&2':
+    priority: 100
