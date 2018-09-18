@@ -1,0 +1,23 @@
+name: gorillagrodd
+permissions:
+- -essentials.protect.damage.fall
+- ch.alias.carryplayer
+- ch.alias.confuse
+- ch.alias.dropplayer
+- ch.alias.powers
+- ch.alias.speak
+- ch.alias.speedforcebuffs
+- ch.alias.speedforceteleport
+- ch.alias.tp
+- ch.alias.unconfuse
+- essentials.back
+- powers.mindcontrol
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&8G&7o&8rilla Gr&7o&8dd':
+    priority: 100
+suffixes:
+- '&7':
+    priority: 100

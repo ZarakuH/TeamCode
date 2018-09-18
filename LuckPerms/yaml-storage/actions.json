@@ -7008,5 +7008,380 @@
     "type": "GROUP",
     "actedName": "mortal",
     "action": "permission set powers.jump true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "f0ed0390-9281-47ea-9323-0585ab576ca3",
+    "actedName": "ShieldedMC",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset powers.jump"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set ch.alias.jump true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "f0ed0390-9281-47ea-9323-0585ab576ca3",
+    "actedName": "ShieldedMC",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "f0ed0390-9281-47ea-9323-0585ab576ca3",
+    "actedName": "ShieldedMC",
+    "action": "parent set gorillagrodd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.speedforcebuffs true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.speedforceteleport true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.powers true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set -essentials.protect.damage.fall true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set powers.mindcontrol true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.speak true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.confuse true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "permission set ch.alias.unconfuse true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "f0ed0390-9281-47ea-9323-0585ab576ca3",
+    "actedName": "ShieldedMC",
+    "action": "parent set gorillagrodd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addprefix 100 \u00264Fl\u0026ea\u00264sh\u00268(BartA\u00268)"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "meta addsuffix 100 \u0026e"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addprefix 100 \u00268G\u00267o\u00268rilla Gr\u00267o\u00268dd"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "gorillagrodd",
+    "action": "meta addsuffix 100 \u00267"
   }
 ]

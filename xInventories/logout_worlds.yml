@@ -142,3 +142,9 @@ v2-logout:
     world: survival
   f69afc25-0348-4ef9-bd8f-cd8bcb3f7fa4:
     world: greenfield
+  49a16910-4afb-4e12-ab1f-7136c8edf357:
+    group: default
+    world: survival
+  f0ed0390-9281-47ea-9323-0585ab576ca3:
+    group: default
+    world: survival

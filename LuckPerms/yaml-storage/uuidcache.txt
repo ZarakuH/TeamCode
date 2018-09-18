@@ -1,15 +1,18 @@
 # LuckPerms UUID lookup cache
-18c70f2f-c175-4f54-9800-ff7390003d7b:_Rossi_
 dbb47887-bfbd-40e6-bfec-3d1053ea3aff:xEntomophobiq_
+18c70f2f-c175-4f54-9800-ff7390003d7b:_Rossi_
+f0ed0390-9281-47ea-9323-0585ab576ca3:ShieldedMC
 d90cac6a-3020-4608-9742-d834863e7403:AlbusPrime
 fbb8c072-4c4b-49c8-948b-26e8ad73099e:Eiilonwy
 67895bd7-befa-4e7d-aa85-b0f793ab618a:NotSatixfied
 e6de8cf0-af45-44e4-882f-d98446f4b31b:ThoseyKitKat
+49a16910-4afb-4e12-ab1f-7136c8edf357:Scarlet_Terror
 8ca7fc56-614b-482a-91df-bf8580ba273d:Lightixis
 ee6cde30-4f6a-4cdb-b9d9-06fec478b2a2:otto505
 92a2652a-ff1f-4729-b835-acad7a876cb0:Builderdragon1
-6d0ba302-82eb-4803-970e-754ea3e43957:ottomowha
+f69afc25-0348-4ef9-bd8f-cd8bcb3f7fa4:Ikirmo
 391762eb-24f6-4d95-84d6-bfac682d575a:StrikerMax
+6d0ba302-82eb-4803-970e-754ea3e43957:ottomowha
 fd3ad07c-e445-4bc0-91da-027047d9796c:Carrot_Parrot
 ed038e46-f44d-4e18-8c76-fcaa06a4ae4a:Megadethh
 ebeb6da7-bc57-411c-a35a-f48f6284cff0:cool_like_ice

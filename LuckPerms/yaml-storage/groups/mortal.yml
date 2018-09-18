@@ -50,6 +50,7 @@ permissions:
 - ch.alias.hat
 - ch.alias.id
 - ch.alias.itemname
+- ch.alias.jump
 - ch.alias.listworlds
 - ch.alias.marry
 - ch.alias.moblottostart
@@ -165,7 +166,6 @@ permissions:
 - powers.autobuff
 - powers.haste
 - powers.immunity.fire
-- powers.jump
 - powers.run
 - sank.sounds
 - trail.all
