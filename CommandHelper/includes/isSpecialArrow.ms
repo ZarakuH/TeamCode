@@ -85,7 +85,7 @@ proc('_isSpecialArrow',@item,@launchEventID){
                 return(true)
             }
         }
-        if(@item['type'] == 262 || @item['type'] == 440 || @item['type'] == 439){
+        if(@item['name'] == 'ARROW' || @item['name'] == 'TIPPED_ARROW' || @item['type'] == 'SPECTRAL_ARROW'){
             return(true)
         }
     }
