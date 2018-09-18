@@ -54,8 +54,6 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -927,3 +925,5 @@ Players:
   Darkknight0208: {}
   otto505: {}
   Adekin: {}
+  Carrot_Parrot: {}
+  Bubbatruk: {}

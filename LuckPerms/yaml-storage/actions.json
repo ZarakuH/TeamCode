@@ -5494,5 +5494,228 @@
     "type": "GROUP",
     "actedName": "mortal",
     "action": "permission unset powers.projectileinvulnerability"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "fd3ad07c-e445-4bc0-91da-027047d9796c",
+    "actedName": "Carrot_Parrot",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "be9c2fcc-e2f9-4733-8b5d-b14ee515c12d",
+    "actedName": "Bubbatruk",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "be9c2fcc-e2f9-4733-8b5d-b14ee515c12d",
+    "actedName": "Bubbatruk",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "be9c2fcc-e2f9-4733-8b5d-b14ee515c12d",
+    "actedName": "Bubbatruk",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "meta addsuffix 100 \u00265"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "meta addprefix 100 \u0026fJo\u00262k\u00265er"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "be9c2fcc-e2f9-4733-8b5d-b14ee515c12d",
+    "actedName": "Bubbatruk",
+    "action": "parent set joker"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "permission set powers.joybuzzer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "meta addprefix 100 \u0026fJo\u00262k\u00265er"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "joker",
+    "action": "meta addsuffix 100 \u00265"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "meta addprefix 100 \u0026bD\u00263o\u0026bct\u00263o\u0026br \u0026bM\u00263a\u0026bnhatt\u00263a\u0026bn"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "be9c2fcc-e2f9-4733-8b5d-b14ee515c12d",
+    "actedName": "Bubbatruk",
+    "action": "parent set doctormanhattan"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set ch.alias.explode true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set ch.alias.tp true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set ch.alias.tphere true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set essentials.fly true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set ch.alias.create true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set headdb.open true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set headdb.category.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set headdb.free.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set essentials.skull true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "doctormanhattan",
+    "action": "permission set essentials.skull.* true"
   }
 ]
