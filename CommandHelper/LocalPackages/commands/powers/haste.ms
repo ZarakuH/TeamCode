@@ -32,34 +32,34 @@ register_command('haste',
                 return(false)
             }
 
-            sudo('/effect '.@plr.' 3 0')
+            runas('~console','/minecraft:effect '.@plr.' 3 0')
             switch(@requestedHaste){
                 case 1:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 1 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 1 true')
                     break()
                 case 2:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 3 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 3 true')
                     break()
                 case 3:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 5 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 5 true')
                     break()
                 case 4:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 10 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 10 true')
                     break()
                 case 5:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 20 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 20 true')
                     break()
                 case 6:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 30 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 30 true')
                     break()
                 case 7:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 40 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 40 true')
                     break()
                 case 8:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 50 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 50 true')
                     break()
                 case 9:
-                    sudo('/effect '.@plr.' minecraft:haste 9999 127 true')
+                    runas('~console','/minecraft:effect '.@plr.' minecraft:haste 9999 127 true')
                     break()
             } 
 
