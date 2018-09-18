@@ -2,12 +2,12 @@ hat:/hat = >>>
     @plr = player()
     @pinv = pinv(@plr,null)
     switch(@pinv['name']){
-        case: 'SKELETON_SKULL'
-        case: 'WITHER_SKELETON_SKULL'
-        case: 'PLAYER_HEAD'
-        case: 'ZOMBIE_HEAD'
-        case: 'CREEPER_HEAD'
-        case: 'DRAGON_HEAD'
+        case 'SKELETON_SKULL':
+        case 'WITHER_SKELETON_SKULL':
+        case 'PLAYER_HEAD':
+        case 'ZOMBIE_HEAD':
+        case 'CREEPER_HEAD':
+        case 'DRAGON_HEAD':
             die()
     }
     set_mob_equipment(puuid(@plr), array('HELMET': @pinv))
