@@ -37,7 +37,7 @@ register_command('illusionplayer',
                 foreach(@uuid in @mobUUIDs){
                     runas('~console','/disguiseplayer '.@uuid.' player '.@playerName)
                     if(@tame){
-                        tame_mob(@player,@uuid) 
+                        set_mob_owner(@player,@uuid) 
                     }
                 } 
             ))

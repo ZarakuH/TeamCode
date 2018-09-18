@@ -32,7 +32,7 @@ register_command('jhi',
             @jhiUUID = spawn_mob('wolf:tamed',1)
             export('jhi',@jhiUUID)
             set_timeout(50,closure(
-                tame_mob(@sender,@jhiUUID[0])
+                set_mob_owner(@sender,@jhiUUID[0])
                 runas('~console',"/disguiseplayer ".@jhiUUID[0].' polarbear')
                 tmsg(@sender,color('RED').'Jhi has been summoned')
             ))

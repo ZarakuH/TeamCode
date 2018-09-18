@@ -1,4 +1,4 @@
-bind('player_interact', null, array('item': 0, 'button': 'left'), @event,
+bind('player_interact', null, array('itemname': 'AIR', 'button': 'left'), @event,
 
     @player = player()
 

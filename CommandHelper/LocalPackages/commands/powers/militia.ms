@@ -41,7 +41,7 @@ register_command('militia',
                 foreach(@uuid in @militiaUUIDs)
                 {
                     set_entity_spec(@uuid,array('angry':true,'color':'RED','sitting':false))
-                    tame_mob(@player,@uuid)
+                    set_mob_owner(@player,@uuid)
 
                     @num = rand(0,3)
 

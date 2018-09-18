@@ -13,23 +13,23 @@ register_command('stealiron',
                     foreach(@slot: @item in @inv){
                         if(@item != null){
                             switch(@item['type']){
-                                case '417':
-                                case '306':
-                                case '307':
-                                case '308':
-                                case '309':
-                                case '15':
-                                case '42':
-                                case '101':
-                                case '167':
-                                case '256':
-                                case '257':
-                                case '258':
-                                case '265':
-                                case '267':
-                                case '292':
-                                case '330':
-                                case '452':
+                                case 'minecraft:iron_horse_armor':
+                                case 'minecraft:iron_helmet':
+                                case 'minecraft:iron_chestplate':
+                                case 'minecraft:iron_leggings':
+                                case 'minecraft:iron_boots':
+                                case 'minecraft:iron_ore':
+                                case 'minecraft:iron_block':
+                                case 'minecraft:iron_bars':
+                                case 'minecraft:iron_trapdoor':
+                                case 'minecraft:iron_shovel':
+                                case 'minecraft:iron_pickaxe':
+                                case 'minecraft:iron_axe':
+                                case 'minecraft:iron_ingot':
+                                case 'minecraft:iron_sword':
+                                case 'minecraft:iron_hoe':
+                                case 'minecraft:iron_door':
+                                case 'minecraft:iron_nugget':
                                     pgive_item(@sender,@item['type'],@item['qty'],@item['meta'])
                                     ptake_item(@vic,@item['type'],@item['qty'])
                                     switch(@slot){

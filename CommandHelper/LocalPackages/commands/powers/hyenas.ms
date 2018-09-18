@@ -33,7 +33,7 @@ register_command('hyenas',
                     @colors = array("WHITE", "ORANGE", "MAGENTA", "LIGHT_BLUE", "YELLOW", "LIME", "PINK", "GRAY", "SILVER", "CYAN", "PURPLE", "BLUE", "BROWN", "GREEN", "RED", "BLACK")
                     @num = rand(1,17)
                     set_entity_spec(@uuid,array('angry':true,'color':@colors[@num],'sitting':false))
-                    tame_mob(@player,@uuid)
+                    set_mob_owner(@player,@uuid)
                     if(@named == false){
                         set_mob_name(@uuid,'Bud')
                         @named = true

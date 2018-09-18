@@ -54,9 +54,7 @@ register_command('entergame',
                     }
                 ))
 
-                die()
-
-                if(import('vrInUse') == true){
+                /*if(import('vrInUse') == true){
                     msg(color('RED').'Sorry, the machine is in use.')
                     die()
                 }
@@ -120,7 +118,7 @@ register_command('entergame',
                     sudo('/characterselect')
                     set_block(-15, 95, -6, 0, @ploc['world'])
                     export('vrInUse',false)
-                ))
+                ))*/
         }
     )
 )
