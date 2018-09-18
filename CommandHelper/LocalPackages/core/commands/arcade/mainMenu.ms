@@ -35,7 +35,6 @@ register_command('mainmenu',
                 @msg = @e['message']
                 if(@msg == 'yes'){
                     @rand = rand(1,101)
-                    tmsg(@plr,'rand vs karma | '.@rand.' vs '.@data['karma'])
                     if(@rand > @data['karma']){
                         if(@data['karma'] >= 10){
                             @data['karma'] = @data['karma'] - 10
@@ -44,6 +43,7 @@ register_command('mainmenu',
                         }
                         tmsg(@plr,color('RED').'Oof, sorry, maybe next time!')
                         tmsg(@plr,color('RED').'If you try again, you\'ll have a '.@data['karma'].'% chance!')
+                        console(color('RED').'If you try again, you\'ll have a '.@data['karma'].'% chance!')
                         write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                         cancel()
                         unbind()
