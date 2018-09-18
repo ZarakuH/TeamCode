@@ -9,8 +9,8 @@ set_cron('* * * * *',closure(
     }
 ))
 
-set_cron('*/5 * * * *',closure(
-    @plrs = all_players()
+//set_cron('*/5 * * * *',closure(
+/*    @plrs = all_players()
 
     @scores = array()
     foreach(@plr in @plrs){
@@ -43,4 +43,4 @@ set_cron('*/5 * * * *',closure(
         runas('~console','/eco give '.@winner.' 1')
     }
     broadcast(color('GRAY').color('ITALIC').'ReverseTag payouts every 5 minutes!')
-))
+))*/
