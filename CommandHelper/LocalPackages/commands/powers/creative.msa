@@ -55,7 +55,7 @@ create:/pickblock = >>>
     @arrLoc = array(@blockLoc['x'],@blockLoc['y'],@blockLoc['z'],@blockLoc['world'])
     @block = get_block(@arrLoc)
 
-    @item = array(
+    @item = associative_array(
         'name': @block,
         'qty': 1
     )
