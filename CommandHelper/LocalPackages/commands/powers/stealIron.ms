@@ -12,7 +12,7 @@ register_command('stealiron',
                     @inv = pinv(@vic)
                     foreach(@slot: @item in @inv){
                         if(@item != null){
-                            switch(@item['type']){
+                            switch(@item['name']){
                                 case 'minecraft:iron_horse_armor':
                                 case 'minecraft:iron_helmet':
                                 case 'minecraft:iron_chestplate':
@@ -30,8 +30,8 @@ register_command('stealiron',
                                 case 'minecraft:iron_hoe':
                                 case 'minecraft:iron_door':
                                 case 'minecraft:iron_nugget':
-                                    pgive_item(@sender,@item['type'],@item['qty'],@item['meta'])
-                                    ptake_item(@vic,@item['type'],@item['qty'])
+                                    ptake_item(@vic,@item)
+                                    pgive_item(@sender,@item)
                                     switch(@slot){
                                         case '100':
                                         case '101':
