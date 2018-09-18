@@ -19,7 +19,7 @@ register_command('destroyworld',
 
             foreach(@ent in @ents){
                 if(is_entity_living(@ent) && @puuid != @ent){
-                    @plrName = get_player_from_entity_id(@ent)
+                    @plrName = player(@ent)
                     if(@plrName != null && !has_permission(@plrName,'immune.destroyworld')){
                         set_entity_health(@ent,0)
                     }
