@@ -29,7 +29,7 @@ bind('player_toggle_sneak',null,null,@event){
             unbind(import(@eventID['id']))
             @blocksChanged = import(@player."blocksChanged")
             foreach(@val in @blocksChanged){
-                psend_block_change(@val,"minecraft:vine")
+                psend_block_change(@val,"AIR")
             }
         }
     
