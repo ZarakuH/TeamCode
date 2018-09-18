@@ -54,8 +54,6 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -73,9 +71,7 @@ Players:
   BlazeBlack1:
     Channels:
       Global: write
-  NotSatixfied:
-    Channels:
-      Global: write
+  NotSatixfied: {}
   Newt_Scamander1:
     Channels:
       Global: write
@@ -780,9 +776,7 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy:
-    Channels:
-      Global: write
+  Eiilonwy: {}
   kylo_gamer:
     Channels:
       Global: write

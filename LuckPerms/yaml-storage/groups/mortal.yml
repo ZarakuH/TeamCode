@@ -158,7 +158,6 @@ permissions:
 - power.powers
 - powers.autobuff
 - powers.immunity.fire
-- powers.projectileinvulnerability
 - sank.sounds
 - trail.all
 - trail.allow

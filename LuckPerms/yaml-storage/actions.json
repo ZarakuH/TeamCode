@@ -5487,5 +5487,12 @@
     "type": "GROUP",
     "actedName": "doctorstrange",
     "action": "permission set -essentials.protect.damage.fall true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset powers.projectileinvulnerability"
   }
 ]
