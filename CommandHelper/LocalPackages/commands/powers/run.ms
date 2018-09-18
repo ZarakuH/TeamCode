@@ -32,34 +32,34 @@ register_command('run',
                 return(false)
             }
 
-            runas(~console,'/minecraft:effect clear '.@plr)
+            runas('~console','/minecraft:effect clear '.@plr)
             switch(@requestedRun){
                 case 1:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 1 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 1 true')
                     break()
                 case 2:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 2 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 2 true')
                     break()
                 case 3:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 3 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 3 true')
                     break()
                 case 4:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 5 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 5 true')
                     break()
                 case 5:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 8 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 8 true')
                     break()
                 case 6:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 10 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 10 true')
                     break()
                 case 7:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 50 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 50 true')
                     break()
                 case 8:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 100 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 100 true')
                     break()
                 case 9:
-                    runas(~console,'/minecraft:effect give '.@plr.' minecraft:speed 9999 255 true')
+                    runas('~console','/minecraft:effect give '.@plr.' minecraft:speed 9999 255 true')
                     break()
             } 
 
