@@ -1,0 +1,19 @@
+name: doctorstrange
+permissions:
+- essentials.enchantments.*
+- -essentials.enchantments.allowunsafe
+- -essentials.protect.damage.fall
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+- essentials.enchant
+- powers.float
+- powers.gravityshift
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&cD&9octo&cr &9S&ctrang&9e':
+    priority: 100
+suffixes:
+- '&9':
+    priority: 100

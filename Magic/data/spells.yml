@@ -635,13 +635,13 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 409
+  cast_count: 444
   last_cast: 0
 sphere:
   cast_count: 0
   last_cast: 0
 stream:
-  cast_count: 16
+  cast_count: 18
   last_cast: 0
 add_fall_protection:
   cast_count: 0
@@ -1496,7 +1496,7 @@ potionshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 718
+  cast_count: 721
   last_cast: 0
 piglauncher:
   cast_count: 2
@@ -1580,7 +1580,7 @@ birth_worm:
   cast_count: 0
   last_cast: 0
 waterspear:
-  cast_count: 90
+  cast_count: 93
   last_cast: 0
 worm:
   cast_count: 0
@@ -1589,7 +1589,7 @@ demon_rush:
   cast_count: 0
   last_cast: 0
 infinitemasspunch:
-  cast_count: 4276
+  cast_count: 4280
   last_cast: 0
 ravenfield:
   cast_count: 364
@@ -1838,7 +1838,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 727
+  cast_count: 728
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2060,7 +2060,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 533
+  cast_count: 574
   last_cast: 0
 progressmenu:
   cast_count: 224
@@ -2096,7 +2096,7 @@ forcethrow:
   cast_count: 0
   last_cast: 0
 acceleratetime:
-  cast_count: 1947
+  cast_count: 1949
   last_cast: 0
 mach5punch:
   cast_count: 269

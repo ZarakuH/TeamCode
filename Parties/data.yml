@@ -413,6 +413,12 @@ players:
     name:
       name: Eiilonwy
       timestamp: 1537228920
+  dbb47887-bfbd-40e6-bfec-3d1053ea3aff:
+    party: iririr
+    rank: 5
+    name:
+      name: xEntomophobiq_
+      timestamp: 1537234642
 parties:
   TheTitans:
     members:
@@ -572,4 +578,5 @@ parties:
     members:
     - 67895bd7-befa-4e7d-aa85-b0f793ab618a
     - fbb8c072-4c4b-49c8-948b-26e8ad73099e
+    - dbb47887-bfbd-40e6-bfec-3d1053ea3aff
 database-version: 1

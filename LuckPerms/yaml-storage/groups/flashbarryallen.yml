@@ -1,0 +1,30 @@
+name: flashbarryallen
+permissions:
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+- ch.alias.invis
+- ch.alias.powers
+- ch.alias.speedforcebuffs
+- ch.alias.speedforceteleport
+- ch.alias.speedforcewhirlwind
+- ch.alias.tp
+- ch.alias.vis
+- essentials.back
+- essentials.tppos
+- essentials.warps.speedforce
+- needsto.eat
+- powers.cloneself
+- powers.herotransform
+- powers.lightningpunch
+- powers.timeremnant
+- powers.wallrun
+- worldedit.navigation.thru.command
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&4Fl&ea&4sh&8(BarryA&8)':
+    priority: 100
+suffixes:
+- '&e':
+    priority: 100

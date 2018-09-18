@@ -8,9 +8,7 @@ Players:
     Channels:
       Global: write
   Bruce_Wayne08: {}
-  Christina1125:
-    Channels:
-      Global: write
+  Christina1125: {}
   alex363:
     Channels:
       Global: write
@@ -26,9 +24,7 @@ Players:
   Mrdeer8879:
     Channels:
       Global: write
-  cool_like_ice:
-    Channels:
-      Global: write
+  cool_like_ice: {}
   PixelPiCASSO_:
     Channels:
       Global: write
@@ -53,7 +49,9 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz: {}
+  GaySparkelz:
+    Channels:
+      Global: write
   StrikerMax:
     Spying: true
     Channels:
@@ -928,6 +926,6 @@ Players:
   Brettconk: {}
   xEntomophobiq_: {}
   AlbusPrime: {}
-  Darkknight0208:
-    Channels:
-      Global: write
+  Darkknight0208: {}
+  otto505: {}
+  Adekin: {}

@@ -1,0 +1,13 @@
+name: supermanprimeonemillion
+permissions:
+- essentials.fly
+- weakto.kryptonite
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&eSuperman Prime One Million':
+    priority: 100
+suffixes:
+- '&e':
+    priority: 100

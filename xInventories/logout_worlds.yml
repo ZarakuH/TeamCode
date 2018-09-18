@@ -111,7 +111,8 @@ v2-logout:
     group: default
     world: survival
   dbb47887-bfbd-40e6-bfec-3d1053ea3aff:
-    world: greenfield
+    world: survival
+    group: default
   4082517f-c021-411b-b302-ccb2d61c84c1:
     world: greenfield
   8ca7fc56-614b-482a-91df-bf8580ba273d:
@@ -121,5 +122,16 @@ v2-logout:
   92a2652a-ff1f-4729-b835-acad7a876cb0:
     world: greenfield
   292960d2-7d29-4ee0-87ec-ea45f435b7c3:
+    group: default
+    world: survival
+  ebeb6da7-bc57-411c-a35a-f48f6284cff0:
+    group: default
+    world: survival
+  3de5dad6-7358-4fae-a6be-3d36ed2f4ac9:
+    world: greenfield
+  ee6cde30-4f6a-4cdb-b9d9-06fec478b2a2:
+    world: survival
+    group: default
+  4d54be91-6769-493f-97b6-7f351cb0a194:
     group: default
     world: survival

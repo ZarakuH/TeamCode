@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2790
+  cast_count: 2855
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -635,13 +635,13 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 409
+  cast_count: 444
   last_cast: 0
 sphere:
   cast_count: 0
   last_cast: 0
 stream:
-  cast_count: 16
+  cast_count: 18
   last_cast: 0
 add_fall_protection:
   cast_count: 0
@@ -1517,7 +1517,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2825
+  cast_count: 2895
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1580,7 +1580,7 @@ birth_worm:
   cast_count: 0
   last_cast: 0
 waterspear:
-  cast_count: 90
+  cast_count: 93
   last_cast: 0
 worm:
   cast_count: 0
@@ -1838,7 +1838,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 727
+  cast_count: 728
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2060,7 +2060,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 533
+  cast_count: 574
   last_cast: 0
 progressmenu:
   cast_count: 224
