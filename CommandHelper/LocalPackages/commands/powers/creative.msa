@@ -60,7 +60,7 @@ create:/pickblock = >>>
         'qty': 1
     )
 
-    pgive_item(@player,@block)
+    pgive_item(@player,@item)
 
 <<<
 
