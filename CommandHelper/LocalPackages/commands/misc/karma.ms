@@ -115,7 +115,7 @@ register_command('karmapaybal',
             if(@paymentKarma == null){
                 @paymentKarma = associative_array()
                 @paymentKarma['karma'] = 10
-                export(@sender.'paymentKarma',@sendingKarma)
+                export(@sender.'paymentKarma',@paymentKarma)
                 tmsg(@sender,color('RED').'You have 10 Karma you can pay to other people.')
             }else{
                 tmsg(@sender,color('RED').'You have '.@paymentKarma['karma'].' Karma to pay people with!')
