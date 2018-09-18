@@ -59,10 +59,10 @@ register_command('mindcontrol',
                     die()
                 }
 
-                if(sk_region_check_flag(ploc(@vic),'invincible',@vic) == true){
-                    tmsg(@player,color('RED').'Sorry, '.@vic.' is in a protected area.')
-                    die()
-                }
+                //if(sk_region_check_flag(ploc(@vic),'invincible',@vic) == true){
+                //    tmsg(@player,color('RED').'Sorry, '.@vic.' is in a protected area.')
+                //    die()
+                //}
 
                 @id = get_claim_id(ploc(@vic))
                 if(@id != null){
