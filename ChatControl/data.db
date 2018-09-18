@@ -54,6 +54,8 @@ Players:
       Global: write
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
