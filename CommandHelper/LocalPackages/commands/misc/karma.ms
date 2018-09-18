@@ -92,7 +92,7 @@ register_command('karmapay',
             write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@recievingKarma,true),'OVERWRITE')
             @sendingKarma['karma'] = @sendingKarma['karma'] - @amount
             export(@sender.'paymentKarma',@sendingKarma)
-            broadcast(color('RED').@sender.' paid '.@amount.' Karma!')
+            broadcast(color('RED').@sender.' paid '.@target.' '.@amount.' Karma!')
         }
     )
 )
