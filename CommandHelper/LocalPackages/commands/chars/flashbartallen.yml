@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 haste: 4
 items:
-- /minecraft:give <plr> minecraft:iron_boots{display:{Name:"{\"text\":\"§9W§1a§9ter Ru§1nn§9ing §4B&eoo§4ts\"}"},Enchantments:[{id:"minecraft:projectile_protection",lvl:30},{id:"minecraft:depth_strider",lvl:30}]} 1
+- /minecraft:give <plr> minecraft:iron_boots{display:{Name:"{\"text\":\"§9W§1a§9ter Ru§1nn§9ing §4B§eoo§4ts\"}"},Enchantments:[{id:"minecraft:projectile_protection",lvl:30},{id:"minecraft:depth_strider",lvl:30}]} 1
 jump: 3
 maxHearts: 20
 permissions:
