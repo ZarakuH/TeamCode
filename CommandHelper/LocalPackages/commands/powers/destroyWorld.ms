@@ -19,10 +19,16 @@ register_command('destroyworld',
 
             foreach(@ent in @ents){
                 if(is_entity_living(@ent) && @puuid != @ent){
-                    @plrName = player(@ent)
-                    if(@plrName != null && !has_permission(@plrName,'immune.destroyworld')){
+                    
+                    try{
+                        @plrName = player(@ent)
+                        if(@plrName != null && !has_permission(@plrName,'immune.destroyworld')){
+                            set_entity_health(@ent,0)
+                        }
+                    }catch(Exception @e){
                         set_entity_health(@ent,0)
                     }
+                    
                 }
             }
             
