@@ -776,7 +776,9 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy: {}
+  Eiilonwy:
+    Channels:
+      Global: write
   kylo_gamer:
     Channels:
       Global: write
