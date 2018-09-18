@@ -115,7 +115,7 @@ bind('inventory_drag',null,null,@e){
 		@e['oldcursoritem']['name'] == 'DRAGON_HEAD'
 	){
         foreach(@slot in @e['slots']){
-            console(@slot)
+            //console(@slot)
             if(@slot == 39){
                 cancel()
                 return()
@@ -150,7 +150,7 @@ bind('inventory_click',null,null,@e){
             //if(array_index_exists(@e,'cursoritem')){}
 			if(@e['cursoritem'] != null){
                 if(array_index_exists(@e,'slottype')){
-					console(@e)
+					//console(@e)
                     if(
 						@e['cursoritem']['name'] == 'SKELETON_SKULL' ||
 						@e['cursoritem']['name'] == 'WITHER_SKELETON_SKULL' ||
