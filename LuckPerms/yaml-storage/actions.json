@@ -5494,5 +5494,13 @@
     "type": "GROUP",
     "actedName": "mortal",
     "action": "permission unset powers.projectileinvulnerability"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "fd3ad07c-e445-4bc0-91da-027047d9796c",
+    "actedName": "Carrot_Parrot",
+    "action": "parent set mortal"
   }
 ]
