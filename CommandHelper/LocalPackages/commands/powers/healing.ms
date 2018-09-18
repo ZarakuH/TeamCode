@@ -17,7 +17,7 @@ register_command('healing',
                     die()
                 )
                 export(@player."lastUsedHealing", time() / 1000)
-                runas('~console','/effect '.@player.' regeneration 5 10 true')
+                runas('~console','/minecraft:effect give '.@player.' minecraft:regeneration 5 10 true')
                 tmsg(@player,color('RED').'You have healed!')
                 die()				
             
@@ -40,7 +40,7 @@ register_command('healing',
                     die()
                 )
                 export(@player."lastUsedHealing", time() / 1000)
-                runas('~console','/effect '.@plr.' regeneration 5 10 true')
+                runas('~console','/minecraft:effect give '.@plr.' minecraft:regeneration 5 10 true')
                 tmsg(@player,color('RED').'You have healed '.@plr.'!')
                 tmsg(@plr,color('RED').'You were healed by '.@player.'!')
                 die()

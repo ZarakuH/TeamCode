@@ -17,7 +17,7 @@ register_command('regen',
                     die()
                 )
                 export(@player."lastUsedRegen", time() / 1000)
-                runas('~console','/effect '.@player.' regeneration 20 1 true')
+                runas('~console','/minecraft:effect give '.@player.' minecraft:regeneration 20 1 true')
                 tmsg(@player,color('RED').'You are regenning!')
                 die()				
             
@@ -53,7 +53,7 @@ register_command('regen',
                     die()
                 )
                 export(@player."lastUsedRegen", time() / 1000)
-                runas('~console','/effect '.@player.' regeneration 20 1 true')
+                runas('~console','/minecraft:effect give '.@player.' minecraft:regeneration 20 1 true')
                 tmsg(@player,color('RED').'You are regenning '.@plr.'!')
                 tmsg(@plr,color('RED').'You are regenning by '.@player.'!')
                 die()

@@ -17,16 +17,16 @@ register_command('bloodregen',
             )
             export(@player."lastUsedBloodRegen", time() / 1000)
             
-            runas('~console','/effect '.@player.' minecraft:regeneration 9999 1 true')
-            runas('~console','/effect '.@player.' minecraft:saturation 9999 1 true')
+            runas('~console','/minecraft:effect '.@player.' minecraft:regeneration 9999 1 true')
+            runas('~console','/minecraft:effect '.@player.' minecraft:saturation 9999 1 true')
 
             
             tmsg(@player,color('RED')."Don't move, or your regen will stop!")
             @filter = associative_array('player': @player)
             try(
                 bind('player_move', null, @filter, @event, @player,
-                    runas('~console','/effect '.@player.' minecraft:regeneration 0')
-                    runas('~console','/effect '.@player.' minecraft:saturation 0')
+                    runas('~console','/minecraft:effect clear '.@player.' minecraft:regeneration')
+                    runas('~console','/minecraft:effect clear '.@player.' minecraft:saturation')
                     unbind()
                 )
             ,)

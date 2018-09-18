@@ -10,6 +10,6 @@ glowon:/glow on = >>>
         tmsg(player(), color('RED')."Your glow is currently locked")
         die()
     }
-    sudo('/effect '.player().' 24 0')
-    sudo('/effect '.player().' minecraft:glowing 9999 1 true')
+    runas('~console','/minecraft:effect clear '.player().' minecraft:glowing')
+    runas('~console','/minecraft:effect give '.player().' minecraft:glowing 9999 1 true')
 <<<

@@ -13,16 +13,16 @@ register_command('saikiinvis',
                 return()
             }
 
-            sudo('/effect '.@player.' invisibility 6000 1')
+            runas('~console','/minecraft:effect give '.@player.' minecraft:invisibility 6000 1')
 
             export('saikiinvistimer',set_timeout(600000,closure(
-                sudo('/effect '.@player.' invisibility 0')
+                runas('~console','/minecraft:effect clear '.@player.' minecraft:invisibility')
                 unbind('saikiinvis')
                 msg(color('RED').'You are now visible again')
             )))
 
             bind('entity_damage',array('id':'saikiinvis'),array('id':puuid(@player)),@e,@playerr = @player){
-                sudo('/effect '.@playerr.' invisibility 0')
+                runas('~console','/minecraft:effect clear '.@playerr.' minecraft:invisibility')
                 clear_task(import('saikiinvistimer'))
                 msg(color('RED').'You are now visible again')
             }

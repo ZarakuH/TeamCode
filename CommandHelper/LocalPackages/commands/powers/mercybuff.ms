@@ -17,7 +17,7 @@ register_command('mercybuff',
                     die()
                 )
                 export(@player."lastUsedMercyBuff", time() / 1000)
-                runas('~console','/effect '.@player.' regeneration 20 2 true')
+                runas('~console','/minecraft:effect give '.@player.' minecraft:regeneration 20 2 true')
                 tmsg(@player,color('RED').'You have buffed!')
                 die()				
             
@@ -40,7 +40,7 @@ register_command('mercybuff',
                     die()
                 )
                 export(@player."lastUsedMercyBuff", time() / 1000)
-                runas('~console','/effect '.@plr.' regeneration 20 2 true')
+                runas('~console','/minecraft:effect give '.@plr.' minecraft:regeneration 20 2 true')
                 tmsg(@player,color('RED').'You have buffed '.@plr.'!')
                 tmsg(@plr,color('RED').'You were buffed by '.@player.'!')
                 die()

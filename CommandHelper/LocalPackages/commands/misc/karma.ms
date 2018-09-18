@@ -1,13 +1,13 @@
-register_command('karmabal', 
+register_command('balkarma', 
     array(
-        'description': 'Shows your karma balance',
-        'usage': '/karmabal',
-        'permission': 'karma.balance',
+        'description': 'Shows your Karma balance',
+        'usage': '/balkarma',
+        'permission': 'karma.balkarma',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
             if(array_size(@args) > 0){
-                tmsg(@sender,color('RED').'Usage: /karmabal')
+                tmsg(@sender,color('RED').'Usage: /balkarma')
                 return()
             }
 
@@ -30,16 +30,16 @@ register_command('karmabal',
     )
 )
 
-register_command('karmapay', 
+register_command('payrep', 
     array(
-        'description': 'Shows your karma balance',
-        'usage': '/karmabal',
-        'permission': 'karma.balance',
+        'description': 'Pays someone some Reputation',
+        'usage': '/payrep',
+        'permission': 'karma.payrep',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
             if(array_size(@args) != 2){
-                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
+                tmsg(@sender,color('RED').'Usage: /payrep <person> <amount>')
                 return()
             }
             @target = @args[0]
@@ -53,72 +53,72 @@ register_command('karmapay',
 
             if(@target == @sender){
                 tmsg(@sender,color('RED').'You cannot pay yourself.')
-                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
+                tmsg(@sender,color('RED').'Usage: /payrep <person> <amount>')
                 return()
             }
 
             if(!is_numeric(@amount)){
                 tmsg(@sender,color('RED').'Make sure the amount is a number.')
-                tmsg(@sender,color('RED').'Usage: /karmapay <person> <amount>')
+                tmsg(@sender,color('RED').'Usage: /payrep <person> <amount>')
                 return()
-            }
-
-            @sendingKarma = import(@sender.'paymentKarma')
-
-            if(@sendingKarma == null){
-                @sendingKarma = associative_array()
-                @sendingKarma['karma'] = 10
             }
             if(@amount < 1){
-                tmsg(@sender,color('RED').'Sorry, you cannot pay less than 1 Karma.')
+                tmsg(@sender,color('RED').'Sorry, you cannot pay less than 1 Reputation.')
                 return()
             }
-            if(@amount > @sendingKarma['karma']){
-                tmsg(@sender,color('RED').'Sorry, you can only afford to pay '.@sendingKarma['karma'].' Karma.')
-                tmsg(@sender,color('RED').'You will get 10 karma (does not accumulate) to pay out every 20 minutes.')
+
+            @reputation = import(@sender.'reputation')
+
+            if(@reputation == null){
+                @reputation = associative_array()
+                @reputation['reputation'] = 10
+            }
+            if(@amount > @reputation['reputation']){
+                tmsg(@sender,color('RED').'Sorry, you can only afford to pay '.@reputation['reputation'].' reputation.')
+                tmsg(@sender,color('RED').'You will get 10 Reputation (does not accumulate) to pay out every 20 minutes.')
                 return()
             }
 
             @targetUUID = puuid(@target)
 
              if(!file_exists('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')){
-                @recievingKarma = associative_array()
-                @recievingKarma['karma'] = 100 + @amount
+                @data = associative_array()
+                @data['karma'] = 100 + @amount
             }else{
-                @recievingKarma = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
-                @recievingKarma = yml_decode(@recievingKarma)
-                @recievingKarma['karma'] = @recievingKarma['karma'] + @amount
+                @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml')
+                @data = yml_decode(@data)
+                @data['karma'] = @data['karma'] + @amount
             }
-            write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@recievingKarma,true),'OVERWRITE')
-            @sendingKarma['karma'] = @sendingKarma['karma'] - @amount
-            export(@sender.'paymentKarma',@sendingKarma)
+            write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@data,true),'OVERWRITE')
+            @reputation['reputation'] = @reputation['reputation'] - @amount
+            export(@sender.'reputation',@reputation)
             broadcast(color('RED').@sender.' paid '.@target.' '.@amount.' Karma!')
         }
     )
 )
 
-register_command('karmapaybal', 
+register_command('balrep', 
     array(
         'description': 'Shows your karma balance',
-        'usage': '/karmabal',
-        'permission': 'karma.balance',
+        'usage': '/balrep',
+        'permission': 'karma.balrep',
         'noPermMsg': 'Sorry you don\'t have permission to use this command.',
         'executor': closure(@aliases, @sender, @args) {
 
             if(array_size(@args) > 0){
-                tmsg(@sender,color('RED').'Usage: /karmabal')
+                tmsg(@sender,color('RED').'Usage: /balrep')
                 return()
             }
 
             @uuid = puuid(@sender)
-            @paymentKarma = import(@sender.'paymentKarma')
-            if(@paymentKarma == null){
-                @paymentKarma = associative_array()
-                @paymentKarma['karma'] = 10
-                export(@sender.'paymentKarma',@paymentKarma)
-                tmsg(@sender,color('RED').'You have 10 Karma you can pay to other people.')
+            @reputation = import(@sender.'reputation')
+            if(@reputation == null){
+                @reputation = associative_array()
+                @reputation['reputation'] = 10
+                export(@sender.'reputation',@reputation)
+                tmsg(@sender,color('RED').'You have 10 Reputation you can pay to other people.')
             }else{
-                tmsg(@sender,color('RED').'You have '.@paymentKarma['karma'].' Karma to pay people with!')
+                tmsg(@sender,color('RED').'You have '.@reputation['reputation'].' Reputation to pay people with!')
             }
         }
     )
@@ -130,7 +130,7 @@ set_cron('*/20 * * * *',closure(
     @sendingKarma = associative_array()
     @sendingKarma['karma'] = 10
     foreach(@player in @players){
-        export(@player.'paymentKarma',@sendingKarma)
+        export(@player.'reputation',@sendingKarma)
     }
     broadcast(color('RED').'All online players have had their Payment Karma filled!')
 

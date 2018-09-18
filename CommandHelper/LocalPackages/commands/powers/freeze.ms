@@ -25,8 +25,8 @@ register_command('freeze',
                 set_pflying(@vic,true)
                 set_pflyspeed(@vic,0)
                 set_pwalkspeed(@vic,0)
-                runas('~console','/effect '.@vic.' minecraft:levitation 9999 255 true')
-                runas('~console','/pex user '.@vic.' timed add -essentials.fly '.(@time / 1000))
+                runas('~console','/minecraft:effect give '.@vic.' minecraft:levitation 9999 255 true')
+                runas('~console','/lp user '.@vic.' permission settemp -essentials.fly true '.(@time / 1000))
             ))
 
 
@@ -34,7 +34,7 @@ register_command('freeze',
                 set_pflight(@vic,false)
                 runas('~console','/speed fly 1 '.@vic)
                 runas('~console','/speed walk 1 '.@vic)
-                sudo('/effect '.@vic.' 25 0')
+                runas('~console','/minecraft:effect clear '.@vic.' minecraft:levitation')
             ))
                 
         }

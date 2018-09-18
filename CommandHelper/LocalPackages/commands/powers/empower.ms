@@ -21,7 +21,7 @@ register_command('empower',
             if(_coolDown('empowerCooldown',150,@player)){
                 return()
             }
-            sudo('/effect '.@plr.' 5 300 10 true')
+            sudo('/minecraft:effect give '.@plr.' minecraft:strength 300 10 true')
             tmsg(player(), "You have empowered ".@plr."!")
             tmsg(@plr, "You have been empowered by ". player() ."!")
                 

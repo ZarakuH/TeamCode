@@ -29,8 +29,8 @@ register_command('forcechoke',
             )
             export(@player."lastUsedForceChoke", time() / 1000)
             
-            sudo('/effect '.@vic.' 20 5 6 true')
-            sudo('/effect '.@vic.' 19 5 6 true')
+            runas('~console','/minecraft:effect give '.@vic.' minecraft:wither 5 6 true')
+            runas('~console','/minecraft:effect give '.@vic.' minecraft:poison 5 6 true')
 
             broadcast(@player . " is now force choking " . @vic)
                 

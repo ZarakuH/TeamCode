@@ -204,7 +204,7 @@ proc('_mindControlStop', @player,
     }
     export(@player.'successfulVics',null)
     runas('~console','/sudo '.@player.' c:/fixskin')
-    runas('~console','/effect '.@player.' clear')
+    runas('~console','/minecraft:effect clear '.@player)
     runas(@player,'/effects')
     if(has_permission(@player,'essentials.fly')){
         sudo('/fly on')
