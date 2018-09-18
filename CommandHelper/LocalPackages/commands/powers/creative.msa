@@ -55,7 +55,12 @@ create:/pickblock = >>>
     @arrLoc = array(@blockLoc['x'],@blockLoc['y'],@blockLoc['z'],@blockLoc['world'])
     @block = get_block(@arrLoc)
 
-    pgive_item(@player,@block,1)
+    @item = array(
+        'name': @block,
+        'qty': 1
+    )
+
+    pgive_item(@player,@block)
 
 <<<
 
