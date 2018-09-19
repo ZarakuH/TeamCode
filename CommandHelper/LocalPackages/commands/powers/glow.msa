@@ -3,7 +3,7 @@ glowoff:/glow off = >>>
         tmsg(player(), color('RED')."Your glow is currently locked")
         die()
     }
-    runas('~console','/minecraft:effect clear '.player().'minecraft:glowing')
+    runas('~console','/minecraft:effect clear '.player().' minecraft:glowing')
 <<<
 glowon:/glow on = >>>
     if(import(player()."glowEffects") == true){
