@@ -8056,5 +8056,13 @@
     "type": "GROUP",
     "actedName": "barryallen",
     "action": "meta addsuffix 100 \u0026f"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "474d6efc-3d20-4bb5-b5f8-56f41f9d099a",
+    "actedName": "Dha2008",
+    "action": "parent set mortal"
   }
 ]
