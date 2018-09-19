@@ -10,10 +10,10 @@ register_command('camo',
             @filter = associative_array('player': @player)
             try(
                 bind('player_move', @eventID, @filter, @event, @player,
-                    sudo("/effect ". @player ." 14 0")
+                    sudo("/minecraft:effect ". @player ." 14 0")
                     unbind()
                 )
-                sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
+                sudo("/minecraft:effect ". @player ." minecraft:invisibility 9999 1 true")
             ,
                 tmsg(@player,"You're already invisible!")
             )
@@ -30,7 +30,7 @@ register_command('invis',
         'executor': closure() {        
             
             @player = player()
-            sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
+            sudo("/minecraft:effect ". @player ." minecraft:invisibility 9999 1 true")
             runas('~console',"/disguiseplayer ". @player ." Creeper setInvisible true")
                 
         }
@@ -47,7 +47,7 @@ register_command('vis',
             @player = player()
             include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
             @class = _getheroclass(@player)
-            sudo("/effect ". @player ." 14 0")
+            sudo("/minecraft:effect ". @player ." 14 0")
             try(
                 @contents = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/chars/'.@class.'.yml')
                 @hero = yml_decode(@contents)
@@ -88,7 +88,7 @@ register_command('shadowhide',
                         tmsg(@player,color('RED')."You are no longer hidden, it is too bright")
                         include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
                         @class = _getheroclass(@player)
-                        sudo("/effect ". @player ." 14 0")
+                        sudo("/minecraft:effect ". @player ." 14 0")
                         @contents = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/chars/'.@class.'.yml')
                         @hero = yml_decode(@contents)
                         include('/home/minecraft/server/plugins/CommandHelper/includes/changeSkin.ms')
@@ -96,7 +96,7 @@ register_command('shadowhide',
                         unbind()
                     }
                 )
-                sudo("/effect ". @player ." minecraft:invisibility 9999 1 true")
+                sudo("/minecraft:effect ". @player ." minecraft:invisibility 9999 1 true")
                 runas('~console',"/disguiseplayer ". @player ." Creeper setInvisible true")
             ,
                 tmsg(@player,"You're already invisible!")

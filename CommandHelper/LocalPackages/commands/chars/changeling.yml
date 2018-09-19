@@ -6,12 +6,12 @@ costumes:
   sig: I6zBYUrxQFI/4v/5HOJVcKpzT24CbPzEuKUmkY74gvrE2yjhd6AgmxNrety8ono3ihwVgRL+ASQHtPqbrktfT0hY4VxBwsdiEWlmn9DtExe5QzdauvDyDG96gG5o+dBfv1vEm/pZG8DuwaEvSiMpD2hKCSrAhB186gKk/GQVUWhSS6a3kB0use+CX4VGGKoCy+IpsW19XYwxCyDD2Oxz8Y3xC1xxNR0P4b9LQQr3IukBs7e1Yhj2H7j5l7j1pDLqOx+jZfc+FwgdOozn6+tDeTPfIq2wyDOGzFLRvhFj6WDua0NTbxOmWGy3XYQsiUtzV+BdFyKQLau/3ugn2JEr3W3Ir33l09QLrfqkAtj1LcM3COV7k+YH7gxyayCEjDJsOaJ6GQFsV5dQlNil4hgxKMUEAdV10GxWmdDJvx4kFK+fOnO3o/QvsRCwCRXmoHAoi1Awtbrz2X8VOd6xRU+eYrlUFlJY1AdADAMUYSNBbHyvYELdfoZze1m2fT4j13VRm9QhaN77wspVv5pEr+sIQ4goI/yxs7QA/LY8i23mIcjDOX3oecK5vo+eUKngbfIm77wjrf59c/RqFHnNX6FgtYdfGHFtNsE1y9QiS2FKZEWUnjQccBa6Nn8IlxhEWc/dHu/haRhYYNmuzzLUkZAh925Tfex6JbKr/ip3f6onSuo=
   val: eyJ0aW1lc3RhbXAiOjE1MjA4NDM1MzMwNjYsInByb2ZpbGVJZCI6ImQxZmJhYWI3YmRlMzQ0MDU4MjgyOWZjMTVkOTAyMDlkIiwicHJvZmlsZU5hbWUiOiJUaGVEYXJrQXVyYV8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q3YjdmYTk4M2I4OGJiZDU5ZjNkNDU5NmYxZDQxYmI5ZjBiOWE4ZWQ3MGYyMmI4MWUzZjExNjZjNTg0OSJ9fX0=
 effects:
-- /effect give <plr> minecraft:strength 9999 5 true
-- /effect give <plr> minecraft:regeneration 9999 1 true
-- /effect give <plr> minecraft:resistance 9999 2 true
-- /effect give <plr> minecraft:fire_resistance 9999 1 true
-- /effect give <plr> minecraft:water_breathing 9999 1 true
-- /effect give <plr> minecraft:night_vision 9999 1 true
+- /minecraft:effect give <plr> minecraft:strength 9999 5 true
+- /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
+- /minecraft:effect give <plr> minecraft:resistance 9999 2 true
+- /minecraft:effect give <plr> minecraft:fire_resistance 9999 1 true
+- /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
+- /minecraft:effect give <plr> minecraft:night_vision 9999 1 true
 haste: 6
 items:
 - /give <plr> minecraft:fireworks 64 name:&7Propelled_Flight

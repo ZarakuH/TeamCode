@@ -95,7 +95,7 @@ register_command('herotransform',
                 if(has_permission(@player,'essentials.fly')){
                     queue_push(closure(run_cmd('/fly on')))
                 }
-                queue_push(closure(runas('~console',"/minecraft:effect ".@player." clear")))
+                queue_push(closure(runas('~console',"/minecraft:effect clear ".@player)))
                 if(has_permission(@player,'ch.alias.buff')){
                     queue_push(closure(runas(@player,'/buff')))
                 }

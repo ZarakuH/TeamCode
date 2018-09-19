@@ -8,8 +8,8 @@ costumes:
   val: eyJ0aW1lc3RhbXAiOjE0OTI3OTI1NjM5NTYsInByb2ZpbGVJZCI6IjI4NTU2ZGVhNjY3ZDQwOWZiMmZmZmI0MTc3YTIwZmYyIiwicHJvZmlsZU5hbWUiOiJMb3N0SW5HYWxheGVoXyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7Im1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9LCJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZkOGU1N2Y2ZTY1MGNmZjYzNDM4OGEyODg3ODk3OGQ4NWU0MzRjODQ1ODYzMjVmZGEzNDJlZTYzOGUxNGRmOGUifX19
   info: DC Superhero Girls
 effects:
-- /effect give <plr> minecraft:strength 9999 5 true
-- /effect give <plr> minecraft:regeneration 9999 1 true
+- /minecraft:effect give <plr> minecraft:strength 9999 5 true
+- /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 haste: 4
 items:
 - /shot give <plr> ivywhip

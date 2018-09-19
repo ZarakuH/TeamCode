@@ -44,7 +44,7 @@ register_command('mutate',
 
             runas('~console',"/gamemode survival ".@vic)
             runas('~console',"/minecraft:clear ".@vic)
-            runas('~console',"/minecraft:effect ".@vic." clear")
+            runas('~console',"/minecraft:effect clear ".@vic)
             runas('~console',"/fly ".@vic." off")
             runas(@vic,'/fixskin')
             @theBind = bind('player_command',null,array('player':@vic),@e, @vicc = @vic){

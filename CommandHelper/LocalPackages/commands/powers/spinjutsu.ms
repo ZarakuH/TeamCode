@@ -15,7 +15,7 @@ register_command('spinjutsu',
                 die()
             )
             
-            runas('~console',"/effect ".@player." minecraft:strength 10 5 true")
+            runas('~console',"/minecraft:effect ".@player." minecraft:strength 10 5 true")
 
             export(@player."lastUsedSpinjutsu", time() / 1000)
                 

@@ -42,10 +42,10 @@ register_command('modifyspeed',
             )
 
             if(@speed > 0){
-                runas('~console',"/effect ". @vic . " 1 15 ". @speed ." true")
+                runas('~console',"/minecraft:effect ". @vic . " 1 15 ". @speed ." true")
             }else{
                 @speed = abs(@speed)
-                runas('~console',"/effect ". @vic . " 2 15 ". integer(@speed) ." true")
+                runas('~console',"/minecraft:effect ". @vic . " 2 15 ". integer(@speed) ." true")
             }
 
             export(@player."lastUsedModifySpeed", time() / 1000)

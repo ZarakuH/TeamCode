@@ -34,7 +34,7 @@ register_command('depower',
 
                 runas('~console',"/gamemode survival ".@player)
                 runas('~console',"/minecraft:clear ".@player)
-                runas('~console',"/minecraft:effect ".@player." clear")
+                runas('~console',"/minecraft:effect clear ".@player)
                 runas('~console',"/fly ".@player." off")
                 runas(@player,'/fixskin')
                 @theBind = bind('player_command',null,array('player':@player),@e, @vicc = @player){

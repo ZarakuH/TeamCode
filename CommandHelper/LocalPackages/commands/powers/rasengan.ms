@@ -6,7 +6,7 @@ register_command('rasengan',
         'executor': closure() {        
             
             @plr = player()
-            runas('~console',"/effect " . @plr . " 5 10 10 true")
+            runas('~console',"/minecraft:effect " . @plr . " 5 10 10 true")
             tmsg(@plr,"You have powerful punches for 10 seconds!")
                 
         }

@@ -41,7 +41,7 @@ register_command('wither',
                 die()
             }
             
-            sudo("/effect ".@vic." 20 10 2 true")
+            sudo("/minecraft:effect ".@vic." 20 10 2 true")
             tmsg(@plr, "You have withered ".@vic."!")
             tmsg(@vic, "You have been withered by ". @plr ."!")
             

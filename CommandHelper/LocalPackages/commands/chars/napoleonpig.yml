@@ -5,7 +5,7 @@ costumes:
   sig: pig
   val: ''
 effects:
-- /effect give <plr> minecraft:resistance 9999 1 true
+- /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 items: [
   ]
 powers:

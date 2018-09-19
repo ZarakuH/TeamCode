@@ -9,8 +9,8 @@ costumes:
 - sig: KgSxnhzhNTMkuipELPexw11FPpnqagEE9SZzZd/OJCGQ0QNzR6pYyZcwyZbYBp9GqHRDTe8mV4j1rYv3un5gNAZgjJaTInkYXaWXuxalNH2sVxc6Xg88ReQ/DBzvshylxadfqOXCR7NPA41X9PJggIXL66+j4/LbWMwHlOiA56OqVLdheNvnFK9Xt68arbl4TvKOoOl/9Qym8NQ7OE1o0IU4W1iB0W0r5a5qaSOC89/7q2bgwNwutGB3HikmWt4650cMjV1S/Avry+hFUYlGAAbMi2Axj7WOVoVPdzQMnoNEJMak9W6LXcuUSxOYAmeXZzVgmlrDb9YuGKFk2b+f/bfRNViHhkeXIsg5Dqm0iIgtwIYUqiYnhLZSdvclJz25+yugUjYSd67xTXfRVMk+pfHkzwho6hYutVWg9qIoBWVKK0IWRnZp2tHyQz9J2gq9MgYeYQgF5lsT4mPGpq1Box9wcuTFVsm8M4pE5bHrspjvJ6Xg070G8ZAVqGrIv0qw+ey8dI+TJ/6un4ZlXdgEpSpCPLGEln8P8ItXGopxN+Jz/sB/tLnF2DikIbDjrdN6nmJHbcnwVyRZbRL3gpSbd0hyWRPJ39QJDA+0jN6A4Q+uQ0kKWpCQueHZFpkrpeztHFO824esU0MeMh/4Wl+X8V0OBpJY0lCuBMBFeW3djIE=
   val: eyJ0aW1lc3RhbXAiOjE1MDg2MTY3NTg4NzAsInByb2ZpbGVJZCI6ImY2MjE1ODZlOGVmODQ0OGQ5MjY0ODZiNjEzNzUwNTJlIiwicHJvZmlsZU5hbWUiOiJQcmVzaWRlbnRfTXl0aCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7Im1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9LCJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0NjQ1MzYzZGE4YzI3NDZlNmFkZDViY2I0M2RjODkxODVlNTg1ZWUyNTYwMjc5NDlkYjM1NGFhMTRjOTkxMiJ9fX0=
 effects:
-- /effect give <plr> minecraft:strength 9999 10 true
-- /effect give <plr> minecraft:regeneration 9999 1 true
+- /minecraft:effect give <plr> minecraft:strength 9999 10 true
+- /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 haste: 4
 items:
 - /minecraft:give <plr> minecraft:iron_boots{display:{Name:"{\"text\":\"§9W§1a§9ter Ru§1nn§9ing §4B§eoo§4ts\"}"},Enchantments:[{id:"minecraft:projectile_protection",lvl:30},{id:"minecraft:depth_strider",lvl:30}]} 1
