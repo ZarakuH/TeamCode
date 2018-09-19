@@ -49,9 +49,7 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz:
-    Channels:
-      Global: write
+  GaySparkelz: {}
   StrikerMax:
     Spying: true
   FIRESTROME:
@@ -81,9 +79,7 @@ Players:
   TheLastCraft_xX:
     Channels:
       Global: write
-  piglord1618:
-    Channels:
-      Global: write
+  piglord1618: {}
   THAN0S_:
     Channels:
       Global: write
@@ -928,3 +924,6 @@ Players:
   Ikirmo: {}
   Scarlet_Terror: {}
   ShieldedMC: {}
+  happierpillow72: {}
+  Dha2008: {}
+  AwesomeDuty: {}

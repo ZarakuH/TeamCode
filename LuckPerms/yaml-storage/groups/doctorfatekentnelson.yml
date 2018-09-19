@@ -1,0 +1,17 @@
+name: doctorfatekentnelson
+permissions:
+- headdb.category.*
+- headdb.free.*
+- ch.alias.create
+- essentials.fly
+- headdb.open
+- weakto.magicarrow
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&6D&9o&6ct&9o&6r F&9a&6te&8(KN&8)':
+    priority: 6
+suffixes:
+- '&9':
+    priority: 6

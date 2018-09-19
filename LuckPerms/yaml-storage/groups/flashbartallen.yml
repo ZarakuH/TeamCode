@@ -11,11 +11,10 @@ permissions:
 - essentials.warps.speedforce
 - powers.wallrun
 parents:
-- commonherotraits
 - superherocity
 prefixes:
 - '&4Fl&ea&4sh&8(BartA&8)':
-    priority: 100
+    priority: 6
 suffixes:
 - '&e':
-    priority: 100
+    priority: 6

@@ -21,6 +21,7 @@ permissions:
 - worldedit.navigation.thru.command
 parents:
 - commonherotraits
+- superherocity
 prefixes:
 - '&4Fl&ea&4sh&8(BarryA&8)':
     priority: 100

@@ -21,7 +21,7 @@ register_command('enabletag',
                 @player = player()
 
                 if(has_permission(@player,'is.'.@tag)){
-                    sudo('/pex user '.@player.' group add '.@tag)
+                    sudo('/lp user '.@player.' parent add '.@tag)
                     msg(color('RED').@tag.' tag enabled!')
                 }else{
                     msg(color('RED').'Sorry, you don\'t seem to have access to that tag')
@@ -53,7 +53,7 @@ register_command('disabletag',
                 @player = player()
 
                 if(has_permission(@player,'is.'.@tag)){
-                    sudo('/pex user '.@player.' group remove '.@tag)
+                    sudo('/lp user '.@player.' parent remove '.@tag)
                     msg(color('RED').@tag.' tag disenabled!')
                 }else{
                     msg(color('RED').'Sorry, you don\'t seem to have access to that')

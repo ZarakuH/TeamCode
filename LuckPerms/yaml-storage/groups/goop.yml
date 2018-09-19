@@ -1,0 +1,14 @@
+name: goop
+permissions:
+- -blivtrails.*
+- -trails.*
+- essentials.fly
+- powers.herotransform
+parents:
+- commonherotraits
+prefixes:
+- '&2Go&aop':
+    priority: 100
+suffixes:
+- '&a':
+    priority: 100

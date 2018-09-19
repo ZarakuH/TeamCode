@@ -92,7 +92,7 @@ register_command('payrep',
             write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@targetUUID.'.yml',yml_encode(@data,true),'OVERWRITE')
             @reputation['reputation'] = @reputation['reputation'] - @amount
             export(@sender.'reputation',@reputation)
-            broadcast(color('RED').@sender.' paid '.@target.' '.@amount.' Karma!')
+            broadcast(color('RED').@sender.' paid '.@target.' '.@amount.' Reputation, which turns into Karma!')
         }
     )
 )
@@ -128,7 +128,7 @@ set_cron('*/20 * * * *',closure(
 
     @players = all_players()
     @sendingKarma = associative_array()
-    @sendingKarma['karma'] = 10
+    @sendingKarma['reputation'] = 10
     foreach(@player in @players){
         export(@player.'reputation',@sendingKarma)
     }

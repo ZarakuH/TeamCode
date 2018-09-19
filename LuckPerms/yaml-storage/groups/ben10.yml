@@ -1,0 +1,11 @@
+name: ben10
+permissions:
+- powers.herotransform
+parents:
+- commonherotraits
+prefixes:
+- '&2B&fe&8n &210':
+    priority: 100
+suffixes:
+- '&2':
+    priority: 100

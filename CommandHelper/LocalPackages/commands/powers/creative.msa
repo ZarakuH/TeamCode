@@ -13,7 +13,7 @@ create:/create $item $qty $color = >>>
 
     // acc_subtract(@player,100)
     // msg(color('GREEN').'$100 charged for GMC. Warning: costs $1/sec to stay in GMC.')
-    sudo('/minecraft:give '.player().' '.@item.' '.@qty.' '.@color)
+    runas('~console','/minecraft:give '.player().' minecraft:'.@item.' '.@qty.' '.@color)
 <<<
 create:/create $item $qty = >>>
     @item = $item
@@ -29,7 +29,7 @@ create:/create $item $qty = >>>
 
     // acc_subtract(@player,100)
     // msg(color('GREEN').'$100 charged for GMC. Warning: costs $1/sec to stay in GMC.')
-    sudo('/minecraft:give '.player().' '.@item.' '.@qty)
+    runas('~console','/minecraft:give '.player().' minecraft:'.@item.' '.@qty)
 <<<
 create:/create $item = >>>
     @item = $item
@@ -44,7 +44,7 @@ create:/create $item = >>>
 
     // acc_subtract(@player,100)
     // msg(color('GREEN').'$100 charged for GMC. Warning: costs $1/sec to stay in GMC.')
-    sudo('/minecraft:give '.player().' '.@item.' 1')
+    runas('~console','/minecraft:give '.player().' minecraft:'.@item.' 1')
 <<<
 create:/pickblock = >>>
     @player = player()

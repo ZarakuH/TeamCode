@@ -1,0 +1,11 @@
+name: xlr8
+permissions:
+- powers.herotransform
+parents:
+- commonherotraits
+prefixes:
+- '&bX&fL&8R&28':
+    priority: 100
+suffixes:
+- '&b':
+    priority: 100

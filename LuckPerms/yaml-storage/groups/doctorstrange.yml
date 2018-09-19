@@ -13,7 +13,7 @@ parents:
 - superherocity
 prefixes:
 - '&cD&9octo&cr &9S&ctrang&9e':
-    priority: 100
+    priority: 6
 suffixes:
 - '&9':
-    priority: 100
+    priority: 6
