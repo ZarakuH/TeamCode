@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 haste: 2
 items:
-- /give <plr> minecraft:diamond_hoe 1 16:10 name:&1M&4a&1d&4a&1r&1a&4s_&1D&4e&1a&4t&1h_&4S&1i&4c&1k&4l&1e
+- /minecraft:give <plr> minecraft:diamond_hoe 1 16:10 name:&1M&4a&1d&4a&1r&1a&4s_&1D&4e&1a&4t&1h_&4S&1i&4c&1k&4l&1e
 jump: 2
 permissions:
   superherocity:

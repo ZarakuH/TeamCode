@@ -9,8 +9,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 3
 items:
-- /give <plr> minecraft:fishing_rod 1 61:32767 62:5 name:&eA&6qua&2man's_Perfect_Fishing_Rod
-- /give <plr> minecraft:leather_helmet 1 5:50 6:1 8:3 name:&eA&6qua&2man's_Public_&9Water_Helmet
+- /minecraft:give <plr> minecraft:fishing_rod 1 61:32767 62:5 name:&eA&6qua&2man's_Perfect_Fishing_Rod
+- /minecraft:give <plr> minecraft:leather_helmet 1 5:50 6:1 8:3 name:&eA&6qua&2man's_Public_&9Water_Helmet
 jump: 3
 maxHearts: 40
 permissions:

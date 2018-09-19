@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 haste: 1
 items:
-- /give <plr> minecraft:bow 1 51:1 name:&4Sp&eee&4dy's_Bow
+- /minecraft:give <plr> minecraft:bow 1 51:1 name:&4Sp&eee&4dy's_Bow
 jump: 2
 maxHearts: 20
 permissions:

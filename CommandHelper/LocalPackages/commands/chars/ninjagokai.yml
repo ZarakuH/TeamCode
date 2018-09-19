@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:golden_sword 1 20:2 name:&6The_Sword_Of_Fire
+- /minecraft:give <plr> minecraft:golden_sword 1 20:2 name:&6The_Sword_Of_Fire
 jump: 2
 permissions:
   superherocity:

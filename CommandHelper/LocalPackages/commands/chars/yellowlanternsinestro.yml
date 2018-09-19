@@ -10,8 +10,8 @@ effects:
 haste: 4
 items:
 - /shot give <plr> yellowenergybeam
-- /give <plr> 95:4 64
-- /give <plr> minecraft:gold_nugget 1 20:2 16:155 name:&eYe&ell&6o&ew_&eL&6a&ent&fe&ern_Ring
+- /minecraft:give <plr> 95:4 64
+- /minecraft:give <plr> minecraft:gold_nugget 1 20:2 16:155 name:&eYe&ell&6o&ew_&eL&6a&ent&fe&ern_Ring
 jump: 3
 maxHearts: 30
 permissions:

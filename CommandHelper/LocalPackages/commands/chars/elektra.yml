@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 3 true
 items:
-- /give <plr> minecraft:iron_sword 2 name:&4E&0l&4e&0k&4t&0r&4a&0's_&4Sais
+- /minecraft:give <plr> minecraft:iron_sword 2 name:&4E&0l&4e&0k&4t&0r&4a&0's_&4Sais
 jump: 2
 maxHearts: 20
 permissions:

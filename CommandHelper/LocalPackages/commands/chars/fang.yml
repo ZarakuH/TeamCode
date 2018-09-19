@@ -11,8 +11,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:night_vision 9999 1 true
 haste: 2
 items:
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&8F&7a&8n&7g's_Glide_Wings
-- /give <plr> minecraft:compass 1 0 name:&8F&7a&8n&7g's_Compass
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&8F&7a&8n&7g's_Glide_Wings
+- /minecraft:give <plr> minecraft:compass 1 0 name:&8F&7a&8n&7g's_Compass
 jump: 5
 maxHearts: 20
 permissions:

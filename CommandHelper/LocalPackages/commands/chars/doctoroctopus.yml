@@ -7,8 +7,8 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:fishing_rod 1 16:50 name:&7D&4o&7c_&7O&4c&7k's_&7Ten&8tac&7le
-- /give <plr> minecraft:fishing_rod 1 16:50 name:&7D&4o&7c_&7O&4c&7k's_&7Ten&8tac&7le
+- /minecraft:give <plr> minecraft:fishing_rod 1 16:50 name:&7D&4o&7c_&7O&4c&7k's_&7Ten&8tac&7le
+- /minecraft:give <plr> minecraft:fishing_rod 1 16:50 name:&7D&4o&7c_&7O&4c&7k's_&7Ten&8tac&7le
 maxHearts: 20
 permissions:
   superherocity:

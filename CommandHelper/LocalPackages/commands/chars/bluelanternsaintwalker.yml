@@ -10,8 +10,8 @@ effects:
 haste: 4
 items:
 - /shot give <plr> blueenergybeam
-- /give <plr> 95:11 64
-- /give <plr> minecraft:dye:4 1 20:2 16:155 name:&fS&bai&9n&1t_&bWa&fl&9ke&1r's_Ring
+- /minecraft:give <plr> 95:11 64
+- /minecraft:give <plr> minecraft:dye:4 1 20:2 16:155 name:&fS&bai&9n&1t_&bWa&fl&9ke&1r's_Ring
 jump: 3
 maxHearts: 30
 permissions:

@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 9
 items:
-- /give <plr> minecraft:fishing_rod 1 16:15 name:&3Maui's_&1Fishing_&4Rod
+- /minecraft:give <plr> minecraft:fishing_rod 1 16:15 name:&3Maui's_&1Fishing_&4Rod
 jump: 9
 maxHearts: 40
 permissions:

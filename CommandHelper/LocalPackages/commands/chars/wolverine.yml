@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 4 true
 haste: 3
 items:
-- /give <plr> minecraft:iron_bars 2 16:10 name:&eW&0o&elv&9er&eine's_Claws
+- /minecraft:give <plr> minecraft:iron_bars 2 16:10 name:&eW&0o&elv&9er&eine's_Claws
 jump: 3
 maxHearts: 20
 permissions:

@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:fishing_rod 1 16:50 name:&2T&aai&2l_&2Wh&7i&2p
+- /minecraft:give <plr> minecraft:fishing_rod 1 16:50 name:&2T&aai&2l_&2Wh&7i&2p
 - /mgive <plr> acidshotwand
 maxHearts: 30
 permissions:

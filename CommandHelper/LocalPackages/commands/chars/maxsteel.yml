@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
 items:
-- /give <plr> minecraft:iron_boots 1 8:2 4:2 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
+- /minecraft:give <plr> minecraft:iron_boots 1 8:2 4:2 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
 - /shot give <plr> blueenergybeam
 maxHearts: 30
 permissions:

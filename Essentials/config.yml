@@ -361,7 +361,7 @@ world-teleport-permissions: false
 default-stack-size: -1
 
 # Over-sized stacks are stacks that ignore the normal max stack size.
-# They can be obtained using /give and /item, if the player has essentials.oversizedstacks permission.
+# They can be obtained using /minecraft:give and /item, if the player has essentials.oversizedstacks permission.
 # How many items should be in an over-sized stack?
 oversized-stacksize: 64
 

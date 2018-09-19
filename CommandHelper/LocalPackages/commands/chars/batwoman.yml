@@ -8,8 +8,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 haste: 2
 items:
-- /give <plr> minecraft:ender_pearl 5 name:&7B&ea&0t&7m&8a&7n's_&8Grappling_Hook
-- /give <plr> minecraft:snowball 10 name:&8Batarang
+- /minecraft:give <plr> minecraft:ender_pearl 5 name:&7B&ea&0t&7m&8a&7n's_&8Grappling_Hook
+- /minecraft:give <plr> minecraft:snowball 10 name:&8Batarang
 jump: 3
 maxHearts: 20
 permissions:

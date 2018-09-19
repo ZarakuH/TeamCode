@@ -9,7 +9,7 @@ effects:
 haste: 2
 items:
 - /shot give <plr> flamethrower
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&eF&4i&ere&8f&el&8y's_&8Glide_Wings
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&eF&4i&ere&8f&el&8y's_&8Glide_Wings
 jump: 3
 maxHearts: 30
 permissions:

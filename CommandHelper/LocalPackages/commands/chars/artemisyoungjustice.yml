@@ -8,8 +8,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 haste: 1
 items:
-- /give <plr> minecraft:bow 1 50:1 51:1 name:&2Ar&fte&2mis'_&fBow
-- /give <plr> minecraft:ender_pearl 5 name:&2Ar&fte&2mis'_&fGrappling&2_Arrow
+- /minecraft:give <plr> minecraft:bow 1 50:1 51:1 name:&2Ar&fte&2mis'_&fBow
+- /minecraft:give <plr> minecraft:ender_pearl 5 name:&2Ar&fte&2mis'_&fGrappling&2_Arrow
 jump: 2
 maxHearts: 20
 permissions:

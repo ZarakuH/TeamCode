@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:diamond 1 name:&1S&9ignet_&1R&9ing
+- /minecraft:give <plr> minecraft:diamond 1 name:&1S&9ignet_&1R&9ing
 permissions:
   superherocity:
   - powers.sonicscrewdriver

@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:bow 1 50:1 51:1 name:&8Da&0r&8k_Ar&7c&0h&8er(&0MM&8)'s_&8B&7o&0w
+- /minecraft:give <plr> minecraft:bow 1 50:1 51:1 name:&8Da&0r&8k_Ar&7c&0h&8er(&0MM&8)'s_&8B&7o&0w
 maxHearts: 20
 permissions:
   superherocity:

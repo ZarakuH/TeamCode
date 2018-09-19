@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:paper 52 name:&fMa&cgic&0_&fCa&crds
+- /minecraft:give <plr> minecraft:paper 52 name:&fMa&cgic&0_&fCa&crds
 - /mgive <plr> abraswand
 powers:
 - /effects

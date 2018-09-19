@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:stone_sword 1 16:10
+- /minecraft:give <plr> minecraft:stone_sword 1 16:10
 jump: 1
 permissions:
   superherocity:

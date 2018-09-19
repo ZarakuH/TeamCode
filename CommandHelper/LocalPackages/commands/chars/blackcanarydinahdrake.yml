@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 2 true
 items:
-- /give <plr> minecraft:stick 1 19:3 16:3 name:&0Ca&0na&0ry_&0Ba&0to&0n
+- /minecraft:give <plr> minecraft:stick 1 19:3 16:3 name:&0Ca&0na&0ry_&0Ba&0to&0n
 maxHearts: 20
 permissions:
   superherocity:

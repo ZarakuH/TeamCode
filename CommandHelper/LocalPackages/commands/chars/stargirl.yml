@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 haste: 2
 items:
-- /give <plr> minecraft:iron_hoe 1 20:1 16:5 name:&9S&4t&fa&7r&4g&7i&9r&fl's_&7S&9t&4a&fff
+- /minecraft:give <plr> minecraft:iron_hoe 1 20:1 16:5 name:&9S&4t&fa&7r&4g&7i&9r&fl's_&7S&9t&4a&fff
 - /shot give <plr> whiteenergybeam
 jump: 2
 maxHearts: 30

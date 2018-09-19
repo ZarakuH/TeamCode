@@ -10,7 +10,7 @@ effects:
 haste: 4
 items:
 - /shot give <plr> greenenergybeam
-- /give <plr> 95:5 64
+- /minecraft:give <plr> 95:5 64
 - /mgive <plr> greenlanternrings
 jump: 3
 maxHearts: 30

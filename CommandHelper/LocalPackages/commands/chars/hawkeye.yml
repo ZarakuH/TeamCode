@@ -8,31 +8,31 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 1 true
 haste: 2
 items:
-- /give <plr> minecraft:bow 1 51:1 name:&8H&0a&8w&0k&8e&0y&8e's_&8Bow
-- /give <plr> minecraft:ender_pearl 5 name:&2Grappling_Arrow
-- /give <plr> minecraft:arrow 10 0 {display:{Name:"§7Normal Arrow"}}
-- /give <plr> minecraft:spectral_arrow 10 0 {display:{Name:"§eSpectral Arrow"}}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §dStrong Regeneration"},Potion:"minecraft:strong_regeneration"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §dLong Regeneration"},Potion:"minecraft:long_regeneration"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §lStrong Swiftness"},Potion:"minecraft:strong_swiftness"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §lLong Swiftness"},Potion:"minecraft:long_swiftness"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §6Fire Resistance"},Potion:"minecraft:long_fire_resistance"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §cHealing"},Potion:"minecraft:strong_healing"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §1Night Vision"},Potion:"minecraft:long_night_vision"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §4Strong Strength"},Potion:"minecraft:strong_strength"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §4Long Strength"},Potion:"minecraft:long_strength"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aStrong Leaping"},Potion:"minecraft:strong_leaping"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aLong Leaping"},Potion:"minecraft:long_leaping"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §7Invisibility"},Potion:"minecraft:long_invisibility"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aStrong Poison"},Potion:"minecraft:strong_poison"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aLong Poison"},Potion:"minecraft:long_poison"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §0Weakness"},Potion:"minecraft:long_weakness"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §8Slowness"},Potion:"minecraft:long_slowness"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §fHarming"},Potion:"minecraft:strong_harming"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §bWater Breathing"},Potion:"minecraft:long_water_breathing"}
-- /give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §2Luck"},Potion:"minecraft:luck"}
-- /give <plr> minecraft:arrow 10 0 {display:{Name:"§fArrow of §7Smoke"}}
-- /give <plr> minecraft:arrow 10 0 {display:{Name:"§fArrow of §4Ka-Ba-Boom"}}
+- /minecraft:give <plr> minecraft:bow 1 51:1 name:&8H&0a&8w&0k&8e&0y&8e's_&8Bow
+- /minecraft:give <plr> minecraft:ender_pearl 5 name:&2Grappling_Arrow
+- /minecraft:give <plr> minecraft:arrow 10 0 {display:{Name:"§7Normal Arrow"}}
+- /minecraft:give <plr> minecraft:spectral_arrow 10 0 {display:{Name:"§eSpectral Arrow"}}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §dStrong Regeneration"},Potion:"minecraft:strong_regeneration"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §dLong Regeneration"},Potion:"minecraft:long_regeneration"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §lStrong Swiftness"},Potion:"minecraft:strong_swiftness"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §lLong Swiftness"},Potion:"minecraft:long_swiftness"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §6Fire Resistance"},Potion:"minecraft:long_fire_resistance"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §cHealing"},Potion:"minecraft:strong_healing"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §1Night Vision"},Potion:"minecraft:long_night_vision"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §4Strong Strength"},Potion:"minecraft:strong_strength"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §4Long Strength"},Potion:"minecraft:long_strength"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aStrong Leaping"},Potion:"minecraft:strong_leaping"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aLong Leaping"},Potion:"minecraft:long_leaping"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §7Invisibility"},Potion:"minecraft:long_invisibility"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aStrong Poison"},Potion:"minecraft:strong_poison"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §aLong Poison"},Potion:"minecraft:long_poison"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §0Weakness"},Potion:"minecraft:long_weakness"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §8Slowness"},Potion:"minecraft:long_slowness"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §fHarming"},Potion:"minecraft:strong_harming"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §bWater Breathing"},Potion:"minecraft:long_water_breathing"}
+- /minecraft:give <plr> minecraft:tipped_arrow 10 0 {display:{Name:"Arrow of §2Luck"},Potion:"minecraft:luck"}
+- /minecraft:give <plr> minecraft:arrow 10 0 {display:{Name:"§fArrow of §7Smoke"}}
+- /minecraft:give <plr> minecraft:arrow 10 0 {display:{Name:"§fArrow of §4Ka-Ba-Boom"}}
 jump: 2
 permissions:
   superherocity:

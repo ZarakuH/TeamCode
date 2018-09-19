@@ -8,7 +8,7 @@ effects: [
   ]
 haste: 2
 items:
-- /give <plr> minecraft:stick 1 16:5 name:&2Mich&6elan&2gelo&8(&2TMNT&8)'s_Nunchucks
+- /minecraft:give <plr> minecraft:stick 1 16:5 name:&2Mich&6elan&2gelo&8(&2TMNT&8)'s_Nunchucks
 jump: 2
 maxHearts: 20
 permissions: [

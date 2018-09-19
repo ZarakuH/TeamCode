@@ -8,8 +8,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 20 true
 haste: 9
 items:
-- /give <plr> minecraft:stick 1 name:&4C&8h&5a&8kra_&4D&8isr&5up&8tion_&4B&8l&5a&8de
-- /give <plr> minecraft:stick 1 name:&4C&8h&5a&8kra_&4D&8isr&5up&8tion_&4B&8l&5a&8de
+- /minecraft:give <plr> minecraft:stick 1 name:&4C&8h&5a&8kra_&4D&8isr&5up&8tion_&4B&8l&5a&8de
+- /minecraft:give <plr> minecraft:stick 1 name:&4C&8h&5a&8kra_&4D&8isr&5up&8tion_&4B&8l&5a&8de
 - /mgive <plr> almightypushwand
 - /mgive <plr> universalpullwand
 jump: 7

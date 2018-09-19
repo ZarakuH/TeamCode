@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 2 true
 haste: 4
 items:
-- /give <plr> minecraft:web 64
+- /minecraft:give <plr> minecraft:web 64
 - /shot give <plr> webshot
 - /mgive <plr> symbiotepowers
 jump: 7

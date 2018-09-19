@@ -14,9 +14,9 @@ effects:
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 4
 items:
-- /give <plr> minecraft:stick 1 16:10 name:&2G&ar&6o&ao&2t's_Damage_Attack
-- /give <plr> minecraft:stick 1 19:10 name:&2G&ar&6o&ao&2t's_Knockback_Attack
-- /give <plr> minecraft:stick 1 19:5 16:5 name:&2G&ar&6o&ao&2t's_Damage_&_Knockback__Attack
+- /minecraft:give <plr> minecraft:stick 1 16:10 name:&2G&ar&6o&ao&2t's_Damage_Attack
+- /minecraft:give <plr> minecraft:stick 1 19:10 name:&2G&ar&6o&ao&2t's_Knockback_Attack
+- /minecraft:give <plr> minecraft:stick 1 19:5 16:5 name:&2G&ar&6o&ao&2t's_Damage_&_Knockback__Attack
 jump: 2
 maxHearts: 50
 occasionalPhraseFrequency: 50

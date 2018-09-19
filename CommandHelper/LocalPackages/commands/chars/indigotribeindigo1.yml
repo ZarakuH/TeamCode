@@ -10,8 +10,8 @@ effects:
 haste: 5
 items:
 - /shot give <plr> indigoenergybeam
-- /give <plr> 95:10 64
-- /give <plr> minecraft:dye:4 20:2 16:155 name:&5I&dnd&5ig&do&7_&5Tr&dibe&7_&5Rin&dg
+- /minecraft:give <plr> 95:10 64
+- /minecraft:give <plr> minecraft:dye:4 20:2 16:155 name:&5I&dnd&5ig&do&7_&5Tr&dibe&7_&5Rin&dg
 jump: 3
 maxHearts: 30
 permissions:

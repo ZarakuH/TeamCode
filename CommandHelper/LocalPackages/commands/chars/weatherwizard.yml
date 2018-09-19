@@ -8,7 +8,7 @@ effects: [
   ]
 items:
 - /shot give <plr> icespike
-- /give <plr> minecraft:ghast_tear 1 19:50 name:&fWindblast
+- /minecraft:give <plr> minecraft:ghast_tear 1 19:50 name:&fWindblast
 - /mgive <plr> tsunamiwand
 permissions:
   superherocity:

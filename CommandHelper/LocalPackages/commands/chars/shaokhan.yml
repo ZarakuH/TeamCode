@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 20 true
 items:
-- /give <plr> minecraft:iron_axe 1 16:5 name:&2Wrath_&cHammer
+- /minecraft:give <plr> minecraft:iron_axe 1 16:5 name:&2Wrath_&cHammer
 maxHearts: 40
 permissions:
   superherocity:

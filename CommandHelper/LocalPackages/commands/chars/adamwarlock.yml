@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 10 true
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 items:
-- /give <plr> minecraft:golden_hoe 1 16:5 name:&4A&6d&ea&6m_&4W&ba&er&6l&bo&ec&4k's_&4S&et&6a&ef&4f
+- /minecraft:give <plr> minecraft:golden_hoe 1 16:5 name:&4A&6d&ea&6m_&4W&ba&er&6l&bo&ec&4k's_&4S&et&6a&ef&4f
 - /mgive <plr> warlockblastwand
 - /mgive <plr> soulstone
 - /mgive <plr> forcefieldwand

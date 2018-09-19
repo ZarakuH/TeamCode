@@ -8,9 +8,9 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 haste: 9
 items:
-- /give <plr> 95:4 64
+- /minecraft:give <plr> 95:4 64
 - /shot give <plr> yellowenergybeam
-- /give <plr> minecraft:gold_nugget 1 20:2 16:155 name:&eYe&ell&6o&ew_&eL&6a&ent&fe&ern_Ring
+- /minecraft:give <plr> minecraft:gold_nugget 1 20:2 16:155 name:&eYe&ell&6o&ew_&eL&6a&ent&fe&ern_Ring
 jump: 8
 maxHearts: 20
 permissions:

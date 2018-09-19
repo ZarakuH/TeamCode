@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:health_boost 9999 9 true
 items:
 - /shot give <plr> greenenergybeam
-- /give <plr> 95:5 64
+- /minecraft:give <plr> 95:5 64
 - /mgive <plr> greenlanternrings
 permissions:
   superherocity:

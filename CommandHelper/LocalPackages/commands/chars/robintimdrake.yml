@@ -8,9 +8,9 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 2 true
 haste: 2
 items:
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Glide_Wings
-- /give <plr> minecraft:ender_pearl 10 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Grappling_Hook
-- /give <plr> minecraft:stick 1 19:2 16:2 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Battle_Staff
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Glide_Wings
+- /minecraft:give <plr> minecraft:ender_pearl 10 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Grappling_Hook
+- /minecraft:give <plr> minecraft:stick 1 19:2 16:2 name:&4R&eo&8b&ei&4n&8(&4T&eD&8)'s_Battle_Staff
 jump: 2
 maxHearts: 20
 permissions:

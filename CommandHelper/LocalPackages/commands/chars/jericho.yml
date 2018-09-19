@@ -9,7 +9,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:stick 1 name:Jericho's_Guitar
+- /minecraft:give <plr> minecraft:stick 1 name:Jericho's_Guitar
 mindControlLimit: 20
 permissions:
   superherocity:

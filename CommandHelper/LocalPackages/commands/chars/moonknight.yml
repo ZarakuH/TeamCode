@@ -7,8 +7,8 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:stick 1 16:10 name:&7M&foo&7n_&7St&faf&7f
-- /give <plr> minecraft:elytra 1 16:10 name:&7M&foo&7n_&7Gl&fid&7e
+- /minecraft:give <plr> minecraft:stick 1 16:10 name:&7M&foo&7n_&7St&faf&7f
+- /minecraft:give <plr> minecraft:elytra 1 16:10 name:&7M&foo&7n_&7Gl&fid&7e
 - /mgive <plr> crescentthrowwand
 maxHearts: 30
 powers:

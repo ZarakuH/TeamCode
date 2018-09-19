@@ -6,7 +6,7 @@ costumes:
   val: eyJ0aW1lc3RhbXAiOjE0NzQ1Nzc5MTAyMjIsInByb2ZpbGVJZCI6Ijg3ZmIzYzZjNWZmNjRiZjZiMzI2OTkyYzYxMzdlYTEyIiwicHJvZmlsZU5hbWUiOiJUZWt0cm9uaWMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczYzc1ZTlkYzM0YWUzZmVjNTg4NzY4NDdlODMwNWYxYzIyOGI3M2IwN2NhNGI0NWNkMDc5NTU3MGU5NWRhIn19fQ==
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 2 true
-- /give <plr> potion 1 effect:invisibility power:1 duration:5 name:&fJohn_Cena's_Invisibility_Potion
+- /minecraft:give <plr> potion 1 effect:invisibility power:1 duration:5 name:&fJohn_Cena's_Invisibility_Potion
 haste: 2
 items: [
   ]

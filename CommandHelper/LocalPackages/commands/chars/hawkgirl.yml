@@ -8,9 +8,9 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 15 true
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 items:
-- /give <plr> minecraft:iron_shovel 1 16:5 name:&cHa&4wk&egi&6rl's_&8Mace
-- /give <plr> minecraft:fireworks 64 name:&cHa&4wk&egi&6rl's_&7Propelled_Flight
-- /give <plr> minecraft:elytra 1 70:1 34:5 name:&cHa&4wk&egi&6rl's_&6Glide_Wings
+- /minecraft:give <plr> minecraft:iron_shovel 1 16:5 name:&cHa&4wk&egi&6rl's_&8Mace
+- /minecraft:give <plr> minecraft:fireworks 64 name:&cHa&4wk&egi&6rl's_&7Propelled_Flight
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:5 name:&cHa&4wk&egi&6rl's_&6Glide_Wings
 jump: 3
 maxHearts: 20
 permissions:

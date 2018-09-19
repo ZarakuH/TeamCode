@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 haste: 5
 items:
-- /give <plr> minecraft:diamond_sword 2 20:2 16:155 name:&1B&9l&7u&8e_&1R&9a&7n&8g&1e&9r's_&1Daggers
+- /minecraft:give <plr> minecraft:diamond_sword 2 20:2 16:155 name:&1B&9l&7u&8e_&1R&9a&7n&8g&1e&9r's_&1Daggers
 - /shot give <plr> hydrobow
 jump: 4
 maxHearts: 20

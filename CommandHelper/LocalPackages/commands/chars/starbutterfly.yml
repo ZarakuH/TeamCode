@@ -7,8 +7,8 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:stick 1 name:&6S&3t&5ar's_&5Wa&en&5d
-- /give <plr> minecraft:shears 1 name:&6S&3t&5ar's_&5Scissors
+- /minecraft:give <plr> minecraft:stick 1 name:&6S&3t&5ar's_&5Wa&en&5d
+- /minecraft:give <plr> minecraft:shears 1 name:&6S&3t&5ar's_&5Scissors
 - /shot give <plr> redenergybeam
 - /shot give <plr> whiteenergybeam
 - /shot give <plr> yellowenergybeam

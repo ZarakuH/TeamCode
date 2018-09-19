@@ -12,7 +12,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 2 true
 haste: 6
 items:
-- /give <plr> 420 1 16:10 name:&4W&fon&eder_&4G&fi&9r&fl's_&eLasso
+- /minecraft:give <plr> 420 1 16:10 name:&4W&fon&eder_&4G&fi&9r&fl's_&eLasso
 jump: 5
 maxHearts: 40
 permissions:

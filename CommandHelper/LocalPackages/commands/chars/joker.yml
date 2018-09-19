@@ -7,13 +7,13 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:stick 1 16:2 name:&6Baseball_Bat
-- /give <plr> minecraft:stick 1 16:2 name:&7Crow_Bar
+- /minecraft:give <plr> minecraft:stick 1 16:2 name:&6Baseball_Bat
+- /minecraft:give <plr> minecraft:stick 1 16:2 name:&7Crow_Bar
 - /mgive <plr> pistol
 - /shot give <plr> cakebomb
 - /mgive <plr> rocketlauncher
 - /mgive <plr> jokerfloweracidwand
-- /give <plr> minecraft:splash_potion 3 0 {display:{Name:"§5Joker §fVenom"}}
+- /minecraft:give <plr> minecraft:splash_potion 3 0 {display:{Name:"§5Joker §fVenom"}}
 permissions:
   superherocity:
   - powers.joybuzzer

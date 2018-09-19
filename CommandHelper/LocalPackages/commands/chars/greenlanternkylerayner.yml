@@ -7,7 +7,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 items:
 - /shot give <plr> greenenergybeam
-- /give <plr> 95:5 64
+- /minecraft:give <plr> 95:5 64
 - /mgive <plr> greenlanternrings
 class: greenlanternkylerayner
 maxHearts: 30

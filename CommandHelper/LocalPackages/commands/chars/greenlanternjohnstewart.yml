@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 items:
 - /shot give <plr> greenenergybeam
-- /give <plr> 95:5 64
+- /minecraft:give <plr> 95:5 64
 - /mgive <plr> greenlanternrings
 maxHearts: 30
 permissions:

@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:carpet 2 9 16:10 name:&9K&bi&1ta&9na&b's_&bBla&1ded_Fa&9ns
+- /minecraft:give <plr> minecraft:carpet 2 9 16:10 name:&9K&bi&1ta&9na&b's_&bBla&1ded_Fa&9ns
 permissions:
   superherocity:
   - ch.alias.dropplayer

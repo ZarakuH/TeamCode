@@ -8,8 +8,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 3 true
 haste: 1
 items:
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&cR&eo&cbi&2n's_&cGlide_Wings
-- /give <plr> minecraft:ender_pearl 5 name:&cR&eo&cbi&2n's_&8Grappling_Hook
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&cR&eo&cbi&2n's_&cGlide_Wings
+- /minecraft:give <plr> minecraft:ender_pearl 5 name:&cR&eo&cbi&2n's_&8Grappling_Hook
 jump: 3
 permissions:
   superherocity: [

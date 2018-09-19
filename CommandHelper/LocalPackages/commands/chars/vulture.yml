@@ -8,7 +8,7 @@ effects: [
   ]
 items:
 - /shot give <plr> pistol
-- /give <plr> minecraft:iron_hoe 1 16:40 name:&2Vu&altu&2re's_&7Ta&8l&7ons
+- /minecraft:give <plr> minecraft:iron_hoe 1 16:40 name:&2Vu&altu&2re's_&7Ta&8l&7ons
 maxHearts: 30
 permissions:
   superherocity:

@@ -11,7 +11,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 haste: 3
 items:
-- /give <plr> minecraft:web 64
+- /minecraft:give <plr> minecraft:web 64
 - /shot give <plr> webshot
 - /mgive <plr> webshooter
 jump: 7

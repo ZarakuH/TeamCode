@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 items:
-- /give <plr> minecraft:iron_bars 1 16:6 name:&4IT's_&cClaws
+- /minecraft:give <plr> minecraft:iron_bars 1 16:6 name:&4IT's_&cClaws
 - /mgive <plr> deadlightswand
 jump: 2
 permissions:

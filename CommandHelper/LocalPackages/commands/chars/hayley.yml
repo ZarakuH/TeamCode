@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 items:
-- /give <plr> minecraft:ghast_tear 1 16:10 name:&4F&ca&4n&cg
+- /minecraft:give <plr> minecraft:ghast_tear 1 16:10 name:&4F&ca&4n&cg
 jump: 5
 maxHearts: 20
 permissions:

@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:night_vision 9999 1 true
 - /minecraft:effect give <plr> minecraft:resistance 9999 2 true
 items:
-- /give <plr> minecraft:iron_hoe 1 16:10 name:&9At&3lant&9ean_&9Tr&3ide&9nt
+- /minecraft:give <plr> minecraft:iron_hoe 1 16:10 name:&9At&3lant&9ean_&9Tr&3ide&9nt
 maxHearts: 30
 powers:
 - /effects

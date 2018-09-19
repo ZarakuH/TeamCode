@@ -9,8 +9,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 - /minecraft:effect give <plr> minecraft:blindness 9999 1 true
 items:
-- /give <plr> minecraft:stick 1 name:&4D&care&4d&cevil's_&4Billy_Club
-- /give <plr> minecraft:stick 1 name:&4D&care&4d&cevil's_&4Billy_Club
+- /minecraft:give <plr> minecraft:stick 1 name:&4D&care&4d&cevil's_&4Billy_Club
+- /minecraft:give <plr> minecraft:stick 1 name:&4D&care&4d&cevil's_&4Billy_Club
 maxHearts: 50
 permissions:
   superherocity: [

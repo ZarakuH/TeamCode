@@ -8,8 +8,8 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:fishing_rod 1 34:10 name:&4A&er&0m_&4Str&0e&etch
-- /give <plr> minecraft:elytra 1 34:10 name:&4Glide
+- /minecraft:give <plr> minecraft:fishing_rod 1 34:10 name:&4A&er&0m_&4Str&0e&etch
+- /minecraft:give <plr> minecraft:elytra 1 34:10 name:&4Glide
 - /mgive <plr> longpunchwand
 jump: 5
 maxHearts: 20

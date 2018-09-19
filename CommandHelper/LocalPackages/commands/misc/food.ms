@@ -32,7 +32,7 @@ register_command('food',
             )
             for(@i = 0, @i < 5, @i++){
                 @index = rand(0,19)
-                runas('~console','/give '.@sender.' '.@food[@index].' 1')
+                runas('~console','/minecraft:give '.@sender.' '.@food[@index].' 1')
             } 
         }
     )

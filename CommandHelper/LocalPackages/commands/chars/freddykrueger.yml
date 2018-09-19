@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 2 true
 items:
-- /give <plr> minecraft:iron_bars 1 16:10 name:&6Kr&8ueg&6er's_&8Fing&6er_&8Bl&6a&8des
+- /minecraft:give <plr> minecraft:iron_bars 1 16:10 name:&6Kr&8ueg&6er's_&8Fing&6er_&8Bl&6a&8des
 maxHearts: 30
 permissions:
   superherocity:

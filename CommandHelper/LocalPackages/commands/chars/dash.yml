@@ -6,7 +6,7 @@ costumes:
   val: eyJ0aW1lc3RhbXAiOjE1MjkzNTQ4MDAyOTgsInByb2ZpbGVJZCI6ImViZWI2ZGE3YmM1NzQxMWNhMzVhZjQ4ZjYyODRjZmYwIiwicHJvZmlsZU5hbWUiOiJjb29sX2xpa2VfaWNlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YjdjMzNiYzg3NmQxOTAxMjBkMWNiOTNkNjM5YjdmMmQwY2IwMGZmMjE2NThiZDY3ZjA5NTIyZWE3OTlmY2Q5In19fQ==
 haste: 3
 items:
-- /give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
+- /minecraft:give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
 powers:
 - /effects
 - /items

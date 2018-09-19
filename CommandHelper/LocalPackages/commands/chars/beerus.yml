@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
 haste: 9
 items:
-- /give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
+- /minecraft:give <plr> minecraft:iron_boots 1 8:30 4:30 name:&9W&1a&9ter_Ru&1nn&9ing_&4B&eoo&4ts
 - /shot give <plr> kiblast
 - /shot give <plr> beerusball
 jump: 9

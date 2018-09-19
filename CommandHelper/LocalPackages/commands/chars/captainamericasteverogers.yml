@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 haste: 4
 items:
-- /give <plr> minecraft:shield 1 0 {display:{Name:"§4C§9apt§fain §4A§9mer§4ica§8(§4S§9R§8)'s
+- /minecraft:give <plr> minecraft:shield 1 0 {display:{Name:"§4C§9apt§fain §4A§9mer§4ica§8(§4S§9R§8)'s
   Shield"},BlockEntityTag:{Base:15,Patterns:[{Pattern:ss,Color:1},{Pattern:cbo,Color:4},{Pattern:mr,Color:4},{Pattern:flo,Color:4},{Pattern:mc,Color:15},{Pattern:bo,Color:4}]}}
 jump: 5
 maxHearts: 20

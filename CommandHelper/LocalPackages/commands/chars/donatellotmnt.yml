@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 2 true
 haste: 2
 items:
-- /give <plr> minecraft:stick 1 19:2 16:2 name:&2Don&5nie&2's_Battle_Staff
+- /minecraft:give <plr> minecraft:stick 1 19:2 16:2 name:&2Don&5nie&2's_Battle_Staff
 jump: 2
 maxHearts: 20
 powers:

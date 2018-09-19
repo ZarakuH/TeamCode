@@ -8,7 +8,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 haste: 1
 items:
-- /give <plr> spawn_egg:101 64
+- /minecraft:give <plr> spawn_egg:101 64
 jump: 2
 maxHearts: 20
 permissions:

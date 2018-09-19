@@ -10,9 +10,9 @@ effects:
 haste: 5
 items:
 - /shot give <plr> watershot
-- /give <plr> minecraft:fishing_rod 1 61:32767 62:5 name:&3Pos&beid&3on's_Fishing_Rod
-- /give <plr> minecraft:leather_helmet 1 5:50 6:1 8:3 name:&3Pos&beid&3on's_&9Water_&3Helmet
-- /give <plr> minecraft:diamond_hoe 1 16:10 name:&3Po&bseid&3on's&9_&3Tri&bdent
+- /minecraft:give <plr> minecraft:fishing_rod 1 61:32767 62:5 name:&3Pos&beid&3on's_Fishing_Rod
+- /minecraft:give <plr> minecraft:leather_helmet 1 5:50 6:1 8:3 name:&3Pos&beid&3on's_&9Water_&3Helmet
+- /minecraft:give <plr> minecraft:diamond_hoe 1 16:10 name:&3Po&bseid&3on's&9_&3Tri&bdent
 jump: 4
 maxHearts: 50
 permissions:

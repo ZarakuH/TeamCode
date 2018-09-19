@@ -9,8 +9,8 @@ effects:
 - /minecraft:effect give <plr> minecraft:regeneration 9999 3 true
 haste: 5
 items:
-- /give <plr> minecraft:web 64
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&cHy&4br&cid's_&4Glide_Wings
+- /minecraft:give <plr> minecraft:web 64
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&cHy&4br&cid's_&4Glide_Wings
 - /mgive <plr> symbiotepowers
 jump: 8
 maxHearts: 40

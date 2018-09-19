@@ -9,7 +9,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:resistance 9999 1 true
 items:
 - /shot give <plr> icespike
-- /give <plr> minecraft:elytra 1 70:1 34:3 name:&bWings
+- /minecraft:give <plr> minecraft:elytra 1 70:1 34:3 name:&bWings
 - /mgive <plr> freezeraywand
 jump: 1
 maxHearts: 30

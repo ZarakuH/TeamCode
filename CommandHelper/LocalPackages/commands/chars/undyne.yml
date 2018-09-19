@@ -8,11 +8,11 @@ effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 3 true
 - /minecraft:effect give <plr> minecraft:regeneration 9999 1 true
 items:
-- /give <plr> minecraft:diamond_shovel 1 0 16:10 name:&4U&9n&0d&fy&0n&fe's_Spear
-- /give <plr> minecraft:iron_helmet 1 0 name:&4U&9n&0d&fy&0n&fe's_Helmet
-- /give <plr> minecraft:iron_chestplate 1 0 name:&4U&9n&0d&fy&0n&fe's_Chestplate
-- /give <plr> minecraft:iron_leggings 1 0 name:&4U&9n&0d&fy&0n&fe's_Leggings
-- /give <plr> minecraft:iron_boots 1 0 name:&4U&9n&0d&fy&0n&fe's_Boots
+- /minecraft:give <plr> minecraft:diamond_shovel 1 0 16:10 name:&4U&9n&0d&fy&0n&fe's_Spear
+- /minecraft:give <plr> minecraft:iron_helmet 1 0 name:&4U&9n&0d&fy&0n&fe's_Helmet
+- /minecraft:give <plr> minecraft:iron_chestplate 1 0 name:&4U&9n&0d&fy&0n&fe's_Chestplate
+- /minecraft:give <plr> minecraft:iron_leggings 1 0 name:&4U&9n&0d&fy&0n&fe's_Leggings
+- /minecraft:give <plr> minecraft:iron_boots 1 0 name:&4U&9n&0d&fy&0n&fe's_Boots
 maxHearts: 20
 permissions:
   superherocity: [

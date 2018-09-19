@@ -8,7 +8,7 @@ effects: [
   ]
 items:
 - /mgive <plr> meteorshowerwand
-- /give <plr> minecraft:iron_boots 1 8:30 4:30 name:&fWater_Walking_Boots
+- /minecraft:give <plr> minecraft:iron_boots 1 8:30 4:30 name:&fWater_Walking_Boots
 permissions:
   superherocity:
   - ch.alias.watertowine

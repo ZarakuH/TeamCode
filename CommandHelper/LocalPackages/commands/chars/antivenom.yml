@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:fire_resistance 9999 1 true
 haste: 4
 items:
-- /give <plr> minecraft:web 64
+- /minecraft:give <plr> minecraft:web 64
 - /mgive <plr> symbiotepowers
 jump: 7
 maxHearts: 30

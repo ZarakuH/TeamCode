@@ -6,7 +6,7 @@ costumes:
   val: eyJ0aW1lc3RhbXAiOjE1MjMyMTg2MTA1MjUsInByb2ZpbGVJZCI6ImY2MjE1ODZlOGVmODQ0OGQ5MjY0ODZiNjEzNzUwNTJlIiwicHJvZmlsZU5hbWUiOiJNeXRoaWZpY2F0aW9uIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Mzc0ZjZkZWVhYmY0OGNlMzk3YTZiMjZmYWMyMWFhNzg3NjIzODk4NWQ5ZDZmZGI1MmQ4MGUyNzI2MmE1In19fQ==
 effects:
 items:
-- /give <plr> minecraft:fishing_rod 1 16:30 name:&8Ch&7ai&8n_&8Sc&7yth&8e
+- /minecraft:give <plr> minecraft:fishing_rod 1 16:30 name:&8Ch&7ai&8n_&8Sc&7yth&8e
 - /mgive <plr> fearburstwand
 - /mgive <plr> feartoxinwand
 permissions:

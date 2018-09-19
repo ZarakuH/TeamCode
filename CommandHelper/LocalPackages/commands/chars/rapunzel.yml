@@ -11,7 +11,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:night_vision 9999 1 true
 items:
-- /give <plr> minecraft:iron_shovel 1 16:2 name:&dR&5a&ep&dun&6z&5e&dl's_&8Pan
+- /minecraft:give <plr> minecraft:iron_shovel 1 16:2 name:&dR&5a&ep&dun&6z&5e&dl's_&8Pan
 jump: 6
 permissions:
   superherocity:

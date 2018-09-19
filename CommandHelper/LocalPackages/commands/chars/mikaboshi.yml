@@ -10,7 +10,7 @@ effects:
 - /minecraft:effect give <plr> minecraft:fire_resistance 9999 1 true
 - /minecraft:effect give <plr> minecraft:resistance 9999 3 true
 items:
-- /give <plr> minecraft:iron_bars 1 16:10 name:&0Finger_&8Spikes
+- /minecraft:give <plr> minecraft:iron_bars 1 16:10 name:&0Finger_&8Spikes
 permissions:
   superherocity:
   - ch.alias.tp

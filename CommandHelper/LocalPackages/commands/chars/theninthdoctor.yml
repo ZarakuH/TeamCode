@@ -7,7 +7,7 @@ costumes:
 effects: [
   ]
 items:
-- /give <plr> minecraft:redstone_torch 1 name:&1So&7nic_Screwdriv&0er
+- /minecraft:give <plr> minecraft:redstone_torch 1 name:&1So&7nic_Screwdriv&0er
 permissions:
   superherocity:
   - powers.sonicscrewdriver

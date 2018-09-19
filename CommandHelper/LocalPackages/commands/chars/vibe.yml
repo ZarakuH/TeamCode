@@ -10,7 +10,7 @@ effects: [
   ]
 haste: 2
 items:
-- /give <plr> minecraft:ender_pearl 5 name:&ePortal
+- /minecraft:give <plr> minecraft:ender_pearl 5 name:&ePortal
 - /shot give <plr> dimensionalbeam 
 jump: 2
 permissions:

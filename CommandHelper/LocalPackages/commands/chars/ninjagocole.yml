@@ -7,7 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 5 true
 items:
-- /give <plr> minecraft:golden_hoe 1 16:10 name:&6Earth_Scythe
+- /minecraft:give <plr> minecraft:golden_hoe 1 16:10 name:&6Earth_Scythe
 jump: 2
 permissions:
   superherocity:
