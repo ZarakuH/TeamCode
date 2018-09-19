@@ -18,9 +18,7 @@ Players:
   TheFartTrain:
     Channels:
       Global: write
-  Miner_Myles:
-    Channels:
-      Global: write
+  Miner_Myles: {}
   Mrdeer8879:
     Channels:
       Global: write
@@ -927,3 +925,4 @@ Players:
   happierpillow72: {}
   Dha2008: {}
   AwesomeDuty: {}
+  MichaelKieu: {}

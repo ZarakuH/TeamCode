@@ -1,0 +1,74 @@
+# Commands performed on particular event
+# Full color code support and some variables
+# If command starts with msg! and then player name is given, simple message will be sent to that player if he is online.
+# If command starts with broadcast! then message will be sent to everyone on server in simple manear
+# If command starts with actionbar! then all players will get action bar message defined after this variable
+# If command starts with title! then all players will get title message defined after this variable
+# If command starts with subtitle! then all players will get subtitle message defined after this variable
+# If command starts with kickall! then all players will be kicked from server with defined message. Usefull before server stop.
+# If command starts with per:[permissionNode]! then command will get performed if player has permission node. This will not work when we dont know who is target player. In example: perm:cmi.announce.vip! broadcast! Hello vip guys
+# [playerName] to insert target player name
+# [playerDisplayName] to insert player display name
+# [lvl] to insert player level
+# [exp] to insert player total exp
+# [hp] to insert player health
+# [maxHp] to insert player max health
+# [hunger] to insert player hunger level
+# [gameMode] to insert player gamemode
+# Keep in mind that joinServer commands will not be performd on firstJoinServer event
+firstJoinServer:
+  Use: false
+  List: []
+joinServer:
+  Use: false
+  List: []
+quitServer:
+  Use: false
+  List: []
+playerDeath:
+  Use: false
+  List: []
+playerKillPlayer:
+  # [sourceName] to insert source player name
+  # [sourceDisplayName] to insert player display name
+  # [sourceLvl] to insert player level
+  # [sourceExp] to insert player total exp
+  # [sourceHp] to insert player health
+  # [sourceMaxHp] to insert player max health
+  # [sourceHunger] to insert player hunger level
+  # [sourceGameMode] to insert player gamemode
+  Use: false
+  List: []
+playerRespawn:
+  Use: false
+  List: []
+playerTeleport:
+  Use: false
+  List: []
+bedLeave:
+  Use: false
+  List: []
+bedEnter:
+  Use: false
+  List: []
+playerWorldChange:
+  Use: false
+  List: []
+playerGameModeChange:
+  Use: false
+  List: []
+playerKick:
+  Use: false
+  List: []
+playerLevelChange:
+  Use: false
+  List: []
+voidFall:
+  Use: false
+  List: []
+elytraStartGlide:
+  Use: false
+  List: []
+elytraEndGlide:
+  Use: false
+  List: []

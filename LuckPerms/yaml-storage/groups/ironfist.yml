@@ -1,0 +1,15 @@
+name: ironfist
+permissions:
+- ch.alias.carryplayer
+- ch.alias.dropplayer
+- ch.alias.healing
+- powers.immunity.poison
+parents:
+- commonherotraits
+- superherocity
+prefixes:
+- '&eI&fro&en &fFi&es&ft':
+    priority: 6
+suffixes:
+- '&f':
+    priority: 6

@@ -9147,5 +9147,116 @@
     "type": "GROUP",
     "actedName": "builder",
     "action": "permission unset minecraft.command.summon world\u003dbuildworld"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "0e88e52e-2945-464e-b4ba-e1e162c6786d",
+    "actedName": "Miner_Myles",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "0e88e52e-2945-464e-b4ba-e1e162c6786d",
+    "actedName": "Miner_Myles",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "0e88e52e-2945-464e-b4ba-e1e162c6786d",
+    "actedName": "Miner_Myles",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "meta addsuffix 6 \u0026f"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "meta addprefix 6 \u0026eI\u0026fro\u0026en \u0026fFi\u0026es\u0026ft"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "0e88e52e-2945-464e-b4ba-e1e162c6786d",
+    "actedName": "Miner_Myles",
+    "action": "parent set ironfist"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "permission set powers.immunity.poison true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "permission set ch.alias.carryplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "permission set ch.alias.dropplayer true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ironfist",
+    "action": "permission set ch.alias.healing true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "9e706bf6-6fc2-4a2a-bdda-4ef531d05908",
+    "actedName": "MichaelKieu",
+    "action": "parent set mortal"
   }
 ]

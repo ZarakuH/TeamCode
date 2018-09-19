@@ -8,6 +8,7 @@ GriefPrevention:
     sakaar: -1
     speedforce: -1
     tutorial: -1
+    buildworld: -1
     greenfield: -1
   Claims:
     Mode:
@@ -18,6 +19,7 @@ GriefPrevention:
       sakaar: Survival
       mainmenu: Survival
       tutorial: Survival
+      buildworld: Survival
       greenfield: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -81,6 +83,7 @@ GriefPrevention:
       sakaar: true
       speedforce: true
       tutorial: true
+      buildworld: true
       greenfield: true
     ProtectFreshSpawns: true
     PunishLogout: true
