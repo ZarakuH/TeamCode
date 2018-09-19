@@ -11,7 +11,7 @@ warp:/warp $place $person = >>>
 
     @plr = player()
     @place = $place
-    @person = player(($person)
+    @person = player($person)
 
     sudo('/cmi warp '.@place.' '.@person)
 
