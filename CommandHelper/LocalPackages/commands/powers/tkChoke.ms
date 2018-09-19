@@ -28,8 +28,8 @@ register_command('tkchoke',
                     return()
                 }
                 sudo('/freeze '.@vic.' 6000')
-                sudo(/minecraft:effect @vic 20 5 6 true)
-                sudo(/minecraft:effect @vic 19 5 6 true)
+                runas('~console','/minecraft:effect give '.@vic.' minecraft:wither 5 6 true')
+                runas('~console','/minecraft:effect give '. @vic.' minecraft:poison 5 6 true')
                 broadcast(@sender . " is now telekinetically choking " . @vic)
             }else{
                 tmsg(@sender,color('RED').'You are not close enough to that player.')
