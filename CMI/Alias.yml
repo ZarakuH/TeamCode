@@ -801,7 +801,7 @@ Alias:
   /warnings: false
   #  
   # /cmi warp $1-
-  /warp: false
+  /warp: true
   #  
   # /cmi weather $1-
   /weather: true

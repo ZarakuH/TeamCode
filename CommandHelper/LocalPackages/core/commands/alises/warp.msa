@@ -1,4 +1,4 @@
-warp:/warp $place = >>>
+/*warp:/warp $place = >>>
 
     @plr = player()
     @place = $place
@@ -15,4 +15,4 @@ warp:/warp $place $person = >>>
 
     sudo('/cmi warp '.@place.' '.@person)
 
-<<<
+<<<*/
