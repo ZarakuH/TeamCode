@@ -57,7 +57,7 @@ register_command('goworld',
             include('/home/minecraft/server/plugins/CommandHelper/includes/worldList.ms')
             foreach(@world in @worldList){
                 if(@world[0] == @args[0]){
-                    sudo('/warp '.@args[0].' '.@sender)
+                    sudo('/cmi warp '.@args[0].' '.@sender)
                     @worldNiceName = @world[1]
                     broadcast(color('BLUE').@hero['costumes'][@costNum]['name'].color('GRAY').color('ITALIC').' has entered '.@worldNiceName.'!')
                     set_timeout(2000,closure(
