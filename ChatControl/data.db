@@ -52,6 +52,8 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -924,7 +926,9 @@ Players:
   Carrot_Parrot: {}
   Bubbatruk: {}
   Ikirmo: {}
-  Scarlet_Terror: {}
+  Scarlet_Terror:
+    Channels:
+      Global: write
   ShieldedMC: {}
   happierpillow72: {}
   Dha2008: {}
