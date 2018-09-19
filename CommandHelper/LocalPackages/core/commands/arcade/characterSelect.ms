@@ -281,9 +281,9 @@ register_command('selectchar',
                 queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
                 queue_push(closure(runas('~console','/lp group '.@hero['class'].' parent set commonherotraits')))
                 queue_push(closure(runas('~console','/lp group '.@hero['class'].' parent add superherocity')))
-                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addsuffix 100 '.@hero['costumes'][0]['chatcolor'])))
+                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addsuffix 6 '.@hero['costumes'][0]['chatcolor'])))
                 @niceName = replace(@hero['costumes'][0]['name'],'§','&')
-                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addprefix 100 "'.@niceName.'"')))
+                queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addprefix 6 "'.@niceName.'"')))
                 queue_push(closure(runas('~console','/lp user '.@player.' parent set '.@hero['class'])))
                 if(array_index_exists(@hero,'permissions') && is_array(@hero['permissions'])){
                     foreach(@worldName: @worldPerms in @hero['permissions']){

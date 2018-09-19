@@ -51,8 +51,8 @@ register_command('setcostume',
                     @val = @hero['costumes'][0]['val']
                     @niceName = replace(@hero['costumes'][0]['name'],'§','&')
                     runas('~console','/lp group '.@class.' meta clear')
-                    runas('~console','/lp group '.@class.' meta addprefix 100 "'.@niceName.'"')
-                    runas('~console','/lp group '.@class.' meta addsuffix 100 "'.@hero['costumes'][0]['chatcolor'].'"')
+                    runas('~console','/lp group '.@class.' meta addprefix 6 "'.@niceName.'"')
+                    runas('~console','/lp group '.@class.' meta addsuffix 6 "'.@hero['costumes'][0]['chatcolor'].'"')
 
                     
 
@@ -74,8 +74,8 @@ register_command('setcostume',
                     if(array_index_exists(@hero['costumes'][@skinNum],'chatcolor')){
                         @niceName = replace(@hero['costumes'][@skinNum]['name'],'§','&')
                         runas('~console','/lp group '.@class.' meta clear')
-                        runas('~console','/lp group '.@class.' meta addprefix 100 "'.@niceName.'"')
-                        runas('~console','/lp group '.@class.' meta addsuffix 100 "'.@hero['costumes'][@skinNum]['chatcolor'].'"')
+                        runas('~console','/lp group '.@class.' meta addprefix 6 "'.@niceName.'"')
+                        runas('~console','/lp group '.@class.' meta addsuffix 6 "'.@hero['costumes'][@skinNum]['chatcolor'].'"')
                         tmsg(@sender,color('RED').'Costume is now set to '.@hero['costumes'][@skinNum]['info'])
                         broadcast(@sender.' '.color('GRAY').'switched costumes into '.@hero['costumes'][@skinNum]['name'].@hero['costumes'][@skinNum]['info'])
                     }else{
