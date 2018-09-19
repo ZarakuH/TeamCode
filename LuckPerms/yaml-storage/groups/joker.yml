@@ -6,7 +6,7 @@ parents:
 - superherocity
 prefixes:
 - '&fJo&2k&5er':
-    priority: 100
+    priority: 6
 suffixes:
 - '&5':
-    priority: 100
+    priority: 6

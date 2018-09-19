@@ -47,13 +47,9 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz:
-    Channels:
-      Global: write
+  GaySparkelz: {}
   StrikerMax:
     Spying: true
-    Channels:
-      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -696,8 +692,6 @@ Players:
       Global: write
   MythReeses:
     Spying: true
-    Channels:
-      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -776,9 +770,7 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy:
-    Channels:
-      Global: write
+  Eiilonwy: {}
   kylo_gamer:
     Channels:
       Global: write
@@ -920,9 +912,7 @@ Players:
   SgtJaffas: {}
   BotLettuce: {}
   Brettconk: {}
-  xEntomophobiq_:
-    Channels:
-      Global: write
+  xEntomophobiq_: {}
   AlbusPrime: {}
   Darkknight0208: {}
   otto505: {}
