@@ -1838,7 +1838,7 @@ whip:
   cast_count: 0
   last_cast: 0
 waterscooter:
-  cast_count: 728
+  cast_count: 731
   last_cast: 0
 symbioteaxe:
   cast_count: 5
@@ -2060,7 +2060,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 574
+  cast_count: 608
   last_cast: 0
 progressmenu:
   cast_count: 224
