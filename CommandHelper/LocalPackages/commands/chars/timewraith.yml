@@ -45,7 +45,7 @@ powers:
 - /items
 - /run 0-9
 - /haste 0-2
-- /warp speedforce
+- /cmi warp speedforce
 - /back (In the speedforce)
 - /tp <player> (In the speedforce)
 - /speedforceteleport <player>

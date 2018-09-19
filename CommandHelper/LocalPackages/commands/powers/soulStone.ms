@@ -6,7 +6,7 @@ register_command('soulstonetrap',
         'executor': closure(@alias, @sender, @args) {
 
             @vic = @args[0]
-            runas('~console', "/warp soulstone " . @vic)
+            runas('~console', "/cmi warp soulstone " . @vic)
             tmsg(@vic, color('RED').'Your soul is currently trapped in the Soul Stone!')
             broadcast(@vic.color('RED').' is trapped inside the'.color('GOLD').' Soul Gem'.color('RED').'!')
 

@@ -70,7 +70,7 @@ register_command('arrest',
                 @jailNum = rand(1,3)
                 queue_push(closure(runas("~console", "/pex user ".@vic." group set criminal")))
                 queue_push(closure(runas("~console", "/tptoggle ".@vic." off")))
-                queue_push(closure(runas("~console", "/warp jail".@jailNum." ".@vic)						))
+                queue_push(closure(runas("~console", "/cmi warp jail".@jailNum." ".@vic)						))
             ))
             set_timeout(1500,closure(
                 queue_push(closure(set_pmode(@vic,'ADVENTURE')))
@@ -276,7 +276,7 @@ register_command('arrest',
                     set_timeout(3000,closure(
                         runas("~console", "/pex user ".@plr." group set criminal")
                         runas("~console", "/tptoggle ".@plr." off")
-                        runas("~console", "/warp quarantine ".@plr)						
+                        runas("~console", "/cmi warp quarantine ".@plr)						
                     ))			
                     set_timeout(5000,closure(
                         set_pmode(@plr,'SURVIVAL')					
@@ -319,7 +319,7 @@ register_command('release',
                 try {
                     @plr = player(@args[0])
                     runas("~console", "/pex user ".@plr." group set mortal")
-                    runas("~console", "/warp city ".@plr)
+                    runas("~console", "/cmi warp city ".@plr)
                     runas("~console", "/tptoggle ".@plr." on")	
                 } catch (PlayerOfflineException @ErrorInfo) {				
                     msg('Player is Offline')

@@ -32,7 +32,7 @@ powers:
 - /effects
 - /items
 - /jump 0-3
-- /warp speedforce
+- /cmi warp speedforce
 - /back (In the speedforce)
 - /tp <player> (In the speedforce)
 - /speedforceteleport <player>

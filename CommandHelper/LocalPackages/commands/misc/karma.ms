@@ -20,7 +20,7 @@ register_command('balkarma',
                 write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                 tmsg(@sender,color('RED').'Done!') 
                 tmsg(@sender,color('RED').'You have 100 Karma!')
-                tmsg(@sender,color('RED').'Visit /warp Karma to read up on what it is, how to use it, and why you want it!')
+                tmsg(@sender,color('RED').'Visit /cmi warp Karma to read up on what it is, how to use it, and why you want it!')
             }else{
                 @data = read('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml')
                 @data = yml_decode(@data)

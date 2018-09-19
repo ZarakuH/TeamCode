@@ -33,14 +33,14 @@ register_command('netherrealm',
                 }   
                 
                 @plrList = @plr.', '.@plrList
-                sudo('/warp netherrealm '.@plr)
+                sudo('/cmi warp netherrealm '.@plr)
                 @counter++
                 if(@counter >= @pHero['groupWarpLimit']){
                     break()
                 }
             }
             broadcast(@player.' has teleported the group of '.@plrList.' to '.@pHero['groupWarpLocation'])
-            sudo('/warp '.@pHero['groupWarpLocation'])
+            sudo('/cmi warp '.@pHero['groupWarpLocation'])
                 
         }
     )

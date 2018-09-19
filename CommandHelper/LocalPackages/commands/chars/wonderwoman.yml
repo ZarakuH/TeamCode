@@ -58,7 +58,7 @@ powers:
 - /haste 0-9
 - /flyspeed <number>
 - /fly
-- /warp speedforce
+- /cmi warp speedforce
 - /back (In the speedforce)
 - /tppos <x> <y> <z>
 - /tp <player> (In the speedforce)

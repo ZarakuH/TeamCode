@@ -113,7 +113,7 @@ register_command('entergame',
 
                     set_peffect(@sender,14,1,9999,true,false)
                     runas('~console','/minecraft:clear '.@sender)
-                    runas('~console','/warp begingame '.@sender)
+                    runas('~console','/cmi warp begingame '.@sender)
                     broadcast(@sender.color('RED').' is now playing Infinity:One')
                     sudo('/characterselect')
                     set_block(-15, 95, -6, 0, @ploc['world'])

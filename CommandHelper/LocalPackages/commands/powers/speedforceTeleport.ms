@@ -24,7 +24,7 @@ register_command('speedforceteleport',
                 die("Sorry, you have to be in the same world as your victim!")
             }
             if(@plr == @vic){
-                die("Sorry, you cannot use this on yourself! Use /warp speedforce instead")
+                die("Sorry, you cannot use this on yourself! Use /cmi warp speedforce instead")
             }
 
             @x1 = @ploc['x']
@@ -48,8 +48,8 @@ register_command('speedforceteleport',
                 die()
             }
 
-            runas('~console', "/warp speedforce " . @vic)
-            runas('~console', "/warp speedforce " . @plr)
+            runas('~console', "/cmi warp speedforce " . @vic)
+            runas('~console', "/cmi warp speedforce " . @plr)
             tmsg(@vic, @plr . " has brought you into the speedforce!")
             tmsg(@plr, "You brought " . @vic . "  you into the speedforce!")
 

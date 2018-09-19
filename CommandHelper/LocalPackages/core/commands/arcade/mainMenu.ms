@@ -61,7 +61,7 @@ register_command('mainmenu',
                         write_file('/home/minecraft/server/plugins/CommandHelper/LocalPackages/commands/karma/'.@uuid.'.yml',yml_encode(@data,true),'OVERWRITE')
                         include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
                         _mortal(@plr)
-                        queue_push(closure(runas('~console','/warp mainmenu '.@plr)))
+                        queue_push(closure(runas('~console','/cmi warp mainmenu '.@plr)))
                         set_timeout(3100,closure(
                             queue_push(closure(set_peffect(@plr,14,1,9999,true,false)))
                         ))
@@ -96,7 +96,7 @@ register_command('leavemenu',
 
             include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
             _mortal(@plr)
-            queue_push(closure(runas('~console','/warp vrexit '.@plr)))
+            queue_push(closure(runas('~console','/cmi warp vrexit '.@plr)))
         }
     )
 )

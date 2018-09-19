@@ -6,7 +6,7 @@ register_command('phantomzonetrap',
         'executor': closure(@alias, @sender, @args) {
 
             @vic = @args[0]
-            runas('~console', "/warp thephantomzone " . @vic)
+            runas('~console', "/cmi warp thephantomzone " . @vic)
             broadcast(@vic.color('RED').' has been sent to the'.color('GOLD').' The Phantom Zone'.color('RED').'!')
 
 

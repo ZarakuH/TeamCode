@@ -35,7 +35,7 @@ powers:
 - /items
 - /carryplayer <player>
 - /dropplayer
-- /warp speedforce
+- /cmi warp speedforce
 - /back (in the speedforce)
 - /speedforceteleport <player>
 - /speedforcebuffs

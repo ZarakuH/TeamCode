@@ -203,8 +203,8 @@ register_command('waifuchallenge',
                 export(@waifuName.'inActiveChallenge',true)
                 export(@husbandoName.'inActiveChallenge',true)
 
-                runas('~console','/warp husbando1 '.@husbandoName)
-                runas('~console','/warp husbando2 '.@waifuName)
+                runas('~console','/cmi warp husbando1 '.@husbandoName)
+                runas('~console','/cmi warp husbando2 '.@waifuName)
 
                 bind('player_death',array('id': @husbandoName.'waifuChallengeDeath'),associative_array('player':@husbandoName),@e,@winner = @waifuName, @loser = @husbandoName, @waifu = @waifuName){
                     include('/home/minecraft/server/plugins/CommandHelper/includes/waifuWinner.ms')
@@ -333,8 +333,8 @@ register_command('waifuchallenge',
             }
             export(@plrName.'inActiveChallenge',true)
             export(@husbandoName.'inActiveChallenge',true)
-            runas('~console','/warp husbando1 '.@husbandoName)
-            runas('~console','/warp husbando2 '.@plrName)
+            runas('~console','/cmi warp husbando1 '.@husbandoName)
+            runas('~console','/cmi warp husbando2 '.@plrName)
             bind('player_death',array('id': @husbandoName.'waifuChallengeDeath'),associative_array('player':@husbandoName),@e,@winner = @plrName, @loser = @husbandoName, @waifu = @waifuName){
                 include('/home/minecraft/server/plugins/CommandHelper/includes/waifuWinner.ms')
                 unbind()

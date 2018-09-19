@@ -49,7 +49,7 @@ register_command('firejudge',
             
             runas('~console',"/pex user ".@vic." remove is.judge")
             runas('~console',"/pex user ".@vic." group remove judge")
-            runas('~console',"/warp city ".@vic)
+            runas('~console',"/cmi warp city ".@vic)
             tmsg(@player,color('RED')."You have fired ". @vic ." from judge!")
             tmsg(@vic,color('RED')."You have been fired from judge!")
         }

@@ -47,7 +47,7 @@ register_command('fireop',
                 
                 runas('~console',"/lp user ".@player." parent set mortal")
                 runas('~console',"/lp deletegroup ".@puuid)
-                runas('~console',"/warp city ".@player)
+                runas('~console',"/cmi warp city ".@player)
                 tmsg(player(),color('RED')."You have fired ". @player ." from OP!")
                 tmsg(@player,color('RED')."You have been fired from OP!")
                 

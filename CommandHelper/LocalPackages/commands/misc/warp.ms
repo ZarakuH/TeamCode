@@ -56,7 +56,7 @@ register_command('taxi',
 
             if(acc_balance(@sender) >= 20) {
                acc_subtract(@sender, 20)
-               sudo('/warp '.@dest)
+               sudo('/cmi warp '.@dest)
                tmsg(@sender,color('RED').'Taxi fee: $20.')
             } else {
                 tmsg(@sender,color('RED').'You do not have enough money.')

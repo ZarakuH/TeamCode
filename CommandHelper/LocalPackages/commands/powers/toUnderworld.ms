@@ -11,7 +11,7 @@ register_command('underworld',
                 return(false) 
             }
             
-            sudo('/warp underworld') 
+            sudo('/cmi warp underworld') 
         }
     )
 )

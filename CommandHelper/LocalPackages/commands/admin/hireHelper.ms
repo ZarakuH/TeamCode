@@ -49,7 +49,7 @@ register_command('firehelper',
             
             runas('~console',"/pex user ".@vic." remove is.helper")
             runas('~console',"/pex user ".@vic." group remove helper")
-            runas('~console',"/warp city ".@vic)
+            runas('~console',"/cmi warp city ".@vic)
             tmsg(@player,color('RED')."You have fired ". @vic ." from helper!")
             tmsg(@vic,color('RED')."You have been fired from helper!")
         }
