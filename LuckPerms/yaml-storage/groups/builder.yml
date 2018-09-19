@@ -32,12 +32,12 @@ permissions:
     world: buildworld
 - essentials.warps.fightclub
 - essentials.warps.workshop
-- weight.5
+- weight.6
 parents:
 - commonherotraits
 prefixes:
 - '&6Co&ens&7tru&6ct&ei&7on &fW&7o&fr&7k&fe&7r&a/':
-    priority: 5
+    priority: 10
 suffixes:
 - '&e':
-    priority: 5
+    priority: 10

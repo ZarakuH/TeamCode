@@ -134,6 +134,7 @@ permissions:
 - editablesign.edit
 - enable.tag
 - essentials.powertool
+- essentials.warp
 - griefprevention.claims.give
 - griefprevention.spam
 - griefprevention.transferclaim
@@ -180,7 +181,7 @@ parents:
 - default
 prefixes:
 - '&f&lMortal':
-    priority: 100
+    priority: 1
 meta:
 - default:
     value: 'true'

@@ -1,0 +1,15 @@
+name: bigchill
+permissions:
+- ch.alias.intangible
+- ch.alias.tangible
+- essentials.fly
+- powers.chill
+- powers.herotransform
+parents:
+- commonherotraits
+prefixes:
+- '&bB&0i&bg &0C&bh&0i&bl&0l':
+    priority: 100
+suffixes:
+- '&b':
+    priority: 100

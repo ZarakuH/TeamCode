@@ -8064,5 +8064,684 @@
     "acted": "474d6efc-3d20-4bb5-b5f8-56f41f9d099a",
     "actedName": "Dha2008",
     "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addsuffix 100 \u00262"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addprefix 100 \u00262B\u0026fe\u00268n \u0026210"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set ben10"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addprefix 100 \u00262B\u0026fe\u00268n \u0026210"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addsuffix 100 \u00262"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addprefix 100 \u00262B\u0026fe\u00268n \u0026210"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addsuffix 100 \u00262"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set xlr8"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "meta addprefix 100 \u0026bX\u0026fL\u00268R\u002628"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "meta addprefix 100 \u0026bX\u0026fL\u00268R\u002628"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "xlr8",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set ben10"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addsuffix 100 \u00262"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addprefix 100 \u00262B\u0026fe\u00268n \u0026210"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addprefix 100 \u00262B\u0026fe\u00268n \u0026210"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "ben10",
+    "action": "meta addsuffix 100 \u00262"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set goop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addsuffix 100 \u0026a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addprefix 100 \u00262Go\u0026aop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set -blivtrails.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set -trails.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set essentials.fly true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addprefix 100 \u00262Go\u0026aop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addsuffix 100 \u0026a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addprefix 100 \u00262Go\u0026aop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addsuffix 100 \u0026a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set bigchill"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addprefix 100 \u0026bB\u00260i\u0026bg \u00260C\u0026bh\u00260i\u0026bl\u00260l"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "permission set essentials.fly true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "permission set ch.alias.intangible true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "permission set ch.alias.tangible true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "permission set powers.chill true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addprefix 100 \u0026bB\u00260i\u0026bg \u00260C\u0026bh\u00260i\u0026bl\u00260l"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addprefix 100 \u0026bB\u00260i\u0026bg \u00260C\u0026bh\u00260i\u0026bl\u00260l"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "bigchill",
+    "action": "meta addsuffix 100 \u0026b"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "delete"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "create"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "18c70f2f-c175-4f54-9800-ff7390003d7b",
+    "actedName": "_Rossi_",
+    "action": "parent set goop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addsuffix 100 \u0026a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addprefix 100 \u00262Go\u0026aop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set -blivtrails.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set -trails.* true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set essentials.fly true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "permission set powers.herotransform true"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta clear"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addprefix 100 \u00262Go\u0026aop"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "GROUP",
+    "actedName": "goop",
+    "action": "meta addsuffix 100 \u0026a"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "e175b9ba-d856-4e75-8ec0-aff9dd285e89",
+    "actedName": "AwesomeDuty",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission set essentials.build.* true world\u003dgreenfield"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission set is.builder true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission set essentials.warps.buildworld true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set builder"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbartallen"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent add commonherotraits"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent add superherocity"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent set flashbartallen"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent set commonherotraits"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "flashbartallen",
+    "action": "parent set superherocity"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission unset is.builder"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission unset essentials.warps.buildworld"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission set is.builder true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "permission set essentials.warps.buildworld true"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "USER",
+    "acted": "49a16910-4afb-4e12-ab1f-7136c8edf357",
+    "actedName": "Scarlet_Terror",
+    "action": "parent add builder"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set essentials.warp true"
   }
 ]

@@ -1,5 +1,12 @@
 uuid: 49a16910-4afb-4e12-ab1f-7136c8edf357
 name: Scarlet_Terror
 primary-group: flashbartallen
+permissions:
+- essentials.build.*:
+    value: true
+    world: greenfield
+- essentials.warps.buildworld
+- is.builder
 parents:
+- builder
 - flashbartallen
