@@ -25,7 +25,7 @@ register_command('hirebuilder',
 
             sudo("/lp user ".@vic." permission set is.builder")
             sudo("/lp user ".@vic." permission set essentials.warps.buildworld")
-            sudo("/lp user ".@vic." parent set builder")
+            sudo("/lp user ".@vic." parent add builder")
             tmsg(@player,color('RED')."You have hired ".@vic." as a builder!")
             tmsg(@vic,color('RED')."You have been hired as a builder!")	
         }
