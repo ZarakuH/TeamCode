@@ -107,12 +107,6 @@ players:
       name: MageOfSixPaths
     party: Chaos
     rank: 20
-  391762eb-24f6-4d95-84d6-bfac682d575a:
-    options:
-      spy: true
-    name:
-      name: StrikerMax
-      timestamp: 1535927814
   f475c2cf-ebbe-4314-8c6a-7211b32e55ae:
     rank: 20
     party: CHAOS
@@ -419,6 +413,12 @@ players:
     name:
       name: xEntomophobiq_
       timestamp: 1537234642
+  391762eb-24f6-4d95-84d6-bfac682d575a:
+    name:
+      name: StrikerMax
+      timestamp: 1537396327
+    options:
+      spy: true
 parties:
   TheTitans:
     members:
