@@ -50,6 +50,8 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -692,6 +694,8 @@ Players:
       Global: write
   MythReeses:
     Spying: true
+    Channels:
+      Global: write
   Strelitiza:
     Channels:
       Global: write
@@ -770,7 +774,9 @@ Players:
     Channels:
       Global: write
   kelemor: {}
-  Eiilonwy: {}
+  Eiilonwy:
+    Channels:
+      Global: write
   kylo_gamer:
     Channels:
       Global: write
@@ -900,7 +906,9 @@ Players:
   ocvarner12: {}
   DoNotPass: {}
   goose6969: {}
-  Jiren_The_Grey: {}
+  Jiren_The_Grey:
+    Channels:
+      Global: write
   Coodabear88: {}
   Mindtaro: {}
   xXninjadragonXx: {}
@@ -926,3 +934,4 @@ Players:
   Dha2008: {}
   AwesomeDuty: {}
   MichaelKieu: {}
+  TheUltimateNinja: {}
