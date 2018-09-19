@@ -3,7 +3,7 @@ v2-logout:
     group: default
     world: survival
   391762eb-24f6-4d95-84d6-bfac682d575a:
-    world: greenfield
+    world: buildworld
   a4516f27-84bf-466e-ac9b-2186798caa87:
     group: default
     world: survival
@@ -23,8 +23,7 @@ v2-logout:
     world: survival
     group: default
   f621586e-8ef8-448d-9264-86b61375052e:
-    world: survival
-    group: default
+    world: buildworld
   47744b96-ddbe-4f24-8edb-fe3d52d87d0e:
     group: default
     world: survival
@@ -44,8 +43,7 @@ v2-logout:
     group: default
     world: survival
   18c70f2f-c175-4f54-9800-ff7390003d7b:
-    world: survival
-    group: default
+    world: greenfield
   87fb3c6c-5ff6-4bf6-b326-992c6137ea12:
     world: greenfield
   52b6e861-9b1b-4e74-9fe9-85e81a7e6472:
@@ -142,7 +140,8 @@ v2-logout:
   f69afc25-0348-4ef9-bd8f-cd8bcb3f7fa4:
     world: greenfield
   49a16910-4afb-4e12-ab1f-7136c8edf357:
-    world: greenfield
+    world: survival
+    group: default
   f0ed0390-9281-47ea-9323-0585ab576ca3:
     group: default
     world: survival
@@ -152,3 +151,6 @@ v2-logout:
     world: greenfield
   e175b9ba-d856-4e75-8ec0-aff9dd285e89:
     world: greenfield
+  16ef6ae1-6e1f-4f47-a5a1-de5a3bcc75ee:
+    group: default
+    world: survival

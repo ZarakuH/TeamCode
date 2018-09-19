@@ -3,6 +3,9 @@ permissions:
 - essentials.build.*:
     value: true
     world: buildworld
+- ch.alias.create:
+    value: true
+    world: buildworld
 - command.exitgame:
     value: true
     world: buildworld
