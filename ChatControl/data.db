@@ -49,9 +49,7 @@ Players:
   StealthFox007:
     Channels:
       Global: write
-  GaySparkelz:
-    Channels:
-      Global: write
+  GaySparkelz: {}
   StrikerMax:
     Spying: true
   FIRESTROME:
@@ -928,3 +926,4 @@ Players:
   Ikirmo: {}
   Scarlet_Terror: {}
   ShieldedMC: {}
+  happierpillow72: {}
