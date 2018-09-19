@@ -68,6 +68,7 @@ register_command('herotransform',
                 queue_push(closure(runas('~console','/lp creategroup '.@idToBe)))
                 queue_push(closure(runas('~console','/lp user '.@player.' parent set '.@idToBe)))
                 queue_push(closure(runas('~console','/lp group '.@idToBe.' parent set commonherotraits')))
+                queue_push(closure(runas('~console','/lp group '.@idToBe.' parent add superherocity')))
                 queue_push(closure(runas('~console','/lp group '.@idToBe.' meta addsuffix 100 '.@newHero['costumes'][0]['chatcolor'])))
                 @niceName = replace(@newHero['costumes'][0]['name'],'§','&')
                 queue_push(closure(runas('~console','/lp group '.@idToBe.' meta addprefix 100 "'.@niceName.'"')))
