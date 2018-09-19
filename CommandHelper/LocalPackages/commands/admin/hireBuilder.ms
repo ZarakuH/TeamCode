@@ -23,8 +23,9 @@ register_command('hirebuilder',
                 die()
             }
 
-            sudo("/pex user ".@vic." add is.builder")
-            sudo("/pex user ".@vic." group add builder")
+            sudo("/lp user ".@vic." permission set is.builder")
+            sudo("/lp user ".@vic." permission set essentials.warps.buildworld")
+            sudo("/lp user ".@vic." parent set builder")
             tmsg(@player,color('RED')."You have hired ".@vic." as a builder!")
             tmsg(@vic,color('RED')."You have been hired as a builder!")	
         }
@@ -46,8 +47,9 @@ register_command('firebuilder',
 
             @player = player()
             @vic = player(@args[0])
-            sudo("/pex user ".@vic." remove is.builder")
-            sudo("/pex user ".@vic." group remove builder")
+            sudo("/lp user ".@vic." permission unset is.builder")
+            sudo("/lp user ".@vic." permission unset essentials.warps.buildworld")
+            sudo("/pex lp ".@vic." parent remove builder")
             tmsg(@player,color('RED')."You have fired ".@vic." from builder!")
             tmsg(@vic,color('RED')."You have been fired from builder!")	
         }
