@@ -9,7 +9,7 @@ permissions:
   - powers.herotransform
 powers:
 - /herotransform
-speech: My name is Barry Allen and I am the fastest man alive!
+speech: My name is Barry Allen and i am the fastest man alive!
 trail: [
   ]
 transformations:
