@@ -7,6 +7,7 @@ costumes:
 effects:
 - /minecraft:effect give <plr> minecraft:strength 9999 2 true
 - /minecraft:effect give <plr> minecraft:water_breathing 9999 1 true
+- /minecraft:effect give <plr> minecraft:dolphins_grace 9999 1 true
 haste: 1
 items:
 - /shot give <plr> watershot
