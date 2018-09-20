@@ -8,8 +8,8 @@ GriefPrevention:
     sakaar: -1
     speedforce: -1
     tutorial: -1
-    buildworld: -1
     greenfield: -1
+    buildworld: -1
   Claims:
     Mode:
       survival_the_end: Survival
@@ -83,8 +83,8 @@ GriefPrevention:
       sakaar: true
       speedforce: true
       tutorial: true
-      buildworld: true
       greenfield: true
+      buildworld: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

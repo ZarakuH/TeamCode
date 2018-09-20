@@ -542,29 +542,59 @@ warlock_wand:
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aWarlock wand
+      lore:
+      - It has lost its power
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      Damage: 2
 wizard_wand:
   worth: 2000
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aWizard wand
+      lore:
+      - It has lost its power
+      Unbreakable: true
+      Damage: 4
 madscientist_wand:
   worth: 2000
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aThe Wolf
+      lore:
+      - It has lost its power
+      Unbreakable: true
+      Damage: 7
 madscientist_helmet:
   worth: 4000
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        THORNS: 3
+      Unbreakable: true
+      Damage: 17
 archer_bow:
   worth: 3000
   item:
@@ -1627,8 +1657,19 @@ totem:
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Totem
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+      Damage: 40
 wood:0:
   worth: 0.1
 wood:1:
@@ -1974,8 +2015,18 @@ lightsaber_hilt:
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 1628
-    type: AIR
-    amount: 0
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aLightsaber Hilt
+      lore:
+      - Used to construct a Lightsaber
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      Damage: 14
 wwshield:
   creator_id: f621586e-8ef8-448d-9264-86b61375052e
   creator: MythReeses
