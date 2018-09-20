@@ -593,7 +593,7 @@ Alias:
   /setspawn: true
   #  
   # /cmi setwarp $1-
-  /setwarp: false
+  /setwarp: true
   #  
   # /cmi setworth $1-
   /setworth: false
