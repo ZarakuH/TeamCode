@@ -13,7 +13,7 @@ permissions:
   superherocity:
   - essentials.speed.fly
   - essentials.speed
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

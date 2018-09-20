@@ -62,7 +62,7 @@ permissions:
   - essentials.back
   - -essentials.protect.damage.fall
   - essentials.tppos
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.mindcontrol
   #- ch.alias.stopmindcontrol
 powers:

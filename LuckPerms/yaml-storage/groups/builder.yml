@@ -12,7 +12,7 @@ permissions:
 - command.mainmenu:
     value: true
     world: buildworld
-- essentials.fly:
+- cmi.command.fly.*:
     value: true
     world: buildworld
 - essentials.home:

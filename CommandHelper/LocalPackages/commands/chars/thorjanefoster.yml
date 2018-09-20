@@ -19,7 +19,7 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   - essentials.lightning
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

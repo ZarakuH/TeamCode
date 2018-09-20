@@ -16,7 +16,7 @@ register_command('flywithrider',
             @entityRider = get_entity_rider(@senderUUID)
 
             if(@entityRider != null){
-                sudo('/fly on')
+                sudo('/cmi fly true')
                 bind('entity_dismount',null,null,@e,@entityRider,@sender){
                     if(@e['id'] == @entityRider){
                         set_pflight(@sender,false)

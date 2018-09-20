@@ -20,7 +20,7 @@ items:
 maxHearts: 20
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.sunhealing
   - -trails.*
   - -blivtrails.*

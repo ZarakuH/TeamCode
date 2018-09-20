@@ -17,7 +17,7 @@ permissions:
   - kill.immune
   - ch.alias.grow
   - ch.alias.normalform
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.tp
   - ch.alias.mindlock
   - powers.destroyworld

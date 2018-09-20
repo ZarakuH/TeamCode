@@ -21,7 +21,7 @@ permissions:
   - ch.alias.tangible
   - ch.alias.tp
   - powers.mindcontrol
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.destroyworld
   - powers.depower
   - ch.alias.create

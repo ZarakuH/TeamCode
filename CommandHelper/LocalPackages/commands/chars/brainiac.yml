@@ -15,7 +15,7 @@ maxHearts: 30
 permissions:
   superherocity:
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.mindcontrol
   #- ch.alias.stopmindcontrol
   - ch.alias.carryplayer

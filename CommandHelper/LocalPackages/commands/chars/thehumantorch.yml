@@ -16,7 +16,7 @@ maxHearts: 30
 permissions:
   superherocity:
   - ch.alias.flame
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.fireballpunch
 powers:
 - /effects

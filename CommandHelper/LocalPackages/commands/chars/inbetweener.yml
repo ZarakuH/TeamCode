@@ -11,7 +11,7 @@ items:
 - /mgive <plr> cosmicboltwand
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.grow
   - ch.alias.normalform
 powers:

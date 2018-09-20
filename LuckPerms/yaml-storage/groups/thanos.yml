@@ -3,7 +3,7 @@ permissions:
 - ch.alias.carryplayer
 - ch.alias.dropplayer
 - ch.alias.modifyspeed
-- essentials.fly
+- cmi.command.fly.*
 - essentials.speed
 - essentials.speed.fly
 - powers.wallrun

@@ -83,7 +83,7 @@
    - ch.alias.underworld
    - -essentials.protect.damage.fall
    - ch.alias.tp
-   - essentials.fly
+   - cmi.command.fly.*
    - essentials.speed.fly
    - essentials.speed
    - powers.tounderworld

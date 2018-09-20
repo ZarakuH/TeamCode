@@ -12,7 +12,7 @@ permissions:
 - ch.alias.tangible
 - ch.alias.unconfuse
 - ch.alias.vis
-- essentials.fly
+- cmi.command.fly.*
 - essentials.speed
 - essentials.speed.fly
 - libsdisguises.disguise

@@ -13,7 +13,7 @@ permissions:
   superherocity:
   - -blivtrails.*
   - -trails.*
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.herotransform
 powers:
 - /effects

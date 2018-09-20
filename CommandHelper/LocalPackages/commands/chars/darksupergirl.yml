@@ -22,7 +22,7 @@ permissions:
   - weakto.kryptonite
   - powers.wallrun
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.carryplayer

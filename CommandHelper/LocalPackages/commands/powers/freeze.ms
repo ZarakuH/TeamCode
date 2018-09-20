@@ -26,7 +26,7 @@ register_command('freeze',
                 set_pflyspeed(@vic,0)
                 set_pwalkspeed(@vic,0)
                 runas('~console','/minecraft:effect give '.@vic.' minecraft:levitation 9999 255 true')
-                runas('~console','/lp user '.@vic.' permission settemp -essentials.fly true '.(@time / 1000))
+                runas('~console','/lp user '.@vic.' permission settemp -cmi.command.fly.* true '.(@time / 1000))
             ))
 
 

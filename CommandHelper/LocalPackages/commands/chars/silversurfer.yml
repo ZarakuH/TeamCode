@@ -66,7 +66,7 @@ permissions:
   - essentials.tppos
   - powers.mindcontrol
   #- ch.alias.stopmindcontrol
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.confuse

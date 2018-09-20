@@ -41,7 +41,7 @@ permissions:
   - essentials.warps.speedforce
   - ch.alias.mindlock
   - ch.alias.msg
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - powers.lightningpunch

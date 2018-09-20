@@ -6,7 +6,7 @@ permissions:
 - ch.alias.speedforceteleport
 - ch.alias.tp
 - essentials.back
-- essentials.fly
+- cmi.command.fly.*
 - essentials.speed
 - essentials.speed.fly
 - essentials.tppos

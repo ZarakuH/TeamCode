@@ -7,7 +7,7 @@ permissions:
 - ch.alias.explode
 - ch.alias.tp
 - ch.alias.tphere
-- essentials.fly
+- cmi.command.fly.*
 - essentials.skull
 - headdb.open
 parents:

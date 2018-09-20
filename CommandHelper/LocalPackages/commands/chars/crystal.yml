@@ -18,7 +18,7 @@ permissions:
   - powers.crystallightning
   - ch.alias.earth
   - essentials.speed.fly
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

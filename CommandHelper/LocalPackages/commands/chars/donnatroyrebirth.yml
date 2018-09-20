@@ -17,7 +17,7 @@ permissions:
   superherocity:
   - ch.alias.dropplayer
   - ch.alias.carryplayer
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

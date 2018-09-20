@@ -17,7 +17,7 @@ permissions:
   - ch.alias.vis
   - ch.alias.empower
   - ch.alias.healing
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

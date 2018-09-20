@@ -92,8 +92,8 @@ register_command('herotransform',
                 set_timeout(1000,closure(
                     queue_push(closure(run_cmd('/fixskin')))
                 ))
-                if(has_permission(@player,'essentials.fly')){
-                    queue_push(closure(run_cmd('/fly on')))
+                if(has_permission(@player,'cmi.command.fly.*')){
+                    queue_push(closure(run_cmd('/cmi fly true')))
                 }
                 queue_push(closure(runas('~console',"/minecraft:effect clear ".@player)))
                 if(has_permission(@player,'ch.alias.buff')){

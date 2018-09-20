@@ -13,7 +13,7 @@ permissions:
   superherocity:
   - powers.mindcontrol
   #- ch.alias.stopmindcontrol
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.intangible
   - ch.alias.tangible
   - powers.herotransform

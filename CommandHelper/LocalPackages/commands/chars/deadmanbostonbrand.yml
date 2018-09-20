@@ -6,7 +6,7 @@ costumes:
   val: eyJ0aW1lc3RhbXAiOjE1MTk5NTk3MTU4NTEsInByb2ZpbGVJZCI6IjhjYTdmYzU2NjE0YjQ4MmE5MWRmYmY4NTgwYmEyNzNkIiwicHJvZmlsZU5hbWUiOiJUaGVMaWdodFNoYWRvd18iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiYmRlMTQ2ZjNjM2IyMTRhMDU4ZjE1MmIxYWM4NjQzNWVmYjgyOWEyY2Q3ZDc5ZTExZWM0ZGRlNTJkMWY0NCJ9fX0=
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.speak
   - ch.alias.intangible
   - ch.alias.tangible

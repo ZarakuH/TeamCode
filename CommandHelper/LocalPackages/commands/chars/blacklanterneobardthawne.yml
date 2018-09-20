@@ -24,7 +24,7 @@ permissions:
   - essentials.back
   superherocity:
   - -essentials.protect.entitytarget.bypass
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - powers.wallrun

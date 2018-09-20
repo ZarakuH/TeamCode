@@ -30,7 +30,7 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.unconfuse
   - powers.mindcontrol
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.speak

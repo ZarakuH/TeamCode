@@ -3,8 +3,8 @@ bind('world_changed', null, null, @event,
     @player = player()
 
     set_timeout(1000,closure(
-        if(has_permission(@player,'essentials.fly')){
-            runas(@player,'/fly on')
+        if(has_permission(@player,'cmi.command.fly.*')){
+            runas(@player,'/cmi fly true')
         }
         include('/home/minecraft/server/plugins/CommandHelper/includes/getHeroClass.ms')
         @class = _getheroclass(@player)

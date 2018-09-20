@@ -1,6 +1,6 @@
 name: supermanprimeonemillion
 permissions:
-- essentials.fly
+- cmi.command.fly.*
 - weakto.kryptonite
 parents:
 - commonherotraits

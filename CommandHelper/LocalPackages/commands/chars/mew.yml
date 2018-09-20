@@ -26,7 +26,7 @@ permissions:
   - ch.alias.unconfuse
   - ch.alias.tp
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

@@ -23,7 +23,7 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.unconfuse
   - powers.mindcontrol
-  - essentials.fly
+  - cmi.command.fly.*
   - libsdisguises.disguise
   - libsdisguises.undisguise
   - libsdisguises.disguise.player
