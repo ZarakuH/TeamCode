@@ -50,6 +50,8 @@ Players:
   GaySparkelz: {}
   StrikerMax:
     Spying: true
+    Channels:
+      Global: write
   FIRESTROME:
     Channels:
       Global: write
@@ -713,7 +715,9 @@ Players:
   CanineClawsYT:
     Channels:
       Global: write
-  Megadethh: {}
+  Megadethh:
+    Channels:
+      Global: write
   RaymanPotatoes:
     Channels:
       Global: write
