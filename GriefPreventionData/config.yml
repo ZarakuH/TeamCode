@@ -6,11 +6,7 @@ GriefPrevention:
     survival_the_end: -1
     mainmenu: -1
     speedforce: -1
-<<<<<<< HEAD
     tutorial: -1
-=======
-    buildworld: -1
->>>>>>> d27e5c520a3b8dba2d0150c3693e0206c2bdd972
     greenfield: -1
     buildworld: -1
   Claims:
@@ -82,11 +78,7 @@ GriefPrevention:
       survival_the_end: true
       mainmenu: true
       speedforce: true
-<<<<<<< HEAD
       tutorial: true
-=======
-      buildworld: true
->>>>>>> d27e5c520a3b8dba2d0150c3693e0206c2bdd972
       greenfield: true
       buildworld: true
     ProtectFreshSpawns: true
