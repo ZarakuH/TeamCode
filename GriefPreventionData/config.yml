@@ -5,6 +5,7 @@ GriefPrevention:
     survival_nether: -1
     survival_the_end: -1
     mainmenu: -1
+    sakaar: -1
     speedforce: -1
     tutorial: -1
     greenfield: -1
@@ -15,7 +16,9 @@ GriefPrevention:
       survival: Survival
       survival_nether: Survival
       speedforce: Disabled
+      sakaar: Survival
       mainmenu: Disabled
+      tutorial: Survival
       buildworld: Disabled
       greenfield: Disabled
     PreventGlobalMonsterEggs: true
@@ -77,6 +80,7 @@ GriefPrevention:
       survival_nether: true
       survival_the_end: true
       mainmenu: true
+      sakaar: true
       speedforce: true
       tutorial: true
       greenfield: true
