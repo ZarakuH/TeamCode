@@ -3,6 +3,18 @@ permissions:
 - essentials.build.*:
     value: true
     world: survival
+- cmi.command.removehome:
+    value: true
+    world: survival
+- cmi.command.sethome:
+    value: true
+    world: survival
+- cmi.command.sethome.unlimited:
+    value: true
+    world: survival
+- cmi.command.tpa:
+    value: true
+    world: survival
 - ch.alias.listheroes:
     value: true
     world: mainmenu
