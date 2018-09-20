@@ -709,16 +709,16 @@ Alias:
   /tp: false
   #  
   # /cmi tpa $1-
-  /tpa: false
+  /tpa: true
   #  
   # /cmi tpaall $1-
   /tpaall: false
   #  
   # /cmi tpaccept $1-
-  /tpaccept: false
+  /tpaccept: true
   #  
   # /cmi tpahere $1-
-  /tpahere: false
+  /tpahere: true
   #  
   # /cmi tpall $1-
   /tpall: false
@@ -730,10 +730,10 @@ Alias:
   /tpbypass: true
   #  
   # /cmi tpdeny $1-
-  /tpdeny: false
+  /tpdeny: true
   #  
   # /cmi tphere $1-
-  /tphere: false
+  /tphere: true
   #  
   # /cmi tppos $1-
   /tppos: true
