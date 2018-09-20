@@ -112,8 +112,6 @@ bind('player_join',null,null,@event){
         @group = pgroup(@plr)
         if(array_size(@group) == 1 && @group[0] == 'default'){
             runas('~console','/lp user '.@plr.' parent set mortal')
-        }else{
-            msg(@group)
         }
     ))
 

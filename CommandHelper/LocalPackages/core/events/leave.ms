@@ -1,7 +1,7 @@
 bind('player_quit',null,null,@event){
     @player = @event['player']
     //set_pscore('ReverseTag',@player,0)
-    runas('~console','/scoreboard players reset '.@player.' ReverseTag')
+    //runas('~console','/scoreboard players reset '.@player.' ReverseTag')
     @eventID = import(@player."isVibrating")
     clear_task(@eventID)
 
