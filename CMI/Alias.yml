@@ -259,10 +259,10 @@ Alias:
   /hologram: false
   #  
   # /cmi home $1-
-  /home: false
+  /home: true
   #  
   # /cmi homes $1-
-  /homes: false
+  /homes: true
   #  
   # /cmi hunger $1-
   /hunger: false
@@ -505,8 +505,8 @@ Alias:
   /reload: false
   #  
   # /cmi removehome $1-
-  /removehome: false
-  /delhome: false
+  /removehome: true
+  /delhome: true
   #  
   # /cmi removeuser $1-
   /removeuser: false
@@ -584,7 +584,7 @@ Alias:
   /setfirstspawn: false
   #  
   # /cmi sethome $1-
-  /sethome: false
+  /sethome: true
   #  
   # /cmi setmotd $1-
   /setmotd: false
