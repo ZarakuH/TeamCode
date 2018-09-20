@@ -5,9 +5,7 @@ GriefPrevention:
     survival_nether: -1
     survival_the_end: -1
     mainmenu: -1
-    sakaar: -1
     speedforce: -1
-    tutorial: -1
     buildworld: -1
     greenfield: -1
   Claims:
@@ -15,12 +13,10 @@ GriefPrevention:
       survival_the_end: Survival
       survival: Survival
       survival_nether: Survival
-      speedforce: Survival
-      sakaar: Survival
-      mainmenu: Survival
-      tutorial: Survival
-      buildworld: Survival
-      greenfield: Survival
+      speedforce: Disabled
+      mainmenu: Disabled
+      buildworld: Disabled
+      greenfield: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -80,9 +76,7 @@ GriefPrevention:
       survival_nether: true
       survival_the_end: true
       mainmenu: true
-      sakaar: true
       speedforce: true
-      tutorial: true
       buildworld: true
       greenfield: true
     ProtectFreshSpawns: true
