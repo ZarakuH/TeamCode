@@ -2,6 +2,10 @@ firehall:
   Location: greenfield;342.48;70.0;1080.54;-54.4;-0.57
   Page: 1
   Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+buildworld:
+  Location: buildworld;0.44;104.0;0.49;-0.1;0.57
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
 survival:
   Location: survival;649.5;63.0;994.5;-270.21;0.83
   Page: 1
@@ -24,6 +28,10 @@ cruiseship:
   Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
 plaza:
   Location: greenfield;511.51;69.0;-681.54;-195.84;2.04
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+mainmenu:
+  Location: mainmenu;0.5;100.0;0.5;-179.89;5.67
   Page: 1
   Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
 residential:

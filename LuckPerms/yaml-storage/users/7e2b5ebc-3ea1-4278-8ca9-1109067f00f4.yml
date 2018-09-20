@@ -1,0 +1,5 @@
+uuid: 7e2b5ebc-3ea1-4278-8ca9-1109067f00f4
+name: Nexominer
+primary-group: mortal
+parents:
+- mortal
