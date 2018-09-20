@@ -50,7 +50,7 @@ Economy:
     # Currency symbol to be used when showing balance or similar
     CurrencySymbol: \$
     # Placing of currency symbol
-    Placing: '[money][symbol]'
+    Placing: '[symbol][money]'
 FileSave:
   # Change this to true only if you have issues with drives I/O and you need to save players files in async mode to lower waiting time for mc server
   Async: false
