@@ -2,7 +2,7 @@ name: bigchill
 permissions:
 - ch.alias.intangible
 - ch.alias.tangible
-- essentials.fly
+- cmi.command.fly.*
 - powers.chill
 - powers.herotransform
 parents:

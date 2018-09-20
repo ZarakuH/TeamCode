@@ -22,7 +22,7 @@ permissions:
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   - powers.wallrun
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - powers.destroyworld

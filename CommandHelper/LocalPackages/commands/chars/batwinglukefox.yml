@@ -10,7 +10,7 @@ items: [
   ]
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /run 0-1
 - /fly

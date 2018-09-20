@@ -20,7 +20,7 @@ permissions:
   - headdb.free.*
   - powers.forget
   - weakto.kryptonite
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.carryplayer
   - ch.alias.dropplayer
 powers:

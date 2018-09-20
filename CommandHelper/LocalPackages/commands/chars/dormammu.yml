@@ -19,7 +19,7 @@ permissions:
   - ch.alias.intangible
   - ch.alias.tangible
   - essentials.tppos
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

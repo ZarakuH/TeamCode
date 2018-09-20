@@ -15,7 +15,7 @@ permissions:
   - ch.alias.explode
   - ch.alias.tp
   - ch.alias.tphere
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.create
   - headdb.open
   - headdb.category.*

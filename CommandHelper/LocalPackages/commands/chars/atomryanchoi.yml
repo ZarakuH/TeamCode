@@ -13,7 +13,7 @@ permissions:
   superherocity:
   - ch.alias.shrink
   - ch.alias.normalsize
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /shrink
 - /normalsize

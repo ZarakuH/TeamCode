@@ -19,7 +19,7 @@ permissions:
   superherocity:
   - ch.alias.carryplayer
   - ch.alias.dropplayer
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

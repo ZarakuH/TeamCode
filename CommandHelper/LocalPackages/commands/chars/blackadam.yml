@@ -18,7 +18,7 @@ permissions:
   - powers.wallrun
   - -essentials.protect.damage.fall
   - ch.alias.carryplayer
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.dropplayer

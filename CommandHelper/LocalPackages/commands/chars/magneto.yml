@@ -15,7 +15,7 @@ permissions:
   - ch.alias.ma
   - essentials.speed.fly
   - essentials.speed
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /ma (this is his iron attack!)
 - /jump 0-1

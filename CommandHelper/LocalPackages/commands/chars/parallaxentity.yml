@@ -61,7 +61,7 @@ permissions:
   - ch.alias.speak
   - ch.alias.confuse
   - ch.alias.unconfuse
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

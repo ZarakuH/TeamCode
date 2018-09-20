@@ -17,7 +17,7 @@ permissions:
   - ch.alias.dropplayer
   - ch.alias.carryplayer
   - ch.alias.earth
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.herotransform
 powers:
 - /effects

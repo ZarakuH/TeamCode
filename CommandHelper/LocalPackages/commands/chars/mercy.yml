@@ -12,7 +12,7 @@ items:
 - /shot give <plr> mercybuffingwand
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

@@ -22,7 +22,7 @@ permissions:
   - ch.alias.dropplayer
   - ch.alias.carryplayer
   - ch.alias.modifyspeed
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

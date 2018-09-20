@@ -21,7 +21,7 @@ permissions:
   superherocity:
   - powers.wallrun
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed
   - ch.alias.carryplayer
   - ch.alias.dropplayer

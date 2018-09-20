@@ -15,7 +15,7 @@ maxHearts: 40
 permissions:
   superherocity:
   - powers.wallrun
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.carryplayer

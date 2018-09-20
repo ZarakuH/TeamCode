@@ -24,7 +24,7 @@ register_command('tangible',
             @yml = yml_decode(@yml)
             @worldGM = @yml['worlds'][@ploc['world']]['gameMode']
             set_pmode(@plr,@worldGM)
-            if(!has_permission(@plr,'essentials.fly')){
+            if(!has_permission(@plr,'cmi.command.fly.*')){
                 set_pflight(@plr,false)
             }
         }

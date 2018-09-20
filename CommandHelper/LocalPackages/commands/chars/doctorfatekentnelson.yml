@@ -17,7 +17,7 @@ permissions:
   - headdb.open
   - headdb.category.*
   - headdb.free.*
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

@@ -12,7 +12,7 @@ maxHearts: 20
 permissions:
   superherocity:
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

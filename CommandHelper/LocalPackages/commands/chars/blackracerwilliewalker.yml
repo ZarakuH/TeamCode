@@ -24,7 +24,7 @@ permissions:
   - ch.alias.speedforceteleport
   - essentials.tppos
   - essentials.warps.speedforce
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - powers.onepunch

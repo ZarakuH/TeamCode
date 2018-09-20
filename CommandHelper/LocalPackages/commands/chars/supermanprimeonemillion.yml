@@ -12,7 +12,7 @@ items: [
 permissions:
   superherocity:
   - weakto.kryptonite
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

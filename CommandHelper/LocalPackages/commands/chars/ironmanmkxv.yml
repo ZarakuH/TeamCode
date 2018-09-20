@@ -20,7 +20,7 @@ permissions:
   superherocity:
   - ch.alias.vis
   - ch.alias.invis
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.hulkbuster
   - ch.alias.carryplayer
   - ch.alias.dropplayer

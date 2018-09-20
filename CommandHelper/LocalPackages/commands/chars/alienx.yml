@@ -13,7 +13,7 @@ items:
 maxHearts: 40
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.destroyworld
   - powers.herotransform
 powers:

@@ -17,7 +17,7 @@ maxHearts: 30
 permissions:
   superherocity:
   - powers.herotransform
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.tppos
 powers:
 - /effects

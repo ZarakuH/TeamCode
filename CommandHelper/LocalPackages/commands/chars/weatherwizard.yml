@@ -14,7 +14,7 @@ permissions:
   superherocity:
   - ch.alias.wind
   - essentials.weather
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.lightningpunch
 powers:
 - /effects

@@ -8,19 +8,19 @@ GriefPrevention:
     sakaar: -1
     speedforce: -1
     tutorial: -1
-    buildworld: -1
     greenfield: -1
+    buildworld: -1
   Claims:
     Mode:
       survival_the_end: Survival
       survival: Survival
       survival_nether: Survival
-      speedforce: Survival
+      speedforce: Disabled
       sakaar: Survival
-      mainmenu: Survival
+      mainmenu: Disabled
       tutorial: Survival
-      buildworld: Survival
-      greenfield: Survival
+      buildworld: Disabled
+      greenfield: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -83,8 +83,8 @@ GriefPrevention:
       sakaar: true
       speedforce: true
       tutorial: true
-      buildworld: true
       greenfield: true
+      buildworld: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
@@ -94,8 +94,12 @@ GriefPrevention:
       PlayerOwnedClaims: true
       AdministrativeClaims: true
       AdministrativeSubdivisions: true
-    AllowLavaDumpingNearOtherPlayers: true
-    AllowFlintAndSteelNearOtherPlayers: true
+    AllowLavaDumpingNearOtherPlayers:
+      PvPWorlds: true
+      NonPvPWorlds: false
+    AllowFlintAndSteelNearOtherPlayers:
+      PvPWorlds: true
+      NonPvPWorlds: false
     ProtectPetsOutsideLandClaims: false
   Economy:
     ClaimBlocksPurchaseCost: 0.0

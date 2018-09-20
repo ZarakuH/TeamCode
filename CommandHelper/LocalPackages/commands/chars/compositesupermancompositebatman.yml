@@ -19,7 +19,7 @@ items:
 maxHearts: 40
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.invis
   - ch.alias.vis
   - ch.alias.grow

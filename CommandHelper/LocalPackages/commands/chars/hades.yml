@@ -14,7 +14,7 @@ maxHearts: 50
 permissions:
   superherocity:
   - powers.fireballPunch
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   survival112_nether:

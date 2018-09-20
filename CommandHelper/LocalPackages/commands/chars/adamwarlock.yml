@@ -17,7 +17,7 @@ items:
 permissions:
   superherocity:
   - ch.alias.magicpush
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.intangible
   - ch.alias.tangible
 powers:

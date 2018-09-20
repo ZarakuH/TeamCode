@@ -13,7 +13,7 @@ items: [
 permissions:
   superherocity:
   - powers.onepunch
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.grow
   - ch.alias.normalsize
   - ch.alias.invis

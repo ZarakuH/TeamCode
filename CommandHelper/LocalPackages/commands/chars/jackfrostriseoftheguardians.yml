@@ -14,7 +14,7 @@ items:
 - /mgive <plr> jackfrostwand
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.freezewater
 powers:
 - /effects

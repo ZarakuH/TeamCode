@@ -17,7 +17,7 @@ permissions:
   - ch.alias.dropplayer
   - ch.alias.invis
   - ch.alias.vis
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

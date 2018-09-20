@@ -454,7 +454,7 @@ groups:
         - essentials.build.*
       flyminigame:
         permissions:
-        - essentials.fly
+        - cmi.command.fly.*
       fightminigame:
         permissions:
         - essentials.build.drop.*
@@ -521,7 +521,7 @@ groups:
       plots:
         permissions:
         - plots.remove
-        - essentials.fly
+        - cmi.command.fly.*
         - plots.home
         - plots.visit.owned
         - plots.visit
@@ -686,7 +686,7 @@ groups:
         - essentials.warps.court
       checkers:
         permissions:
-        - essentials.fly
+        - cmi.command.fly.*
       omniacademy:
         permissions:
         - command.goworld
@@ -745,7 +745,7 @@ groups:
         - -in.survival
       infiniteparkour:
         permissions:
-        - -essentials.fly
+        - -cmi.command.fly.*
         - -in.survival
   buildgod:
     options:
@@ -862,7 +862,7 @@ groups:
         - essentials.protect.exemptusage
         - essentials.top
         - essentials.build.*
-        - essentials.fly
+        - cmi.command.fly.*
     permissions:
     - essentials.warps.fightclub
     - essentials.warps.workshop

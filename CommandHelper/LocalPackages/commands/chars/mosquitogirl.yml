@@ -14,7 +14,7 @@ permissions:
   superherocity:
   - ch.alias.swarm
   - ch.alias.bloodregen
-  - essentials.fly
+  - cmi.command.fly.*
   - -essentials.protect.damage.fall
 powers:
 - /effects

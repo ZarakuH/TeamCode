@@ -214,7 +214,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "superman",
-    "action": "permission set essentials.fly true world\u003dsuperherocity"
+    "action": "permission set cmi.command.fly.* true world\u003dsuperherocity"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -363,7 +363,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "superman",
-    "action": "permission set essentials.fly true world\u003dsuperherocity"
+    "action": "permission set cmi.command.fly.* true world\u003dsuperherocity"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -512,7 +512,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "superman",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -766,7 +766,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "superman",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -997,7 +997,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "doctormanhattan",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -2742,7 +2742,7 @@
     "actorName": "StrikerMax",
     "type": "GROUP",
     "actedName": "mortal",
-    "action": "webeditor remove essentials.fly true"
+    "action": "webeditor remove cmi.command.fly.* true"
   },
   {
     "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
@@ -3422,7 +3422,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "blackracerbarryallen",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -3799,7 +3799,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "supergirl",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -4408,7 +4408,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "missmartian",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -4658,7 +4658,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "blacklanternmartianmanhunter",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -4822,7 +4822,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "supermanprimeonemillion",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -5301,7 +5301,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "thanos",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -5674,7 +5674,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "doctormanhattan",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -8355,7 +8355,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "goop",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -8447,7 +8447,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "bigchill",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -8581,7 +8581,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "goop",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -8956,7 +8956,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "doctorfatekentnelson",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -9048,7 +9048,7 @@
     "actorName": "Console",
     "type": "GROUP",
     "actedName": "bigchill",
-    "action": "permission set essentials.fly true"
+    "action": "permission set cmi.command.fly.* true"
   },
   {
     "actor": "00000000-0000-0000-0000-000000000000",
@@ -9443,5 +9443,33 @@
     "type": "GROUP",
     "actedName": "joker",
     "action": "meta addsuffix 6 \u00265"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set cmi.command.tpa true world\u003dsurvival"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set cmi.command.sethome true world\u003dsurvival"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set cmi.command.sethome.unlimited true world\u003dsurvival"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set cmi.command.removehome true world\u003dsurvival"
   }
 ]

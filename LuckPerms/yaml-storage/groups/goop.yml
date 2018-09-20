@@ -2,7 +2,7 @@ name: goop
 permissions:
 - -blivtrails.*
 - -trails.*
-- essentials.fly
+- cmi.command.fly.*
 - powers.herotransform
 parents:
 - commonherotraits

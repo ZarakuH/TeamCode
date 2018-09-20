@@ -14,7 +14,7 @@ jump: 5
 maxHearts: 20
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.carryplayer
   - ch.alias.dropplayer
   - powers.immunity.fire

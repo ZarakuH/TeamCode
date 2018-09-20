@@ -332,7 +332,7 @@ shell:
   cast_count: 0
   last_cast: 0
 webshot:
-  cast_count: 3184
+  cast_count: 3193
   last_cast: 0
 realitystoneblast:
   cast_count: 57
@@ -623,7 +623,7 @@ conduitshop:
   cast_count: 0
   last_cast: 0
 webfling2:
-  cast_count: 2855
+  cast_count: 2885
   last_cast: 0
 dragonball:
   cast_count: 0
@@ -1325,7 +1325,7 @@ waterjet:
   cast_count: 0
   last_cast: 0
 lanternbubble:
-  cast_count: 96
+  cast_count: 97
   last_cast: 0
 flipendo:
   cast_count: 0
@@ -1370,7 +1370,7 @@ liftmetal:
   cast_count: 8
   last_cast: 0
 lanternlift:
-  cast_count: 94
+  cast_count: 95
   last_cast: 0
 life:
   cast_count: 0
@@ -1517,7 +1517,7 @@ detonator:
   cast_count: 0
   last_cast: 0
 webfling:
-  cast_count: 2895
+  cast_count: 2925
   last_cast: 0
 powerstoneblast:
   cast_count: 52
@@ -1538,7 +1538,7 @@ gills:
   cast_count: 0
   last_cast: 0
 lanternshield:
-  cast_count: 208
+  cast_count: 209
   last_cast: 0
 incarcerous:
   cast_count: 229
@@ -2060,7 +2060,7 @@ deprimomaxima:
   cast_count: 0
   last_cast: 0
 watershot:
-  cast_count: 608
+  cast_count: 619
   last_cast: 0
 progressmenu:
   cast_count: 224
@@ -2087,7 +2087,7 @@ supercylinder:
   cast_count: 0
   last_cast: 0
 lanternsingularity:
-  cast_count: 100
+  cast_count: 101
   last_cast: 0
 confundusmaxima:
   cast_count: 0

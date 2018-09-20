@@ -24,7 +24,7 @@ permissions:
   - essentials.back
   superherocity:
   - worldedit.navigation.thru.command
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - powers.wallrun

@@ -15,7 +15,7 @@ jump: 2
 maxHearts: 20
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
   - ch.alias.invis

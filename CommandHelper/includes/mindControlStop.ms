@@ -206,10 +206,10 @@ proc('_mindControlStop', @player,
     runas('~console','/sudo '.@player.' c:/fixskin')
     runas('~console','/minecraft:effect clear '.@player)
     runas(@player,'/effects')
-    if(has_permission(@player,'essentials.fly')){
-        sudo('/fly on')
+    if(has_permission(@player,'cmi.command.fly.*')){
+        sudo('/cmi fly true')
     }else{
-        sudo('/fly off')
+        sudo('/cmi fly false')
     }
     
 

@@ -20,7 +20,7 @@ permissions:
   - powers.herotransform
   - ch.alias.dropplayer
   - ch.alias.carryplayer
-  - essentials.fly
+  - cmi.command.fly.*
   - essentials.speed.fly
   - essentials.speed
 powers:

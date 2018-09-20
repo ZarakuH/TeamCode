@@ -23,7 +23,7 @@ permissions:
   - essentials.speed.fly
   - essentials.speed
   - -essentials.protect.damage.fall
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

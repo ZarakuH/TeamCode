@@ -24,7 +24,7 @@ permissions:
   - -essentials.protect.damage.fall
   - essentials.speed.fly
   - essentials.speed
-  - essentials.fly
+  - cmi.command.fly.*
   - ch.alias.carryplayer
   - ch.alias.dropplayer
 powers:

@@ -13,7 +13,7 @@ maxHearts: 20
 peech: We are Jefferson Jackson and Martin Stein, together we're FIRESTORM.
 permissions:
   superherocity:
-  - essentials.fly
+  - cmi.command.fly.*
   - powers.fireballpunch
 powers:
 - /effects

@@ -34,7 +34,7 @@ permissions:
   - libsdisguises.disguise.spider.-setinvisible
   - libsdisguises.disguise.squid.-setinvisible
   - libsdisguises.disguise.wolf.-setinvisible
-  - essentials.fly
+  - cmi.command.fly.*
   - -essentials.protect.damage.fall
   - ch.alias.carryplayer
   - ch.alias.dropplayer

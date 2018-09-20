@@ -63,7 +63,7 @@ permissions:
   - essentials.back
   - -essentials.protect.damage.fall
   - essentials.tppos
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items

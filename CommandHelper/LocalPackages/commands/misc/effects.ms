@@ -26,8 +26,8 @@ register_command('effects',
                 }
             }
 
-            if(has_permission(@plr,'essentials.fly')){
-                run_cmd('/fly on')
+            if(has_permission(@plr,'cmi.command.fly.*')){
+                run_cmd('/cmi fly true')
             }
         }
     )

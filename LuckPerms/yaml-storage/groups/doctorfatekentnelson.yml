@@ -3,7 +3,7 @@ permissions:
 - headdb.category.*
 - headdb.free.*
 - ch.alias.create
-- essentials.fly
+- cmi.command.fly.*
 - headdb.open
 - weakto.magicarrow
 parents:

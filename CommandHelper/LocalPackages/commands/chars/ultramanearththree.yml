@@ -23,7 +23,7 @@ permissions:
   - -essentials.protect.damage.fall
   - ch.alias.carryplayer
   - ch.alias.dropplayer
-  - essentials.fly
+  - cmi.command.fly.*
 powers:
 - /effects
 - /items
