@@ -48,7 +48,7 @@ Economy:
     # Maximal amount of money player can have. Set to -1 to disable this limit
     MaximumAmount: 1.0E8
     # Currency symbol to be used when showing balance or similar
-    CurrencySymbol: '$$'
+    CurrencySymbol: $$
     # Placing of currency symbol
     Placing: '[money][symbol]'
 FileSave:

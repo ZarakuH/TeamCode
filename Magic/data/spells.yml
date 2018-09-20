@@ -1325,7 +1325,7 @@ waterjet:
   cast_count: 0
   last_cast: 0
 lanternbubble:
-  cast_count: 97
+  cast_count: 98
   last_cast: 0
 flipendo:
   cast_count: 0
@@ -1538,7 +1538,7 @@ gills:
   cast_count: 0
   last_cast: 0
 lanternshield:
-  cast_count: 209
+  cast_count: 210
   last_cast: 0
 incarcerous:
   cast_count: 229
@@ -2087,7 +2087,7 @@ supercylinder:
   cast_count: 0
   last_cast: 0
 lanternsingularity:
-  cast_count: 101
+  cast_count: 102
   last_cast: 0
 confundusmaxima:
   cast_count: 0
