@@ -38,6 +38,8 @@ bind('player_death', null, null, @event){
                 @message = replace(@message,@player,@player.color('DARK_RED').color('ITALIC'))
             }
         }
+        include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
+        _mortal(@player)
     }catch(Exception @e){
         @message = replace(@message,@player,@player.color('DARK_RED').color('ITALIC'))
     }
