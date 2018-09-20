@@ -21,6 +21,9 @@ permissions:
 - command.characterselect:
     value: true
     world: mainmenu
+- command.selectchar:
+    value: true
+    world: mainmenu
 - Signshop.DenyUse.*
 - bending.*
 - chatcontrol.bypass.rules.*
@@ -130,7 +133,6 @@ permissions:
 - command.requestchar
 - command.rest
 - command.roll
-- command.selectchar
 - command.selectcharacter
 - command.setname
 - command.skininfo

@@ -62,9 +62,9 @@ register_command('mainmenu',
                         include('/home/minecraft/server/plugins/CommandHelper/includes/mortal.ms')
                         _mortal(@plr)
                         queue_push(closure(runas('~console','/cmi warp mainmenu '.@plr)))
-                        set_timeout(3100,closure(
-                            queue_push(closure(set_peffect(@plr,14,1,9999,true,false)))
-                        ))
+                        //set_timeout(3100,closure(
+                        //    queue_push(closure(set_peffect(@plr,14,1,9999,true,false)))
+                        //))
                     }
                 }else{
                     tmsg(@plr,color('RED').'Cancelled the chance to be a superhero.')

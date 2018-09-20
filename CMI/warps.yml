@@ -1,0 +1,64 @@
+firehall:
+  Location: greenfield;342.48;70.0;1080.54;-54.4;-0.57
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+buildworld:
+  Location: buildworld;0.44;104.0;0.49;-0.1;0.57
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+survival:
+  Location: survival;649.5;63.0;994.5;-270.21;0.83
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+chinatown:
+  Location: greenfield;65.7;69.0;-168.5;-90.49;-1.2
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+walmart:
+  Location: greenfield;110.49;69.0;234.6;-0.28;0.62
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+starcity:
+  Location: greenfield;-25.5;69.0;-215.5;-180.01;0.46
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+cruiseship:
+  Location: greenfield;-547.49;69.0;600.54;-92.8;-1.46
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+plaza:
+  Location: greenfield;511.51;69.0;-681.54;-195.84;2.04
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+mainmenu:
+  Location: mainmenu;0.5;100.0;0.5;-179.89;5.67
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+residential:
+  Location: greenfield;1447.5;69.0;134.5;-274.26;-0.52
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+police:
+  Location: greenfield;389.55;71.0;1122.54;-105.01;-0.89
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+speedforce:
+  Location: speedforce;-2.5;90.0;-385.5;-180.46;-0.3
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+docks:
+  Location: greenfield;695.5;66.0;-58.5;-247.76;-2.72
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+construction:
+  Location: greenfield;583.49;69.0;-536.51;-90.18;0.15
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+stadium:
+  Location: greenfield;502.5;69.0;269.5;-272.32;-8.22
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a
+shopping:
+  Location: greenfield;418.51;69.0;-597.53;-90.18;0.15
+  Page: 1
+  Creator: 391762eb-24f6-4d95-84d6-bfac682d575a

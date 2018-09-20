@@ -48,9 +48,9 @@ Economy:
     # Maximal amount of money player can have. Set to -1 to disable this limit
     MaximumAmount: 1.0E8
     # Currency symbol to be used when showing balance or similar
-    CurrencySymbol: $
+    CurrencySymbol: \$
     # Placing of currency symbol
-    Placing: '[money][symbol]'
+    Placing: '[symbol][money]'
 FileSave:
   # Change this to true only if you have issues with drives I/O and you need to save players files in async mode to lower waiting time for mc server
   Async: false

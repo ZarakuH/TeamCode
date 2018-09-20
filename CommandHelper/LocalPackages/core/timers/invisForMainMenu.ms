@@ -1,4 +1,4 @@
-set_cron('* * * * *',closure(
+/*set_cron('* * * * *',closure(
 
     @plrs = players_in_radius(array('x':'0','y':'101','z':'0','world':'mainmenu'),3)
 
@@ -7,7 +7,7 @@ set_cron('* * * * *',closure(
         //console(@plr)
         set_peffect(@plr,14,1,64,true,false)
     }
-))
+))*/
 
 //set_cron('*/5 * * * *',closure(
 /*    @plrs = all_players()

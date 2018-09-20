@@ -1,0 +1,17 @@
+discord:/discord = >>>
+
+    msg(color('GREEN').'https://discord.gg/rnKWKkn')
+
+<<<
+
+discord:/disco = >>>
+
+    msg(color('GREEN').'https://discord.gg/rnKWKkn')
+
+<<<
+
+discord:/dc = >>>
+
+    msg(color('GREEN').'https://discord.gg/rnKWKkn')
+
+<<<

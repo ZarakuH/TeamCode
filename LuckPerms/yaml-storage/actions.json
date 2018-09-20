@@ -9471,5 +9471,49 @@
     "type": "GROUP",
     "actedName": "mortal",
     "action": "permission set cmi.command.removehome true world\u003dsurvival"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "ed038e46-f44d-4e18-8c76-fcaa06a4ae4a",
+    "actedName": "Megadethh",
+    "action": "parent set mortal"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset command.selectchar"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set command.selectchar true server\u003dmainmenu"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission unset command.selectchar server\u003dmainmenu"
+  },
+  {
+    "actor": "391762eb-24f6-4d95-84d6-bfac682d575a",
+    "actorName": "StrikerMax",
+    "type": "GROUP",
+    "actedName": "mortal",
+    "action": "permission set command.selectchar true world\u003dmainmenu"
+  },
+  {
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "Console",
+    "type": "USER",
+    "acted": "7e2b5ebc-3ea1-4278-8ca9-1109067f00f4",
+    "actedName": "Nexominer",
+    "action": "parent set mortal"
   }
 ]

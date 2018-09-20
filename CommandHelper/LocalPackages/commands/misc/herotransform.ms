@@ -80,7 +80,7 @@ register_command('herotransform',
                 queue_push(closure(runas('~console',"/fly ".@player." off")))
                 queue_push(closure(runas('~console',"/gamemode survival ".@player)))
                 queue_push(closure(runas('~console',"/minecraft:clear ".@player)))
-                queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
+                //queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
                 queue_push(closure(runas('~console',"/god ".@player." off")))
                 queue_push(closure(runas('~console',"/tptoggle ".@player." on")))
                 

@@ -278,7 +278,7 @@ register_command('selectchar',
                 }
 
                 queue_push(closure(runas('~console','/minecraft:clear '.@player)))
-                queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
+                //queue_push(closure(set_peffect(@player, 14, 1, 9999, true, false)))
                 queue_push(closure(runas('~console','/lp group '.@hero['class'].' parent set commonherotraits')))
                 queue_push(closure(runas('~console','/lp group '.@hero['class'].' parent add superherocity')))
                 queue_push(closure(runas('~console','/lp group '.@hero['class'].' meta addsuffix 6 '.@hero['costumes'][0]['chatcolor'])))

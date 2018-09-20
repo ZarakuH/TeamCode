@@ -225,14 +225,14 @@ Alias:
   /gm: false
   /gamemode: false
   # /cmi gm creative $1-
-  /gmc: false
+  /gmc: true
   # /cmi gm survival $1-
-  /gms: false
+  /gms: true
   # /cmi gm spectator $1-
-  /gmsp: false
+  /gmsp: true
   #  
   # /cmi god $1-
-  /god: false
+  /god: true
   #  
   # /cmi groundclean $1-
   /groundclean: true
@@ -247,7 +247,7 @@ Alias:
   /head: false
   #  
   # /cmi heal $1-
-  /heal: false
+  /heal: true
   #  
   # /cmi helpop $1-
   /helpop: false
@@ -287,7 +287,7 @@ Alias:
   #  
   # /cmi info $1-
   /info: false
-  /whois: false
+  /whois: true
   #  
   # /cmi inv $1-
   /inv: false
@@ -566,7 +566,7 @@ Alias:
   /search: true
   #  
   # /cmi seen $1-
-  /seen: false
+  /seen: true
   #  
   # /cmi sell $1-
   /sell: false

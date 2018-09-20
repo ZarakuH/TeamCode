@@ -14,9 +14,9 @@ GriefPrevention:
     Mode:
       survival_the_end: Survival
       survival: Survival
+      sakaar: Survival
       survival_nether: Survival
       speedforce: Disabled
-      sakaar: Survival
       mainmenu: Disabled
       tutorial: Survival
       buildworld: Disabled
